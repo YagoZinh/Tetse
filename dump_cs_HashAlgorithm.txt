@@ -1,0 +1,397 @@
+﻿
+  dump.cs:1452131:
+  dump.cs:1452132:// Namespace: Mono.Security.Cryptography
+> dump.cs:1452133:internal abstract class MD2 : HashAlgorithm // TypeDefIndex: 34477
+  dump.cs:1452134:{
+  dump.cs:1452135:	// Methods
+  dump.cs:1452136:
+  dump.cs:1452137:	// RVA: 0x9F97280 Offset: 0x9F93280 VA: 0x9F97280
+  dump.cs:1452138:	protected void .ctor() { }
+  dump.cs:1452178:
+  dump.cs:1452179:// Namespace: Mono.Security.Cryptography
+> dump.cs:1452180:internal abstract class MD4 : HashAlgorithm // TypeDefIndex: 34479
+  dump.cs:1452181:{
+  dump.cs:1452182:	// Methods
+  dump.cs:1452183:
+  dump.cs:1452184:	// RVA: 0x9F97AB2 Offset: 0x9F93AB2 VA: 0x9F97AB2
+  dump.cs:1452185:	protected void .ctor() { }
+  dump.cs:1452271:
+  dump.cs:1452272:	// RVA: 0x9F98B6E Offset: 0x9F94B6E VA: 0x9F98B6E
+> dump.cs:1452273:	public static bool Verify_v15(RSA rsa, HashAlgorithm hash, byte[] hashValue, byte[] signature) { }
+  dump.cs:1452274:
+  dump.cs:1452275:	// RVA: 0x9F98DDA Offset: 0x9F94DDA VA: 0x9F98DDA
+  dump.cs:1452276:	internal static bool Verify_v15(RSA rsa, string hashName, byte[] hashValue, byte[] signature) { }
+  dump.cs:1452277:
+  dump.cs:1452278:	// RVA: 0x9F98BF4 Offset: 0x9F94BF4 VA: 0x9F98BF4
+> dump.cs:1452279:	public static bool Verify_v15(RSA rsa, HashAlgorithm hash, byte[] hashValue, byte[] signature, bool 
+tryNonStandardEncoding) { }
+  dump.cs:1452280:
+  dump.cs:1452281:	// RVA: 0x9F993D7 Offset: 0x9F953D7 VA: 0x9F993D7
+> dump.cs:1452282:	public static byte[] Encode_v15(HashAlgorithm hash, byte[] hashValue, int emLength) { }
+  dump.cs:1452283:
+  dump.cs:1452284:	// RVA: 0x9F98FD5 Offset: 0x9F94FD5 VA: 0x9F98FD5
+> dump.cs:1452285:	internal static HashAlgorithm CreateFromName(string name) { }
+  dump.cs:1452286:
+  dump.cs:1452287:	// RVA: 0x9F9988E Offset: 0x9F9588E VA: 0x9F9988E
+  dump.cs:1452288:	private static void .cctor() { }
+  dump.cs:1452289:}
+  dump.cs:1452290:
+  dump.cs:1549133:	private int _startIndex; // 0x24
+  dump.cs:1549134:	private int _endIndex; // 0x28
+> dump.cs:1549135:	private readonly HashAlgorithmName <HashAlgorithm>k__BackingField; // 0x2C
+  dump.cs:1549136:
+  dump.cs:1549137:	// Methods
+  dump.cs:1549138:
+  dump.cs:1549139:	// RVA: 0x9FDA3EF Offset: 0x9FD63EF VA: 0x9FDA3EF
+> dump.cs:1549140:	public HashAlgorithmName get_HashAlgorithm() { }
+  dump.cs:1549141:
+  dump.cs:1549142:	// RVA: 0x9FDA407 Offset: 0x9FD6407 VA: 0x9FDA407
+> dump.cs:1549143:	public void .ctor(byte[] password, byte[] salt, int iterations, HashAlgorithmName hashAlgorithm) { }
+  dump.cs:1549144:
+  dump.cs:1549145:	// RVA: 0x9FDA99C Offset: 0x9FD699C VA: 0x9FDA99C
+  dump.cs:1549146:	public void .ctor(string password, byte[] salt) { }
+  dump.cs:1549147:
+  dump.cs:1549148:	// RVA: 0x9FDA9F2 Offset: 0x9FD69F2 VA: 0x9FDA9F2
+  dump.cs:1549150:
+  dump.cs:1549151:	// RVA: 0x9FDAA47 Offset: 0x9FD6A47 VA: 0x9FDAA47
+> dump.cs:1549152:	public void .ctor(string password, byte[] salt, int iterations, HashAlgorithmName hashAlgorithm) { }
+  dump.cs:1549153:
+  dump.cs:1549154:	// RVA: 0x9FDAAC8 Offset: 0x9FD6AC8 VA: 0x9FDAAC8 Slot: 6
+  dump.cs:1549155:	protected override void Dispose(bool disposing) { }
+  dump.cs:1549156:
+  dump.cs:1549157:	// RVA: 0x9FDAB80 Offset: 0x9FD6B80 VA: 0x9FDAB80 Slot: 5
+  dump.cs:1549434:
+  dump.cs:1549435:// Namespace: System.Security.Cryptography
+> dump.cs:1549436:public abstract class HashAlgorithm : IDisposable, ICryptoTransform // TypeDefIndex: 35110
+  dump.cs:1549437:{
+  dump.cs:1549438:	// Fields
+  dump.cs:1549439:	private bool _disposed; // 0x8
+  dump.cs:1549440:	protected int HashSizeValue; // 0xC
+  dump.cs:1549441:	protected internal byte[] HashValue; // 0x10
+  dump.cs:1549448:
+  dump.cs:1549449:	// RVA: 0x9FE077E Offset: 0x9FDC77E VA: 0x9FE077E
+> dump.cs:1549450:	public static HashAlgorithm Create(string hashName) { }
+  dump.cs:1549451:
+  dump.cs:1549452:	// RVA: 0x9FE0800 Offset: 0x9FDC800 VA: 0x9FE0800 Slot: 11
+  dump.cs:1549453:	public virtual int get_HashSize() { }
+  dump.cs:1549454:
+  dump.cs:1549455:	// RVA: 0x9FE0811 Offset: 0x9FDC811 VA: 0x9FE0811 Slot: 12
+  dump.cs:1549518:
+  dump.cs:1549519:// Namespace: System.Security.Cryptography
+> dump.cs:1549520:public struct HashAlgorithmName : IEquatable<HashAlgorithmName> // TypeDefIndex: 35111
+  dump.cs:1549521:{
+  dump.cs:1549522:	// Fields
+  dump.cs:1549523:	private readonly string _name; // 0x0
+  dump.cs:1549524:
+  dump.cs:1549525:	// Methods
+  dump.cs:1549526:
+  dump.cs:1549527:	// RVA: 0x9FE1A18 Offset: 0x9FDDA18 VA: 0x9FE1A18
+> dump.cs:1549528:	public static HashAlgorithmName get_SHA1() { }
+  dump.cs:1549529:
+  dump.cs:1549530:	// RVA: 0x9FE1A72 Offset: 0x9FDDA72 VA: 0x9FE1A72
+> dump.cs:1549531:	public static HashAlgorithmName get_SHA256() { }
+  dump.cs:1549532:
+  dump.cs:1549533:	// RVA: 0x9FE1ACC Offset: 0x9FDDACC VA: 0x9FE1ACC
+> dump.cs:1549534:	public static HashAlgorithmName get_SHA384() { }
+  dump.cs:1549535:
+  dump.cs:1549536:	// RVA: 0x9FE1B26 Offset: 0x9FDDB26 VA: 0x9FE1B26
+> dump.cs:1549537:	public static HashAlgorithmName get_SHA512() { }
+  dump.cs:1549538:
+  dump.cs:1549539:	// RVA: 0x9FE1B80 Offset: 0x9FDDB80 VA: 0x9FE1B80
+  dump.cs:1549540:	public void .ctor(string name) { }
+  dump.cs:1549541:
+  dump.cs:1549542:	// RVA: 0x9FE1BB5 Offset: 0x9FDDBB5 VA: 0x9FE1BB5
+  dump.cs:1549550:
+  dump.cs:1549551:	// RVA: 0x9FE1C91 Offset: 0x9FDDC91 VA: 0x9FE1C91 Slot: 4
+> dump.cs:1549552:	public bool Equals(HashAlgorithmName other) { }
+  dump.cs:1549553:
+  dump.cs:1549554:	// RVA: 0x9FE1CC8 Offset: 0x9FDDCC8 VA: 0x9FE1CC8 Slot: 2
+  dump.cs:1549555:	public override int GetHashCode() { }
+  dump.cs:1549556:
+  dump.cs:1549557:	// RVA: 0x9FE1D15 Offset: 0x9FDDD15 VA: 0x9FE1D15
+> dump.cs:1549558:	public static bool op_Equality(HashAlgorithmName left, HashAlgorithmName right) { }
+  dump.cs:1549559:}
+  dump.cs:1549560:
+  dump.cs:1549561:// Namespace: System.Security.Cryptography
+  dump.cs:1549562:public abstract class Aes : SymmetricAlgorithm // TypeDefIndex: 35112
+  dump.cs:1549563:{
+  dump.cs:1549621:
+  dump.cs:1549622:	// RVA: -1 Offset: -1 Slot: 5
+> dump.cs:1549623:	public abstract void SetHashAlgorithm(string strName);
+  dump.cs:1549624:
+  dump.cs:1549625:	// RVA: -1 Offset: -1 Slot: 6
+  dump.cs:1549626:	public abstract bool VerifySignature(byte[] rgbHash, byte[] rgbSignature);
+  dump.cs:1549627:}
+  dump.cs:1549628:
+  dump.cs:1549908:
+  dump.cs:1549909:	// RVA: 0x9FE4813 Offset: 0x9FE0813 VA: 0x9FE4813 Slot: 5
+> dump.cs:1549910:	public override void SetHashAlgorithm(string strName) { }
+  dump.cs:1549911:
+  dump.cs:1549912:	// RVA: 0x9FE48F1 Offset: 0x9FE08F1 VA: 0x9FE48F1 Slot: 6
+  dump.cs:1549913:	public override bool VerifySignature(byte[] rgbHash, byte[] rgbSignature) { }
+  dump.cs:1549914:}
+  dump.cs:1549915:
+  dump.cs:1549927:
+  dump.cs:1549928:// Namespace: System.Security.Cryptography
+> dump.cs:1549929:public abstract class HMAC : KeyedHashAlgorithm // TypeDefIndex: 35130
+  dump.cs:1549930:{
+  dump.cs:1549931:	// Fields
+  dump.cs:1549932:	private int blockSizeValue; // 0x1C
+  dump.cs:1549933:	internal string m_hashName; // 0x20
+> dump.cs:1549934:	internal HashAlgorithm m_hash1; // 0x24
+> dump.cs:1549935:	internal HashAlgorithm m_hash2; // 0x28
+  dump.cs:1549936:	private byte[] m_inner; // 0x2C
+  dump.cs:1549937:	private byte[] m_outer; // 0x30
+  dump.cs:1549938:	private bool m_hashing; // 0x34
+  dump.cs:1549939:
+  dump.cs:1549940:	// Methods
+  dump.cs:1550089:
+  dump.cs:1550090:// Namespace: System.Security.Cryptography
+> dump.cs:1550091:public abstract class KeyedHashAlgorithm : HashAlgorithm // TypeDefIndex: 35138
+  dump.cs:1550092:{
+  dump.cs:1550093:	// Fields
+  dump.cs:1550094:	protected byte[] KeyValue; // 0x18
+  dump.cs:1550095:
+  dump.cs:1550096:	// Methods
+  dump.cs:1550110:
+  dump.cs:1550111:// Namespace: System.Security.Cryptography
+> dump.cs:1550112:public class MACTripleDES : KeyedHashAlgorithm // TypeDefIndex: 35139
+  dump.cs:1550113:{
+  dump.cs:1550114:	// Fields
+  dump.cs:1550115:	private ICryptoTransform m_encryptor; // 0x1C
+  dump.cs:1550116:	private CryptoStream _cs; // 0x20
+  dump.cs:1550117:	private TailStream _ts; // 0x24
+  dump.cs:1550195:
+  dump.cs:1550196:// Namespace: System.Security.Cryptography
+> dump.cs:1550197:public abstract class MD5 : HashAlgorithm // TypeDefIndex: 35141
+  dump.cs:1550198:{
+  dump.cs:1550199:	// Methods
+  dump.cs:1550200:
+  dump.cs:1550201:	// RVA: 0x9FE6D40 Offset: 0x9FE2D40 VA: 0x9FE6D40
+  dump.cs:1550202:	protected void .ctor() { }
+  dump.cs:1550429:
+  dump.cs:1550430:// Namespace: System.Security.Cryptography
+> dump.cs:1550431:public abstract class RIPEMD160 : HashAlgorithm // TypeDefIndex: 35149
+  dump.cs:1550432:{
+  dump.cs:1550433:	// Methods
+  dump.cs:1550434:
+  dump.cs:1550435:	// RVA: 0x9FEB187 Offset: 0x9FE7187 VA: 0x9FEB187
+  dump.cs:1550436:	protected void .ctor() { }
+  dump.cs:1550599:
+  dump.cs:1550600:// Namespace: System.Security.Cryptography
+> dump.cs:1550601:public abstract class SHA1 : HashAlgorithm // TypeDefIndex: 35154
+  dump.cs:1550602:{
+  dump.cs:1550603:	// Methods
+  dump.cs:1550604:
+  dump.cs:1550605:	// RVA: 0x9FEEEEA Offset: 0x9FEAEEA VA: 0x9FEEEEA
+  dump.cs:1550606:	protected void .ctor() { }
+  dump.cs:1550650:
+  dump.cs:1550651:// Namespace: System.Security.Cryptography
+> dump.cs:1550652:public abstract class SHA256 : HashAlgorithm // TypeDefIndex: 35156
+  dump.cs:1550653:{
+  dump.cs:1550654:	// Methods
+  dump.cs:1550655:
+  dump.cs:1550656:	// RVA: 0x9FEFAC6 Offset: 0x9FEBAC6 VA: 0x9FEFAC6
+  dump.cs:1550657:	protected void .ctor() { }
+  dump.cs:1550726:
+  dump.cs:1550727:// Namespace: System.Security.Cryptography
+> dump.cs:1550728:public abstract class SHA384 : HashAlgorithm // TypeDefIndex: 35158
+  dump.cs:1550729:{
+  dump.cs:1550730:	// Methods
+  dump.cs:1550731:
+  dump.cs:1550732:	// RVA: 0x9FF0A93 Offset: 0x9FECA93 VA: 0x9FF0A93
+  dump.cs:1550733:	protected void .ctor() { }
+  dump.cs:1550802:
+  dump.cs:1550803:// Namespace: System.Security.Cryptography
+> dump.cs:1550804:public abstract class SHA512 : HashAlgorithm // TypeDefIndex: 35160
+  dump.cs:1550805:{
+  dump.cs:1550806:	// Methods
+  dump.cs:1550807:
+  dump.cs:1550808:	// RVA: 0x9FF20E0 Offset: 0x9FEE0E0 VA: 0x9FF20E0
+  dump.cs:1550809:	protected void .ctor() { }
+  dump.cs:1550908:{
+  dump.cs:1550909:	// Fields
+> dump.cs:1550910:	private string _hashAlgorithm; // 0x18
+  dump.cs:1550911:
+  dump.cs:1550912:	// Methods
+  dump.cs:1550913:
+  dump.cs:1550914:	// RVA: 0x9FF36D2 Offset: 0x9FEF6D2 VA: 0x9FF36D2
+> dump.cs:1550915:	protected void .ctor(string hashAlgorithm, string digestAlgorithm) { }
+  dump.cs:1550916:}
+  dump.cs:1550917:
+  dump.cs:1550918:// Namespace: System.Security.Cryptography
+  dump.cs:1550919:internal class RSAPKCS1SHA1SignatureDescription : RSAPKCS1SignatureDescription // TypeDefIndex: 35164
+  dump.cs:1550920:{
+  dump.cs:1551422:
+  dump.cs:1551423:	// RVA: 0x9FFD1AE Offset: 0x9FF91AE VA: 0x9FFD1AE Slot: 5
+> dump.cs:1551424:	public override void SetHashAlgorithm(string strName) { }
+  dump.cs:1551425:
+  dump.cs:1551426:	// RVA: 0x9FFD23D Offset: 0x9FF923D VA: 0x9FFD23D Slot: 4
+  dump.cs:1551427:	public override void SetKey(AsymmetricAlgorithm key) { }
+  dump.cs:1551428:
+  dump.cs:1551429:	// RVA: 0x9FFD32D Offset: 0x9FF932D VA: 0x9FFD32D Slot: 6
+  dump.cs:1568062:
+  dump.cs:1568063:	// RVA: 0xA0761FE Offset: 0xA0721FE VA: 0xA0761FE
+> dump.cs:1568064:	public void .ctor(AssemblyHashAlgorithm algorithmId) { }
+  dump.cs:1568065:
+  dump.cs:1568066:	// RVA: 0xA076238 Offset: 0xA072238 VA: 0xA076238
+  dump.cs:1568067:	public void .ctor(uint algorithmId) { }
+  dump.cs:1568068:
+  dump.cs:1568069:	// RVA: 0xA076272 Offset: 0xA072272 VA: 0xA076272
+  dump.cs:1572137:
+  dump.cs:1572138:	// RVA: 0xA08D07B Offset: 0xA08907B VA: 0xA08D07B
+> dump.cs:1572139:	public static Assembly LoadFrom(string assemblyFile, Evidence securityEvidence, byte[] hashValue, AssemblyHashAlgorithm 
+hashAlgorithm) { }
+  dump.cs:1572140:
+  dump.cs:1572141:	// RVA: 0xA08D0D5 Offset: 0xA0890D5 VA: 0xA08D0D5
+> dump.cs:1572142:	public static Assembly LoadFrom(string assemblyFile, byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm) { }
+  dump.cs:1572143:
+  dump.cs:1572144:	// RVA: 0xA08D12F Offset: 0xA08912F VA: 0xA08D12F
+  dump.cs:1572145:	public static Assembly UnsafeLoadFrom(string assemblyFile) { }
+  dump.cs:1572146:
+  dump.cs:1572147:	// RVA: 0xA08D169 Offset: 0xA089169 VA: 0xA08D169
+  dump.cs:1572338:	private CultureInfo cultureinfo; // 0x20
+  dump.cs:1572339:	private AssemblyNameFlags flags; // 0x24
+> dump.cs:1572340:	private AssemblyHashAlgorithm hashalg; // 0x28
+  dump.cs:1572341:	private StrongNameKeyPair keypair; // 0x2C
+  dump.cs:1572342:	private byte[] publicKey; // 0x30
+  dump.cs:1572343:	private byte[] keyToken; // 0x34
+  dump.cs:1572344:	private AssemblyVersionCompatibility versioncompat; // 0x38
+  dump.cs:1572345:	private Version version; // 0x3C
+  dump.cs:1572398:
+  dump.cs:1572399:	// RVA: 0xA08FFBD Offset: 0xA08BFBD VA: 0xA08FFBD
+> dump.cs:1572400:	public AssemblyHashAlgorithm get_HashAlgorithm() { }
+  dump.cs:1572401:
+  dump.cs:1572402:	// RVA: 0xA08FFCE Offset: 0xA08BFCE VA: 0xA08FFCE
+> dump.cs:1572403:	public void set_HashAlgorithm(AssemblyHashAlgorithm value) { }
+  dump.cs:1572404:
+  dump.cs:1572405:	// RVA: 0xA08FFE2 Offset: 0xA08BFE2 VA: 0xA08FFE2
+  dump.cs:1572406:	public StrongNameKeyPair get_KeyPair() { }
+  dump.cs:1572407:
+  dump.cs:1572408:	// RVA: 0xA08FFF3 Offset: 0xA08BFF3 VA: 0xA08FFF3
+  dump.cs:1583758:
+  dump.cs:1583759:// Namespace: System.Configuration.Assemblies
+> dump.cs:1583760:public enum AssemblyHashAlgorithm // TypeDefIndex: 35947
+  dump.cs:1583761:{
+  dump.cs:1583762:	// Fields
+  dump.cs:1583763:	public int value__; // 0x0
+> dump.cs:1583764:	public const AssemblyHashAlgorithm None = 0;
+> dump.cs:1583765:	public const AssemblyHashAlgorithm MD5 = 32771;
+> dump.cs:1583766:	public const AssemblyHashAlgorithm SHA1 = 32772;
+> dump.cs:1583767:	public const AssemblyHashAlgorithm SHA256 = 32780;
+> dump.cs:1583768:	public const AssemblyHashAlgorithm SHA384 = 32781;
+> dump.cs:1583769:	public const AssemblyHashAlgorithm SHA512 = 32782;
+  dump.cs:1583770:}
+  dump.cs:1583771:
+  dump.cs:1583772:// Namespace: System.Configuration.Assemblies
+  dump.cs:1583773:public enum AssemblyVersionCompatibility // TypeDefIndex: 35948
+  dump.cs:1583774:{
+  dump.cs:1814143:	public int value__; // 0x0
+  dump.cs:1814144:	public const OidGroup All = 0;
+> dump.cs:1814145:	public const OidGroup HashAlgorithm = 1;
+  dump.cs:1814146:	public const OidGroup EncryptionAlgorithm = 2;
+  dump.cs:1814147:	public const OidGroup PublicKeyAlgorithm = 3;
+  dump.cs:1814148:	public const OidGroup SignatureAlgorithm = 4;
+  dump.cs:1814149:	public const OidGroup Attribute = 5;
+  dump.cs:1814150:	public const OidGroup ExtensionOrAttribute = 6;
+  dump.cs:1814391:
+  dump.cs:1814392:// Namespace: System.Security.Cryptography.X509Certificates
+> dump.cs:1814393:public enum X509SubjectKeyIdentifierHashAlgorithm // TypeDefIndex: 38760
+  dump.cs:1814394:{
+  dump.cs:1814395:	// Fields
+  dump.cs:1814396:	public int value__; // 0x0
+> dump.cs:1814397:	public const X509SubjectKeyIdentifierHashAlgorithm Sha1 = 0;
+> dump.cs:1814398:	public const X509SubjectKeyIdentifierHashAlgorithm ShortSha1 = 1;
+> dump.cs:1814399:	public const X509SubjectKeyIdentifierHashAlgorithm CapiSha1 = 2;
+  dump.cs:1814400:}
+  dump.cs:1814401:
+  dump.cs:1814402:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814403:public enum X509VerificationFlags // TypeDefIndex: 38761
+  dump.cs:1814404:{
+  dump.cs:1815598:
+  dump.cs:1815599:	// RVA: 0xA818743 Offset: 0xA814743 VA: 0xA818743
+> dump.cs:1815600:	public void .ctor(PublicKey key, X509SubjectKeyIdentifierHashAlgorithm algorithm, bool critical) { }
+  dump.cs:1815601:
+  dump.cs:1815602:	// RVA: 0xA818BFD Offset: 0xA814BFD VA: 0xA818BFD
+  dump.cs:1815603:	public string get_SubjectKeyIdentifier() { }
+  dump.cs:1815604:
+  dump.cs:1815605:	// RVA: 0xA82598F Offset: 0xA82198F VA: 0xA82598F Slot: 4
+  dump.cs:1831221:	private DateTime lastUse; // 0x8
+  dump.cs:1831222:	private int _nc; // 0x10
+> dump.cs:1831223:	private HashAlgorithm hash; // 0x14
+  dump.cs:1831224:	private DigestHeaderParser parser; // 0x18
+  dump.cs:1831225:	private string _cnonce; // 0x1C
+  dump.cs:1831226:
+  dump.cs:1831227:	// Methods
+  dump.cs:1831228:
+  dump.cs:1965064:	// Fields
+  dump.cs:1965065:	private byte version; // 0x8
+> dump.cs:1965066:	private string hashAlgorithm; // 0xC
+  dump.cs:1965067:	private PKCS7.ContentInfo contentInfo; // 0x10
+  dump.cs:1965068:	private X509CertificateCollection certs; // 0x14
+  dump.cs:1965069:	private ArrayList crls; // 0x18
+  dump.cs:1965070:	private PKCS7.SignerInfo signerInfo; // 0x1C
+  dump.cs:1965071:	private bool mda; // 0x20
+  dump.cs:1965097:	// Fields
+  dump.cs:1965098:	private byte version; // 0x8
+> dump.cs:1965099:	private string hashAlgorithm; // 0xC
+  dump.cs:1965100:	private ArrayList authenticatedAttributes; // 0x10
+  dump.cs:1965101:	private ArrayList unauthenticatedAttributes; // 0x14
+  dump.cs:1965102:	private byte[] signature; // 0x18
+  dump.cs:1965103:	private string issuer; // 0x1C
+  dump.cs:1965104:	private byte[] serial; // 0x20
+  dump.cs:1966788:
+  dump.cs:1966789:// Namespace: Mono.Security.Cryptography
+> dump.cs:1966790:public abstract class MD2 : HashAlgorithm // TypeDefIndex: 42427
+  dump.cs:1966791:{
+  dump.cs:1966792:	// Methods
+  dump.cs:1966793:
+  dump.cs:1966794:	// RVA: 0x9F71644 Offset: 0x9F6D644 VA: 0x9F71644
+  dump.cs:1966795:	protected void .ctor() { }
+  dump.cs:1966835:
+  dump.cs:1966836:// Namespace: Mono.Security.Cryptography
+> dump.cs:1966837:public abstract class MD4 : HashAlgorithm // TypeDefIndex: 42429
+  dump.cs:1966838:{
+  dump.cs:1966839:	// Methods
+  dump.cs:1966840:
+  dump.cs:1966841:	// RVA: 0x9F71E76 Offset: 0x9F6DE76 VA: 0x9F71E76
+  dump.cs:1966842:	protected void .ctor() { }
+  dump.cs:1966928:
+  dump.cs:1966929:	// RVA: 0x9F72F32 Offset: 0x9F6EF32 VA: 0x9F72F32
+> dump.cs:1966930:	public static bool Verify_v15(RSA rsa, HashAlgorithm hash, byte[] hashValue, byte[] signature, bool 
+tryNonStandardEncoding) { }
+  dump.cs:1966931:
+  dump.cs:1966932:	// RVA: 0x9F73118 Offset: 0x9F6F118 VA: 0x9F73118
+> dump.cs:1966933:	public static byte[] Encode_v15(HashAlgorithm hash, byte[] hashValue, int emLength) { }
+  dump.cs:1966934:
+  dump.cs:1966935:	// RVA: 0x9F73511 Offset: 0x9F6F511 VA: 0x9F73511
+  dump.cs:1966936:	internal static string HashNameFromOid(string oid, bool throwOnError = True) { }
+  dump.cs:1966937:
+  dump.cs:1966938:	// RVA: 0x9F73918 Offset: 0x9F6F918 VA: 0x9F73918
+> dump.cs:1966939:	internal static HashAlgorithm CreateFromOid(string oid) { }
+  dump.cs:1966940:
+  dump.cs:1966941:	// RVA: 0x9F73986 Offset: 0x9F6F986 VA: 0x9F73986
+> dump.cs:1966942:	internal static HashAlgorithm CreateFromName(string name) { }
+  dump.cs:1966943:
+  dump.cs:1966944:	// RVA: 0x9F73DC8 Offset: 0x9F6FDC8 VA: 0x9F73DC8
+  dump.cs:1966945:	private static void .cctor() { }
+  dump.cs:1966946:}
+  dump.cs:1966947:
+  dump.cs:1967141:
+  dump.cs:1967142:	// RVA: 0x9F78924 Offset: 0x9F74924 VA: 0x9F78924
+> dump.cs:1967143:	internal byte[] GetHash(HashAlgorithm hash) { }
+  dump.cs:1967144:}
+  dump.cs:1967145:
+  dump.cs:1967146:// Namespace: Mono.Security.Authenticode
+  dump.cs:1967147:public class AuthenticodeDeformatter : AuthenticodeBase // TypeDefIndex: 42438
+  dump.cs:1967148:{
+  dump.cs:1967183:
+  dump.cs:1967184:	// RVA: 0x9F79572 Offset: 0x9F75572 VA: 0x9F79572
+> dump.cs:1967185:	private bool VerifySignature(PKCS7.SignedData sd, byte[] calculatedMessageDigest, HashAlgorithm ha) { }
+  dump.cs:1967186:
+  dump.cs:1967187:	// RVA: 0x9F7A365 Offset: 0x9F76365 VA: 0x9F7A365
+  dump.cs:1967188:	private bool VerifyCounterSignature(PKCS7.SignerInfo cs, byte[] signature) { }
+  dump.cs:1967189:
+  dump.cs:1967190:	// RVA: 0x9F790B8 Offset: 0x9F750B8 VA: 0x9F790B8
+
+

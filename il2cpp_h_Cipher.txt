@@ -1,0 +1,369 @@
+﻿
+  il2cpp.h:339197:	struct GCommon_ResourceID_o UIBIGEVENT_CUSTOMTC_RULEPOPUPWND;
+  il2cpp.h:339198:	struct GCommon_ResourceID_o UIBIGEVENT_CUSTOMTC_TUTORIALBTNITEM;
+> il2cpp.h:339199:	struct GCommon_ResourceID_o UIBIGEVENT_CUSTOMTC_DECIPHERPOPUPWND;
+  il2cpp.h:339200:	struct GCommon_ResourceID_o UIBIGEVENT_CUSTOMTC_PROGRESSTIPSPOPUPWND;
+  il2cpp.h:339201:	struct GCommon_ResourceID_o UIBIGEVENT_CUSTOMTC_OPENPOPUPWND;
+  il2cpp.h:339202:	struct GCommon_ResourceID_o UIBIGEVENT_CUSTOMTC_BOXPREVIEWPOPUPWND;
+  il2cpp.h:339203:	struct GCommon_ResourceID_o UI_HUD_BATTLELEVEL_DETAILTIPS_POPUP;
+  il2cpp.h:339204:	struct GCommon_ResourceID_o UISEASONREPLAYOVERVIEWHIGHLIGHTBUTTON;
+  il2cpp.h:339555:	struct GCommon_ResourceID_o UIFX_JUMPSUIT23B_TCPREVIEW_01;
+  il2cpp.h:339556:	struct GCommon_ResourceID_o UIFX_JUMPSUIT23B_TCTASK_01;
+> il2cpp.h:339557:	struct GCommon_ResourceID_o UIFX_JUMPSUIT23B_DECIPHERPOPUPWND_NOISE;
+> il2cpp.h:339558:	struct GCommon_ResourceID_o UIFX_JUMPSUIT23B_DECIPHERPOPUPWND_SUCCESSLABEL;
+  il2cpp.h:339559:	struct GCommon_ResourceID_o UIFX_JUMPSUIT23B_TCCENTERBG_01;
+  il2cpp.h:339560:	struct GCommon_ResourceID_o UIFX_JUMPSUIT23B_TCPIECEITEM_03;
+  il2cpp.h:339561:	struct GCommon_ResourceID_o UIFX_JUMPSUIT23B_TCBOXBTN_02;
+  il2cpp.h:339562:	struct GCommon_ResourceID_o UILOBBYV2UGCRESERVEWND;
+  il2cpp.h:339563:	struct GCommon_ResourceID_o UIPROFILEHISTORYNODE;
+  il2cpp.h:424301:	COW_UIBigEvent_CustomTC_BtnItemController_Fields fields;
+  il2cpp.h:424302:};
+> il2cpp.h:424303:struct COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35_Fields {
+  il2cpp.h:424304:	int32_t __1__state;
+  il2cpp.h:424305:	Il2CppObject* __2__current;
+> il2cpp.h:424306:	struct COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __4__this;
+  il2cpp.h:424307:	int32_t _FinalCount_5__2;
+  il2cpp.h:424308:	float _deltaCount_5__3;
+  il2cpp.h:424309:	float _NowCount_5__4;
+  il2cpp.h:424310:};
+> il2cpp.h:424311:struct COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35_VTable {
+  il2cpp.h:424312:	VirtualInvokeData _0_Equals;
+  il2cpp.h:424313:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:424314:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:424315:	VirtualInvokeData _3_ToString;
+  il2cpp.h:424316:	VirtualInvokeData _4_System_Collections_Generic_IEnumerator_System_Object__get_Current;
+  il2cpp.h:424320:	VirtualInvokeData _8_System_Collections_IEnumerator_Reset;
+  il2cpp.h:424321:};
+> il2cpp.h:424322:struct COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35_c {
+  il2cpp.h:424323:	Il2CppClass_1 _1;
+  il2cpp.h:424324:	void* static_fields;
+  il2cpp.h:424325:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:424326:	Il2CppClass_2 _2;
+> il2cpp.h:424327:	COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35_VTable vtable;
+  il2cpp.h:424328:};
+> il2cpp.h:424329:struct COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35_o {
+> il2cpp.h:424330:	COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35_c *klass;
+  il2cpp.h:424331:	void *monitor;
+> il2cpp.h:424332:	COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35_Fields fields;
+  il2cpp.h:424333:};
+> il2cpp.h:424334:struct COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34_Fields {
+  il2cpp.h:424335:	int32_t __1__state;
+  il2cpp.h:424336:	Il2CppObject* __2__current;
+> il2cpp.h:424337:	struct COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __4__this;
+  il2cpp.h:424338:};
+> il2cpp.h:424339:struct COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34_VTable {
+  il2cpp.h:424340:	VirtualInvokeData _0_Equals;
+  il2cpp.h:424341:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:424342:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:424343:	VirtualInvokeData _3_ToString;
+  il2cpp.h:424344:	VirtualInvokeData _4_System_Collections_Generic_IEnumerator_System_Object__get_Current;
+  il2cpp.h:424348:	VirtualInvokeData _8_System_Collections_IEnumerator_Reset;
+  il2cpp.h:424349:};
+> il2cpp.h:424350:struct COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34_c {
+  il2cpp.h:424351:	Il2CppClass_1 _1;
+  il2cpp.h:424352:	void* static_fields;
+  il2cpp.h:424353:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:424354:	Il2CppClass_2 _2;
+> il2cpp.h:424355:	COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34_VTable vtable;
+  il2cpp.h:424356:};
+> il2cpp.h:424357:struct COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34_o {
+> il2cpp.h:424358:	COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34_c *klass;
+  il2cpp.h:424359:	void *monitor;
+> il2cpp.h:424360:	COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34_Fields fields;
+  il2cpp.h:424361:};
+> il2cpp.h:424362:struct COW_UIBigEvent_CustomTC_DecipherPopupWndController_Fields : GCommon_UIPopupWindowController_Fields {
+> il2cpp.h:424363:	struct COW_UIBigEvent_CustomTC_DecipherPopupWndView_o* m_View;
+  il2cpp.h:424364:	struct COW_UIModelBigEventTemplate_o* m_UIModelBigEventTemplate;
+  il2cpp.h:424365:	struct COW_UIModelBigEvent_CustomTC_o* m_UIModelCustomTC;
+  il2cpp.h:424366:	struct COW_CustomTCPieceInfo_o* m_PieceInfo;
+  il2cpp.h:424367:	int32_t m_PieceState;
+  il2cpp.h:424368:	bool m_IsDecoding;
+> il2cpp.h:424369:	struct GCommon_ResourceID_o m_DecipherVFXResID;
+> il2cpp.h:424370:	struct UnityEngine_GameObject_o* m_DecipherVFXGO;
+  il2cpp.h:424371:	struct GCommon_ResourceID_o m_SuccessVFXResID;
+  il2cpp.h:424372:	struct UnityEngine_GameObject_o* m_SuccessVFXGO;
+  il2cpp.h:424373:	struct UnityEngine_Animation_o* m_VFX_Animation;
+  il2cpp.h:424374:	uint32_t m_OldProgress;
+  il2cpp.h:424375:	uint32_t m_TargetProgress;
+  il2cpp.h:424377:	float m_AnimationTime;
+  il2cpp.h:424378:	float m_Open_Time;
+> il2cpp.h:424379:	float m_Decipher_Time;
+  il2cpp.h:424380:	float m_Perfect_Time;
+  il2cpp.h:424381:	float m_uiOpen_Time;
+  il2cpp.h:424382:	int32_t _TemplateUseType_k__BackingField;
+  il2cpp.h:424383:};
+> il2cpp.h:424384:struct COW_UIBigEvent_CustomTC_DecipherPopupWndController_VTable {
+  il2cpp.h:424385:	VirtualInvokeData _0_Equals;
+  il2cpp.h:424386:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:424387:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:424388:	VirtualInvokeData _3_ToString;
+  il2cpp.h:424389:	VirtualInvokeData _4_unknown;
+  il2cpp.h:424463:	VirtualInvokeData _78_GetTemplateType;
+  il2cpp.h:424464:};
+> il2cpp.h:424465:struct COW_UIBigEvent_CustomTC_DecipherPopupWndController_c {
+  il2cpp.h:424466:	Il2CppClass_1 _1;
+  il2cpp.h:424467:	void* static_fields;
+  il2cpp.h:424468:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:424469:	Il2CppClass_2 _2;
+> il2cpp.h:424470:	COW_UIBigEvent_CustomTC_DecipherPopupWndController_VTable vtable;
+  il2cpp.h:424471:};
+> il2cpp.h:424472:struct COW_UIBigEvent_CustomTC_DecipherPopupWndController_o {
+> il2cpp.h:424473:	COW_UIBigEvent_CustomTC_DecipherPopupWndController_c *klass;
+  il2cpp.h:424474:	void *monitor;
+> il2cpp.h:424475:	COW_UIBigEvent_CustomTC_DecipherPopupWndController_Fields fields;
+  il2cpp.h:424476:};
+  il2cpp.h:424477:struct COW_UIBigEvent_CustomTC_LoadingMaskPopupWndController_Fields : 
+COW_UIBigEvent_Template_LoadingMaskPopupWndBaseController_Fields {
+  il2cpp.h:424478:	struct COW_UIModelBigEvent_CustomTC_o* m_UIModelCustomTC;
+  il2cpp.h:424479:};
+  il2cpp.h:424480:struct COW_UIBigEvent_CustomTC_LoadingMaskPopupWndController_VTable {
+  il2cpp.h:424649:	struct COW_UIModelBigEventTemplate_o* m_UIModelBigEventTemplate;
+  il2cpp.h:424650:	struct COW_UIBigEvent_CustomTC_MainView_o* m_View;
+> il2cpp.h:424651:	struct COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* m_DecipherPopupWndCtrl;
+  il2cpp.h:424652:	bool m_PieceInit;
+  il2cpp.h:424653:	struct System_Collections_Generic_List_UIBigEvent_CustomTC_PieceItemController__o* m_PieceItemList;
+  il2cpp.h:424654:	struct GCommon_ResourceID_o m_TCRewardPreviewVFXResID;
+  il2cpp.h:424655:	struct UnityEngine_GameObject_o* m_TCRewardPreviewVFXGO;
+  il2cpp.h:424656:	struct GCommon_ResourceID_o m_TCMainInVFXResID;
+  il2cpp.h:980446:	COW_UIBigEvent_CustomTC_BtnItemView_Fields fields;
+  il2cpp.h:980447:};
+> il2cpp.h:980448:struct COW_UIBigEvent_CustomTC_DecipherPopupWndView_Fields : GCommon_UIBaseView_Fields {
+> il2cpp.h:980449:	struct UnityEngine_GameObject_o* UIBigEvent_CustomTC_DecipherPopupWnd;
+> il2cpp.h:980450:	struct UIButton_o* DecipherBtn;
+> il2cpp.h:980451:	struct GCommon_UINetworkTexture_o* DecipherBtnSprite;
+  il2cpp.h:980452:	struct COW_UICenterTargetHelper_o* TokenCenter;
+> il2cpp.h:980453:	struct UILabel_o* DecipherLabel;
+  il2cpp.h:980454:	struct UISprite_o* TokenIcon;
+  il2cpp.h:980455:	struct UILabel_o* TokenCount;
+  il2cpp.h:980456:	struct UIButton_o* CancelBtn;
+  il2cpp.h:980457:	struct GCommon_UINetworkTexture_o* CancelBtnSprite;
+  il2cpp.h:980458:	struct UILabel_o* CancelLabel;
+  il2cpp.h:980460:	struct GCommon_UINetworkTexture_o* BgTexture;
+  il2cpp.h:980461:	struct GCommon_UINetworkTexture_o* SuccessBG;
+> il2cpp.h:980462:	struct UnityEngine_Transform_o* DecipherVFX;
+  il2cpp.h:980463:	struct UnityEngine_Transform_o* SucccessVFX;
+  il2cpp.h:980464:	struct UILabel_o* ProgressLabel;
+  il2cpp.h:980465:	struct UILabel_o* PerfectLabel;
+  il2cpp.h:980466:	struct GCommon_UINetworkTexture_o* ItemTexture;
+  il2cpp.h:980467:	struct UILabel_o* SuccessLabel;
+  il2cpp.h:980469:	struct UnityEngine_GameObject_o* SuccessRoot;
+  il2cpp.h:980470:	struct UILabel_o* PerfectNum;
+> il2cpp.h:980471:	struct UnityEngine_Animation_o* DecipherAnimation;
+  il2cpp.h:980472:};
+> il2cpp.h:980473:struct COW_UIBigEvent_CustomTC_DecipherPopupWndView_VTable {
+  il2cpp.h:980474:	VirtualInvokeData _0_Equals;
+  il2cpp.h:980475:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:980476:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:980477:	VirtualInvokeData _3_ToString;
+  il2cpp.h:980478:	VirtualInvokeData _4_OnInit;
+  il2cpp.h:980479:};
+> il2cpp.h:980480:struct COW_UIBigEvent_CustomTC_DecipherPopupWndView_c {
+  il2cpp.h:980481:	Il2CppClass_1 _1;
+  il2cpp.h:980482:	void* static_fields;
+  il2cpp.h:980483:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:980484:	Il2CppClass_2 _2;
+> il2cpp.h:980485:	COW_UIBigEvent_CustomTC_DecipherPopupWndView_VTable vtable;
+  il2cpp.h:980486:};
+> il2cpp.h:980487:struct COW_UIBigEvent_CustomTC_DecipherPopupWndView_o {
+> il2cpp.h:980488:	COW_UIBigEvent_CustomTC_DecipherPopupWndView_c *klass;
+  il2cpp.h:980489:	void *monitor;
+> il2cpp.h:980490:	COW_UIBigEvent_CustomTC_DecipherPopupWndView_Fields fields;
+  il2cpp.h:980491:};
+  il2cpp.h:980492:struct COW_UIBigEvent_CustomTC_MainView_Fields : GCommon_UIBaseView_Fields {
+  il2cpp.h:980493:	struct UnityEngine_Animation_o* MainAnimation;
+> il2cpp.h:980494:	struct UIButton_o* DecipherBtn;
+> il2cpp.h:980495:	struct GCommon_UINetworkTexture_o* DecipherBtnSprite;
+> il2cpp.h:980496:	struct UILabel_o* DecipherLabel;
+  il2cpp.h:980497:	struct UISprite_o* TokenIcon;
+  il2cpp.h:980498:	struct UILabel_o* TokenCount;
+> il2cpp.h:980499:	struct UnityEngine_GameObject_o* DecipherRedDot;
+  il2cpp.h:980500:	struct UIButton_o* PreviewBtn;
+  il2cpp.h:980501:	struct GCommon_UINetworkTexture_o* PreviewBtnSprite;
+  il2cpp.h:980502:	struct UIButton_o* ShareBtn;
+  il2cpp.h:980503:	struct GCommon_UINetworkTexture_o* ShareBtnSprite;
+  il2cpp.h:980504:	struct UnityEngine_GameObject_o* ShareRed;
+  il2cpp.h:1424460:	System_Security_Cryptography_AsymmetricSignatureFormatter_Fields fields;
+  il2cpp.h:1424461:};
+> il2cpp.h:1424462:struct System_Security_Cryptography_CipherMode_Fields {
+  il2cpp.h:1424463:	int32_t value__;
+  il2cpp.h:1424464:};
+> il2cpp.h:1424465:struct System_Security_Cryptography_CipherMode_VTable {
+  il2cpp.h:1424466:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1424467:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1424468:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1424469:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1424470:	VirtualInvokeData _4_CompareTo;
+  il2cpp.h:1424488:	VirtualInvokeData _22_System_IConvertible_ToType;
+  il2cpp.h:1424489:};
+> il2cpp.h:1424490:struct System_Security_Cryptography_CipherMode_c {
+  il2cpp.h:1424491:	Il2CppClass_1 _1;
+  il2cpp.h:1424492:	void* static_fields;
+  il2cpp.h:1424493:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1424494:	Il2CppClass_2 _2;
+> il2cpp.h:1424495:	System_Security_Cryptography_CipherMode_VTable vtable;
+  il2cpp.h:1424496:};
+> il2cpp.h:1424497:struct System_Security_Cryptography_CipherMode_o {
+> il2cpp.h:1424498:	System_Security_Cryptography_CipherMode_Fields fields;
+  il2cpp.h:1424499:};
+  il2cpp.h:1424500:struct System_Security_Cryptography_PaddingMode_Fields {
+  il2cpp.h:1424501:	int32_t value__;
+  il2cpp.h:1424502:};
+  il2cpp.h:1424503:struct System_Security_Cryptography_PaddingMode_VTable {
+  il2cpp.h:1425590:};
+  il2cpp.h:1425591:struct System_Security_Cryptography_RijndaelManagedTransform_Fields {
+> il2cpp.h:1425592:	int32_t m_cipherMode;
+  il2cpp.h:1425593:	int32_t m_paddingValue;
+  il2cpp.h:1425594:	int32_t m_transformMode;
+  il2cpp.h:1425595:	int32_t m_blockSizeBits;
+  il2cpp.h:1425596:	int32_t m_blockSizeBytes;
+  il2cpp.h:1425597:	int32_t m_inputBlockSize;
+  il2cpp.h:1556658:	Mono_Unity_UnityTls_unitytls_x509name_Fields fields;
+  il2cpp.h:1556659:};
+> il2cpp.h:1556660:struct Mono_Unity_UnityTls_unitytls_ciphersuite_Fields {
+  il2cpp.h:1556661:	uint32_t value__;
+  il2cpp.h:1556662:};
+> il2cpp.h:1556663:struct Mono_Unity_UnityTls_unitytls_ciphersuite_VTable {
+  il2cpp.h:1556664:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1556665:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1556666:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1556667:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1556668:	VirtualInvokeData _4_CompareTo;
+  il2cpp.h:1556686:	VirtualInvokeData _22_System_IConvertible_ToType;
+  il2cpp.h:1556687:};
+> il2cpp.h:1556688:struct Mono_Unity_UnityTls_unitytls_ciphersuite_c {
+  il2cpp.h:1556689:	Il2CppClass_1 _1;
+  il2cpp.h:1556690:	void* static_fields;
+  il2cpp.h:1556691:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1556692:	Il2CppClass_2 _2;
+> il2cpp.h:1556693:	Mono_Unity_UnityTls_unitytls_ciphersuite_VTable vtable;
+  il2cpp.h:1556694:};
+> il2cpp.h:1556695:struct Mono_Unity_UnityTls_unitytls_ciphersuite_o {
+> il2cpp.h:1556696:	Mono_Unity_UnityTls_unitytls_ciphersuite_Fields fields;
+  il2cpp.h:1556697:};
+  il2cpp.h:1556698:struct Mono_Unity_UnityTls_unitytls_protocol_Fields {
+  il2cpp.h:1556699:	uint32_t value__;
+  il2cpp.h:1556700:};
+  il2cpp.h:1556701:struct Mono_Unity_UnityTls_unitytls_protocol_VTable {
+  il2cpp.h:1557555:	Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_x509verify_callback_t_Fields fields;
+  il2cpp.h:1557556:};
+> il2cpp.h:1557557:struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t_Fields : 
+System_MulticastDelegate_Fields {
+  il2cpp.h:1557558:};
+> il2cpp.h:1557559:struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t_VTable {
+  il2cpp.h:1557560:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1557561:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1557562:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1557563:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1557564:	VirtualInvokeData _4_unknown;
+  il2cpp.h:1557573:	VirtualInvokeData _13_Invoke;
+  il2cpp.h:1557574:};
+> il2cpp.h:1557575:struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t_c {
+  il2cpp.h:1557576:	Il2CppClass_1 _1;
+  il2cpp.h:1557577:	void* static_fields;
+  il2cpp.h:1557578:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1557579:	Il2CppClass_2 _2;
+> il2cpp.h:1557580:	Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t_VTable vtable;
+  il2cpp.h:1557581:};
+> il2cpp.h:1557582:struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t_o {
+> il2cpp.h:1557583:	Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t_c *klass;
+  il2cpp.h:1557584:	void *monitor;
+> il2cpp.h:1557585:	Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t_Fields fields;
+  il2cpp.h:1557586:};
+> il2cpp.h:1557587:struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t_Fields : 
+System_MulticastDelegate_Fields {
+  il2cpp.h:1557588:};
+> il2cpp.h:1557589:struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t_VTable {
+  il2cpp.h:1557590:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1557591:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1557592:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1557593:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1557594:	VirtualInvokeData _4_unknown;
+  il2cpp.h:1557603:	VirtualInvokeData _13_Invoke;
+  il2cpp.h:1557604:};
+> il2cpp.h:1557605:struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t_c {
+  il2cpp.h:1557606:	Il2CppClass_1 _1;
+  il2cpp.h:1557607:	void* static_fields;
+  il2cpp.h:1557608:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1557609:	Il2CppClass_2 _2;
+> il2cpp.h:1557610:	Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t_VTable vtable;
+  il2cpp.h:1557611:};
+> il2cpp.h:1557612:struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t_o {
+> il2cpp.h:1557613:	Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t_c *klass;
+  il2cpp.h:1557614:	void *monitor;
+> il2cpp.h:1557615:	Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t_Fields fields;
+  il2cpp.h:1557616:};
+  il2cpp.h:1557617:struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_protocol_t_Fields : 
+System_MulticastDelegate_Fields {
+  il2cpp.h:1557618:};
+  il2cpp.h:1557619:struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_protocol_t_VTable {
+  il2cpp.h:1557620:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1557850:	struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_trace_callback_t_o* 
+unitytls_tlsctx_set_trace_callback;
+  il2cpp.h:1557851:	struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_x509verify_callback_t_o* 
+unitytls_tlsctx_set_x509verify_callback;
+> il2cpp.h:1557852:	struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t_o* 
+unitytls_tlsctx_set_supported_ciphersuites;
+> il2cpp.h:1557853:	struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t_o* 
+unitytls_tlsctx_get_ciphersuite;
+  il2cpp.h:1557854:	struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_protocol_t_o* unitytls_tlsctx_get_protocol;
+  il2cpp.h:1557855:	struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_process_handshake_t_o* 
+unitytls_tlsctx_process_handshake;
+  il2cpp.h:1557856:	struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_read_t_o* unitytls_tlsctx_read;
+  il2cpp.h:1557857:	struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_write_t_o* unitytls_tlsctx_write;
+  il2cpp.h:1557858:	struct Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_notify_close_t_o* unitytls_tlsctx_notify_close;
+  il2cpp.h:1673168:	Mono_Security_Interface_ICertificateValidator_Fields fields;
+  il2cpp.h:1673169:};
+> il2cpp.h:1673170:struct Mono_Security_Interface_CipherSuiteCode_Fields {
+  il2cpp.h:1673171:	uint16_t value__;
+  il2cpp.h:1673172:};
+> il2cpp.h:1673173:struct Mono_Security_Interface_CipherSuiteCode_VTable {
+  il2cpp.h:1673174:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1673175:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1673176:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1673177:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1673178:	VirtualInvokeData _4_CompareTo;
+  il2cpp.h:1673196:	VirtualInvokeData _22_System_IConvertible_ToType;
+  il2cpp.h:1673197:};
+> il2cpp.h:1673198:struct Mono_Security_Interface_CipherSuiteCode_c {
+  il2cpp.h:1673199:	Il2CppClass_1 _1;
+  il2cpp.h:1673200:	void* static_fields;
+  il2cpp.h:1673201:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1673202:	Il2CppClass_2 _2;
+> il2cpp.h:1673203:	Mono_Security_Interface_CipherSuiteCode_VTable vtable;
+  il2cpp.h:1673204:};
+> il2cpp.h:1673205:struct Mono_Security_Interface_CipherSuiteCode_o {
+> il2cpp.h:1673206:	Mono_Security_Interface_CipherSuiteCode_Fields fields;
+  il2cpp.h:1673207:};
+  il2cpp.h:1673208:struct Mono_Security_Interface_MonoTlsConnectionInfo_Fields {
+> il2cpp.h:1673209:	uint16_t _CipherSuiteCode_k__BackingField;
+  il2cpp.h:1673210:	int32_t _ProtocolVersion_k__BackingField;
+  il2cpp.h:1673211:	struct System_String_o* _PeerDomainName_k__BackingField;
+  il2cpp.h:1673212:};
+  il2cpp.h:1673213:struct Mono_Security_Interface_MonoTlsConnectionInfo_VTable {
+  il2cpp.h:1673214:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1673378:	bool _DisallowUnauthenticatedCertificateRequest_k__BackingField;
+  il2cpp.h:1673379:	struct System_Nullable_TlsProtocols__o _EnabledProtocols_k__BackingField;
+> il2cpp.h:1673380:	struct Mono_Security_Interface_CipherSuiteCode_array* _EnabledCiphers_k__BackingField;
+  il2cpp.h:1673381:	bool cloned;
+  il2cpp.h:1673382:	bool checkCertName;
+  il2cpp.h:1673383:	bool checkCertRevocationStatus;
+  il2cpp.h:1673384:	struct System_Nullable_bool__o useServicePointManagerCallback;
+  il2cpp.h:1673385:	bool skipSystemValidators;
+  il2cpp.h:2304010:	UnityEngine_Timeline_TimelineClip_o* m_Items[65535];
+  il2cpp.h:2304011:};
+> il2cpp.h:2304012:struct Mono_Security_Interface_CipherSuiteCode_array {
+  il2cpp.h:2304013:	Il2CppObject obj;
+  il2cpp.h:2304014:	Il2CppArrayBounds *bounds;
+  il2cpp.h:2304015:	il2cpp_array_size_t max_length;
+  il2cpp.h:2304016:	uint16_t m_Items[65535];
+  il2cpp.h:2304017:};
+  il2cpp.h:2304436:	ZXing_QrCode_Internal_MinimalEncoder_ResultList_o* m_Items[65535];
+  il2cpp.h:2304437:};
+> il2cpp.h:2304438:struct Mono_Unity_UnityTls_unitytls_ciphersuite_array {
+  il2cpp.h:2304439:	Il2CppObject obj;
+  il2cpp.h:2304440:	Il2CppArrayBounds *bounds;
+  il2cpp.h:2304441:	il2cpp_array_size_t max_length;
+  il2cpp.h:2304442:	uint32_t m_Items[65535];
+  il2cpp.h:2304443:};
+
+

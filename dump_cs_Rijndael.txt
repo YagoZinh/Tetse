@@ -1,0 +1,63 @@
+﻿
+  dump.cs:1550285:
+  dump.cs:1550286:// Namespace: System.Security.Cryptography
+> dump.cs:1550287:public abstract class Rijndael : SymmetricAlgorithm // TypeDefIndex: 35145
+  dump.cs:1550288:{
+  dump.cs:1550289:	// Fields
+  dump.cs:1550290:	private static KeySizes[] s_legalBlockSizes; // 0x0
+  dump.cs:1550291:	private static KeySizes[] s_legalKeySizes; // 0x4
+  dump.cs:1550292:
+  dump.cs:1550301:
+  dump.cs:1550302:// Namespace: System.Security.Cryptography
+> dump.cs:1550303:public sealed class RijndaelManaged : Rijndael // TypeDefIndex: 35146
+  dump.cs:1550304:{
+  dump.cs:1550305:	// Methods
+  dump.cs:1550306:
+  dump.cs:1550307:	// RVA: 0x9FE79F4 Offset: 0x9FE39F4 VA: 0x9FE79F4
+  dump.cs:1550308:	public void .ctor() { }
+  dump.cs:1550321:
+  dump.cs:1550322:	// RVA: 0x9FE7B2E Offset: 0x9FE3B2E VA: 0x9FE7B2E
+> dump.cs:1550323:	private ICryptoTransform NewEncryptor(byte[] rgbKey, CipherMode mode, byte[] rgbIV, int feedbackSize, 
+RijndaelManagedTransformMode encryptMode) { }
+  dump.cs:1550324:}
+  dump.cs:1550325:
+  dump.cs:1550326:// Namespace: System.Security.Cryptography
+> dump.cs:1550327:internal enum RijndaelManagedTransformMode // TypeDefIndex: 35147
+  dump.cs:1550328:{
+  dump.cs:1550329:	// Fields
+  dump.cs:1550330:	public int value__; // 0x0
+> dump.cs:1550331:	public const RijndaelManagedTransformMode Encrypt = 0;
+> dump.cs:1550332:	public const RijndaelManagedTransformMode Decrypt = 1;
+  dump.cs:1550333:}
+  dump.cs:1550334:
+  dump.cs:1550335:// Namespace: System.Security.Cryptography
+> dump.cs:1550336:public sealed class RijndaelManagedTransform : ICryptoTransform, IDisposable // TypeDefIndex: 35148
+  dump.cs:1550337:{
+  dump.cs:1550338:	// Fields
+  dump.cs:1550339:	private CipherMode m_cipherMode; // 0x8
+  dump.cs:1550340:	private PaddingMode m_paddingValue; // 0xC
+> dump.cs:1550341:	private RijndaelManagedTransformMode m_transformMode; // 0x10
+  dump.cs:1550342:	private int m_blockSizeBits; // 0x14
+  dump.cs:1550343:	private int m_blockSizeBytes; // 0x18
+  dump.cs:1550344:	private int m_inputBlockSize; // 0x1C
+  dump.cs:1550345:	private int m_outputBlockSize; // 0x20
+  dump.cs:1550346:	private int[] m_encryptKeyExpansion; // 0x24
+  dump.cs:1550365:
+  dump.cs:1550366:	// RVA: 0x9FE7D02 Offset: 0x9FE3D02 VA: 0x9FE7D02
+> dump.cs:1550367:	internal void .ctor(byte[] rgbKey, CipherMode mode, byte[] rgbIV, int blockSize, int feedbackSize, PaddingMode 
+PaddingValue, RijndaelManagedTransformMode transformMode) { }
+  dump.cs:1550368:
+  dump.cs:1550369:	// RVA: 0x9FE89DA Offset: 0x9FE49DA VA: 0x9FE89DA Slot: 10
+  dump.cs:1550370:	public void Dispose() { }
+  dump.cs:1550371:
+  dump.cs:1550372:	// RVA: 0x9FE8A0B Offset: 0x9FE4A0B VA: 0x9FE8A0B
+  dump.cs:1913733:{
+  dump.cs:1913734:	// Fields
+> dump.cs:1913735:	private RijndaelManaged m_rijndael; // 0x2C
+  dump.cs:1913736:
+  dump.cs:1913737:	// Methods
+  dump.cs:1913738:
+  dump.cs:1913739:	// RVA: 0xA3B6013 Offset: 0xA3B2013 VA: 0xA3B6013
+  dump.cs:1913740:	public void .ctor() { }
+
+

@@ -1,0 +1,1281 @@
+﻿
+  dump.cs:17442:
+  dump.cs:17443:	// RVA: 0x8AB7C22 Offset: 0x8AB3C22 VA: 0x8AB7C22
+> dump.cs:17444:	private UMAPackedRecipeBase.PackedSlotDataV2 ConvertToSlotDataV2(UMATextRecipe.MiniPackedSlotData s, ref bool 
+hasSkinColor) { }
+  dump.cs:17445:
+  dump.cs:17446:	// RVA: 0x8AB7F5F Offset: 0x8AB3F5F VA: 0x8AB7F5F
+> dump.cs:17447:	private UMAPackedRecipeBase.PackedOverlayDataV2 ConvertToOverlayDataV2(UMATextRecipe.MiniPackedOverlayData v, ref bool 
+hasSkinColor) { }
+  dump.cs:17448:
+  dump.cs:17449:	// RVA: 0x8AB7E41 Offset: 0x8AB3E41 VA: 0x8AB7E41
+  dump.cs:17450:	public static UMAPackedRecipeBase.PackedOverlayColorDataV3 CreateColorDataV3(string name) { }
+  dump.cs:17451:
+  dump.cs:17452:	// RVA: 0x8AB819D Offset: 0x8AB419D VA: 0x8AB819D Slot: 7
+  dump.cs:17457:
+  dump.cs:17458:	// RVA: 0x8AB85BD Offset: 0x8AB45BD VA: 0x8AB85BD
+> dump.cs:17459:	private UMATextRecipe.MiniPackedSlotData ConvertToSlotDataMini(UMAPackedRecipeBase.PackedSlotDataV2 s2, int 
+skinColorIndex, LinkedList<UMATextRecipe.IntVec2> skips) { }
+  dump.cs:17460:
+  dump.cs:17461:	// RVA: 0x8AB8A37 Offset: 0x8AB4A37 VA: 0x8AB8A37
+> dump.cs:17462:	private UMATextRecipe.MiniPackedOverlayData ConvertToOverlayDataMini(UMAPackedRecipeBase.PackedOverlayDataV2 o2, int 
+skinColorIndex) { }
+  dump.cs:17463:
+  dump.cs:17464:	// RVA: 0x8AB8B7E Offset: 0x8AB4B7E VA: 0x8AB8B7E
+  dump.cs:17465:	public void ClearResourceRef() { }
+  dump.cs:17466:
+  dump.cs:17467:	// RVA: 0x8AB8BB8 Offset: 0x8AB4BB8 VA: 0x8AB8BB8
+  dump.cs:45558:
+  dump.cs:45559:	// RVA: 0x35DF251 Offset: 0x35DB251 VA: 0x35DF251
+> dump.cs:45560:	public static uint ConvertToUInt(float x, float y, float z, float w) { }
+  dump.cs:45561:
+  dump.cs:45562:	// RVA: 0x35DF2C7 Offset: 0x35DB2C7 VA: 0x35DF2C7
+  dump.cs:45563:	public static OptimizedBoneWeightV2 op_Implicit(BoneWeight sourceWeight) { }
+  dump.cs:45564:
+  dump.cs:45565:	// RVA: 0x35DF3B7 Offset: 0x35DB3B7 VA: 0x35DF3B7
+  dump.cs:46994:
+  dump.cs:46995:	// RVA: 0x36FF198 Offset: 0x36FB198 VA: 0x36FF198
+> dump.cs:46996:	public static void ConvertToVector2(uint value, out Vector2 v) { }
+  dump.cs:46997:
+  dump.cs:46998:	// RVA: 0x36FF1DC Offset: 0x36FB1DC VA: 0x36FF1DC
+> dump.cs:46999:	public static Vector2[] ConvertToUVs(uint[] opvs) { }
+  dump.cs:47000:
+  dump.cs:47001:	// RVA: 0x36FF2B2 Offset: 0x36FB2B2 VA: 0x36FF2B2
+  dump.cs:47002:	public static uint[] ConvertFromUVs(Vector2[] uvs) { }
+  dump.cs:47003:}
+  dump.cs:47004:
+  dump.cs:47015:
+  dump.cs:47016:	// RVA: 0x36FF479 Offset: 0x36FB479 VA: 0x36FF479
+> dump.cs:47017:	public static uint ConvertToUInt(ref Vector3 normal) { }
+  dump.cs:47018:
+  dump.cs:47019:	// RVA: 0x36FF562 Offset: 0x36FB562 VA: 0x36FF562
+> dump.cs:47020:	public static uint ConvertToUInt(ref Vector4 normal) { }
+  dump.cs:47021:
+  dump.cs:47022:	// RVA: 0x36FF686 Offset: 0x36FB686 VA: 0x36FF686
+> dump.cs:47023:	public static void ConvertToVector4(uint data, out Vector4 res) { }
+  dump.cs:47024:
+  dump.cs:47025:	// RVA: 0x36FF72F Offset: 0x36FB72F VA: 0x36FF72F
+> dump.cs:47026:	public static void ConvertToVector3(uint data, out Vector3 res) { }
+  dump.cs:47027:
+  dump.cs:47028:	// RVA: 0x36FF80E Offset: 0x36FB80E VA: 0x36FF80E
+> dump.cs:47029:	public static Vector3[] ConvertToVector3s(uint[] ops) { }
+  dump.cs:47030:
+  dump.cs:47031:	// RVA: 0x36FF8D9 Offset: 0x36FB8D9 VA: 0x36FF8D9
+> dump.cs:47032:	public static Vector4[] ConvertToVector4s(uint[] ops) { }
+  dump.cs:47033:
+  dump.cs:47034:	// RVA: 0x36FF9A7 Offset: 0x36FB9A7 VA: 0x36FF9A7
+  dump.cs:47035:	public static uint[] ConvertFromVector4sToUInts(Vector4[] vs) { }
+  dump.cs:47036:
+  dump.cs:47037:	// RVA: 0x36FFA5F Offset: 0x36FBA5F VA: 0x36FFA5F
+  dump.cs:49265:
+  dump.cs:49266:	// RVA: 0x384F724 Offset: 0x384B724 VA: 0x384F724
+> dump.cs:49267:	public static string ConvertToString(byte[] data, int count) { }
+  dump.cs:49268:
+  dump.cs:49269:	// RVA: 0x384F7CA Offset: 0x384B7CA VA: 0x384F7CA
+> dump.cs:49270:	public static string ConvertToString(byte[] data) { }
+  dump.cs:49271:
+  dump.cs:49272:	// RVA: 0x384F850 Offset: 0x384B850 VA: 0x384F850
+> dump.cs:49273:	public static string ConvertToStringExt(int flags, byte[] data, int count) { }
+  dump.cs:49274:
+  dump.cs:49275:	// RVA: 0x384F92C Offset: 0x384B92C VA: 0x384F92C
+> dump.cs:49276:	public static string ConvertToStringExt(int flags, byte[] data) { }
+  dump.cs:49277:
+  dump.cs:49278:	// RVA: 0x384FA10 Offset: 0x384BA10 VA: 0x384FA10
+> dump.cs:49279:	public static byte[] ConvertToArray(string str) { }
+  dump.cs:49280:
+  dump.cs:49281:	// RVA: 0x384FAAC Offset: 0x384BAAC VA: 0x384FAAC
+> dump.cs:49282:	public static byte[] ConvertToArray(int flags, string str) { }
+  dump.cs:49283:
+  dump.cs:49284:	// RVA: 0x384FB7D Offset: 0x384BB7D VA: 0x384FB7D
+  dump.cs:49285:	private void .ctor() { }
+  dump.cs:49286:
+  dump.cs:49287:	// RVA: 0x384FBAE Offset: 0x384BBAE VA: 0x384FBAE
+  dump.cs:246219:
+  dump.cs:246220:	// RVA: 0x6C14616 Offset: 0x6C10616 VA: 0x6C14616
+> dump.cs:246221:	public static uint TypeConvertToID(UIHudThumbUpChatBtnController.EThumbUpType thumbUpType) { }
+  dump.cs:246222:
+  dump.cs:246223:	// RVA: 0x6C14690 Offset: 0x6C10690 VA: 0x6C14690 Slot: 8
+  dump.cs:246224:	public override string GetPrimaryKey() { }
+  dump.cs:246225:
+  dump.cs:246226:	// RVA: 0x6C14706 Offset: 0x6C10706 VA: 0x6C14706 Slot: 14
+  dump.cs:329263:	public const ConvertBase64ThreadErrorCode ExceptionError = -1;
+  dump.cs:329264:	public const ConvertBase64ThreadErrorCode AudioClipNullError = -2;
+> dump.cs:329265:	public const ConvertBase64ThreadErrorCode ConvertToNullError = -3;
+  dump.cs:329266:	public const ConvertBase64ThreadErrorCode TimeOut = -4;
+  dump.cs:329267:	public const ConvertBase64ThreadErrorCode BufferInUseError = -5;
+  dump.cs:329268:}
+  dump.cs:329269:
+  dump.cs:329270:// Namespace: COW
+  dump.cs:329472:
+  dump.cs:329473:	// RVA: 0x8BCA632 Offset: 0x8BC6632 VA: 0x8BCA632
+> dump.cs:329474:	private float[] ConvertToStereo(float[] data, int dataLength) { }
+  dump.cs:329475:
+  dump.cs:329476:	// RVA: 0x8BCA789 Offset: 0x8BC6789 VA: 0x8BCA789
+> dump.cs:329477:	private float[] ConvertToMono(float[] data, int dataLength) { }
+  dump.cs:329478:
+  dump.cs:329479:	// RVA: 0x8BC7A04 Offset: 0x8BC3A04 VA: 0x8BC7A04
+  dump.cs:329480:	private void ResetRecordingState() { }
+  dump.cs:329481:
+  dump.cs:329482:	// RVA: 0x8BC7618 Offset: 0x8BC3618 VA: 0x8BC7618
+  dump.cs:329516:
+  dump.cs:329517:	// RVA: 0x8BC8BC2 Offset: 0x8BC4BC2 VA: 0x8BC8BC2
+> dump.cs:329518:	private byte[] ConvertToWAV(float[] samples, int sampleSize, int channels, int frequency, out int wavDataSize) { }
+  dump.cs:329519:
+  dump.cs:329520:	// RVA: 0x8BC8EF0 Offset: 0x8BC4EF0 VA: 0x8BC8EF0
+> dump.cs:329521:	private byte[] ConvertToMp3(float[] samples, int recordedSamples, int channels, int frequency, int bitRate, out int 
+mp3Size) { }
+  dump.cs:329522:
+  dump.cs:329523:	// RVA: 0x8BCAE92 Offset: 0x8BC6E92 VA: 0x8BCAE92
+> dump.cs:329524:	private int ConvertToMp3Internal(float[] pcmData, int pcmSize, out byte[] mp3Data, out int mp3Size, int sampleRate, int 
+channels, int bitRate) { }
+  dump.cs:329525:
+  dump.cs:329526:	// RVA: 0x8BCB439 Offset: 0x8BC7439 VA: 0x8BCB439
+  dump.cs:329527:	public void .ctor() { }
+  dump.cs:329528:
+  dump.cs:329529:	// RVA: 0x8BCB48D Offset: 0x8BC748D VA: 0x8BCB48D
+  dump.cs:333672:
+  dump.cs:333673:	// RVA: 0x8C2D601 Offset: 0x8C29601 VA: 0x8C2D601
+> dump.cs:333674:	private EAntiAddiction.TotalTimeBanMode IntConvertToEnum(int i) { }
+  dump.cs:333675:
+  dump.cs:333676:	// RVA: 0x8C2D7E1 Offset: 0x8C297E1 VA: 0x8C2D7E1
+  dump.cs:333677:	private void OnMsgAntiaddiction(MessageNotify res) { }
+  dump.cs:333678:
+  dump.cs:333679:	// RVA: 0x8C2DA07 Offset: 0x8C29A07 VA: 0x8C2DA07
+  dump.cs:505832:
+  dump.cs:505833:	// RVA: 0x3EF0E39 Offset: 0x3EECE39 VA: 0x3EF0E39
+> dump.cs:505834:	private int EQualityConvertToInt(GAGILKKDDMJ quality) { }
+  dump.cs:505835:
+  dump.cs:505836:	// RVA: 0x3EF0EB3 Offset: 0x3EECEB3 VA: 0x3EF0EB3
+  dump.cs:505837:	private void OnQualityChange() { }
+  dump.cs:505838:
+  dump.cs:505839:	// RVA: 0x3EF0F89 Offset: 0x3EECF89 VA: 0x3EF0F89
+  dump.cs:523996:
+  dump.cs:523997:	// RVA: 0x4092B2C Offset: 0x408EB2C VA: 0x4092B2C
+> dump.cs:523998:	protected int ConvertToPlayerID(object player) { }
+  dump.cs:523999:
+  dump.cs:524000:	// RVA: 0x4092BBA Offset: 0x408EBBA VA: 0x4092BBA
+  dump.cs:524001:	private void OnAddPlayer(GEvent param) { }
+  dump.cs:524002:
+  dump.cs:524003:	// RVA: 0x4092D78 Offset: 0x408ED78 VA: 0x4092D78
+  dump.cs:683269:
+  dump.cs:683270:	// RVA: 0x52A0A3B Offset: 0x529CA3B VA: 0x52A0A3B
+> dump.cs:683271:	private Vector2 ConvertToNormalizedCoord(Vector2 position) { }
+  dump.cs:683272:
+  dump.cs:683273:	// RVA: 0x52A0B51 Offset: 0x529CB51 VA: 0x52A0B51 Slot: 31
+  dump.cs:683274:	protected override void OnUIClose() { }
+  dump.cs:683275:
+  dump.cs:683276:	// RVA: 0x52A0C73 Offset: 0x529CC73 VA: 0x52A0C73 Slot: 32
+  dump.cs:747716:
+  dump.cs:747717:	// RVA: 0x5922F43 Offset: 0x591EF43 VA: 0x5922F43
+> dump.cs:747718:	public static List<BaseItemInfo> ConvertToAvailableRewardItemInfoList(List<BooyahPassBaseItemData> 
+booyahPassBaseItemDataList, List<BaseItemInfo> result) { }
+  dump.cs:747719:
+  dump.cs:747720:	// RVA: 0x59232F3 Offset: 0x591F2F3 VA: 0x59232F3
+  dump.cs:747721:	public static List<BooyahPassBaseItemData> FilterOutPremiumItemData(List<BooyahPassBaseItemData> 
+booyahPassBaseItemDataList) { }
+  dump.cs:747722:
+  dump.cs:747723:	// RVA: 0x5922BDC Offset: 0x591EBDC VA: 0x5922BDC
+  dump.cs:757763:
+  dump.cs:757764:	// RVA: -1 Offset: -1 Slot: 19
+> dump.cs:757765:	public abstract CSSharedItemDataManager.ItemSubType ConvertToItemSubType(EWorkshop.VIPType vipType);
+  dump.cs:757766:
+  dump.cs:757767:	// RVA: -1 Offset: -1 Slot: 20
+> dump.cs:757768:	public abstract EWorkshop.VIPType ConvertToVIPType(CSSharedItemDataManager.ItemSubType itemSubType);
+  dump.cs:757769:
+  dump.cs:757770:	// RVA: -1 Offset: -1 Slot: 21
+  dump.cs:757771:	public abstract bool IsOpenSubscribe(CSSharedItemDataManager.ItemSubType cardType);
+  dump.cs:757772:
+  dump.cs:757773:	// RVA: -1 Offset: -1 Slot: 22
+  dump.cs:757893:
+  dump.cs:757894:	// RVA: 0x59F53B1 Offset: 0x59F13B1 VA: 0x59F53B1 Slot: 23
+> dump.cs:757895:	public CSSharedItemDataManager.ItemSubType ConvertToItemSubType(EWorkshop.VIPType vipType) { }
+  dump.cs:757896:
+  dump.cs:757897:	// RVA: 0x59F545C Offset: 0x59F145C VA: 0x59F545C Slot: 24
+> dump.cs:757898:	public EWorkshop.VIPType ConvertToVIPType(CSSharedItemDataManager.ItemSubType itemSubType) { }
+  dump.cs:757899:
+  dump.cs:757900:	// RVA: 0x59F566A Offset: 0x59F166A VA: 0x59F566A Slot: 25
+  dump.cs:757901:	public bool IsOpenSubscribe(CSSharedItemDataManager.ItemSubType cardType) { }
+  dump.cs:757902:
+  dump.cs:757903:	// RVA: 0x59F44E1 Offset: 0x59F04E1 VA: 0x59F44E1
+  dump.cs:758214:
+  dump.cs:758215:	// RVA: 0x59FB582 Offset: 0x59F7582 VA: 0x59FB582
+> dump.cs:758216:	public CSSharedItemDataManager.ItemSubType ConvertToItemSubType(EWorkshop.VIPType vipType) { }
+  dump.cs:758217:
+  dump.cs:758218:	// RVA: 0x59FB695 Offset: 0x59F7695 VA: 0x59FB695
+> dump.cs:758219:	public EWorkshop.VIPType ConvertToVIPType(CSSharedItemDataManager.ItemSubType itemSubType) { }
+  dump.cs:758220:
+  dump.cs:758221:	// RVA: 0x59FB7A8 Offset: 0x59F77A8 VA: 0x59FB7A8
+  dump.cs:758222:	public bool IsOpenSubscribe(CSSharedItemDataManager.ItemSubType cardType) { }
+  dump.cs:758223:
+  dump.cs:758224:	// RVA: 0x59FB8BB Offset: 0x59F78BB VA: 0x59FB8BB
+  dump.cs:765154:
+  dump.cs:765155:	// RVA: 0x5A992D1 Offset: 0x5A952D1 VA: 0x5A992D1
+> dump.cs:765156:	public static AntiAddictionGuardianSetting ConvertToTcpGuardianSetting(AccountGuardianSettingInfo setting) { }
+  dump.cs:765157:
+  dump.cs:765158:	// RVA: 0x5A9955B Offset: 0x5A9555B VA: 0x5A9955B
+> dump.cs:765159:	public static GuardianChatSetting ConvertToTcpChatSetting(GuardianChatSetting setting) { }
+  dump.cs:765160:
+  dump.cs:765161:	// RVA: 0x5A9964E Offset: 0x5A9564E VA: 0x5A9964E
+> dump.cs:765162:	public static AntiAddictionAgeAuthInfo ConvertToTcpAuthInfo(AntiAddictionAgeAuthInfo authInfo) { }
+  dump.cs:765163:
+  dump.cs:765164:	// RVA: 0x5A99732 Offset: 0x5A95732 VA: 0x5A99732
+  dump.cs:765165:	public AntiAddictionAgeAuthInfo GetSelfTcpAuthInfo() { }
+  dump.cs:765166:
+  dump.cs:765167:	// RVA: 0x5A997BD Offset: 0x5A957BD VA: 0x5A997BD
+  dump.cs:777831:
+  dump.cs:777832:	// RVA: 0x5BBD826 Offset: 0x5BB9826 VA: 0x5BBD826
+> dump.cs:777833:	public static uint ConvertToStageID(uint season, uint round, uint stage) { }
+  dump.cs:777834:
+  dump.cs:777835:	// RVA: 0x5BBD8AC Offset: 0x5BB98AC VA: 0x5BBD8AC Slot: 3
+  dump.cs:777836:	public override string ToString() { }
+  dump.cs:777837:
+  dump.cs:777838:	// RVA: 0x5BBD922 Offset: 0x5BB9922 VA: 0x5BBD922
+  dump.cs:801007:
+  dump.cs:801008:	// RVA: 0x5DF0C24 Offset: 0x5DECC24 VA: 0x5DF0C24
+> dump.cs:801009:	private InGameLeaderBoardTitleInfo ConvertToInGameLeaderBoardTitleInfo(RankingTitleInfo titleInfo) { }
+  dump.cs:801010:
+  dump.cs:801011:	// RVA: 0x5DF0EAD Offset: 0x5DECEAD VA: 0x5DF0EAD
+> dump.cs:801012:	private InGameLeaderBoardTitleInfo ConvertToInGameLeaderBoardTitleInfo(CSPeakTitleInfo titleInfo) { }
+  dump.cs:801013:
+  dump.cs:801014:	// RVA: 0x5DF0D6A Offset: 0x5DECD6A VA: 0x5DF0D6A
+> dump.cs:801015:	private InGameLeaderBoardTitleInfo ConvertToInGameLeaderBoardTitleInfo(WeaponPowerTitleInfo titleInfo) { }
+  dump.cs:801016:
+  dump.cs:801017:	// RVA: 0x5DF0FF3 Offset: 0x5DECFF3 VA: 0x5DF0FF3
+> dump.cs:801018:	private InGameLeaderBoardTitleInfo ConvertToInGameLeaderBoardTitleInfo(GuildWarTitleInfo titleInfo) { }
+  dump.cs:801019:
+  dump.cs:801020:	// RVA: 0x5DF1D3D Offset: 0x5DEDD3D VA: 0x5DF1D3D
+  dump.cs:801021:	public LeaderboardTitleInfo GetTcpSelectedLeaderboardTitleInfo() { }
+  dump.cs:801022:
+  dump.cs:801023:	// RVA: 0x5DF25F4 Offset: 0x5DEE5F4 VA: 0x5DF25F4
+  dump.cs:801025:
+  dump.cs:801026:	// RVA: 0x5DF2DDA Offset: 0x5DEEDDA VA: 0x5DF2DDA
+> dump.cs:801027:	private InGameLeaderBoardTitleInfo ConvertToInGameLeaderBoardTitleInfo(RankingTitleInfo titleInfo) { }
+  dump.cs:801028:
+  dump.cs:801029:	// RVA: 0x5DF318F Offset: 0x5DEF18F VA: 0x5DF318F
+> dump.cs:801030:	private InGameLeaderBoardTitleInfo ConvertToInGameLeaderBoardTitleInfo(CSPeakTitleInfo titleInfo) { }
+  dump.cs:801031:
+  dump.cs:801032:	// RVA: 0x5DF2F20 Offset: 0x5DEEF20 VA: 0x5DF2F20
+> dump.cs:801033:	private InGameLeaderBoardTitleInfo ConvertToInGameLeaderBoardTitleInfo(WeaponPowerTitleInfo titleInfo) { }
+  dump.cs:801034:
+  dump.cs:801035:	// RVA: 0x5DF3063 Offset: 0x5DEF063 VA: 0x5DF3063
+> dump.cs:801036:	private InGameLeaderBoardTitleInfo ConvertToInGameLeaderBoardTitleInfo(GuildWarTitleInfo titleInfo) { }
+  dump.cs:801037:
+  dump.cs:801038:	// RVA: 0x5DF32D5 Offset: 0x5DEF2D5 VA: 0x5DF32D5
+  dump.cs:801039:	public LeaderBoardTitleShowingParams GetLeaderBoardTitleShowingParams(RankingTitleInfo info, ELeaderBoardTitleBgType 
+bgType, bool ignoreExpire = False) { }
+  dump.cs:801040:
+  dump.cs:801041:	// RVA: 0x5DF33CB Offset: 0x5DEF3CB VA: 0x5DF33CB
+  dump.cs:801241:
+  dump.cs:801242:	// RVA: 0x5DFB21F Offset: 0x5DF721F VA: 0x5DFB21F
+> dump.cs:801243:	public SelectLeaderBoardTitleInfo ConvertToSelectLeaderBoardTitleInfo(RankingPlayerTitleInfo info, bool isNew) { }
+  dump.cs:801244:
+  dump.cs:801245:	// RVA: 0x5DFB321 Offset: 0x5DF7321 VA: 0x5DFB321
+> dump.cs:801246:	public SelectLeaderBoardTitleInfo ConvertToSelectLeaderBoardTitleInfo(WeaponPowerPlayerTitleInfo info, bool isNew) { }
+  dump.cs:801247:
+  dump.cs:801248:	// RVA: 0x5DFB423 Offset: 0x5DF7423 VA: 0x5DFB423
+> dump.cs:801249:	public SelectLeaderBoardTitleInfo ConvertToSelectLeaderBoardTitleInfo(CSPeakPlayerTitleInfo info, bool isNew) { }
+  dump.cs:801250:
+  dump.cs:801251:	// RVA: 0x5DFB525 Offset: 0x5DF7525 VA: 0x5DFB525
+  dump.cs:801252:	public void SetAutoSelectTitle() { }
+  dump.cs:801253:
+  dump.cs:801254:	// RVA: 0x5DFBD4A Offset: 0x5DF7D4A VA: 0x5DFBD4A
+  dump.cs:811586:
+  dump.cs:811587:	// RVA: 0x5F42C81 Offset: 0x5F3EC81 VA: 0x5F42C81
+> dump.cs:811588:	public static EVipCard.VipCardType ConvertToVipCardType(ESubscription.PriceType price_type) { }
+  dump.cs:811589:
+  dump.cs:811590:	// RVA: 0x5F42CFC Offset: 0x5F3ECFC VA: 0x5F42CFC
+  dump.cs:811591:	public static string GetCardSpriteNameByVipCardType(EVipCard.VipCardType vipCardType, bool isBig = False) { }
+  dump.cs:811592:
+  dump.cs:811593:	// RVA: 0x5F42E48 Offset: 0x5F3EE48 VA: 0x5F42E48
+  dump.cs:832350:
+  dump.cs:832351:	// RVA: 0x618BA85 Offset: 0x6187A85 VA: 0x618BA85
+> dump.cs:832352:	internal int <ConvertTopUpTeam>b__214_0(TopUpMember a, TopUpMember b) { }
+  dump.cs:832353:}
+  dump.cs:832354:
+  dump.cs:832355:// Namespace: 
+  dump.cs:832356:private sealed class UIModelSquadTreasure.<>c__DisplayClass174_0 // TypeDefIndex: 23475
+  dump.cs:832357:{
+  dump.cs:832959:
+  dump.cs:832960:	// RVA: 0x61896B6 Offset: 0x61856B6 VA: 0x61896B6
+> dump.cs:832961:	private TopUpTeam ConvertTopUpTeam(TopUpTeam topUpTeam) { }
+  dump.cs:832962:
+  dump.cs:832963:	// RVA: 0x6189CA0 Offset: 0x6185CA0 VA: 0x6189CA0
+  dump.cs:832964:	public void .ctor() { }
+  dump.cs:832965:
+  dump.cs:832966:	// RVA: 0x618A0B3 Offset: 0x61860B3 VA: 0x618A0B3
+  dump.cs:836661:
+  dump.cs:836662:	// RVA: 0x61E0946 Offset: 0x61DC946 VA: 0x61E0946
+> dump.cs:836663:	private List<WorkshopDataStorage> ConvertToWorkshopDataStorages(List<HPADFMKCENI.BLNBPGJFNIE> dataStorages) { }
+  dump.cs:836664:
+  dump.cs:836665:	// RVA: 0x61E0C6F Offset: 0x61DCC6F VA: 0x61E0C6F
+> dump.cs:836666:	private List<WorkshopLeaderboard> ConvertToWorkshopLeaderboards(List<HPADFMKCENI.HGDHAOPNNNA> leaderboards) { }
+  dump.cs:836667:
+  dump.cs:836668:	// RVA: 0x61E1C66 Offset: 0x61DDC66 VA: 0x61E1C66
+  dump.cs:836669:	public void .ctor() { }
+  dump.cs:836670:}
+  dump.cs:836671:
+  dump.cs:979224:
+  dump.cs:979225:	// RVA: -1 Offset: -1
+> dump.cs:979226:	public static T ConvertToType<T>(string input) { }
+  dump.cs:979227:	/* GenericInstMethod :
+  dump.cs:979228:	|
+  dump.cs:979229:	|-RVA: 0x8FAECD4 Offset: 0x8FAACD4 VA: 0x8FAECD4
+> dump.cs:979230:	|-PrimitiveExtensions.ConvertToType<bool>
+  dump.cs:979231:	|
+  dump.cs:979232:	|-RVA: 0x8FAF018 Offset: 0x8FAB018 VA: 0x8FAF018
+> dump.cs:979233:	|-PrimitiveExtensions.ConvertToType<int>
+  dump.cs:979234:	|
+  dump.cs:979235:	|-RVA: 0x8FAF353 Offset: 0x8FAB353 VA: 0x8FAF353
+> dump.cs:979236:	|-PrimitiveExtensions.ConvertToType<float>
+  dump.cs:979237:	|
+  dump.cs:979238:	|-RVA: 0x8FAF6A6 Offset: 0x8FAB6A6 VA: 0x8FAF6A6
+> dump.cs:979239:	|-PrimitiveExtensions.ConvertToType<__Il2CppFullySharedGenericType>
+  dump.cs:979240:	*/
+  dump.cs:979241:
+  dump.cs:979242:	// RVA: 0x6B371AE Offset: 0x6B331AE VA: 0x6B371AE
+  dump.cs:979243:	public static double RoundUpToNearest(double passednumber, double roundto) { }
+  dump.cs:979244:
+  dump.cs:990508:
+  dump.cs:990509:	// RVA: 0x6C518F6 Offset: 0x6C4D8F6 VA: 0x6C518F6
+> dump.cs:990510:	public SceneEditAIManager.ExportQuaternion ConvertToQuaternionFromString(string value) { }
+  dump.cs:990511:
+  dump.cs:990512:	// RVA: 0x6C517B2 Offset: 0x6C4D7B2 VA: 0x6C517B2
+> dump.cs:990513:	public SceneEditAIManager.ExportVector3 ConvertToVector3FromString(string value) { }
+  dump.cs:990514:
+  dump.cs:990515:	// RVA: 0x6C51690 Offset: 0x6C4D690 VA: 0x6C51690
+> dump.cs:990516:	public SceneEditAIManager.ExportVector2 ConvertToVector2FromString(string value) { }
+  dump.cs:990517:
+  dump.cs:990518:	// RVA: 0x6C50A24 Offset: 0x6C4CA24 VA: 0x6C50A24
+  dump.cs:990519:	private void ProcessPropertySet() { }
+  dump.cs:990520:
+  dump.cs:990521:	// RVA: 0x6C52119 Offset: 0x6C4E119 VA: 0x6C52119
+  dump.cs:1010265:
+  dump.cs:1010266:	// RVA: 0x6E0ED4E Offset: 0x6E0AD4E VA: 0x6E0ED4E
+> dump.cs:1010267:	public uint ConvertToClientPhysicalLayer(int physicalLayerIndex) { }
+  dump.cs:1010268:
+  dump.cs:1010269:	// RVA: 0x6E0EE1B Offset: 0x6E0AE1B VA: 0x6E0EE1B
+  dump.cs:1010270:	public void .ctor() { }
+  dump.cs:1010271:
+  dump.cs:1010272:	// RVA: 0x6E0EE9C Offset: 0x6E0AE9C VA: 0x6E0EE9C
+  dump.cs:1217482:
+  dump.cs:1217483:	// RVA: 0x837792E Offset: 0x837392E VA: 0x837792E
+> dump.cs:1217484:	public OLIECBADLCI ConvertToUGCDatabaseData(object value) { }
+  dump.cs:1217485:
+  dump.cs:1217486:	// RVA: 0x8378C0A Offset: 0x8374C0A VA: 0x8378C0A
+  dump.cs:1217487:	private UGCSimpleValue UGCDatabaseDataToSimpleValue(OLIECBADLCI data) { }
+  dump.cs:1217488:
+  dump.cs:1217489:	// RVA: 0x8379D9D Offset: 0x8375D9D VA: 0x8379D9D
+  dump.cs:1222739:
+  dump.cs:1222740:	// RVA: 0x83FE569 Offset: 0x83FA569 VA: 0x83FE569
+> dump.cs:1222741:	public static Nullable<float> ConvertToF32(object v) { }
+  dump.cs:1222742:
+  dump.cs:1222743:	// RVA: 0x83FE824 Offset: 0x83FA824 VA: 0x83FE824
+> dump.cs:1222744:	public static Nullable<int> ConvertToInt(object v) { }
+  dump.cs:1222745:
+  dump.cs:1222746:	// RVA: 0x83FEAAB Offset: 0x83FAAAB VA: 0x83FEAAB
+> dump.cs:1222747:	public static Nullable<uint> ConvertToUInt(object v) { }
+  dump.cs:1222748:
+  dump.cs:1222749:	// RVA: 0x83FED81 Offset: 0x83FAD81 VA: 0x83FED81
+  dump.cs:1222750:	internal static object Convert2Obj(UGCRuntime runtime, BGMHHCHJDFI p) { }
+  dump.cs:1222751:
+  dump.cs:1222752:	// RVA: 0x83FF498 Offset: 0x83FB498 VA: 0x83FF498
+  dump.cs:1228220:
+  dump.cs:1228221:	// RVA: 0x849639A Offset: 0x849239A VA: 0x849639A
+> dump.cs:1228222:	public AudioResource Play2DLoopStart(ResourceID sound, float volume = 1, ESoundOwner ownerType = 0, EAudioEngineType 
+targetEngine = 0, int mixerGroup = -1, bool needConvertToEventId = True) { }
+  dump.cs:1228223:
+  dump.cs:1228224:	// RVA: 0x849670C Offset: 0x849270C VA: 0x849670C
+  dump.cs:1228225:	public void Play2DLoopStop(AudioResource audioSourceObj, bool fade, bool isNeedUnloadAudioData = False, 
+EAudioEngineType targetEngine = 0, float volumeChangeSpeed = 1) { }
+  dump.cs:1228226:
+  dump.cs:1228227:	// RVA: 0x84936CF Offset: 0x848F6CF VA: 0x84936CF
+  dump.cs:1228229:
+  dump.cs:1228230:	// RVA: 0x8496861 Offset: 0x8492861 VA: 0x8496861
+> dump.cs:1228231:	public GameObject Play3DLoopStart(ResourceID sound, Transform parent, ResourceID audioSourceID, float volume = 1, 
+ESoundOwner ownerType = 0, EAudioEngineType targetEngine = 0, float distance = -1, bool needConvertToEventId = True) { }
+  dump.cs:1228232:
+  dump.cs:1228233:	// RVA: 0x8496B95 Offset: 0x8492B95 VA: 0x8496B95
+  dump.cs:1228234:	public void Play3DLoopStop(GameObject audioSourceObj, EAudioEngineType targetEngine = 0) { }
+  dump.cs:1228235:
+  dump.cs:1228236:	// RVA: 0x84937B1 Offset: 0x848F7B1 VA: 0x84937B1
+  dump.cs:1228241:
+  dump.cs:1228242:	// RVA: 0x8496D86 Offset: 0x8492D86 VA: 0x8496D86
+> dump.cs:1228243:	public GameObject PlayOneShot(ResourceID sound, float volume = 1, ESoundOwner ownerType = 0, EAudioEngineType 
+targetEngine = 0, int inGameGroup = -1, ResourceID audioSourceRes, bool needConvertToEventId = True) { }
+  dump.cs:1228244:
+  dump.cs:1228245:	// RVA: 0x8497378 Offset: 0x8493378 VA: 0x8497378
+> dump.cs:1228246:	public void PlayOneShotAsync(ResourceID sound, ResourceManager.LoadPriority lp = 1, float volume = 1, ESoundOwner 
+ownerType = 0, EAudioEngineType targetEngine = 0, int inGameGroup = -1, ResourceID audioSourceRes, bool needConvertToEventId = True) { }
+  dump.cs:1228247:
+  dump.cs:1228248:	// RVA: 0x8497624 Offset: 0x8493624 VA: 0x8497624
+  dump.cs:1228249:	public void RecordPlayingSound(GameObject result, EAudioEngineType targetEngine) { }
+  dump.cs:1228250:
+  dump.cs:1228251:	// RVA: 0x84977C6 Offset: 0x84937C6 VA: 0x84977C6
+  dump.cs:1314903:	public const IDMAP0 COW-UIModelAreaLeaderBoard-SortRankPlayerTitleList0 = 3968;
+  dump.cs:1314904:	public const IDMAP0 COW-UIModelAreaLeaderBoard-GetTopNewBRTitle0 = 3967;
+> dump.cs:1314905:	public const IDMAP0 COW-UIModelLeaderBoardTitle-ConvertToSelectLeaderBoardTitleInfo0 = 3969;
+  dump.cs:1314906:	public const IDMAP0 COW-UIModelAreaLeaderBoard-GetTopNewCSTitle0 = 3970;
+  dump.cs:1314907:	public const IDMAP0 COW-UIModelAreaLeaderBoard-GetSelectedTopBRTitle0 = 3971;
+  dump.cs:1314908:	public const IDMAP0 COW-UIModelAreaLeaderBoard-GetSelectedTopCSTitle0 = 3972;
+  dump.cs:1314909:	public const IDMAP0 COW-UIModelWeaponPower-GetTopNewBRTitle0 = 3973;
+> dump.cs:1314910:	public const IDMAP0 COW-UIModelLeaderBoardTitle-ConvertToSelectLeaderBoardTitleInfo1 = 3974;
+  dump.cs:1314911:	public const IDMAP0 COW-UIModelWeaponPower-GetTopNewCSTitle0 = 3975;
+  dump.cs:1314912:	public const IDMAP0 COW-UIModelWeaponPower-GetSelectedTopBRTitle0 = 3976;
+  dump.cs:1314913:	public const IDMAP0 COW-UIModelWeaponPower-GetSelectedTopCSTitle0 = 3977;
+  dump.cs:1314914:	public const IDMAP0 COW-UIModelAreaLeaderBoard-SortCSPeakPlayerTitleList0 = 3979;
+  dump.cs:1314915:	public const IDMAP0 COW-UIModelAreaLeaderBoard-GetTopNewCSPeakTitle0 = 3978;
+> dump.cs:1314916:	public const IDMAP0 COW-UIModelLeaderBoardTitle-ConvertToSelectLeaderBoardTitleInfo2 = 3980;
+  dump.cs:1314917:	public const IDMAP0 COW-UIModelAreaLeaderBoard-GetSelectedTopCSPeakTitle0 = 3981;
+  dump.cs:1314918:	public const IDMAP0 COW-UIModelAreaLeaderBoard-get_IsfirstTitleReceive0 = 3982;
+  dump.cs:1314919:	public const IDMAP0 COW-UIModelLeaderBoardTitle-GetHigherTitle0 = 3983;
+  dump.cs:1314920:	public const IDMAP0 COW-UIModelLeaderBoardTitle-GetLeaderBoardTitleType0 = 3984;
+  dump.cs:1314921:	public const IDMAP0 COW-EventLogger-LogWeaponGlorySetting0 = 3987;
+  dump.cs:1315169:	public const IDMAP0 COW-UIModelLeaderBoardTitle-GetClanTitleOwnList0 = 4375;
+  dump.cs:1315170:	public const IDMAP0 COW-UIModelClanWarV2-GetGuildWarOpenInfoDescByTimeStamp0 = 4377;
+> dump.cs:1315171:	public const IDMAP0 COW-ClanWarV2Stage-ConvertToStageID0 = 4378;
+  dump.cs:1315172:	public const IDMAP0 COW-UIModelClanWarV2-SetRoundMatchHistoryCnt0 = 4382;
+  dump.cs:1315173:	public const IDMAP0 COW-UIModelClanWarChampionship-GetClanInternalPrewarmupRedPointKey0 = 4384;
+  dump.cs:1315174:	public const IDMAP0 COW-UIModelClanWarChampionship-IsClanInternalFirstRound0 = 4385;
+  dump.cs:1315175:	public const IDMAP0 COW-UIModelClanWarChampionship-IsPromotedToCurrentRound0 = 4386;
+  dump.cs:1315176:	public const IDMAP0 COW-UIModelClanWarV2-HasParticipatedInSpecialRound0 = 4387;
+  dump.cs:1316942:	public const IDMAP0 COW-UIModelWeaponPower-IsReady0 = 6591;
+  dump.cs:1316943:	public const IDMAP0 COW-UIModelWeaponPower-GetWeaponPowerInfoInDicWeaponIDToWeaponPowerTitles0 = 6593;
+> dump.cs:1316944:	public const IDMAP0 COW-UIModelLeaderBoardTitle-ConvertToInGameLeaderBoardTitleInfo0 = 6595;
+  dump.cs:1316945:	public const IDMAP0 COW-TitleAccountParams-HasPeakRankPos0 = 6597;
+  dump.cs:1316946:	public const IDMAP0 COW-UIModelLeaderBoardTitle-GetGMNameByTitleCfgID0 = 6598;
+  dump.cs:1316947:	public const IDMAP0 COW-UIModelWeaponPower-CheckCanShowTitleCtrl0 = 6606;
+  dump.cs:1316948:	public const IDMAP0 COW-UIModelAreaLeaderBoard-CheckCanShowTitleCtrl0 = 6607;
+  dump.cs:1316949:	public const IDMAP0 COW-UIModelAreaLeaderBoard-get_IsPeakAreaLeaderBoardOpen0 = 6608;
+  dump.cs:1319280:	public const IDMAP0 COW-UISocialHighlightBaseController-OnSetViewData0 = 9431;
+  dump.cs:1319281:	public const IDMAP0 COW-UISocialHighlightBaseController-SetViewData0 = 9430;
+> dump.cs:1319282:	public const IDMAP0 COW-UIModelLeaderBoardTitle-ConvertToInGameLeaderBoardTitleInfo1 = 9433;
+> dump.cs:1319283:	public const IDMAP0 COW-UIModelLeaderBoardTitle-ConvertToInGameLeaderBoardTitleInfo2 = 9434;
+> dump.cs:1319284:	public const IDMAP0 COW-UIModelLeaderBoardTitle-ConvertToInGameLeaderBoardTitleInfo3 = 9435;
+  dump.cs:1319285:	public const IDMAP0 COW-UIModelLeaderBoardTitle-IsForceShowPeakInfo0 = 9437;
+  dump.cs:1319286:	public const IDMAP0 COW-UIModelLeaderBoardTitle-GetBetterTitleInfo0 = 9438;
+  dump.cs:1319287:	public const IDMAP0 COW-UIModelLeaderBoardTitle-IsForceShowRankInfo0 = 9439;
+  dump.cs:1319288:	public const IDMAP0 COW-UIModelLeaderBoardTitle-GetTargetInGameLeaderBoardTitleInfoByOrder0 = 9436;
+  dump.cs:1319289:	public const IDMAP0 COW-UIModelLeaderBoardTitle-GetLeaderBoardTitleShowingParams2 = 9432;
+  dump.cs:1321824:	public const IDMAP0 COW-SpecialCSConfigData-DeserializeData0 = 12268;
+  dump.cs:1321825:	public const IDMAP0 COW-SpectateHighligntLike-CheckCanShowByMode0 = 12269;
+> dump.cs:1321826:	public const IDMAP0 COW-SpectateHighligntLike-TypeConvertToID0 = 12272;
+  dump.cs:1321827:	public const IDMAP0 COW-SpectateHighligntLike-GetPrimaryKey0 = 12273;
+  dump.cs:1321828:	public const IDMAP0 COW-SpectateHighligntLike-GetId0 = 12274;
+  dump.cs:1321829:	public const IDMAP0 COW-SpectateHighligntLike-GetUIntKey0 = 12275;
+  dump.cs:1321830:	public const IDMAP0 COW-SpectateHighligntLike-GetIntKey0 = 12276;
+  dump.cs:1321831:	public const IDMAP0 COW-SpectateHighligntLike-DeserializeData0 = 12277;
+  dump.cs:1325785:	public const IDMAP0 COW-UIModelLeaderBoardTitle-GetTcpSelectedLeaderboardTitleInfo0 = 16913;
+  dump.cs:1325786:	public const IDMAP0 COW-UIModelAntiAddiction-IsBRAntiAddiction0 = 16919;
+> dump.cs:1325787:	public const IDMAP0 COW-UIModelAntiAddiction-ConvertToTcpAuthInfo0 = 16920;
+  dump.cs:1325788:	public const IDMAP0 COW-UIModelAntiAddiction-GetSelfTcpAuthInfo0 = 16918;
+> dump.cs:1325789:	public const IDMAP0 COW-UIModelAntiAddiction-ConvertToTcpChatSetting0 = 16922;
+  dump.cs:1325790:	public const IDMAP0 COW-UIModelAntiAddiction-GetSelfTcpTextChatSetting0 = 16921;
+  dump.cs:1325791:	public const IDMAP0 COW-UIModelAntiAddiction-GetCachedOtherAccountAgeAuthInfo0 = 16923;
+  dump.cs:1325792:	public const IDMAP0 COW-LikeWorldChannelInfo-SetLeftFastTimesDown0 = 16925;
+  dump.cs:1325793:	public const IDMAP0 COW-LikeWorldChannelInfo-SetLeftTalkTimesDown0 = 16926;
+  dump.cs:1325794:	public const IDMAP0 COW-UIModelChat-RecordInGameMessageTS0 = 16927;
+  dump.cs:1328136:	public const IDMAP0 COW-UISocialHighlightBaseController-SetViewData2 = 19804;
+  dump.cs:1328137:	public const IDMAP0 COW-UIInvitationTipsBoxContentController-UpdateSocialHighlight0 = 19803;
+> dump.cs:1328138:	public const IDMAP0 COW-UIModelLeaderBoardTitle-ConvertToInGameLeaderBoardTitleInfo4 = 19809;
+> dump.cs:1328139:	public const IDMAP0 COW-UIModelLeaderBoardTitle-ConvertToInGameLeaderBoardTitleInfo5 = 19810;
+> dump.cs:1328140:	public const IDMAP0 COW-UIModelLeaderBoardTitle-ConvertToInGameLeaderBoardTitleInfo6 = 19811;
+> dump.cs:1328141:	public const IDMAP0 COW-UIModelLeaderBoardTitle-ConvertToInGameLeaderBoardTitleInfo7 = 19812;
+  dump.cs:1328142:	public const IDMAP0 COW-UIModelLeaderBoardTitle-GetLeaderBoardTitleShowingParams3 = 19808;
+  dump.cs:1328143:	public const IDMAP0 COW-UILeaderBoardTitleSingleController-SetBG0 = 19814;
+  dump.cs:1328144:	public const IDMAP0 COW-UILeaderBoardTitleSingleController-OpenIconController0 = 19815;
+  dump.cs:1328145:	public const IDMAP0 COW-UILeaderBoardTitleSingleController-SetBGAnchor0 = 19816;
+  dump.cs:1328146:	public const IDMAP0 COW-UILeaderBoardTitleSingleController-SetData0 = 19813;
+  dump.cs:1331701:	public const IDMAP0 COW-Gameplay-UGC-UGCPhysicsManager-ConvertGSLayer2ClientExtraLayer0 = 24092;
+  dump.cs:1331702:	public const IDMAP0 COW-Gameplay-UGC-UGCPhysicsManager-LayerIndexToLayer0 = 24095;
+> dump.cs:1331703:	public const IDMAP0 COW-Gameplay-UGC-UGCPhysicsManager-ConvertToClientPhysicalLayer0 = 24094;
+  dump.cs:1331704:	public const IDMAP0 COW-GamePlay-BaseLevelObject-LBNBDKDGGJM0 = 24093;
+  dump.cs:1331705:	public const IDMAP0 COW-GamePlay-BaseLevelObject-RefreshUGCPhysicalLayer0 = 24090;
+  dump.cs:1331706:	public const IDMAP0 COW-GamePlay-BaseLevelObject-OnMove0 = 24096;
+  dump.cs:1331707:	public const IDMAP0 COW-GamePlay-BaseLevelObject-OnScale0 = 24097;
+  dump.cs:1331708:	public const IDMAP0 COW-GamePlay-UGCRuntime-UGCTransformNode-AddChild0 = 24101;
+  dump.cs:1337144:	public const IDMAP0 COW-GameRecordEngine-WriteInt32ToBuffer0 = 31941;
+  dump.cs:1337145:	public const IDMAP0 COW-GameRecordEngine-WriteInt16ToBuffer0 = 31942;
+> dump.cs:1337146:	public const IDMAP0 COW-GameRecordEngine-ConvertToWAV0 = 31939;
+  dump.cs:1337147:	public const IDMAP0 COW-GameRecordEngine-GetRecordAudioClipWAVData0 = 31938;
+> dump.cs:1337148:	public const IDMAP0 COW-GameRecordEngine-ConvertToMp3Internal0 = 31945;
+> dump.cs:1337149:	public const IDMAP0 COW-GameRecordEngine-ConvertToMp30 = 31944;
+  dump.cs:1337150:	public const IDMAP0 COW-GameRecordEngine-GetRecordAudioClipMP3Data0 = 31943;
+  dump.cs:1337151:	public const IDMAP0 COW-GameRecordEngine-GetCurrentRecordAudioClipData0 = 31937;
+> dump.cs:1337152:	public const IDMAP0 COW-GameRecordEngine-ConvertToStereo0 = 31948;
+> dump.cs:1337153:	public const IDMAP0 COW-GameRecordEngine-ConvertToMono0 = 31949;
+  dump.cs:1337154:	public const IDMAP0 COW-GameRecordEngine-GetPCMData0 = 31947;
+  dump.cs:1337155:	public const IDMAP0 COW-GameRecordEngine-ConvertRecordAudioClipBase64DataInThreadInternal0 = 31950;
+  dump.cs:1337156:	public const IDMAP0 COW-GameRecordEngine-ConvertRecordAudioClipBase64DataInThread0 = 31946;
+  dump.cs:1337157:	public const IDMAP0 COW-GameRecordEngine-ConvertRecordAudioClipRawData0 = 31951;
+  dump.cs:1337158:	public const IDMAP0 COW-GameRecordEngine-SaveAudioToFile0 = 31952;
+  dump.cs:1337611:	public const IDMAP0 COW-UIModelCredit-SetSilenceEndTime0 = 32455;
+  dump.cs:1337612:	public const IDMAP0 COW-ChatServiceConnectionHandler-OnRecvChatNty0 = 32441;
+> dump.cs:1337613:	public const IDMAP0 COW-UIModelAntiAddiction-ConvertToTcpGuardianSetting0 = 32458;
+  dump.cs:1337614:	public const IDMAP0 COW-UIModelGin-RequestPushData0 = 32459;
+  dump.cs:1337615:	public const IDMAP0 COW-UIModelGin-RequestGinToken0 = 32460;
+  dump.cs:1337616:	public const IDMAP0 COW-UIModelLogin-SecPlayerLogin0 = 32461;
+  dump.cs:1337617:	public const IDMAP0 COW-ServiceConnectionHandler-OnServerConfirmed0 = 32457;
+  dump.cs:1337618:	public const IDMAP0 COW-UIModelChat-ConnectToChatService0 = 32462;
+  dump.cs:1338533:	public const IDMAP0 COW-UIModelProfile-UpdateMMrInfo0 = 33708;
+  dump.cs:1338534:	public const IDMAP0 COW-LobbyServiceConnectionHandler-OnMsgMatchStats0 = 33701;
+> dump.cs:1338535:	public const IDMAP0 COW-LobbyServiceConnectionHandler-IntConvertToEnum0 = 33709;
+  dump.cs:1338536:	public const IDMAP0 COW-UIModelAntiAddiction-set_CanAutoTaskAddictWndPopup0 = 33712;
+  dump.cs:1338537:	public const IDMAP0 COW-UIModelAntiAddiction-set_IsBan0 = 33713;
+  dump.cs:1338538:	public const IDMAP0 COW-UIModelAntiAddiction-GenerateRemindContent0 = 33714;
+  dump.cs:1338539:	public const IDMAP0 COW-UIModelAntiAddiction-set_AddicticMessage0 = 33715;
+  dump.cs:1338540:	public const IDMAP0 COW-UIModelAntiAddiction-set_AddicticBanMode0 = 33716;
+  dump.cs:1338849:	public const IDMAP0 COW-UIModelSquadTreasure-RefreshLobbyV2PaymentRedDot0 = 34102;
+  dump.cs:1338850:	public const IDMAP0 COW-UIModelSquadTreasure-UpdateMyTopupAmount0 = 34101;
+> dump.cs:1338851:	public const IDMAP0 COW-UIModelSquadTreasure-ConvertTopUpTeam0 = 34108;
+  dump.cs:1338852:	public const IDMAP0 COW-UIModelSquadTreasure-UpdateMyTeamData0 = 34109;
+  dump.cs:1338853:	public const IDMAP0 COW-UIModelSquadTreasure-UpdateTopUpTeamUpdate0 = 34107;
+  dump.cs:1338854:	public const IDMAP0 COW-LobbyServiceConnectionHandler-OnMsgTeamTopUp0 = 34073;
+  dump.cs:1338855:	public const IDMAP0 COW-AnnoucementInfo-op_Implicit0 = 34117;
+  dump.cs:1338856:	public const IDMAP0 COW-UIModelAnnouncement-CheckCanShowByQuality0 = 34118;
+  dump.cs:1347716:	public const IDMAP1 COW-UIModelBooyahPass-BooyahPassItemLevelDescend0 = 44909;
+  dump.cs:1347717:	public const IDMAP1 COW-UIModelBooyahPass-BooyahPassItemSpecialTypeLevelDescend0 = 44907;
+> dump.cs:1347718:	public const IDMAP1 COW-BooyahPassBaseItemData-ConvertToAvailableRewardItemInfoList0 = 44910;
+  dump.cs:1347719:	public const IDMAP1 COW-UIBooyahPassExpPurchasePopupWndController-RefreshRewardEasyListAndRewardCount0 = 44900;
+  dump.cs:1347720:	public const IDMAP1 COW-UIBooyahPassExpPurchasePopupWndController-RefreshStepper0 = 44911;
+  dump.cs:1347721:	public const IDMAP1 COW-UIModelBooyahPass-IsPriceConfigReady0 = 44914;
+  dump.cs:1347722:	public const IDMAP1 COW-UIModelBooyahPass-GetLevelExpOriginalPrice0 = 44913;
+  dump.cs:1347723:	public const IDMAP1 COW-UIModelBooyahPass-GetLevelExpDiscountPrice0 = 44915;
+  dump.cs:1374855:	public const IDMAP1 COW-UIGraphicSettingController-SetQuality0 = 77123;
+  dump.cs:1374856:	public const IDMAP1 COW-UIGraphicSettingController-InitQualitySetting0 = 77125;
+> dump.cs:1374857:	public const IDMAP1 COW-UIGraphicSettingController-EQualityConvertToInt0 = 77127;
+  dump.cs:1374858:	public const IDMAP1 COW-UIGraphicSettingController-IsEnhanceQuality0 = 77126;
+  dump.cs:1374859:	public const IDMAP1 COW-UIGraphicSettingController-SetPopupMessage0 = 77120;
+  dump.cs:1374860:	public const IDMAP1 COW-UIGraphicSettingController-OnQualityChange0 = 77119;
+  dump.cs:1374861:	public const IDMAP1 COW-UIGraphicSettingController-ShowQualityDesc0 = 77128;
+  dump.cs:1374862:	public const IDMAP1 COW-UIGraphicSettingController-InitBtnClickDelegete0 = 77118;
+  dump.cs:1378058:	public const IDMAP2 COW-UIHUDUGC_BaseLeaderboardController-IsSelfTeamIndex0 = 80802;
+  dump.cs:1378059:	public const IDMAP2 COW-GamePlay-UGCRuntime-ConversionUtils-ToEntityID0 = 80804;
+> dump.cs:1378060:	public const IDMAP2 COW-UIHUDUGC_BaseLeaderboardController-ConvertToPlayerID0 = 80803;
+  dump.cs:1378061:	public const IDMAP2 COW-UIHUDUGC_BaseLeaderboard_TeamItemController-get_TeamIndex0 = 80805;
+  dump.cs:1378062:	public const IDMAP2 COW-UIHUDUGC_BaseLeaderboard_TeamItemController-SetTeamIndex0 = 80806;
+  dump.cs:1378063:	public const IDMAP2 COW-UIHUDUGC_BaseLeaderboard_TeamItemController-GetInfoTitle0 = 80807;
+  dump.cs:1378064:	public const IDMAP2 COW-UIHUDUGC_BaseLeaderboard_TeammateItemController-ShowProfileInfo0 = 80809;
+  dump.cs:1378065:	public const IDMAP2 COW-UIHUDUGC_BaseLeaderboard_TeammateItemController-SetSelf0 = 80810;
+  dump.cs:1398754:	public const IDMAP2 COW-UIHudUGCPremiumCenterController-OnClickViewMoreButton0 = 105121;
+  dump.cs:1398755:	public const IDMAP2 COW-UIModelUGCPremium-RequestPurchase0 = 105125;
+> dump.cs:1398756:	public const IDMAP2 COW-UIModelUGCPremium-ConvertToVIPType0 = 105128;
+  dump.cs:1398757:	public const IDMAP2 COW-UISecondConfirmBigController-SetConfirmCallback0 = 105129;
+  dump.cs:1398758:	public const IDMAP2 COW-UISecondConfirmBigController-SetTitle0 = 105130;
+  dump.cs:1398759:	public const IDMAP2 COW-UISecondConfirmBigController-SetPrice0 = 105131;
+  dump.cs:1398760:	public const IDMAP2 COW-UISecondConfirmBigController-SetOneText0 = 105132;
+  dump.cs:1398761:	public const IDMAP2 COW-UIHudUGCPremiumCenterController-OnClickBuyButton0 = 105122;
+  dump.cs:1398762:	public const IDMAP2 COW-UIHudUGCPremiumCenterController-OnClickSubscribeHelpButton0 = 105133;
+> dump.cs:1398763:	public const IDMAP2 COW-UIModelUGCPremium-ConvertToItemSubType0 = 105135;
+  dump.cs:1398764:	public const IDMAP2 COW-UIModelUGCPremium-RequestUnsubscribeWorkshopMember0 = 105137;
+  dump.cs:1398765:	public const IDMAP2 COW-UIHudUGCPremiumCenterController-OnSubscibeValueChanged0 = 105134;
+  dump.cs:1398766:	public const IDMAP2 COW-UIModelUGCPremium-GetCDN0 = 105139;
+  dump.cs:1398767:	public const IDMAP2 COW-UIHudUGCPremiumCenterController-InitBenefitDatas0 = 105140;
+  dump.cs:1398768:	public const IDMAP2 COW-UIModelUGCPremium-get_CardStoreDescList0 = 105141;
+  dump.cs:1405630:	public const IDMAP2 COW-UIQRCodeScanWindowController-OnImageSelected0 = 113415;
+  dump.cs:1405631:	public const IDMAP2 COW-UIQRCodeScanWindowController-OnAlbumBtnClick0 = 113414;
+> dump.cs:1405632:	public const IDMAP2 COW-UIQRCodeScanWindowController-ConvertToNormalizedCoord0 = 113427;
+  dump.cs:1405633:	public const IDMAP2 COW-UIQRCodeScanWindowController-OnUICameraCustomInput0 = 113426;
+  dump.cs:1405634:	public const IDMAP2 COW-UIQRCodeScanWindowController-RegisterUICameraCustomInput0 = 113429;
+  dump.cs:1405635:	public const IDMAP2 COW-UIQRCodeScanWindowController-OnUIInit0 = 113413;
+  dump.cs:1405636:	public const IDMAP2 COW-UIQRCodeScanWindowController-SetType0 = 113430;
+  dump.cs:1405637:	public const IDMAP2 COW-UIQRCodeScanWindowController-MinGroupDepth0 = 113431;
+  dump.cs:1408434:	public const IDMAP2 COW-Gameplay-UGC-UGCLocalFileUtil-GetUGCGamePlatformDataResName0 = 116832;
+  dump.cs:1408435:	public const IDMAP2 COW-UIModelUGCPlatform-LoadUGCGamePlatformData0 = 116833;
+> dump.cs:1408436:	public const IDMAP2 COW-UIModelUGCPlatform-ConvertToWorkshopDataStorages0 = 116834;
+> dump.cs:1408437:	public const IDMAP2 COW-UIModelUGCPlatform-ConvertToWorkshopLeaderboards0 = 116835;
+  dump.cs:1408438:	public const IDMAP2 COW-UIModelUGCPlatform-UploadWorkshopPlatform0 = 116831;
+  dump.cs:1408439:	public const IDMAP2 COW-UIModelSceneEdit-RequestUploadWorkshopCDN0 = 116819;
+  dump.cs:1408440:	public const IDMAP2 COW-UIModelSceneEdit-get_LastShareTime0 = 116838;
+  dump.cs:1408441:	public const IDMAP2 COW-UIModelSceneEdit-CheckShareDuringCD0 = 116837;
+  dump.cs:1408442:	public const IDMAP2 COW-UIModelSceneEdit-RequestShare0 = 116836;
+  dump.cs:1413013:	public const IDMAP3 COW-UGCPremiumServiceBase-GetItemData0 = 122133;
+  dump.cs:1413014:	public const IDMAP3 COW-UGCPremiumServiceBase-GetCDN0 = 122134;
+> dump.cs:1413015:	public const IDMAP3 COW-UGCPremiumServiceBase-ConvertToItemSubType0 = 122137;
+> dump.cs:1413016:	public const IDMAP3 COW-UGCPremiumServiceBase-ConvertToVIPType0 = 122138;
+  dump.cs:1413017:	public const IDMAP3 COW-UGCPremiumServiceBase-IsOpenSubscribe0 = 122139;
+  dump.cs:1413018:	public const IDMAP3 COW-UGCPremiumServiceDebug-get_IsOpen0 = 122140;
+  dump.cs:1413019:	public const IDMAP3 COW-UGCPremiumServiceDebug-set_IsOpen0 = 122141;
+  dump.cs:1413020:	public const IDMAP3 COW-UGCPremiumServiceDebug-get_IsViper0 = 122142;
+  dump.cs:1413021:	public const IDMAP3 COW-UGCPremiumServiceDebug-get_FreeUGCRoomCard0 = 122143;
+  dump.cs:1414309:	public const IDMAP3 COW-ClientReissueData-Reset0 = 123565;
+  dump.cs:1414310:	public const IDMAP3 COW-ClientMemberShipCardData-Reset0 = 123566;
+> dump.cs:1414311:	public const IDMAP3 COW-UIModelMemberShip-ConvertToVipCardType0 = 123567;
+  dump.cs:1414312:	public const IDMAP3 COW-UIModelMemberShip-GetModelType0 = 123568;
+  dump.cs:1414313:	public const IDMAP3 COW-UIModelMemberShip-Init0 = 123569;
+  dump.cs:1414314:	public const IDMAP3 COW-UIModelMemberShip-Login0 = 123573;
+  dump.cs:1414315:	public const IDMAP3 COW-UIModelMemberShip-Logout0 = 123574;
+  dump.cs:1414316:	public const IDMAP3 COW-UIModelMemberShip-HasReissueCard0 = 123575;
+  dump.cs:1423285:	public const IDMAP3 COW-Gameplay-UGC-SceneEditAIManager-AddSelectLog0 = 133539;
+  dump.cs:1423286:	public const IDMAP3 COW-Gameplay-UGC-SceneEditAIManager-AddDelLog0 = 133540;
+> dump.cs:1423287:	public const IDMAP3 COW-Gameplay-UGC-SceneEditAIManager-ConvertToVector2FromString0 = 133542;
+> dump.cs:1423288:	public const IDMAP3 COW-Gameplay-UGC-SceneEditAIManager-ConvertToVector3FromString0 = 133543;
+> dump.cs:1423289:	public const IDMAP3 COW-Gameplay-UGC-SceneEditAIManager-ConvertToQuaternionFromString0 = 133544;
+  dump.cs:1423290:	public const IDMAP3 COW-Gameplay-UGC-SceneEditAIManager-AddSetPropertyLog0 = 133541;
+  dump.cs:1423291:	public const IDMAP3 COW-Gameplay-UGC-SceneEditAIManager-OnLogicSetAttrEvt0 = 133546;
+  dump.cs:1423292:	public const IDMAP3 COW-Gameplay-UGC-SceneEditAIManager-OnSave0 = 133547;
+  dump.cs:1423293:	public const IDMAP3 COW-Gameplay-UGC-SceneEditAIManager-OnGameInit0 = 133545;
+  dump.cs:1423294:	public const IDMAP3 COW-Gameplay-UGC-SceneEditAIManager-OnAgentDestroy0 = 133548;
+  dump.cs:1449410:	public const IDMAP4 COW-GamePlay-UGCRuntime-UGCDatabaseServer-RequestGetNormalTableData0 = 162389;
+  dump.cs:1449411:	public const IDMAP4 COW-GamePlay-UGCRuntime-UGCDatabaseModule-GetValueRequest0 = 162384;
+> dump.cs:1449412:	public const IDMAP4 COW-GamePlay-UGCRuntime-UGCDatabaseOperationRequest-ConvertToUGCDatabaseData0 = 162402;
+  dump.cs:1449413:	public const IDMAP4 COW-GamePlay-UGCRuntime-UGCLocalDatabase-SetNormalTableData0 = 162405;
+  dump.cs:1449414:	public const IDMAP4 COW-GamePlay-UGCRuntime-UGCLocalDatabaseProxy-SetNormalTableData0 = 162404;
+  dump.cs:1449415:	public const IDMAP4 COW-GamePlay-UGCRuntime-UGCDatabaseServer-RequestSetNormalTableData0 = 162403;
+  dump.cs:1449416:	public const IDMAP4 COW-GamePlay-UGCRuntime-UGCDatabaseModule-SetValueRequest0 = 162401;
+  dump.cs:1449417:	public const IDMAP4 COW-GamePlay-UGCRuntime-UGCLocalDatabase-DeleteNormalTableData0 = 162411;
+  dump.cs:1449723:	public const IDMAP4 COW-GamePlay-UGCRuntime-ConversionUtils-BytesToString0 = 162734;
+  dump.cs:1449724:	public const IDMAP4 COW-GamePlay-UGCRuntime-ConversionUtils-ByteToBool0 = 162735;
+> dump.cs:1449725:	public const IDMAP4 COW-GamePlay-UGCRuntime-ConversionUtils-ConvertToF320 = 162736;
+> dump.cs:1449726:	public const IDMAP4 COW-GamePlay-UGCRuntime-ConversionUtils-ConvertToInt0 = 162737;
+> dump.cs:1449727:	public const IDMAP4 COW-GamePlay-UGCRuntime-ConversionUtils-ConvertToUInt0 = 162738;
+  dump.cs:1449728:	public const IDMAP4 COW-GamePlay-UGCRuntime-ConversionUtils-ConvertRuntime2ClientType0 = 162739;
+  dump.cs:1449729:	public const IDMAP4 COW-GamePlay-UGCRuntime-TimeRel-ToMiliseconds0 = 162740;
+  dump.cs:1449730:	public const IDMAP4 COW-GamePlay-UGCRuntime-TimeRel-ToFloat320 = 162741;
+  dump.cs:1449731:	public const IDMAP4 COW-GamePlay-UGCRuntime-TimeRelMS-ToSeconds0 = 162742;
+  dump.cs:1449732:	public const IDMAP4 COW-GamePlay-UGCRuntime-TimeRelMS-ToInt0 = 162743;
+  dump.cs:1454261:
+  dump.cs:1454262:	// RVA: 0xA0C3477 Offset: 0xA0BF477 VA: 0xA0C3477
+> dump.cs:1454263:	private DateTime ConvertToUtc(DateTime dateTime, TimeSpan daylightDelta, TimeSpan baseUtcOffsetDelta) { }
+  dump.cs:1454264:
+  dump.cs:1454265:	// RVA: 0xA0C3717 Offset: 0xA0BF717 VA: 0xA0C3717
+  dump.cs:1454266:	private DateTime ConvertFromUtc(DateTime dateTime, TimeSpan daylightDelta, TimeSpan baseUtcOffsetDelta) { }
+  dump.cs:1454267:
+  dump.cs:1454268:	// RVA: 0xA0C34D7 Offset: 0xA0BF4D7 VA: 0xA0C34D7
+> dump.cs:1454269:	private DateTime ConvertToFromUtc(DateTime dateTime, TimeSpan daylightDelta, TimeSpan baseUtcOffsetDelta, bool 
+convertToUtc) { }
+  dump.cs:1454270:
+  dump.cs:1454271:	// RVA: 0xA0C1AC9 Offset: 0xA0BDAC9 VA: 0xA0C1AC9
+  dump.cs:1454272:	private static DateTime ConvertUtcToTimeZone(long ticks, TimeZoneInfo destinationTimeZone, out bool 
+isAmbiguousLocalDst) { }
+  dump.cs:1454273:
+  dump.cs:1454274:	// RVA: 0xA0C0CE6 Offset: 0xA0BCCE6 VA: 0xA0C0CE6
+  dump.cs:1460932:
+  dump.cs:1460933:	// RVA: 0xA0D2A7A Offset: 0xA0CEA7A VA: 0xA0D2A7A
+> dump.cs:1460934:	public static int ConvertToUtf32(char highSurrogate, char lowSurrogate) { }
+  dump.cs:1460935:
+  dump.cs:1460936:	// RVA: 0xA0D2BA1 Offset: 0xA0CEBA1 VA: 0xA0D2BA1
+  dump.cs:1460937:	private static void .cctor() { }
+  dump.cs:1460938:}
+  dump.cs:1460939:
+  dump.cs:1461706:
+  dump.cs:1461707:	// RVA: 0xA0DB627 Offset: 0xA0D7627 VA: 0xA0DB627
+> dump.cs:1461708:	private static int ConvertToBase64Array(char* outChars, byte* inData, int offset, int length, bool insertLineBreaks) { }
+  dump.cs:1461709:
+  dump.cs:1461710:	// RVA: 0xA0DB512 Offset: 0xA0D7512 VA: 0xA0DB512
+  dump.cs:1461711:	private static int ToBase64_CalculateAndValidateOutputLength(int inputLength, bool insertLineBreaks) { }
+  dump.cs:1461712:
+  dump.cs:1461713:	// RVA: 0xA0DBC30 Offset: 0xA0D7C30 VA: 0xA0DBC30
+  dump.cs:1534152:
+  dump.cs:1534153:	// RVA: 0xA1DE439 Offset: 0xA1DA439 VA: 0xA1DE439
+> dump.cs:1534154:	private object TryConvertToType(object value, ref bool failed) { }
+  dump.cs:1534155:
+  dump.cs:1534156:	// RVA: 0xA1DE714 Offset: 0xA1DA714 VA: 0xA1DE714
+  dump.cs:1534157:	private static object IsConvertibleToPrimitiveType(object value, Type targetType) { }
+  dump.cs:1534158:
+  dump.cs:1534159:	// RVA: 0xA1DD393 Offset: 0xA1D9393 VA: 0xA1DD393
+  dump.cs:1579817:
+  dump.cs:1579818:	// RVA: 0xA106036 Offset: 0xA102036 VA: 0xA106036
+> dump.cs:1579819:	internal static int InternalConvertToUtf32(string s, int index) { }
+  dump.cs:1579820:
+  dump.cs:1579821:	// RVA: 0xA1060D9 Offset: 0xA1020D9 VA: 0xA1060D9
+  dump.cs:1579822:	public static UnicodeCategory GetUnicodeCategory(char ch) { }
+  dump.cs:1579823:
+  dump.cs:1579824:	// RVA: 0xA106142 Offset: 0xA102142 VA: 0xA106142
+  dump.cs:1729443:
+  dump.cs:1729444:	// RVA: 0xABFE2EC Offset: 0xABFA2EC VA: 0xABFE2EC
+> dump.cs:1729445:	public float ConvertToGpu() { }
+  dump.cs:1729446:
+  dump.cs:1729447:	// RVA: 0xABFE353 Offset: 0xABFA353 VA: 0xABFE353 Slot: 0
+  dump.cs:1729448:	public override bool Equals(object obj) { }
+  dump.cs:1729449:
+  dump.cs:1729450:	// RVA: 0xABFE3ED Offset: 0xABFA3ED VA: 0xABFE3ED Slot: 2
+  dump.cs:1786352:
+  dump.cs:1786353:	// RVA: 0x2D488F2 Offset: 0x2D448F2 VA: 0x2D488F2
+> dump.cs:1786354:	public static Rect ConvertToTexCoords(Rect rect, int width, int height) { }
+  dump.cs:1786355:
+  dump.cs:1786356:	// RVA: 0x2D4C243 Offset: 0x2D48243 VA: 0x2D4C243
+> dump.cs:1786357:	public static Rect ConvertToPixels(Rect rect, int width, int height, bool round) { }
+  dump.cs:1786358:
+  dump.cs:1786359:	// RVA: 0x2D4C975 Offset: 0x2D48975 VA: 0x2D4C975
+  dump.cs:1786360:	public static Rect MakePixelPerfect(Rect rect) { }
+  dump.cs:1786361:
+  dump.cs:1786362:	// RVA: 0x2D4D016 Offset: 0x2D49016 VA: 0x2D4D016
+  dump.cs:1811213:
+  dump.cs:1811214:	// RVA: 0xA7E4A76 Offset: 0xA7E0A76 VA: 0xA7E4A76 Slot: 5
+> dump.cs:1811215:	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
+  dump.cs:1811216:
+  dump.cs:1811217:	// RVA: 0xA7E4AEF Offset: 0xA7E0AEF VA: 0xA7E4AEF Slot: 6
+  dump.cs:1811218:	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value) { }
+  dump.cs:1811219:
+  dump.cs:1811220:	// RVA: 0xA7E4CBA Offset: 0xA7E0CBA VA: 0xA7E4CBA Slot: 7
+> dump.cs:1811221:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1811222:}
+  dump.cs:1811223:
+  dump.cs:1811224:// Namespace: System.Text.RegularExpressions
+  dump.cs:1811225:public class Capture // TypeDefIndex: 38677
+  dump.cs:1811226:{
+  dump.cs:1816109:
+  dump.cs:1816110:	// RVA: 0xA828511 Offset: 0xA824511 VA: 0xA828511 Slot: 7
+> dump.cs:1816111:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1816112:
+  dump.cs:1816113:	// RVA: 0xA828873 Offset: 0xA824873 VA: 0xA828873 Slot: 10
+  dump.cs:1816114:	public override PropertyDescriptorCollection GetProperties(ITypeDescriptorContext context, object value, Attribute[] 
+attributes) { }
+  dump.cs:1816115:
+  dump.cs:1816116:	// RVA: 0xA828C8B Offset: 0xA824C8B VA: 0xA828C8B Slot: 11
+  dump.cs:1816228:
+  dump.cs:1816229:	// RVA: 0xA82A449 Offset: 0xA826449 VA: 0xA82A449 Slot: 7
+> dump.cs:1816230:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1816231:
+  dump.cs:1816232:	// RVA: 0xA82A75D Offset: 0xA82675D VA: 0xA82A75D Slot: 5
+> dump.cs:1816233:	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
+  dump.cs:1816234:}
+  dump.cs:1816235:
+  dump.cs:1816236:// Namespace: System.ComponentModel
+  dump.cs:1816237:public class BooleanConverter : TypeConverter // TypeDefIndex: 38818
+  dump.cs:1816238:{
+  dump.cs:1816291:
+  dump.cs:1816292:	// RVA: 0xA82AF8A Offset: 0xA826F8A VA: 0xA82AF8A Slot: 7
+> dump.cs:1816293:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1816294:
+  dump.cs:1816295:	// RVA: 0xA82B08A Offset: 0xA82708A VA: 0xA82B08A Slot: 6
+  dump.cs:1816296:	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value) { }
+  dump.cs:1816297:
+  dump.cs:1816298:	// RVA: 0xA82B20E Offset: 0xA82720E VA: 0xA82B20E
+  dump.cs:1816393:
+  dump.cs:1816394:	// RVA: 0xA82B565 Offset: 0xA827565 VA: 0xA82B565 Slot: 5
+> dump.cs:1816395:	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
+  dump.cs:1816396:
+  dump.cs:1816397:	// RVA: 0xA82B61A Offset: 0xA82761A VA: 0xA82B61A Slot: 6
+  dump.cs:1816398:	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value) { }
+  dump.cs:1816399:
+  dump.cs:1816400:	// RVA: 0xA82C1FD Offset: 0xA8281FD VA: 0xA82C1FD Slot: 7
+> dump.cs:1816401:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1816402:
+  dump.cs:1816403:	// RVA: 0xA82C738 Offset: 0xA828738 VA: 0xA82C738 Slot: 12
+  dump.cs:1816404:	public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext context) { }
+  dump.cs:1816405:
+  dump.cs:1816406:	// RVA: 0xA82C9D9 Offset: 0xA8289D9 VA: 0xA82C9D9 Slot: 13
+  dump.cs:1816471:
+  dump.cs:1816472:	// RVA: 0xA831AF8 Offset: 0xA82DAF8 VA: 0xA831AF8 Slot: 5
+> dump.cs:1816473:	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
+  dump.cs:1816474:
+  dump.cs:1816475:	// RVA: 0xA831BAD Offset: 0xA82DBAD VA: 0xA831BAD Slot: 6
+  dump.cs:1816476:	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value) { }
+  dump.cs:1816477:
+  dump.cs:1816478:	// RVA: 0xA831F29 Offset: 0xA82DF29 VA: 0xA831F29 Slot: 7
+> dump.cs:1816479:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1816480:
+  dump.cs:1816481:	// RVA: 0xA8323C2 Offset: 0xA82E3C2 VA: 0xA8323C2
+  dump.cs:1816482:	public void .ctor() { }
+  dump.cs:1816483:}
+  dump.cs:1816484:
+  dump.cs:1816495:
+  dump.cs:1816496:	// RVA: 0xA832478 Offset: 0xA82E478 VA: 0xA832478 Slot: 5
+> dump.cs:1816497:	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
+  dump.cs:1816498:
+  dump.cs:1816499:	// RVA: 0xA832522 Offset: 0xA82E522 VA: 0xA832522 Slot: 7
+> dump.cs:1816500:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1816501:
+  dump.cs:1816502:	// RVA: 0xA8328A5 Offset: 0xA82E8A5 VA: 0xA8328A5 Slot: 18
+  dump.cs:1816503:	internal override object FromString(string value, int radix) { }
+  dump.cs:1816504:
+  dump.cs:1816505:	// RVA: 0xA8329AB Offset: 0xA82E9AB VA: 0xA8329AB Slot: 19
+  dump.cs:1816975:
+  dump.cs:1816976:	// RVA: 0xA8379BA Offset: 0xA8339BA VA: 0xA8379BA Slot: 5
+> dump.cs:1816977:	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
+  dump.cs:1816978:
+  dump.cs:1816979:	// RVA: 0xA837A6F Offset: 0xA833A6F VA: 0xA837A6F Slot: 6
+  dump.cs:1816980:	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value) { }
+  dump.cs:1816981:
+  dump.cs:1816982:	// RVA: 0xA837B40 Offset: 0xA833B40 VA: 0xA837B40 Slot: 7
+> dump.cs:1816983:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1816984:
+  dump.cs:1816985:	// RVA: 0xA837ED5 Offset: 0xA833ED5 VA: 0xA837ED5
+  dump.cs:1816986:	public void .ctor() { }
+  dump.cs:1816987:}
+  dump.cs:1816988:
+  dump.cs:1817323:
+  dump.cs:1817324:	// RVA: 0xA8392CD Offset: 0xA8352CD VA: 0xA8392CD Slot: 7
+> dump.cs:1817325:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1817326:
+  dump.cs:1817327:	// RVA: 0xA839440 Offset: 0xA835440 VA: 0xA839440 Slot: 10
+  dump.cs:1817328:	public override PropertyDescriptorCollection GetProperties(ITypeDescriptorContext context, object value, Attribute[] 
+attributes) { }
+  dump.cs:1817329:
+  dump.cs:1817330:	// RVA: 0xA83944C Offset: 0xA83544C VA: 0xA83944C Slot: 11
+  dump.cs:1817355:
+  dump.cs:1817356:	// RVA: 0xA8397F0 Offset: 0xA8357F0 VA: 0xA8397F0 Slot: 5
+> dump.cs:1817357:	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
+  dump.cs:1817358:
+  dump.cs:1817359:	// RVA: 0xA8398BD Offset: 0xA8358BD VA: 0xA8398BD Slot: 7
+> dump.cs:1817360:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1817361:
+  dump.cs:1817362:	// RVA: 0xA839AFB Offset: 0xA835AFB VA: 0xA839AFB Slot: 8
+  dump.cs:1817363:	public override object CreateInstance(ITypeDescriptorContext context, IDictionary propertyValues) { }
+  dump.cs:1817364:
+  dump.cs:1817365:	// RVA: 0xA839B63 Offset: 0xA835B63 VA: 0xA839B63 Slot: 9
+  dump.cs:1817708:
+  dump.cs:1817709:	// RVA: 0xA83E395 Offset: 0xA83A395 VA: 0xA83E395 Slot: 7
+> dump.cs:1817710:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1817711:
+  dump.cs:1817712:	// RVA: 0xA83E842 Offset: 0xA83A842 VA: 0xA83E842 Slot: 12
+  dump.cs:1817713:	public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext context) { }
+  dump.cs:1817714:
+  dump.cs:1817715:	// RVA: 0xA83F1B7 Offset: 0xA83B1B7 VA: 0xA83F1B7 Slot: 13
+  dump.cs:1817848:
+  dump.cs:1817849:	// RVA: 0xA840D53 Offset: 0xA83CD53 VA: 0xA840D53 Slot: 5
+> dump.cs:1817850:	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
+  dump.cs:1817851:
+  dump.cs:1817852:	// RVA: 0xA840E08 Offset: 0xA83CE08 VA: 0xA840E08 Slot: 6
+  dump.cs:1817853:	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value) { }
+  dump.cs:1817854:
+  dump.cs:1817855:	// RVA: 0xA84101B Offset: 0xA83D01B VA: 0xA84101B Slot: 7
+> dump.cs:1817856:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1817857:
+  dump.cs:1817858:	// RVA: 0xA8413A0 Offset: 0xA83D3A0 VA: 0xA8413A0
+  dump.cs:1817859:	public void .ctor() { }
+  dump.cs:1817860:}
+  dump.cs:1817861:
+  dump.cs:1817971:
+  dump.cs:1817972:	// RVA: 0xA841E0D Offset: 0xA83DE0D VA: 0xA841E0D Slot: 5
+> dump.cs:1817973:	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
+  dump.cs:1817974:
+  dump.cs:1817975:	// RVA: 0xA841EC2 Offset: 0xA83DEC2 VA: 0xA841EC2 Slot: 6
+  dump.cs:1817976:	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value) { }
+  dump.cs:1817977:
+  dump.cs:1817978:	// RVA: 0xA841FF7 Offset: 0xA83DFF7 VA: 0xA841FF7 Slot: 7
+> dump.cs:1817979:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1817980:
+  dump.cs:1817981:	// RVA: 0xA8421AC Offset: 0xA83E1AC VA: 0xA8421AC Slot: 12
+  dump.cs:1817982:	public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext context) { }
+  dump.cs:1817983:
+  dump.cs:1817984:	// RVA: 0xA84229E Offset: 0xA83E29E VA: 0xA84229E Slot: 13
+  dump.cs:1818135:
+  dump.cs:1818136:	// RVA: 0xA8286E6 Offset: 0xA8246E6 VA: 0xA8286E6 Slot: 7
+> dump.cs:1818137:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1818138:
+  dump.cs:1818139:	// RVA: 0xA842D7D Offset: 0xA83ED7D VA: 0xA842D7D Slot: 10
+  dump.cs:1818140:	public override PropertyDescriptorCollection GetProperties(ITypeDescriptorContext context, object value, Attribute[] 
+attributes) { }
+  dump.cs:1818141:
+  dump.cs:1818142:	// RVA: 0xA842D89 Offset: 0xA83ED89 VA: 0xA842D89 Slot: 11
+  dump.cs:1818215:
+  dump.cs:1818216:	// RVA: 0xA8437C3 Offset: 0xA83F7C3 VA: 0xA8437C3 Slot: 5
+> dump.cs:1818217:	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
+  dump.cs:1818218:
+  dump.cs:1818219:	// RVA: 0xA843878 Offset: 0xA83F878 VA: 0xA843878 Slot: 6
+  dump.cs:1818220:	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value) { }
+  dump.cs:1818221:
+  dump.cs:1818222:	// RVA: 0xA843CC6 Offset: 0xA83FCC6 VA: 0xA843CC6 Slot: 7
+> dump.cs:1818223:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1818224:
+  dump.cs:1818225:	// RVA: 0xA844C1F Offset: 0xA840C1F VA: 0xA844C1F
+  dump.cs:1818226:	public void .ctor() { }
+  dump.cs:1818227:}
+  dump.cs:1818228:
+  dump.cs:1818252:
+  dump.cs:1818253:	// RVA: 0xA844E06 Offset: 0xA840E06 VA: 0xA844E06 Slot: 5
+> dump.cs:1818254:	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
+  dump.cs:1818255:
+  dump.cs:1818256:	// RVA: 0xA844F15 Offset: 0xA840F15 VA: 0xA844F15 Slot: 16
+  dump.cs:1818257:	protected virtual IComparer get_Comparer() { }
+  dump.cs:1818258:
+  dump.cs:1818259:	// RVA: 0xA844F6F Offset: 0xA840F6F VA: 0xA844F6F Slot: 6
+  dump.cs:1818261:
+  dump.cs:1818262:	// RVA: 0xA84551D Offset: 0xA84151D VA: 0xA84551D Slot: 7
+> dump.cs:1818263:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1818264:
+  dump.cs:1818265:	// RVA: 0xA846659 Offset: 0xA842659 VA: 0xA846659 Slot: 12
+  dump.cs:1818266:	public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext context) { }
+  dump.cs:1818267:
+  dump.cs:1818268:	// RVA: 0xA846BF9 Offset: 0xA842BF9 VA: 0xA846BF9 Slot: 13
+  dump.cs:1818778:
+  dump.cs:1818779:	// RVA: 0xA8574FC Offset: 0xA8534FC VA: 0xA8574FC
+> dump.cs:1818780:	public bool CanConvertTo(Type destinationType) { }
+  dump.cs:1818781:
+  dump.cs:1818782:	// RVA: 0xA85754C Offset: 0xA85354C VA: 0xA85754C Slot: 5
+> dump.cs:1818783:	public virtual bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
+  dump.cs:1818784:
+  dump.cs:1818785:	// RVA: 0xA8575D8 Offset: 0xA8535D8 VA: 0xA8575D8
+  dump.cs:1818786:	public object ConvertFrom(object value) { }
+  dump.cs:1818787:
+  dump.cs:1818788:	// RVA: 0xA85766E Offset: 0xA85366E VA: 0xA85766E Slot: 6
+  dump.cs:1818805:
+  dump.cs:1818806:	// RVA: 0xA857ECA Offset: 0xA853ECA VA: 0xA857ECA
+> dump.cs:1818807:	public object ConvertTo(object value, Type destinationType) { }
+  dump.cs:1818808:
+  dump.cs:1818809:	// RVA: 0xA857F24 Offset: 0xA853F24 VA: 0xA857F24 Slot: 7
+> dump.cs:1818810:	public virtual object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1818811:
+  dump.cs:1818812:	// RVA: 0xA858337 Offset: 0xA854337 VA: 0xA858337
+> dump.cs:1818813:	public string ConvertToInvariantString(object value) { }
+  dump.cs:1818814:
+  dump.cs:1818815:	// RVA: 0xA85849B Offset: 0xA85449B VA: 0xA85849B
+> dump.cs:1818816:	public string ConvertToInvariantString(ITypeDescriptorContext context, object value) { }
+  dump.cs:1818817:
+  dump.cs:1818818:	// RVA: 0xA85851D Offset: 0xA85451D VA: 0xA85851D
+> dump.cs:1818819:	public string ConvertToString(object value) { }
+  dump.cs:1818820:
+  dump.cs:1818821:	// RVA: 0xA858633 Offset: 0xA854633 VA: 0xA858633
+> dump.cs:1818822:	public string ConvertToString(ITypeDescriptorContext context, object value) { }
+  dump.cs:1818823:
+  dump.cs:1818824:	// RVA: 0xA8583B7 Offset: 0xA8543B7 VA: 0xA8583B7
+> dump.cs:1818825:	public string ConvertToString(ITypeDescriptorContext context, CultureInfo culture, object value) { }
+  dump.cs:1818826:
+  dump.cs:1818827:	// RVA: 0xA85874C Offset: 0xA85474C VA: 0xA85874C
+  dump.cs:1818828:	public object CreateInstance(IDictionary propertyValues) { }
+  dump.cs:1818829:
+  dump.cs:1818830:	// RVA: 0xA85879C Offset: 0xA85479C VA: 0xA85879C Slot: 8
+  dump.cs:1818835:
+  dump.cs:1818836:	// RVA: 0xA85816D Offset: 0xA85416D VA: 0xA85816D
+> dump.cs:1818837:	protected Exception GetConvertToException(object value, Type destinationType) { }
+  dump.cs:1818838:
+  dump.cs:1818839:	// RVA: 0xA8587A8 Offset: 0xA8547A8 VA: 0xA8587A8
+  dump.cs:1818840:	public bool GetCreateInstanceSupported() { }
+  dump.cs:1818841:
+  dump.cs:1818842:	// RVA: 0xA8587F3 Offset: 0xA8547F3 VA: 0xA8587F3 Slot: 9
+  dump.cs:1819608:
+  dump.cs:1819609:	// RVA: 0xA86A84B Offset: 0xA86684B VA: 0xA86A84B Slot: 7
+> dump.cs:1819610:	public override object ConvertTo(ITypeDescriptorContext cxt, CultureInfo culture, object value, Type destinationType) { 
+}
+  dump.cs:1819611:
+  dump.cs:1819612:	// RVA: 0xA86A920 Offset: 0xA866920 VA: 0xA86A920
+  dump.cs:1819613:	public void .ctor() { }
+  dump.cs:1819614:}
+  dump.cs:1819615:
+  dump.cs:1843651:
+  dump.cs:1843652:	// RVA: 0xA2971A9 Offset: 0xA2931A9 VA: 0xA2971A9
+> dump.cs:1843653:	internal static long ConvertDateTimeToJavaScriptTicks(DateTime dateTime, bool convertToUtc) { }
+  dump.cs:1843654:
+  dump.cs:1843655:	// RVA: 0xA2970AF Offset: 0xA2930AF VA: 0xA2970AF
+  dump.cs:1843656:	private static long UniversalTicksToJavaScriptTicks(long universalTicks) { }
+  dump.cs:1843657:
+  dump.cs:1843658:	// RVA: 0xA28BAB5 Offset: 0xA287AB5 VA: 0xA28BAB5
+  dump.cs:1847599:
+  dump.cs:1847600:	// RVA: 0xA2B97E8 Offset: 0xA2B57E8 VA: 0xA2B97E8
+> dump.cs:1847601:	internal static bool CanConvertToString(Type type) { }
+  dump.cs:1847602:
+  dump.cs:1847603:	// RVA: 0xA2B5222 Offset: 0xA2B1222 VA: 0xA2B5222
+  dump.cs:1847604:	private static bool IsValidCallback(MethodInfo method, ParameterInfo[] parameters, Type attributeType, MethodInfo 
+currentCallback, ref Type prevAttributeType) { }
+  dump.cs:1847605:
+  dump.cs:1847606:	// RVA: 0xA2B9B08 Offset: 0xA2B5B08 VA: 0xA2B9B08
+  dump.cs:1849168:
+  dump.cs:1849169:	// RVA: 0xA2D7931 Offset: 0xA2D3931 VA: 0xA2D7931
+> dump.cs:1849170:	internal static bool TryConvertToString(object value, Type type, out string s) { }
+  dump.cs:1849171:
+  dump.cs:1849172:	// RVA: 0xA2D54C7 Offset: 0xA2D14C7 VA: 0xA2D54C7
+  dump.cs:1849173:	private void SerializeString(JsonWriter writer, object value, JsonStringContract contract) { }
+  dump.cs:1849174:
+  dump.cs:1849175:	// RVA: 0xA2D7CC1 Offset: 0xA2D3CC1 VA: 0xA2D7CC1
+  dump.cs:1856806:
+  dump.cs:1856807:	// RVA: 0xA33FD75 Offset: 0xA33BD75 VA: 0xA33FD75
+> dump.cs:1856808:	private static string ConvertTokenToXmlValue(JsonReader reader) { }
+  dump.cs:1856809:
+  dump.cs:1856810:	// RVA: 0xA34107A Offset: 0xA33D07A VA: 0xA34107A
+  dump.cs:1856811:	private void ReadArrayElements(JsonReader reader, IXmlDocument document, string propertyName, IXmlNode currentNode, 
+XmlNamespaceManager manager) { }
+  dump.cs:1856812:
+  dump.cs:1856813:	// RVA: 0xA342A67 Offset: 0xA33EA67 VA: 0xA342A67
+  dump.cs:1859549:
+  dump.cs:1859550:	// RVA: 0xA471200 Offset: 0xA46D200 VA: 0xA471200
+> dump.cs:1859551:	private DataRowState ConvertToRowState(BitArray bitStates, int bitIndex) { }
+  dump.cs:1859552:
+  dump.cs:1859553:	// RVA: 0xA470E5F Offset: 0xA46CE5F VA: 0xA470E5F
+  dump.cs:1859554:	internal void GetRowAndColumnErrors(int rowIndex, Hashtable rowErrors, Hashtable colErrors) { }
+  dump.cs:1859555:
+  dump.cs:1859556:	// RVA: 0xA4712C3 Offset: 0xA46D2C3 VA: 0xA4712C3
+> dump.cs:1859557:	private void ConvertToRowError(int rowIndex, Hashtable rowErrors, Hashtable colErrors) { }
+  dump.cs:1859558:
+  dump.cs:1859559:	// RVA: 0xA471667 Offset: 0xA46D667 VA: 0xA471667
+  dump.cs:1859560:	public bool get_CaseSensitive() { }
+  dump.cs:1859561:
+  dump.cs:1859562:	// RVA: 0xA471678 Offset: 0xA46D678 VA: 0xA471678
+  dump.cs:1860443:
+  dump.cs:1860444:	// RVA: 0xA4AC63C Offset: 0xA4A863C VA: 0xA4AC63C Slot: 5
+> dump.cs:1860445:	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
+  dump.cs:1860446:
+  dump.cs:1860447:	// RVA: 0xA4AC6F1 Offset: 0xA4A86F1 VA: 0xA4AC6F1 Slot: 7
+> dump.cs:1860448:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1860449:
+  dump.cs:1860450:	// RVA: 0xA4ACC93 Offset: 0xA4A8C93 VA: 0xA4ACC93 Slot: 4
+  dump.cs:1860451:	public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType) { }
+  dump.cs:1860452:
+  dump.cs:1860453:	// RVA: 0xA4ACD48 Offset: 0xA4A8D48 VA: 0xA4ACD48 Slot: 6
+  dump.cs:1860848:
+  dump.cs:1860849:	// RVA: 0xA4B11BF Offset: 0xA4AD1BF VA: 0xA4B11BF Slot: 5
+> dump.cs:1860850:	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
+  dump.cs:1860851:
+  dump.cs:1860852:	// RVA: 0xA4B1274 Offset: 0xA4AD274 VA: 0xA4B1274 Slot: 7
+> dump.cs:1860853:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1860854:}
+  dump.cs:1860855:
+  dump.cs:1860856:// Namespace: System.Data
+  dump.cs:1860857:internal class ConstraintEnumerator // TypeDefIndex: 39827
+  dump.cs:1860858:{
+  dump.cs:1862803:
+  dump.cs:1862804:	// RVA: 0xA4CD4F3 Offset: 0xA4C94F3 VA: 0xA4CD4F3 Slot: 7
+> dump.cs:1862805:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1862806:
+  dump.cs:1862807:	// RVA: 0xA4CD694 Offset: 0xA4C9694 VA: 0xA4CD694 Slot: 6
+  dump.cs:1862808:	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value) { }
+  dump.cs:1862809:}
+  dump.cs:1862810:
+  dump.cs:1864083:
+  dump.cs:1864084:	// RVA: 0xA4EA508 Offset: 0xA4E6508 VA: 0xA4EA508 Slot: 5
+> dump.cs:1864085:	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
+  dump.cs:1864086:
+  dump.cs:1864087:	// RVA: 0xA4EA5BD Offset: 0xA4E65BD VA: 0xA4EA5BD Slot: 7
+> dump.cs:1864088:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1864089:}
+  dump.cs:1864090:
+  dump.cs:1864091:// Namespace: System.Data
+  dump.cs:1864092:public class PropertyCollection : Hashtable, ICloneable // TypeDefIndex: 39904
+  dump.cs:1864093:{
+  dump.cs:1865413:
+  dump.cs:1865414:	// RVA: 0xA4EBFDE Offset: 0xA4E7FDE VA: 0xA4EBFDE Slot: 5
+> dump.cs:1865415:	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
+  dump.cs:1865416:
+  dump.cs:1865417:	// RVA: 0xA4EC093 Offset: 0xA4E8093 VA: 0xA4EC093 Slot: 7
+> dump.cs:1865418:	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type 
+destinationType) { }
+  dump.cs:1865419:}
+  dump.cs:1865420:
+  dump.cs:1865421:// Namespace: System.Data
+  dump.cs:1865422:public enum Rule // TypeDefIndex: 39917
+  dump.cs:1865423:{
+  dump.cs:1865957:
+  dump.cs:1865958:	// RVA: 0xA4F2525 Offset: 0xA4EE525 VA: 0xA4F2525
+> dump.cs:1865959:	internal void ConvertToAnnonymousSimpleType() { }
+  dump.cs:1865960:}
+  dump.cs:1865961:
+  dump.cs:1865962:// Namespace: System.Data
+  dump.cs:1865963:public class UniqueConstraint : Constraint // TypeDefIndex: 39928
+  dump.cs:1865964:{
+  dump.cs:1869382:
+  dump.cs:1869383:	// RVA: 0xA559DEC Offset: 0xA555DEC VA: 0xA559DEC
+> dump.cs:1869384:	internal static BigInteger ConvertToBigInteger(object value, IFormatProvider formatProvider) { }
+  dump.cs:1869385:
+  dump.cs:1869386:	// RVA: 0xA55A6B0 Offset: 0xA5566B0 VA: 0xA55A6B0
+  dump.cs:1869387:	internal static object ConvertFromBigInteger(BigInteger value, Type type, IFormatProvider formatProvider) { }
+  dump.cs:1869388:
+  dump.cs:1869389:	// RVA: 0xA55AF9E Offset: 0xA556F9E VA: 0xA55AF9E Slot: 7
+  dump.cs:1870208:
+  dump.cs:1870209:	// RVA: 0xA56D674 Offset: 0xA569674 VA: 0xA56D674
+> dump.cs:1870210:	public static SqlByte ConvertToSqlByte(object value) { }
+  dump.cs:1870211:
+  dump.cs:1870212:	// RVA: 0xA56D85E Offset: 0xA56985E VA: 0xA56D85E
+> dump.cs:1870213:	public static SqlInt16 ConvertToSqlInt16(object value) { }
+  dump.cs:1870214:
+  dump.cs:1870215:	// RVA: 0xA56DB23 Offset: 0xA569B23 VA: 0xA56DB23
+> dump.cs:1870216:	public static SqlInt32 ConvertToSqlInt32(object value) { }
+  dump.cs:1870217:
+  dump.cs:1870218:	// RVA: 0xA56DEFC Offset: 0xA569EFC VA: 0xA56DEFC
+> dump.cs:1870219:	public static SqlInt64 ConvertToSqlInt64(object value) { }
+  dump.cs:1870220:
+  dump.cs:1870221:	// RVA: 0xA56E41F Offset: 0xA56A41F VA: 0xA56E41F
+> dump.cs:1870222:	public static SqlDouble ConvertToSqlDouble(object value) { }
+  dump.cs:1870223:
+  dump.cs:1870224:	// RVA: 0xA56EBDB Offset: 0xA56ABDB VA: 0xA56EBDB
+> dump.cs:1870225:	public static SqlDecimal ConvertToSqlDecimal(object value) { }
+  dump.cs:1870226:
+  dump.cs:1870227:	// RVA: 0xA56F351 Offset: 0xA56B351 VA: 0xA56F351
+> dump.cs:1870228:	public static SqlSingle ConvertToSqlSingle(object value) { }
+  dump.cs:1870229:
+  dump.cs:1870230:	// RVA: 0xA56FA4C Offset: 0xA56BA4C VA: 0xA56FA4C
+> dump.cs:1870231:	public static SqlMoney ConvertToSqlMoney(object value) { }
+  dump.cs:1870232:
+  dump.cs:1870233:	// RVA: 0xA57012A Offset: 0xA56C12A VA: 0xA57012A
+> dump.cs:1870234:	public static SqlDateTime ConvertToSqlDateTime(object value) { }
+  dump.cs:1870235:
+  dump.cs:1870236:	// RVA: 0xA57033D Offset: 0xA56C33D VA: 0xA57033D
+> dump.cs:1870237:	public static SqlBoolean ConvertToSqlBoolean(object value) { }
+  dump.cs:1870238:
+  dump.cs:1870239:	// RVA: 0xA57051A Offset: 0xA56C51A VA: 0xA57051A
+> dump.cs:1870240:	public static SqlGuid ConvertToSqlGuid(object value) { }
+  dump.cs:1870241:
+  dump.cs:1870242:	// RVA: 0xA570711 Offset: 0xA56C711 VA: 0xA570711
+> dump.cs:1870243:	public static SqlBinary ConvertToSqlBinary(object value) { }
+  dump.cs:1870244:
+  dump.cs:1870245:	// RVA: 0xA5708F8 Offset: 0xA56C8F8 VA: 0xA5708F8
+> dump.cs:1870246:	public static SqlString ConvertToSqlString(object value) { }
+  dump.cs:1870247:
+  dump.cs:1870248:	// RVA: 0xA570B07 Offset: 0xA56CB07 VA: 0xA570B07
+> dump.cs:1870249:	public static SqlChars ConvertToSqlChars(object value) { }
+  dump.cs:1870250:
+  dump.cs:1870251:	// RVA: 0xA570C4C Offset: 0xA56CC4C VA: 0xA570C4C
+> dump.cs:1870252:	public static SqlBytes ConvertToSqlBytes(object value) { }
+  dump.cs:1870253:
+  dump.cs:1870254:	// RVA: 0xA570D91 Offset: 0xA56CD91 VA: 0xA570D91
+  dump.cs:1870255:	public static DateTimeOffset ConvertStringToDateTimeOffset(string value, IFormatProvider formatProvider) { }
+  dump.cs:1870256:
+  dump.cs:1870257:	// RVA: 0xA570E24 Offset: 0xA56CE24 VA: 0xA570E24
+  dump.cs:1871289:
+  dump.cs:1871290:	// RVA: 0xA595859 Offset: 0xA591859 VA: 0xA595859
+> dump.cs:1871291:	private static TimeSpan ConvertToTimeSpan(object value) { }
+  dump.cs:1871292:
+  dump.cs:1871293:	// RVA: 0xA595ACE Offset: 0xA591ACE VA: 0xA595ACE Slot: 7
+  dump.cs:1871294:	public override object ConvertValue(object value) { }
+  dump.cs:1871295:
+  dump.cs:1871296:	// RVA: 0xA595B76 Offset: 0xA591B76 VA: 0xA595B76 Slot: 8
+  dump.cs:1886474:
+  dump.cs:1886475:	// RVA: 0xA99AC20 Offset: 0xA996C20 VA: 0xA99AC20
+> dump.cs:1886476:	public void ConvertToEquirect(RenderTexture equirect, Camera.MonoOrStereoscopicEye eye = 2) { }
+  dump.cs:1886477:
+  dump.cs:1886478:	// RVA: 0xA99AC7E Offset: 0xA996C7E VA: 0xA99AC7E
+  dump.cs:1886479:	internal void SetSRGBReadWrite(bool srgb) { }
+  dump.cs:1886480:
+  dump.cs:1886481:	// RVA: 0xA99ACD0 Offset: 0xA996CD0 VA: 0xA99ACD0
+  dump.cs:1906164:
+  dump.cs:1906165:	// RVA: 0xACEA00F Offset: 0xACE600F VA: 0xACEA00F
+> dump.cs:1906166:	private static string tryToConvertToExtendedMode(string contents) { }
+  dump.cs:1906167:
+  dump.cs:1906168:	// RVA: 0xACEA47B Offset: 0xACE647B VA: 0xACEA47B
+  dump.cs:1906169:	public void .ctor() { }
+  dump.cs:1906170:
+  dump.cs:1906171:	// RVA: 0xACEA4E8 Offset: 0xACE64E8 VA: 0xACEA4E8
+  dump.cs:1906238:
+  dump.cs:1906239:	// RVA: 0xACEBC01 Offset: 0xACE7C01 VA: 0xACEBC01
+> dump.cs:1906240:	internal static string convertToExtended(string contents) { }
+  dump.cs:1906241:
+  dump.cs:1906242:	// RVA: 0xACEC162 Offset: 0xACE8162 VA: 0xACEC162
+  dump.cs:1906243:	public void .ctor() { }
+  dump.cs:1906244:
+  dump.cs:1906245:	// RVA: 0xACEC1CF Offset: 0xACE81CF VA: 0xACEC1CF
+  dump.cs:1926078:
+  dump.cs:1926079:	// RVA: 0xA3DE40E Offset: 0xA3DA40E VA: 0xA3DE40E
+> dump.cs:1926080:	private static UnaryExpression GetUserDefinedCoercionOrThrow(ExpressionType coercionType, Expression expression, Type 
+convertToType) { }
+  dump.cs:1926081:
+  dump.cs:1926082:	// RVA: 0xA3DE4CD Offset: 0xA3DA4CD VA: 0xA3DE4CD
+> dump.cs:1926083:	private static UnaryExpression GetUserDefinedCoercion(ExpressionType coercionType, Expression expression, Type 
+convertToType) { }
+  dump.cs:1926084:
+  dump.cs:1926085:	// RVA: 0xA3DE5E0 Offset: 0xA3DA5E0 VA: 0xA3DE5E0
+> dump.cs:1926086:	private static UnaryExpression GetMethodBasedCoercionOperator(ExpressionType unaryType, Expression operand, Type 
+convertToType, MethodInfo method) { }
+  dump.cs:1926087:
+  dump.cs:1926088:	// RVA: 0xA3DB88B Offset: 0xA3D788B VA: 0xA3DB88B
+  dump.cs:1926089:	public static UnaryExpression Negate(Expression expression, MethodInfo method) { }
+  dump.cs:1926090:
+  dump.cs:1926091:	// RVA: 0xA3DD020 Offset: 0xA3D9020 VA: 0xA3DD020
+  dump.cs:1932610:
+  dump.cs:1932611:	// RVA: 0xA40CBF7 Offset: 0xA408BF7 VA: 0xA40CBF7
+> dump.cs:1932612:	public void EmitConvertToUnderlying(TypeCode to, bool isLiftedToNull) { }
+  dump.cs:1932613:
+  dump.cs:1932614:	// RVA: 0xA40CC77 Offset: 0xA408C77 VA: 0xA40CC77
+  dump.cs:1932615:	public void EmitCast(Type toType) { }
+  dump.cs:1932616:
+  dump.cs:1932617:	// RVA: 0xA40CCB4 Offset: 0xA408CB4 VA: 0xA40CCB4
+  dump.cs:1933901:
+  dump.cs:1933902:	// RVA: 0xA41910B Offset: 0xA41510B VA: 0xA41910B
+> dump.cs:1933903:	private void CompileConvertToType(Type typeFrom, Type typeTo, bool isChecked, bool isLiftedToNull) { }
+  dump.cs:1933904:
+  dump.cs:1933905:	// RVA: 0xA4197A0 Offset: 0xA4157A0 VA: 0xA4197A0
+  dump.cs:1933906:	private void CompileNotExpression(UnaryExpression node) { }
+  dump.cs:1933907:
+  dump.cs:1933908:	// RVA: 0xA41982A Offset: 0xA41582A VA: 0xA41982A
+  dump.cs:1940254:
+  dump.cs:1940255:	// RVA: 0xA44BAAE Offset: 0xA447AAE VA: 0xA44BAAE
+> dump.cs:1940256:	public static MethodInfo GetUserDefinedCoercionMethod(Type convertFrom, Type convertToType) { }
+  dump.cs:1940257:
+  dump.cs:1940258:	// RVA: 0xA44BD45 Offset: 0xA447D45 VA: 0xA44BD45
+  dump.cs:1940259:	private static MethodInfo FindConversionOperator(MethodInfo[] methods, Type typeFrom, Type typeTo) { }
+  dump.cs:1940260:
+  dump.cs:1940261:	// RVA: 0xA44B799 Offset: 0xA447799 VA: 0xA44B799
+  dump.cs:1948996:
+  dump.cs:1948997:	// RVA: 0xA3B3CC5 Offset: 0xA3AFCC5 VA: 0xA3B3CC5
+> dump.cs:1948998:	internal void ConvertToInt32(ProtoTypeCode typeCode, bool uint32Overflow) { }
+  dump.cs:1948999:
+  dump.cs:1949000:	// RVA: 0xA3B3EA3 Offset: 0xA3AFEA3 VA: 0xA3B3EA3
+  dump.cs:1949001:	internal void ConvertFromInt32(ProtoTypeCode typeCode, bool uint32Overflow) { }
+  dump.cs:1949002:
+  dump.cs:1949003:	// RVA: 0xA3B40CB Offset: 0xA3B00CB VA: 0xA3B40CB
+  dump.cs:1958729:	public bool tintSprites; // 0x70
+  dump.cs:1958730:	public bool overrideRichTextColors; // 0x71
+> dump.cs:1958731:	public bool shouldConvertToLinearSpace; // 0x72
+  dump.cs:1958732:	public float fontSize; // 0x74
+  dump.cs:1958733:	public bool autoSize; // 0x78
+  dump.cs:1958734:	public float fontSizeMin; // 0x7C
+  dump.cs:1958735:	public float fontSizeMax; // 0x80
+  dump.cs:1958736:	public bool enableKerning; // 0x84
+  dump.cs:1959362:
+  dump.cs:1959363:	// RVA: 0xAA71A6B Offset: 0xAA6DA6B VA: 0xAA71A6B
+> dump.cs:1959364:	public static float ConvertToFloat(char[] chars, int startIndex, int length) { }
+  dump.cs:1959365:
+  dump.cs:1959366:	// RVA: 0xAA71AF5 Offset: 0xAA6DAF5 VA: 0xAA71AF5
+> dump.cs:1959367:	public static float ConvertToFloat(char[] chars, int startIndex, int length, out int lastIndex) { }
+  dump.cs:1959368:
+  dump.cs:1959369:	// RVA: 0xAA71C94 Offset: 0xAA6DC94 VA: 0xAA71C94
+  dump.cs:1959370:	public static Vector2 PackUV(float x, float y, float scale) { }
+  dump.cs:1959371:
+  dump.cs:1959372:	// RVA: -1 Offset: -1
+  dump.cs:1959438:
+  dump.cs:1959439:	// RVA: 0xAA7333C Offset: 0xAA6F33C VA: 0xAA7333C
+> dump.cs:1959440:	public static void FillCharacterVertexBuffers(int i, bool convertToLinearSpace, TextGenerationSettings 
+generationSettings, TextInfo textInfo) { }
+  dump.cs:1959441:
+  dump.cs:1959442:	// RVA: 0xAA73E64 Offset: 0xAA6FE64 VA: 0xAA73E64
+> dump.cs:1959443:	public static void FillSpriteVertexBuffers(int i, bool convertToLinearSpace, TextGenerationSettings generationSettings, 
+TextInfo textInfo) { }
+  dump.cs:1959444:
+  dump.cs:1959445:	// RVA: 0xAA74811 Offset: 0xAA70811 VA: 0xAA74811
+  dump.cs:1959446:	public static void AdjustLineOffset(int startIndex, int endIndex, float offset, TextInfo textInfo) { }
+  dump.cs:1959447:
+  dump.cs:1959448:	// RVA: 0xAA749E7 Offset: 0xAA709E7 VA: 0xAA749E7
+  dump.cs:1959456:
+  dump.cs:1959457:	// RVA: 0xAA74C45 Offset: 0xAA70C45 VA: 0xAA74C45
+> dump.cs:1959458:	public static uint ConvertToUTF32(uint highSurrogate, uint lowSurrogate) { }
+  dump.cs:1959459:
+  dump.cs:1959460:	// RVA: 0xAA74C60 Offset: 0xAA70C60 VA: 0xAA74C60
+  dump.cs:1959461:	public static int GetMarkupTagHashCode(TextBackingContainer styleDefinition, int readIndex) { }
+  dump.cs:1959462:
+  dump.cs:1959463:	// RVA: 0xAA72EE6 Offset: 0xAA6EEE6 VA: 0xAA72EE6
+  dump.cs:1967651:
+  dump.cs:1967652:	// RVA: 0x8D1B459 Offset: 0x8D17459 VA: 0x8D1B459
+> dump.cs:1967653:	internal AppOptionsInternal ConvertToInternal() { }
+  dump.cs:1967654:}
+  dump.cs:1967655:
+  dump.cs:1967656:// Namespace: Firebase
+  dump.cs:1967657:public enum DependencyStatus // TypeDefIndex: 42461
+  dump.cs:1967658:{
+  dump.cs:1984386:
+  dump.cs:1984387:	// RVA: 0xA9320BB Offset: 0xA92E0BB VA: 0xA9320BB
+> dump.cs:1984388:	public static IntPtr ConvertToJNIArray(Array array) { }
+  dump.cs:1984389:
+  dump.cs:1984390:	// RVA: -1 Offset: -1
+  dump.cs:1984391:	public static ArrayType ConvertFromJNIArray<ArrayType>(IntPtr array) { }
+  dump.cs:1984392:	/* GenericInstMethod :
+  dump.cs:1984393:	|
+  dump.cs:1984607:
+  dump.cs:1984608:	// RVA: 0xA935F37 Offset: 0xA931F37 VA: 0xA935F37
+> dump.cs:1984609:	public static IntPtr ConvertToJNIArray(Array array) { }
+  dump.cs:1984610:
+  dump.cs:1984611:	// RVA: 0xA935F60 Offset: 0xA931F60 VA: 0xA935F60
+  dump.cs:1984612:	public static jvalue[] CreateJNIArgArray(object[] args) { }
+  dump.cs:1984613:
+  dump.cs:1984614:	// RVA: 0xA93015D Offset: 0xA92C15D VA: 0xA93015D
+
+

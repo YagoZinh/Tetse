@@ -1,0 +1,259 @@
+﻿
+  il2cpp.h:46138:	bool forceZip64_;
+  il2cpp.h:46139:	uint8_t cryptoCheckValue_;
+> il2cpp.h:46140:	int32_t _aesVer;
+> il2cpp.h:46141:	int32_t _aesEncryptionStrength;
+  il2cpp.h:46142:};
+  il2cpp.h:46143:struct ICSharpCode_SharpZipLib_Zip_ZipEntry_VTable {
+  il2cpp.h:46144:	VirtualInvokeData _0_Equals;
+  il2cpp.h:46145:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:46146:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:46549:	struct System_String_o* password;
+  il2cpp.h:46550:	struct System_Security_Cryptography_ICryptoTransform_o* cryptoTransform_;
+> il2cpp.h:46551:	struct System_Byte_array* AESAuthCode;
+  il2cpp.h:46552:	struct System_Byte_array* buffer_;
+  il2cpp.h:46553:	struct ICSharpCode_SharpZipLib_Zip_Compression_Deflater_o* deflater_;
+  il2cpp.h:46554:	struct System_IO_Stream_o* baseOutputStream_;
+  il2cpp.h:46555:	bool isClosed_;
+  il2cpp.h:46556:	bool isStreamOwner_;
+  il2cpp.h:46611:};
+  il2cpp.h:46612:struct ICSharpCode_SharpZipLib_Zip_Compression_Streams_DeflaterOutputStream_StaticFields {
+> il2cpp.h:46613:	struct System_Security_Cryptography_RNGCryptoServiceProvider_o* _aesRnd;
+  il2cpp.h:46614:};
+  il2cpp.h:46615:struct ICSharpCode_SharpZipLib_Zip_ZipOutputStream_Fields : 
+ICSharpCode_SharpZipLib_Zip_Compression_Streams_DeflaterOutputStream_Fields {
+  il2cpp.h:46616:	struct System_Collections_ArrayList_o* entries;
+  il2cpp.h:46617:	struct ICSharpCode_SharpZipLib_Checksums_Crc32_o* crc;
+  il2cpp.h:46618:	struct ICSharpCode_SharpZipLib_Zip_ZipEntry_o* curEntry;
+  il2cpp.h:47592:	ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged_Fields fields;
+  il2cpp.h:47593:};
+> il2cpp.h:47594:struct ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_Fields {
+  il2cpp.h:47595:	int32_t _blockSize;
+  il2cpp.h:47596:	struct System_Security_Cryptography_ICryptoTransform_o* _encryptor;
+  il2cpp.h:47597:	struct System_Byte_array* _counterNonce;
+  il2cpp.h:47598:	struct System_Byte_array* _encryptBuffer;
+  il2cpp.h:47599:	int32_t _encrPos;
+  il2cpp.h:47603:	bool _writeMode;
+  il2cpp.h:47604:};
+> il2cpp.h:47605:struct ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_VTable {
+  il2cpp.h:47606:	VirtualInvokeData _0_Equals;
+  il2cpp.h:47607:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:47608:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:47609:	VirtualInvokeData _3_ToString;
+  il2cpp.h:47610:	VirtualInvokeData _4_get_InputBlockSize;
+  il2cpp.h:47616:	VirtualInvokeData _10_Dispose;
+  il2cpp.h:47617:};
+> il2cpp.h:47618:struct ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_c {
+  il2cpp.h:47619:	Il2CppClass_1 _1;
+  il2cpp.h:47620:	void* static_fields;
+  il2cpp.h:47621:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:47622:	Il2CppClass_2 _2;
+> il2cpp.h:47623:	ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_VTable vtable;
+  il2cpp.h:47624:};
+> il2cpp.h:47625:struct ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o {
+> il2cpp.h:47626:	ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_c *klass;
+  il2cpp.h:47627:	void *monitor;
+> il2cpp.h:47628:	ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_Fields fields;
+  il2cpp.h:47629:};
+  il2cpp.h:47630:struct ICSharpCode_SharpZipLib_Core_INameTransform_Fields {
+  il2cpp.h:47631:};
+  il2cpp.h:47632:struct ICSharpCode_SharpZipLib_Core_INameTransform_c {
+  il2cpp.h:47633:	Il2CppClass_1 _1;
+  il2cpp.h:287676:	uint32_t tcp_record_max_length;
+  il2cpp.h:287677:	bool enable_preset_real_room;
+> il2cpp.h:287678:	bool dynamic_aes_key_enable;
+  il2cpp.h:287679:	uint32_t ai_warm_game_api_timeout_ms;
+  il2cpp.h:287680:	bool cs_rank_mm_v2;
+  il2cpp.h:287681:	bool social_friend_matchmaking;
+  il2cpp.h:287682:	bool social_tag_matchmaking;
+  il2cpp.h:287683:	uint32_t match_wait_submit_status_time;
+  il2cpp.h:961138:	struct System_Collections_Generic_Dictionary_string__bool__o* _LoggedOpenedWithRmtNtfs;
+  il2cpp.h:961139:	struct System_Collections_Generic_List_UniversalLinkSettingDesc__o* _WebUrlToDeepLinks;
+> il2cpp.h:961140:	struct GCommon_AES_AESOption_o* aesOption;
+  il2cpp.h:961141:};
+  il2cpp.h:961142:struct COW_OpenUrl_ReplaceDelegate_Fields : System_MulticastDelegate_Fields {
+  il2cpp.h:961143:};
+  il2cpp.h:961144:struct COW_OpenUrl_ReplaceDelegate_VTable {
+  il2cpp.h:961145:	VirtualInvokeData _0_Equals;
+  il2cpp.h:961217:struct COW_OpenUrl_StaticFields {
+  il2cpp.h:961218:	struct System_Collections_Generic_Dictionary_string__OpenUrl_ReplaceDelegate__o* Replacements;
+> il2cpp.h:961219:	struct GCommon_AES_AESOption_o* aesOption;
+  il2cpp.h:961220:};
+  il2cpp.h:961221:struct GCommon_SingletonModule_PlayerGameStateDataManager__Fields {
+  il2cpp.h:961222:	bool m_HasInited;
+  il2cpp.h:961223:	bool m_HasUnloadPartialMemory;
+  il2cpp.h:961224:};
+  il2cpp.h:1100207:	struct System_Collections_Generic_Queue_TCPMsgPacket__o* m_SendPacketQueue;
+  il2cpp.h:1100208:	struct System_Collections_Generic_Queue_TCPMsgPacket__o* m_RecvPacketQueue;
+> il2cpp.h:1100209:	struct System_Security_Cryptography_AesManaged_o* m_Aes;
+  il2cpp.h:1100210:	struct System_String_o* m_LogTag;
+  il2cpp.h:1100211:	bool m_ApplicationPaused;
+  il2cpp.h:1100212:	double m_ApplicationPausedStartTime;
+  il2cpp.h:1100213:	struct System_String_o* m_LastExceptionMessage;
+  il2cpp.h:1100214:	struct COW_TCPSession2_UnSerializeHandler_o* TCPUnSerializeHandler;
+  il2cpp.h:1374264:	GCommon_Rectangle2D_Fields fields;
+  il2cpp.h:1374265:};
+> il2cpp.h:1374266:struct GCommon_AES_AESOption_Fields {
+  il2cpp.h:1374267:	struct System_String_o* Password;
+  il2cpp.h:1374268:	struct System_String_o* Salt;
+  il2cpp.h:1374269:};
+> il2cpp.h:1374270:struct GCommon_AES_AESOption_VTable {
+  il2cpp.h:1374271:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1374272:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1374273:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1374274:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1374275:};
+> il2cpp.h:1374276:struct GCommon_AES_AESOption_c {
+  il2cpp.h:1374277:	Il2CppClass_1 _1;
+  il2cpp.h:1374278:	void* static_fields;
+  il2cpp.h:1374279:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1374280:	Il2CppClass_2 _2;
+> il2cpp.h:1374281:	GCommon_AES_AESOption_VTable vtable;
+  il2cpp.h:1374282:};
+> il2cpp.h:1374283:struct GCommon_AES_AESOption_o {
+> il2cpp.h:1374284:	GCommon_AES_AESOption_c *klass;
+  il2cpp.h:1374285:	void *monitor;
+> il2cpp.h:1374286:	GCommon_AES_AESOption_Fields fields;
+  il2cpp.h:1374287:};
+> il2cpp.h:1374288:struct GCommon_AES_Fields {
+  il2cpp.h:1374289:};
+> il2cpp.h:1374290:struct GCommon_AES_VTable {
+  il2cpp.h:1374291:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1374292:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1374293:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1374294:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1374295:};
+> il2cpp.h:1374296:struct GCommon_AES_c {
+  il2cpp.h:1374297:	Il2CppClass_1 _1;
+  il2cpp.h:1374298:	void* static_fields;
+  il2cpp.h:1374299:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1374300:	Il2CppClass_2 _2;
+> il2cpp.h:1374301:	GCommon_AES_VTable vtable;
+  il2cpp.h:1374302:};
+> il2cpp.h:1374303:struct GCommon_AES_o {
+> il2cpp.h:1374304:	GCommon_AES_c *klass;
+  il2cpp.h:1374305:	void *monitor;
+> il2cpp.h:1374306:	GCommon_AES_Fields fields;
+  il2cpp.h:1374307:};
+  il2cpp.h:1374308:struct GCommon_AndroidDisplayMetricsUtil_Fields {
+  il2cpp.h:1374309:};
+  il2cpp.h:1374310:struct GCommon_AndroidDisplayMetricsUtil_VTable {
+  il2cpp.h:1374311:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1381116:	int32_t m_ReqDataType;
+  il2cpp.h:1381117:	int32_t m_ResDataType;
+> il2cpp.h:1381118:	struct System_Security_Cryptography_AesManaged_o* m_aes;
+  il2cpp.h:1381119:	bool m_EnableEncrypt;
+  il2cpp.h:1381120:	struct System_Collections_Generic_Queue_HttpRequest__o* m_ResponseQueue;
+  il2cpp.h:1381121:	struct GCommon_AntiAddicHistoryInfo_o* m_AntiAddicHistoryInfo;
+  il2cpp.h:1381122:	struct System_Threading_Thread_o* m_ResponseDesrializeThread;
+  il2cpp.h:1381123:	struct System_Threading_AutoResetEvent_o* m_NotifyDesrializeEvent;
+  il2cpp.h:1424375:	System_Security_Cryptography_CryptographicOperations_Fields fields;
+  il2cpp.h:1424376:};
+> il2cpp.h:1424377:struct System_Security_Cryptography_Aes_Fields : System_Security_Cryptography_SymmetricAlgorithm_Fields {
+  il2cpp.h:1424378:};
+> il2cpp.h:1424379:struct System_Security_Cryptography_Aes_VTable {
+  il2cpp.h:1424380:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1424381:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1424382:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1424383:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1424384:	VirtualInvokeData _4_Dispose;
+  il2cpp.h:1424404:	VirtualInvokeData _24_CreateDecryptor;
+  il2cpp.h:1424405:};
+> il2cpp.h:1424406:struct System_Security_Cryptography_Aes_c {
+  il2cpp.h:1424407:	Il2CppClass_1 _1;
+> il2cpp.h:1424408:	struct System_Security_Cryptography_Aes_StaticFields* static_fields;
+  il2cpp.h:1424409:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1424410:	Il2CppClass_2 _2;
+> il2cpp.h:1424411:	System_Security_Cryptography_Aes_VTable vtable;
+  il2cpp.h:1424412:};
+> il2cpp.h:1424413:struct System_Security_Cryptography_Aes_o {
+> il2cpp.h:1424414:	System_Security_Cryptography_Aes_c *klass;
+  il2cpp.h:1424415:	void *monitor;
+> il2cpp.h:1424416:	System_Security_Cryptography_Aes_Fields fields;
+  il2cpp.h:1424417:};
+> il2cpp.h:1424418:struct System_Security_Cryptography_Aes_StaticFields {
+  il2cpp.h:1424419:	struct System_Security_Cryptography_KeySizes_array* s_legalBlockSizes;
+  il2cpp.h:1424420:	struct System_Security_Cryptography_KeySizes_array* s_legalKeySizes;
+  il2cpp.h:1424421:};
+  il2cpp.h:1424422:struct System_Security_Cryptography_AsymmetricSignatureDeformatter_Fields {
+  il2cpp.h:1424423:};
+  il2cpp.h:1635610:	System_Func_T1__T2__T3__T4__T5__T6__T7__T8__T9__T10__T11__T12__T13__T14__T15__T16__TResult__Fields fields;
+  il2cpp.h:1635611:};
+> il2cpp.h:1635612:struct System_Security_Cryptography_AesManaged_Fields : System_Security_Cryptography_Aes_Fields {
+  il2cpp.h:1635613:	struct System_Security_Cryptography_RijndaelManaged_o* m_rijndael;
+  il2cpp.h:1635614:};
+> il2cpp.h:1635615:struct System_Security_Cryptography_AesManaged_VTable {
+  il2cpp.h:1635616:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1635617:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1635618:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1635619:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1635620:	VirtualInvokeData _4_Dispose;
+  il2cpp.h:1635643:	VirtualInvokeData _27_GenerateIV;
+  il2cpp.h:1635644:};
+> il2cpp.h:1635645:struct System_Security_Cryptography_AesManaged_c {
+  il2cpp.h:1635646:	Il2CppClass_1 _1;
+  il2cpp.h:1635647:	void* static_fields;
+  il2cpp.h:1635648:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1635649:	Il2CppClass_2 _2;
+> il2cpp.h:1635650:	System_Security_Cryptography_AesManaged_VTable vtable;
+  il2cpp.h:1635651:};
+> il2cpp.h:1635652:struct System_Security_Cryptography_AesManaged_o {
+> il2cpp.h:1635653:	System_Security_Cryptography_AesManaged_c *klass;
+  il2cpp.h:1635654:	void *monitor;
+> il2cpp.h:1635655:	System_Security_Cryptography_AesManaged_Fields fields;
+  il2cpp.h:1635656:};
+> il2cpp.h:1635657:struct System_Security_Cryptography_AesCryptoServiceProvider_Fields : System_Security_Cryptography_Aes_Fields {
+  il2cpp.h:1635658:};
+> il2cpp.h:1635659:struct System_Security_Cryptography_AesCryptoServiceProvider_VTable {
+  il2cpp.h:1635660:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1635661:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1635662:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1635663:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1635664:	VirtualInvokeData _4_Dispose;
+  il2cpp.h:1635687:	VirtualInvokeData _27_GenerateIV;
+  il2cpp.h:1635688:};
+> il2cpp.h:1635689:struct System_Security_Cryptography_AesCryptoServiceProvider_c {
+  il2cpp.h:1635690:	Il2CppClass_1 _1;
+  il2cpp.h:1635691:	void* static_fields;
+  il2cpp.h:1635692:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1635693:	Il2CppClass_2 _2;
+> il2cpp.h:1635694:	System_Security_Cryptography_AesCryptoServiceProvider_VTable vtable;
+  il2cpp.h:1635695:};
+> il2cpp.h:1635696:struct System_Security_Cryptography_AesCryptoServiceProvider_o {
+> il2cpp.h:1635697:	System_Security_Cryptography_AesCryptoServiceProvider_c *klass;
+  il2cpp.h:1635698:	void *monitor;
+> il2cpp.h:1635699:	System_Security_Cryptography_AesCryptoServiceProvider_Fields fields;
+  il2cpp.h:1635700:};
+> il2cpp.h:1635701:struct System_Security_Cryptography_AesTransform_Fields : Mono_Security_Cryptography_SymmetricTransform_Fields {
+  il2cpp.h:1635702:	struct System_UInt32_array* expandedKey;
+  il2cpp.h:1635703:	int32_t Nk;
+  il2cpp.h:1635704:	int32_t Nr;
+  il2cpp.h:1635705:};
+> il2cpp.h:1635706:struct System_Security_Cryptography_AesTransform_VTable {
+  il2cpp.h:1635707:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1635708:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1635709:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1635710:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1635711:	VirtualInvokeData _4_unknown;
+  il2cpp.h:1635732:	VirtualInvokeData _25_TransformFinalBlock;
+  il2cpp.h:1635733:};
+> il2cpp.h:1635734:struct System_Security_Cryptography_AesTransform_c {
+  il2cpp.h:1635735:	Il2CppClass_1 _1;
+> il2cpp.h:1635736:	struct System_Security_Cryptography_AesTransform_StaticFields* static_fields;
+  il2cpp.h:1635737:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1635738:	Il2CppClass_2 _2;
+> il2cpp.h:1635739:	System_Security_Cryptography_AesTransform_VTable vtable;
+  il2cpp.h:1635740:};
+> il2cpp.h:1635741:struct System_Security_Cryptography_AesTransform_o {
+> il2cpp.h:1635742:	System_Security_Cryptography_AesTransform_c *klass;
+  il2cpp.h:1635743:	void *monitor;
+> il2cpp.h:1635744:	System_Security_Cryptography_AesTransform_Fields fields;
+  il2cpp.h:1635745:};
+> il2cpp.h:1635746:struct System_Security_Cryptography_AesTransform_StaticFields {
+  il2cpp.h:1635747:	struct System_UInt32_array* Rcon;
+  il2cpp.h:1635748:	struct System_Byte_array* SBox;
+  il2cpp.h:1635749:	struct System_Byte_array* iSBox;
+  il2cpp.h:1635750:	struct System_UInt32_array* T0;
+  il2cpp.h:1635751:	struct System_UInt32_array* T1;
+
+

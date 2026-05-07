@@ -1,0 +1,953 @@
+﻿
+  dump.cs:49173:
+  dump.cs:49174:// Namespace: ICSharpCode.SharpZipLib.Zip
+> dump.cs:49175:public enum EncryptionAlgorithm // TypeDefIndex: 1456
+  dump.cs:49176:{
+  dump.cs:49177:	// Fields
+  dump.cs:49178:	public int value__; // 0x0
+> dump.cs:49179:	public const EncryptionAlgorithm None = 0;
+> dump.cs:49180:	public const EncryptionAlgorithm PkzipClassic = 1;
+> dump.cs:49181:	public const EncryptionAlgorithm Des = 26113;
+> dump.cs:49182:	public const EncryptionAlgorithm RC2 = 26114;
+> dump.cs:49183:	public const EncryptionAlgorithm TripleDes168 = 26115;
+> dump.cs:49184:	public const EncryptionAlgorithm TripleDes112 = 26121;
+> dump.cs:49185:	public const EncryptionAlgorithm Aes128 = 26126;
+> dump.cs:49186:	public const EncryptionAlgorithm Aes192 = 26127;
+> dump.cs:49187:	public const EncryptionAlgorithm Aes256 = 26128;
+> dump.cs:49188:	public const EncryptionAlgorithm RC2Corrected = 26370;
+> dump.cs:49189:	public const EncryptionAlgorithm Blowfish = 26400;
+> dump.cs:49190:	public const EncryptionAlgorithm Twofish = 26401;
+> dump.cs:49191:	public const EncryptionAlgorithm RC4 = 26625;
+> dump.cs:49192:	public const EncryptionAlgorithm Unknown = 65535;
+  dump.cs:49193:}
+  dump.cs:49194:
+  dump.cs:49195:// Namespace: ICSharpCode.SharpZipLib.Zip
+  dump.cs:49196:public enum GeneralBitFlags // TypeDefIndex: 1457
+  dump.cs:49197:{
+  dump.cs:49198:	// Fields
+  dump.cs:49199:	public int value__; // 0x0
+> dump.cs:49200:	public const GeneralBitFlags Encrypted = 1;
+  dump.cs:49201:	public const GeneralBitFlags Method = 6;
+  dump.cs:49202:	public const GeneralBitFlags Descriptor = 8;
+  dump.cs:49203:	public const GeneralBitFlags ReservedPKware4 = 16;
+  dump.cs:49204:	public const GeneralBitFlags Patched = 32;
+> dump.cs:49205:	public const GeneralBitFlags StrongEncryption = 64;
+  dump.cs:49206:	public const GeneralBitFlags Unused7 = 128;
+  dump.cs:49207:	public const GeneralBitFlags Unused8 = 256;
+  dump.cs:49208:	public const GeneralBitFlags Unused9 = 512;
+  dump.cs:49209:	public const GeneralBitFlags Unused10 = 1024;
+  dump.cs:49210:	public const GeneralBitFlags UnicodeText = 2048;
+  dump.cs:49221:	public const int VersionMadeBy = 51;
+  dump.cs:49222:	public const int VERSION_MADE_BY = 51;
+> dump.cs:49223:	public const int VersionStrongEncryption = 50;
+> dump.cs:49224:	public const int VERSION_STRONG_ENCRYPTION = 50;
+  dump.cs:49225:	public const int VERSION_AES = 51;
+  dump.cs:49226:	public const int VersionZip64 = 45;
+  dump.cs:49227:	public const int LocalHeaderBaseSize = 30;
+  dump.cs:49228:	public const int LOCHDR = 30;
+  dump.cs:49229:	public const int Zip64DataDescriptorSize = 24;
+  dump.cs:49352:	private byte cryptoCheckValue_; // 0x55
+  dump.cs:49353:	private int _aesVer; // 0x58
+> dump.cs:49354:	private int _aesEncryptionStrength; // 0x5C
+  dump.cs:49355:
+  dump.cs:49356:	// Methods
+  dump.cs:49357:
+  dump.cs:49358:	// RVA: 0x384FC6B Offset: 0x384BC6B VA: 0x384FC6B
+  dump.cs:49359:	public void .ctor(string name) { }
+  dump.cs:49501:
+  dump.cs:49502:	// RVA: 0x3850C62 Offset: 0x384CC62 VA: 0x3850C62
+> dump.cs:49503:	internal byte get_AESEncryptionStrength() { }
+  dump.cs:49504:
+  dump.cs:49505:	// RVA: 0x3850C73 Offset: 0x384CC73 VA: 0x3850C73
+  dump.cs:49506:	internal int get_AESSaltLen() { }
+  dump.cs:49507:
+  dump.cs:49508:	// RVA: 0x3850CA7 Offset: 0x384CCA7 VA: 0x3850CA7
+  dump.cs:50049:
+  dump.cs:50050:	// RVA: 0x39644A0 Offset: 0x39604A0 VA: 0x39644A0
+> dump.cs:50051:	private void WriteEncryptionHeader(long crcValue) { }
+  dump.cs:50052:
+  dump.cs:50053:	// RVA: 0x39642A0 Offset: 0x39602A0 VA: 0x39642A0
+  dump.cs:50054:	private static void AddExtraDataAES(ZipEntry entry, ZipExtraData extraData) { }
+  dump.cs:50055:
+  dump.cs:50056:	// RVA: 0x39643BA Offset: 0x39603BA VA: 0x39643BA
+  dump.cs:50061:
+  dump.cs:50062:	// RVA: 0x3965116 Offset: 0x3961116 VA: 0x3965116
+> dump.cs:50063:	private void CopyAndEncrypt(byte[] buffer, int offset, int count) { }
+  dump.cs:50064:
+  dump.cs:50065:	// RVA: 0x396521E Offset: 0x396121E VA: 0x396521E Slot: 39
+  dump.cs:50066:	public override void Finish() { }
+  dump.cs:50067:}
+  dump.cs:50068:
+  dump.cs:50724:
+  dump.cs:50725:	// RVA: 0x39649A1 Offset: 0x39609A1 VA: 0x39649A1
+> dump.cs:50726:	protected void EncryptBlock(byte[] buffer, int offset, int length) { }
+  dump.cs:50727:
+  dump.cs:50728:	// RVA: 0x39648AE Offset: 0x39608AE VA: 0x39648AE
+  dump.cs:50729:	protected void InitializePassword(string password) { }
+  dump.cs:50730:
+  dump.cs:50731:	// RVA: 0x3964A73 Offset: 0x3960A73 VA: 0x3964A73
+  dump.cs:51153:}
+  dump.cs:51154:
+> dump.cs:51155:// Namespace: ICSharpCode.SharpZipLib.Encryption
+  dump.cs:51156:public abstract class PkzipClassic : SymmetricAlgorithm // TypeDefIndex: 1495
+  dump.cs:51157:{
+  dump.cs:51158:	// Methods
+  dump.cs:51159:
+  dump.cs:51160:	// RVA: 0x396EB3C Offset: 0x396AB3C VA: 0x396EB3C
+  dump.cs:51165:}
+  dump.cs:51166:
+> dump.cs:51167:// Namespace: ICSharpCode.SharpZipLib.Encryption
+  dump.cs:51168:internal class PkzipClassicCryptoBase // TypeDefIndex: 1496
+  dump.cs:51169:{
+  dump.cs:51170:	// Fields
+  dump.cs:51171:	private uint[] keys; // 0x8
+  dump.cs:51172:
+  dump.cs:51189:}
+  dump.cs:51190:
+> dump.cs:51191:// Namespace: ICSharpCode.SharpZipLib.Encryption
+> dump.cs:51192:internal class PkzipClassicEncryptCryptoTransform : PkzipClassicCryptoBase, ICryptoTransform, IDisposable // TypeDefIndex: 
+1497
+  dump.cs:51193:{
+  dump.cs:51194:	// Methods
+  dump.cs:51195:
+  dump.cs:51196:	// RVA: 0x3972AA3 Offset: 0x396EAA3 VA: 0x3972AA3
+  dump.cs:51197:	internal void .ctor(byte[] keyBlock) { }
+  dump.cs:51219:}
+  dump.cs:51220:
+> dump.cs:51221:// Namespace: ICSharpCode.SharpZipLib.Encryption
+  dump.cs:51222:internal class PkzipClassicDecryptCryptoTransform : PkzipClassicCryptoBase, ICryptoTransform, IDisposable // TypeDefIndex: 
+1498
+  dump.cs:51223:{
+  dump.cs:51224:	// Methods
+  dump.cs:51225:
+  dump.cs:51226:	// RVA: 0x3972C57 Offset: 0x396EC57 VA: 0x3972C57
+  dump.cs:51249:}
+  dump.cs:51250:
+> dump.cs:51251:// Namespace: ICSharpCode.SharpZipLib.Encryption
+  dump.cs:51252:public sealed class PkzipClassicManaged : PkzipClassic // TypeDefIndex: 1499
+  dump.cs:51253:{
+  dump.cs:51254:	// Fields
+  dump.cs:51255:	private byte[] key_; // 0x2C
+  dump.cs:51256:
+  dump.cs:51282:
+  dump.cs:51283:	// RVA: 0x3973328 Offset: 0x396F328 VA: 0x3973328 Slot: 23
+> dump.cs:51284:	public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:51285:
+  dump.cs:51286:	// RVA: 0x39733D2 Offset: 0x396F3D2 VA: 0x39733D2 Slot: 25
+  dump.cs:51287:	public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:51288:
+  dump.cs:51289:	// RVA: 0x396EB0B Offset: 0x396AB0B VA: 0x396EB0B
+  dump.cs:51291:}
+  dump.cs:51292:
+> dump.cs:51293:// Namespace: ICSharpCode.SharpZipLib.Encryption
+  dump.cs:51294:internal class ZipAESTransform : ICryptoTransform, IDisposable // TypeDefIndex: 1500
+  dump.cs:51295:{
+  dump.cs:51296:	// Fields
+  dump.cs:51297:	private const int PWD_VER_LENGTH = 2;
+  dump.cs:51298:	private const int KEY_ROUNDS = 1000;
+> dump.cs:51299:	private const int ENCRYPT_BLOCK = 16;
+  dump.cs:51300:	private int _blockSize; // 0x8
+> dump.cs:51301:	private ICryptoTransform _encryptor; // 0xC
+  dump.cs:51302:	private readonly byte[] _counterNonce; // 0x10
+> dump.cs:51303:	private byte[] _encryptBuffer; // 0x14
+  dump.cs:51304:	private int _encrPos; // 0x18
+  dump.cs:51305:	private byte[] _pwdVerifier; // 0x1C
+  dump.cs:51306:	private HMACSHA1 _hmacsha1; // 0x20
+  dump.cs:51307:	private bool _finalised; // 0x24
+  dump.cs:51308:	private bool _writeMode; // 0x25
+  dump.cs:258896:	public static readonly bool ShowEnemyFootStepHintDefault; // 0x9B2
+  dump.cs:258897:	public static readonly float MissileStartPosOffsetFactor; // 0x9B4
+> dump.cs:258898:	public static readonly bool EnableFileInfoEncryptionAndroid; // 0x9B8
+> dump.cs:258899:	public static readonly bool EnableFileInfoEncryptionIOS; // 0x9B9
+  dump.cs:258900:	public static readonly bool EnableGGPDecryptFailureProtection; // 0x9BA
+  dump.cs:258901:	public static readonly bool IOSTextureHDSupport; // 0x9BB
+  dump.cs:258902:	public static readonly bool IsRedEnvelopeEnable; // 0x9BC
+  dump.cs:258903:	public static readonly int RedEnvelopeMaxPlantNumPerMatch; // 0x9C0
+  dump.cs:258904:	public static readonly bool EnableSparkEvent; // 0x9C4
+  dump.cs:259622:	public static readonly float FreeLookCameraSensitivityScaleOnVehicle; // 0x1250
+  dump.cs:259623:	public static readonly bool FollowCameraRightTraceCameraCollision; // 0x1254
+> dump.cs:259624:	public static readonly bool FFAntihackSDKDetailEncryptBySHA1; // 0x1255
+  dump.cs:259625:	public static readonly bool ExcludeKillCameraFpsCount; // 0x1256
+  dump.cs:259626:	public static readonly int BlocklistMaxNum; // 0x1258
+  dump.cs:259627:	public static readonly int RefAllAvailableNum; // 0x125C
+  dump.cs:259628:	public static readonly int MaxRecentPlayersCount; // 0x1260
+  dump.cs:259629:	public static readonly int RefreshPlayerPresenceCD; // 0x1264
+  dump.cs:260081:	public static float AutoThrowGrenadeDelayTime; // 0x15E0
+  dump.cs:260082:	public static bool EnableHintTriggeredGrenade; // 0x15E4
+> dump.cs:260083:	public static bool TCPTokenEncrypt; // 0x15E5
+  dump.cs:260084:	public static uint TCPDeactiveTime; // 0x15E8
+  dump.cs:260085:	public static uint TCPQuickConnectTime; // 0x15EC
+  dump.cs:260086:	public static float TCPReconnectIntervalMax; // 0x15F0
+  dump.cs:260087:	public static bool TCPUnserializeMessageContentInThread; // 0x15F4
+  dump.cs:260088:	public static bool TCPNeedInitConfirm; // 0x15F5
+  dump.cs:284575:
+  dump.cs:284576:// Namespace: 
+> dump.cs:284577:public class EventLogger.EventTypeFileInfoEncrypt : EventLogger.EventLoggerBase // TypeDefIndex: 11745
+  dump.cs:284578:{
+  dump.cs:284579:	// Fields
+> dump.cs:284580:	public List<EventLogger.FileInfoEncryptResult> decrypt_results; // 0x14
+> dump.cs:284581:	public List<EventLogger.FileInfoEncryptResult> encrypt_results; // 0x18
+  dump.cs:284582:
+  dump.cs:284583:	// Methods
+  dump.cs:284584:
+  dump.cs:284585:	// RVA: 0x76F9986 Offset: 0x76F5986 VA: 0x76F9986
+  dump.cs:284586:	public void .ctor() { }
+  dump.cs:284588:
+  dump.cs:284589:// Namespace: 
+> dump.cs:284590:public class EventLogger.FileInfoEncryptResult // TypeDefIndex: 11746
+  dump.cs:284591:{
+  dump.cs:284592:	// Fields
+  dump.cs:284593:	public int res_download_type; // 0x8
+  dump.cs:284594:	public int err_code; // 0xC
+  dump.cs:284595:	public bool can_parse; // 0x10
+  dump.cs:285550:	public const string EVENT_TYPE_NEWBIE_FRIEND_RECOMMEND = "EventTypeNewbieFriendRecommend";
+  dump.cs:285551:	public const string EVENT_TPYE_UGC_PLATEFORM_START_SURVEY_SUBMIT = "EventTypeUGCPlatformStartSurveySubmit";
+> dump.cs:285552:	public const string EVENT_TYPE_FILEINFO_ENCRYPT = "EventTypeFileInfoEncrypt";
+  dump.cs:285553:	public const string EVENT_TYPE_SETTLEMENT_INVITE = "EventTypeSettlementInvite";
+  dump.cs:285554:	public const string EVENT_TYPE_SETTLEMENT_INVITE_POPUP = "EventTypeSettlementInvitePopup";
+  dump.cs:285555:	public const string EVENT_TYPE_MAIL_SEND_SUCCESSFULLY_CLIENT = "EventTypeMailSendSuccesslyClient";
+  dump.cs:285556:	private static EventLogger.EventClick eventClick; // 0x0
+  dump.cs:285557:	private static EventLogger.EventBriefBoxClick eventBriefBoxClick; // 0x4
+  dump.cs:286997:
+  dump.cs:286998:	// RVA: 0x75BD3C7 Offset: 0x75B93C7 VA: 0x75BD3C7
+> dump.cs:286999:	public static void SendTriggerFileInfoEncrypt(List<EventLogger.FileInfoEncryptResult> decryptResults, 
+List<EventLogger.FileInfoEncryptResult> encryptResults) { }
+  dump.cs:287000:
+  dump.cs:287001:	// RVA: 0x75BD4F4 Offset: 0x75B94F4 VA: 0x75BD4F4
+  dump.cs:287002:	public static void SendUGCDownloadCLBasicPackage() { }
+  dump.cs:287003:
+  dump.cs:287004:	// RVA: 0x75BD5E0 Offset: 0x75B95E0 VA: 0x75BD5E0
+  dump.cs:289035:
+  dump.cs:289036:	// RVA: -1 Offset: -1
+> dump.cs:289037:	public static HttpRequest SendServerRequest<TRes>(string url, string cmd, object data, Action<HttpErrorCode, object> 
+onFinished, float timeout = 0, uint http_option = 0, bool encrypt = True, LoadingType loadingType = 0, HttpManager.Priority priority = 0, 
+int urgentAfterIndex = -1, bool sendImmediately = False, HttpManager.EHttpChannel channel = 0, Action OnDeserialize) { }
+  dump.cs:289038:	/* GenericInstMethod :
+  dump.cs:289039:	|
+  dump.cs:289040:	|-RVA: 0x8F5EE4F Offset: 0x8F5AE4F VA: 0x8F5EE4F
+  dump.cs:289041:	|-GameFacade.SendServerRequest<object>
+  dump.cs:289042:	|
+  dump.cs:837579:	public const uint PropID_UserLevelUpAfter = 2048;
+  dump.cs:837580:	private const string CharacterSet = "a0bcdefg1hjkm2npqrs3tuv456789wxy";
+> dump.cs:837581:	private const string EncKey = "QDENCRYPTKEY";
+  dump.cs:837582:	private const string NewPlayerFakeLevelUp = "NewPlayerFakeLevelUpInLevel2";
+  dump.cs:837583:	private static string RegisterPlayerPrefKey; // 0x0
+  dump.cs:837584:
+  dump.cs:837585:	// Methods
+  dump.cs:837586:
+  dump.cs:837892:
+  dump.cs:837893:	// RVA: 0x61FC7A4 Offset: 0x61F87A4 VA: 0x61FC7A4
+> dump.cs:837894:	public string ULongEncryption(ulong ori) { }
+  dump.cs:837895:
+  dump.cs:837896:	// RVA: 0x61FCFB5 Offset: 0x61F8FB5 VA: 0x61FCFB5
+  dump.cs:837897:	public void SaveLocalNewbieVeteranChoice(EAccount.NewbieChoice registerCheckNewbieVeteran) { }
+  dump.cs:837898:
+  dump.cs:837899:	// RVA: 0x61FD07E Offset: 0x61F907E VA: 0x61FD07E
+  dump.cs:844388:
+  dump.cs:844389:	// RVA: 0x6289C7A Offset: 0x6285C7A VA: 0x6289C7A
+> dump.cs:844390:	public static string GetEncryptedToken() { }
+  dump.cs:844391:
+  dump.cs:844392:	// RVA: 0x6289D7C Offset: 0x6285D7C VA: 0x6289D7C
+  dump.cs:844393:	public static string Get(string key) { }
+  dump.cs:844394:
+  dump.cs:844395:	// RVA: 0x6282362 Offset: 0x627E362 VA: 0x6282362
+  dump.cs:969511:
+  dump.cs:969512:	// RVA: 0x6A3793F Offset: 0x6A3393F VA: 0x6A3793F
+> dump.cs:969513:	public byte[] Encrypt(AesManaged aes, byte[] data) { }
+  dump.cs:969514:
+  dump.cs:969515:	// RVA: 0x6A36ABC Offset: 0x6A32ABC VA: 0x6A36ABC
+  dump.cs:969516:	private void LogFormat(string format, object[] args) { }
+  dump.cs:969517:
+  dump.cs:969518:	// RVA: 0x6A3649A Offset: 0x6A3249A VA: 0x6A3649A
+  dump.cs:1008501:	public const UGCVFSFileFlags Compressed = 1;
+  dump.cs:1008502:	public const UGCVFSFileFlags Deleted = 2;
+> dump.cs:1008503:	public const UGCVFSFileFlags Encrypted = 4;
+  dump.cs:1008504:	public const UGCVFSFileFlags Reserved1 = 8;
+  dump.cs:1008505:	public const UGCVFSFileFlags Reserved2 = 16;
+  dump.cs:1008506:	public const UGCVFSFileFlags Reserved3 = 32;
+  dump.cs:1008507:	public const UGCVFSFileFlags Reserved4 = 64;
+  dump.cs:1008508:	public const UGCVFSFileFlags Reserved5 = 128;
+  dump.cs:1235825:
+  dump.cs:1235826:	// RVA: 0x84F14DA Offset: 0x84ED4DA VA: 0x84F14DA
+> dump.cs:1235827:	public static string EncryptText(string decoded, AES.AESOption option) { }
+  dump.cs:1235828:
+  dump.cs:1235829:	// RVA: 0x84F2026 Offset: 0x84EE026 VA: 0x84F2026
+  dump.cs:1235830:	public static string DecryptText(string encoded, AES.AESOption option) { }
+  dump.cs:1235831:
+  dump.cs:1235832:	// RVA: 0x84F1577 Offset: 0x84ED577 VA: 0x84F1577
+> dump.cs:1235833:	public static byte[] Encrypt(string plainText, AES.AESOption option) { }
+  dump.cs:1235834:
+  dump.cs:1235835:	// RVA: 0x84F21CC Offset: 0x84EE1CC VA: 0x84F21CC
+  dump.cs:1235836:	public static string Decrypt(byte[] cipherText, AES.AESOption option) { }
+  dump.cs:1235837:}
+  dump.cs:1235838:
+  dump.cs:1236634:
+  dump.cs:1236635:	// RVA: 0x84F8789 Offset: 0x84F4789 VA: 0x84F8789
+> dump.cs:1236636:	public void AddEncryptionConfigResID(ResourceID resID) { }
+  dump.cs:1236637:
+  dump.cs:1236638:	// RVA: 0x84F882B Offset: 0x84F482B VA: 0x84F882B
+  dump.cs:1236639:	public void Clear() { }
+  dump.cs:1236640:
+  dump.cs:1236641:	// RVA: 0x84F88A2 Offset: 0x84F48A2 VA: 0x84F88A2
+  dump.cs:1244861:	private EHttpDataType m_ResDataType; // 0x18
+  dump.cs:1244862:	private AesManaged m_aes; // 0x1C
+> dump.cs:1244863:	private bool m_EnableEncrypt; // 0x20
+  dump.cs:1244864:	private Queue<HttpRequest> m_ResponseQueue; // 0x24
+  dump.cs:1244865:	private AntiAddicHistoryInfo m_AntiAddicHistoryInfo; // 0x28
+  dump.cs:1244866:	private Thread m_ResponseDesrializeThread; // 0x2C
+  dump.cs:1244867:	private AutoResetEvent m_NotifyDesrializeEvent; // 0x30
+  dump.cs:1244868:	private HttpManager.EHttpChannel m_CurrentChannel; // 0x34
+  dump.cs:1244913:
+  dump.cs:1244914:	// RVA: -1 Offset: -1
+> dump.cs:1244915:	public HttpRequest RequestPost<T>(string url, string cmd, object data, Action<HttpErrorCode, object> onFinished, float 
+timeout = 0, uint http_option = 0, EHttpDataType reqDataType = 0, EHttpDataType resDataType = 0, HttpManager.EHttpChannel channel = 0, 
+bool encrypt = True, LoadingType loadingType = 0, HttpManager.Priority priority = 0, int urgentAfterIndex = -1, bool sendImmediately = 
+False, Dictionary<string, string> customHeaders, Action OnDeserialize) { }
+  dump.cs:1244916:	/* GenericInstMethod :
+  dump.cs:1244917:	|
+  dump.cs:1244918:	|-RVA: 0x8F696BF Offset: 0x8F656BF VA: 0x8F696BF
+  dump.cs:1244919:	|-HttpManager.RequestPost<object>
+  dump.cs:1244920:	|
+  dump.cs:1244938:
+  dump.cs:1244939:	// RVA: -1 Offset: -1
+> dump.cs:1244940:	private HttpRequest CreatePostReq<T>(string url, string cmd, object data, Action<HttpErrorCode, object> onFinished, 
+float timeout = 0, uint http_option = 0, EHttpDataType reqDataType = 0, EHttpDataType resDataType = 0, bool encrypt = True, LoadingType 
+loadingType = 0, HttpManager.Priority priority = 0, Dictionary<string, string> customHeaders, Action OnDeserialize) { }
+  dump.cs:1244941:	/* GenericInstMethod :
+  dump.cs:1244942:	|
+  dump.cs:1244943:	|-RVA: 0x8F68362 Offset: 0x8F64362 VA: 0x8F68362
+  dump.cs:1244944:	|-HttpManager.CreatePostReq<object>
+  dump.cs:1244945:	|
+  dump.cs:1244952:
+  dump.cs:1244953:	// RVA: 0x85484E3 Offset: 0x85444E3 VA: 0x85484E3
+> dump.cs:1244954:	public byte[] Encrypt(byte[] data) { }
+  dump.cs:1244955:
+  dump.cs:1244956:	// RVA: 0x8548927 Offset: 0x8544927 VA: 0x8548927
+  dump.cs:1244957:	public bool IsCmdInQueue(string cmd, ref IHttpRequest httpReq) { }
+  dump.cs:1244958:
+  dump.cs:1244959:	// RVA: 0x8548F26 Offset: 0x8544F26 VA: 0x8548F26
+  dump.cs:1244988:
+  dump.cs:1244989:	// RVA: 0x854BCCC Offset: 0x8547CCC VA: 0x854BCCC
+> dump.cs:1244990:	public UnityHttpRequest RequestPostStream(string url, string cmd, object requestData, Action<HttpErrorCode, byte[], 
+int> onFinished, Action<byte[], int, int> onUpdate, float timeout, EHttpDataType reqDataType, HttpManager.EHttpChannel channel, bool 
+encrypt, bool sendImmediately, Dictionary<string, string> customHeaders) { }
+  dump.cs:1244991:
+  dump.cs:1244992:	// RVA: 0x854BEDA Offset: 0x8547EDA VA: 0x854BEDA
+> dump.cs:1244993:	private UnityHttpRequest CreateRequest(string url, string cmd, object data, Action<HttpErrorCode, byte[], int> 
+onFinished, Action<byte[], int, int> onUpdate, float timeout, uint http_option, EHttpDataType reqDataType, bool encrypt, 
+HttpManager.Priority priority, Dictionary<string, string> customHeaders) { }
+  dump.cs:1244994:
+  dump.cs:1244995:	// RVA: 0x854C2DC Offset: 0x85482DC VA: 0x854C2DC
+  dump.cs:1244996:	private void AddRequestToChannel(HttpManager.EHttpChannel channel, int urgentAfterIndex, bool sendImmediately, 
+UnityHttpRequest req) { }
+  dump.cs:1244997:
+  dump.cs:1244998:	// RVA: 0x854C5EB Offset: 0x85485EB VA: 0x854C5EB
+  dump.cs:1246159:
+  dump.cs:1246160:	// RVA: 0x8565C90 Offset: 0x8561C90 VA: 0x8565C90
+> dump.cs:1246161:	public static int TeaEncrypt_Len(int nInBufLen) { }
+  dump.cs:1246162:
+  dump.cs:1246163:	// RVA: 0x8565D17 Offset: 0x8561D17 VA: 0x8565D17
+> dump.cs:1246164:	public static void TeaEncrypt(TeaEncTempBuffer encTempBuffer, byte[] pInBuf, int nInBufLen, byte[] pKey, byte[] 
+pOutBuf, ref int pOutBufLen) { }
+  dump.cs:1246165:
+  dump.cs:1246166:	// RVA: 0x8566574 Offset: 0x8562574 VA: 0x8566574
+  dump.cs:1246167:	private static string bytesToString(byte[] p) { }
+  dump.cs:1246168:
+  dump.cs:1246169:	// RVA: 0x856635F Offset: 0x856235F VA: 0x856635F
+> dump.cs:1246170:	private static void TeaEncryptECB(TeaEncTempBuffer encTempBuffer, byte[] pInBuf, int inBufPos, byte[] pKey, byte[] 
+pOutBuf, int outBufIndex) { }
+  dump.cs:1246171:
+  dump.cs:1246172:	// RVA: 0x8565A7B Offset: 0x8561A7B VA: 0x8565A7B
+  dump.cs:1246173:	private static void TeaDecryptECB(TeaDecTempBuffer decTempBuffer, byte[] pInBuf, int inBufIndex, byte[] pKey, byte[] 
+pOutBuf, int outBufIndex) { }
+  dump.cs:1246174:
+  dump.cs:1246175:	// RVA: 0x8566642 Offset: 0x8562642 VA: 0x8566642
+  dump.cs:1248431:	public const byte UDPMESSAGE_SENDOPTION_VAR = 4;
+  dump.cs:1248432:	public const byte UDPMESSAGE_SENDOPTION_VAR_RELIABLE = 5;
+> dump.cs:1248433:	public const uint UDPMESSAGE_FLAG_ENCRYPTION = 1;
+  dump.cs:1248434:	public const uint UDPMESSAGE_FLAG_ZIP = 2;
+  dump.cs:1248435:	public byte MsgKey; // 0x9
+  dump.cs:1248436:	public byte CRC7; // 0xA
+  dump.cs:1248437:	public byte SendOption; // 0xB
+  dump.cs:1248438:	public ushort Cmd; // 0xC
+  dump.cs:1248929:	public bool NeedUpdate; // 0x1C
+  dump.cs:1248930:	public bool LocalFileInfoError; // 0x1D
+> dump.cs:1248931:	public bool FileInfoWasEncrypted; // 0x1E
+  dump.cs:1248932:	public EDownloadPackState PackState; // 0x20
+  dump.cs:1248933:	public HashSet<int> FileTypeList; // 0x24
+  dump.cs:1248934:	protected Dictionary<string, ResVersionInfo.FileInfo> m_FileInfos; // 0x28
+  dump.cs:1248935:	private List<ResVersionInfo.FileInfo> m_TempFileInfoList; // 0x2C
+  dump.cs:1248936:	protected List<ResVersionInfo.FileInfo> m_NeedToSaveFileInfos; // 0x30
+  dump.cs:1248975:
+  dump.cs:1248976:	// RVA: 0x859FDFA Offset: 0x859BDFA VA: 0x859FDFA
+> dump.cs:1248977:	protected bool TryReadEncryptedFileInfo(string cachedFileInfoFile, ResUpdateDownloadContext downloadContext, out string 
+content) { }
+  dump.cs:1248978:
+  dump.cs:1248979:	// RVA: 0x85A197B Offset: 0x859D97B VA: 0x85A197B
+> dump.cs:1248980:	protected bool ShouldEncryptFileInfo(ResUpdateDownloadContext downloadContext) { }
+  dump.cs:1248981:
+  dump.cs:1248982:	// RVA: 0x85A1B19 Offset: 0x859DB19 VA: 0x85A1B19
+> dump.cs:1248983:	protected bool TryWriteEncryptedFileInfo(string cachedFileInfoFile, string content, ResUpdateDownloadContext 
+downloadContext) { }
+  dump.cs:1248984:
+  dump.cs:1248985:	// RVA: 0x859FA09 Offset: 0x859BA09 VA: 0x859FA09
+  dump.cs:1248986:	public bool LoadLocalFileInfo(ResUpdateDownloadContext downloadContext) { }
+  dump.cs:1248987:
+  dump.cs:1248988:	// RVA: 0x85A2419 Offset: 0x859E419 VA: 0x85A2419
+  dump.cs:1249129:	public const DecryptResultCode ValidationFailed = 3;
+  dump.cs:1249130:	public const DecryptResultCode FileError = 4;
+> dump.cs:1249131:	public const DecryptResultCode NotEncrypted = 5;
+  dump.cs:1249132:}
+  dump.cs:1249133:
+  dump.cs:1249134:// Namespace: GCommon
+> dump.cs:1249135:public static class FileInfoEncryptionHelper // TypeDefIndex: 33806
+  dump.cs:1249136:{
+  dump.cs:1249137:	// Fields
+> dump.cs:1249138:	public const string ENCRYPTION_SALT = "FF_FileInfo_Salt";
+> dump.cs:1249139:	public const string PREF_KEY_LAST_ENCRYPTION_STATE = "FileInfoEncryption_LastState";
+  dump.cs:1249140:	private const int GGP_KEY_LENGTH = 32;
+  dump.cs:1249141:	public const int GGP_WRITE_SUCCESS = 1;
+  dump.cs:1249142:	private const uint GGP_MAGIC_VALUE = 2708929427;
+> dump.cs:1249143:	public const string PREF_KEY_GGP_DECRYPT_FAILURE = "FileInfoEncryption_GGPDecryptFailed";
+  dump.cs:1249144:	private static long s_GGPDecryptFailedMask; // 0x0
+> dump.cs:1249145:	private const string PREF_KEY_FILEINFO_ENCRYPTED_MASK = "FileInfoEncryption_EncryptedMask";
+> dump.cs:1249146:	private static long s_FileInfoEncryptedMask; // 0x8
+  dump.cs:1249147:	private static string s_CachedGGPKey; // 0x10
+  dump.cs:1249148:	private static readonly char[] s_HexChars; // 0x14
+  dump.cs:1249149:	private const int FILEINFO_MIN_FIELDS = 7;
+  dump.cs:1249150:
+  dump.cs:1249151:	// Methods
+  dump.cs:1249152:
+  dump.cs:1249153:	// RVA: 0x85AC59E Offset: 0x85A859E VA: 0x85AC59E
+> dump.cs:1249154:	public static bool IsFileInfoEncryptionEnabled() { }
+  dump.cs:1249155:
+  dump.cs:1249156:	// RVA: 0x85A1A58 Offset: 0x859DA58 VA: 0x85A1A58
+  dump.cs:1249157:	public static bool IsGGPDecryptionFailed(uint downloadType) { }
+  dump.cs:1249158:
+  dump.cs:1249159:	// RVA: 0x85AC5FC Offset: 0x85A85FC VA: 0x85AC5FC
+> dump.cs:1249160:	public static void InitGGPDecryptionState(bool encryptionEnabled) { }
+  dump.cs:1249161:
+  dump.cs:1249162:	// RVA: 0x85AC98D Offset: 0x85A898D VA: 0x85AC98D
+  dump.cs:1249163:	public static void ClearGGPDecryptionState() { }
+  dump.cs:1249164:
+  dump.cs:1249165:	// RVA: 0x85A0FF6 Offset: 0x859CFF6 VA: 0x85A0FF6
+  dump.cs:1249167:
+  dump.cs:1249168:	// RVA: 0x85ACB0E Offset: 0x85A8B0E VA: 0x85ACB0E
+> dump.cs:1249169:	public static void InitFileInfoEncryptedState() { }
+  dump.cs:1249170:
+  dump.cs:1249171:	// RVA: 0x85A22DA Offset: 0x859E2DA VA: 0x85A22DA
+> dump.cs:1249172:	public static void MarkFileInfoEncrypted(uint downloadType) { }
+  dump.cs:1249173:
+  dump.cs:1249174:	// RVA: 0x85ACC39 Offset: 0x85A8C39 VA: 0x85ACC39
+> dump.cs:1249175:	public static void ClearFileInfoEncrypted(uint downloadType) { }
+  dump.cs:1249176:
+  dump.cs:1249177:	// RVA: 0x85A18ED Offset: 0x859D8ED VA: 0x85A18ED
+> dump.cs:1249178:	public static bool WasFileInfoEncrypted(uint downloadType) { }
+  dump.cs:1249179:
+  dump.cs:1249180:	// RVA: 0x85ACD7E Offset: 0x85A8D7E VA: 0x85ACD7E
+  dump.cs:1249181:	private static string GetGGPKey() { }
+  dump.cs:1249182:
+  dump.cs:1249183:	// RVA: 0x85ACFB6 Offset: 0x85A8FB6 VA: 0x85ACFB6
+  dump.cs:1249191:
+  dump.cs:1249192:	// RVA: 0x85A1E19 Offset: 0x859DE19 VA: 0x85A1E19
+> dump.cs:1249193:	public static int WriteEncryptedFile(string targetFile, string content) { }
+  dump.cs:1249194:
+  dump.cs:1249195:	// RVA: 0x85A0841 Offset: 0x859C841 VA: 0x85A0841
+> dump.cs:1249196:	public static string ReadDecryptedFile(string targetFile, out bool wasEncrypted, out DecryptResultCode resultCode) { }
+  dump.cs:1249197:
+  dump.cs:1249198:	// RVA: 0x85A12F9 Offset: 0x859D2F9 VA: 0x85A12F9
+> dump.cs:1249199:	public static bool HasGGPEncryptionMagic(string targetFile) { }
+  dump.cs:1249200:
+  dump.cs:1249201:	// RVA: 0x85AD4FE Offset: 0x85A94FE VA: 0x85AD4FE
+  dump.cs:1249202:	private static void .cctor() { }
+  dump.cs:1249203:}
+  dump.cs:1249204:
+  dump.cs:1251033:	protected bool m_EnableABFileFindOptimize; // 0xE8
+  dump.cs:1251034:	private bool m_RepairErrorFileinfo; // 0xE9
+> dump.cs:1251035:	private bool m_NeedRecoverFromEncryption; // 0xEA
+  dump.cs:1251036:	protected List<string> m_LoginDownloadFileName; // 0xEC
+  dump.cs:1251037:	private List<ResVersionInfo.FileInfo> m_LoginDownloadFileInfo; // 0xF0
+  dump.cs:1251038:
+  dump.cs:1251039:	// Methods
+  dump.cs:1251040:
+  dump.cs:1251187:
+  dump.cs:1251188:	// RVA: 0x85D4995 Offset: 0x85D0995 VA: 0x85D4995
+> dump.cs:1251189:	public bool get_NeedRecoverFromEncryptionPerContext() { }
+  dump.cs:1251190:
+  dump.cs:1251191:	// RVA: 0x85D49A9 Offset: 0x85D09A9 VA: 0x85D49A9
+> dump.cs:1251192:	public void set_NeedRecoverFromEncryptionPerContext(bool value) { }
+  dump.cs:1251193:
+  dump.cs:1251194:	// RVA: 0x85D49C0 Offset: 0x85D09C0 VA: 0x85D49C0
+  dump.cs:1251195:	public void RepairContextFileInfoAndVersionInfo() { }
+  dump.cs:1251196:
+  dump.cs:1251197:	// RVA: 0x85D4AC5 Offset: 0x85D0AC5 VA: 0x85D4AC5
+  dump.cs:1251580:	public bool EtcButAstcAb; // 0x5E
+  dump.cs:1251581:	public bool NeedRepairToETC; // 0x5F
+> dump.cs:1251582:	private List<EventLogger.FileInfoEncryptResult> m_DecryptResults; // 0x60
+> dump.cs:1251583:	private List<EventLogger.FileInfoEncryptResult> m_EncryptResults; // 0x64
+> dump.cs:1251584:	private bool m_FileInfoEncryptLogReady; // 0x68
+  dump.cs:1251585:	public bool EnableVersionCheckRowUpdate; // 0x69
+  dump.cs:1251586:	public static string UsedAstcAbOnEtc; // 0x0
+  dump.cs:1251587:	public string PersistentDataPath; // 0x6C
+  dump.cs:1251588:	public bool EnableReuseMemUseMap; // 0x70
+  dump.cs:1251589:	private bool m_ContextMapInited; // 0x71
+  dump.cs:1251658:
+  dump.cs:1251659:	// RVA: 0x85E45E6 Offset: 0x85E05E6 VA: 0x85E45E6
+> dump.cs:1251660:	public void AddFileInfoEncryptResult(bool isEncrypt, int resDownloadType, int errCode, int version) { }
+  dump.cs:1251661:
+  dump.cs:1251662:	// RVA: 0x85E47D3 Offset: 0x85E07D3 VA: 0x85E47D3
+> dump.cs:1251663:	public void SendFileInfoEncryptLog() { }
+  dump.cs:1251664:
+  dump.cs:1251665:	// RVA: 0x85D79EF Offset: 0x85D39EF VA: 0x85D79EF
+  dump.cs:1251666:	public string get_PlatformIdentifierForOptionals() { }
+  dump.cs:1251667:
+  dump.cs:1251668:	// RVA: 0x85E4B00 Offset: 0x85E0B00 VA: 0x85E4B00
+  dump.cs:1254142:
+  dump.cs:1254143:	// RVA: 0x861189F Offset: 0x860D89F VA: 0x861189F
+> dump.cs:1254144:	private ResourceID parseAndAddResourceMapping(Type ResID, string strName, string url, string ab, string stream_ab, 
+ResourceManager.ELoadAbOption isAB, ResourceManager.EResourceConfigLevelSetting lowSetting, ResourceManager.EResourceConfigLevelSetting 
+highSetting, MethodInfo modifier, bool needResIDToName, bool overwrite, bool nameHashCollided, bool forAtlas, int abIdx = 0, short 
+compressUrlIndex = -1, bool isBinaryConfig = False, bool encryption = False, bool isIngameCollectionRes = False, bool 
+isLobbyShowHighQualityRes = False) { }
+  dump.cs:1254145:
+  dump.cs:1254146:	// RVA: 0x8610528 Offset: 0x860C528 VA: 0x8610528
+  dump.cs:1254147:	public void AddResourceMapping(string resPath, ResourceID resourceID) { }
+  dump.cs:1254148:
+  dump.cs:1254149:	// RVA: 0x86168AC Offset: 0x86128AC VA: 0x86168AC
+  dump.cs:1314693:	public const IDMAP0 COW-ServiceConnectionHandler-IsConfirmed0 = 3639;
+  dump.cs:1314694:	public const IDMAP0 COW-TCPSession2-LogFormat0 = 3644;
+> dump.cs:1314695:	public const IDMAP0 COW-TCPSession2-Encrypt0 = 3645;
+  dump.cs:1314696:	public const IDMAP0 COW-TCPSession2-Send0 = 3643;
+  dump.cs:1314697:	public const IDMAP0 COW-ServiceClient2-Send0 = 3642;
+  dump.cs:1314698:	public const IDMAP0 COW-ServiceConnectionHandler-Send0 = 3638;
+  dump.cs:1314699:	public const IDMAP0 COW-TCPSession2-Close0 = 3649;
+  dump.cs:1314700:	public const IDMAP0 COW-ServiceClient2-Close0 = 3648;
+  dump.cs:1316035:	public const IDMAP0 COW-WebViewSettingDataManager-MatchDomainWithList0 = 5396;
+  dump.cs:1316036:	public const IDMAP0 COW-OpenUrl-Modify0 = 5392;
+> dump.cs:1316037:	public const IDMAP0 COW-OpenUrl-GetEncryptedToken0 = 5399;
+  dump.cs:1316038:	public const IDMAP0 COW-OpenUrl-FilterUrlQuery0 = 5397;
+  dump.cs:1316039:	public const IDMAP0 COW-OpenUrl-Open0 = 5391;
+  dump.cs:1316040:	public const IDMAP0 COW-WebViewSettingDataManager-get_WebViewSettingDataList0 = 5402;
+  dump.cs:1316041:	public const IDMAP0 COW-WebView-GetSettingData0 = 5401;
+  dump.cs:1316042:	public const IDMAP0 COW-OpSysExt-UnityWebView_Android-get_CustomTabsManager0 = 5406;
+  dump.cs:1324287:	public const IDMAP0 COW-EventLogger-SendMsdkRegFormClosed0 = 15240;
+  dump.cs:1324288:	public const IDMAP0 COW-EventLogger-SendFightClubInviteDuel0 = 15241;
+> dump.cs:1324289:	public const IDMAP0 COW-EventLogger-SendTriggerFileInfoEncrypt0 = 15242;
+  dump.cs:1324290:	public const IDMAP0 COW-EventLogger-SendUGCDownloadCLBasicPackage0 = 15243;
+  dump.cs:1324291:	public const IDMAP0 COW-EventLogger-SendUGCPlayerEnterOfflineMode0 = 15244;
+  dump.cs:1324292:	public const IDMAP0 COW-EventLogger-SendUGCOfflineMatchStats0 = 15245;
+  dump.cs:1324293:	public const IDMAP0 COW-EventLogger-SendRelayMartShareCoupon0 = 15246;
+  dump.cs:1324294:	public const IDMAP0 COW-EventLogger-SendNaviPageTimeNoCache0 = 15247;
+  dump.cs:1364269:	public const IDMAP1 COW-UIHudMatchResultBaseController-GetAllOtherPlayerAccountIds0 = 64464;
+  dump.cs:1364270:	public const IDMAP1 COW-UIModelUser-GetDynamicKey0 = 64468;
+> dump.cs:1364271:	public const IDMAP1 COW-UIModelUser-ULongEncryption0 = 64467;
+  dump.cs:1364272:	public const IDMAP1 COW-UIModelUser-GetAccountIdEnc0 = 64466;
+  dump.cs:1364273:	public const IDMAP1 COW-UIHudMatchResultBaseController-ShowMatchResultInHistoryRecord0 = 64465;
+  dump.cs:1364274:	public const IDMAP1 COW-UIHudMatchResultBaseController-DelayGoToMvp0 = 64469;
+  dump.cs:1364275:	public const IDMAP1 COW-UIHudMatchResultBaseController-PlayDataToNormalChangeAnim0 = 64476;
+  dump.cs:1364276:	public const IDMAP1 COW-UIHudMatchResultBaseController-PlayNormalToDataChangeAnim0 = 64483;
+  dump.cs:1452337:
+  dump.cs:1452338:	// RVA: 0x9F9A903 Offset: 0x9F96903 VA: 0x9F9A903 Slot: 10
+> dump.cs:1452339:	public override byte[] EncryptValue(byte[] rgb) { }
+  dump.cs:1452340:
+  dump.cs:1452341:	// RVA: 0x9F9AE32 Offset: 0x9F96E32 VA: 0x9F9AE32 Slot: 11
+  dump.cs:1452342:	public override RSAParameters ExportParameters(bool includePrivateParameters) { }
+  dump.cs:1452343:
+  dump.cs:1452344:	// RVA: 0x9F9B3DB Offset: 0x9F973DB VA: 0x9F9B3DB Slot: 12
+  dump.cs:1452366:	// Fields
+  dump.cs:1452367:	protected SymmetricAlgorithm algo; // 0x8
+> dump.cs:1452368:	protected bool encrypt; // 0xC
+  dump.cs:1452369:	protected int BlockSizeByte; // 0x10
+  dump.cs:1452370:	protected byte[] temp; // 0x14
+  dump.cs:1452371:	protected byte[] temp2; // 0x18
+  dump.cs:1452372:	private byte[] workBuff; // 0x1C
+  dump.cs:1452373:	private byte[] workout; // 0x20
+  dump.cs:1452381:
+  dump.cs:1452382:	// RVA: 0x9F9C6F9 Offset: 0x9F986F9 VA: 0x9F9C6F9
+> dump.cs:1452383:	public void .ctor(SymmetricAlgorithm symmAlgo, bool encryption, byte[] rgbIV) { }
+  dump.cs:1452384:
+  dump.cs:1452385:	// RVA: 0x9F9CAB7 Offset: 0x9F98AB7 VA: 0x9F9CAB7 Slot: 1
+  dump.cs:1452386:	protected override void Finalize() { }
+  dump.cs:1452387:
+  dump.cs:1452388:	// RVA: 0x9F9CB90 Offset: 0x9F98B90 VA: 0x9F9CB90 Slot: 10
+  dump.cs:1452441:
+  dump.cs:1452442:	// RVA: 0x9F9DBB3 Offset: 0x9F99BB3 VA: 0x9F9DBB3 Slot: 23
+> dump.cs:1452443:	protected virtual byte[] FinalEncrypt(byte[] inputBuffer, int inputOffset, int inputCount) { }
+  dump.cs:1452444:
+  dump.cs:1452445:	// RVA: 0x9F9DF01 Offset: 0x9F99F01 VA: 0x9F9DF01 Slot: 24
+  dump.cs:1452446:	protected virtual byte[] FinalDecrypt(byte[] inputBuffer, int inputOffset, int inputCount) { }
+  dump.cs:1452447:
+  dump.cs:1452448:	// RVA: 0x9F9E207 Offset: 0x9F9A207 VA: 0x9F9E207 Slot: 25
+  dump.cs:1548670:
+  dump.cs:1548671:	// RVA: 0x9FD587E Offset: 0x9FD187E VA: 0x9FD587E
+> dump.cs:1548672:	private void Encrypt() { }
+  dump.cs:1548673:
+  dump.cs:1548674:	// RVA: 0x9FD5966 Offset: 0x9FD1966 VA: 0x9FD5966
+  dump.cs:1548675:	private void Decrypt() { }
+  dump.cs:1548676:
+  dump.cs:1548677:	// RVA: 0x9FD5530 Offset: 0x9FD1530 VA: 0x9FD5530
+  dump.cs:1549836:
+  dump.cs:1549837:	// RVA: 0x9FE344E Offset: 0x9FDF44E VA: 0x9FE344E Slot: 23
+> dump.cs:1549838:	public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:1549839:
+  dump.cs:1549840:	// RVA: 0x9FE3595 Offset: 0x9FDF595 VA: 0x9FE3595 Slot: 25
+  dump.cs:1549841:	public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:1549842:
+  dump.cs:1549843:	// RVA: 0x9FE36D6 Offset: 0x9FDF6D6 VA: 0x9FE36D6 Slot: 26
+  dump.cs:1550113:{
+  dump.cs:1550114:	// Fields
+> dump.cs:1550115:	private ICryptoTransform m_encryptor; // 0x1C
+  dump.cs:1550116:	private CryptoStream _cs; // 0x20
+  dump.cs:1550117:	private TailStream _ts; // 0x24
+  dump.cs:1550118:	private int m_bytesPerBlock; // 0x28
+  dump.cs:1550119:	private TripleDES des; // 0x2C
+  dump.cs:1550120:
+  dump.cs:1550269:
+  dump.cs:1550270:	// RVA: 0x9FE73B7 Offset: 0x9FE33B7 VA: 0x9FE73B7 Slot: 23
+> dump.cs:1550271:	public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:1550272:
+  dump.cs:1550273:	// RVA: 0x9FE7494 Offset: 0x9FE3494 VA: 0x9FE7494 Slot: 25
+  dump.cs:1550274:	public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:1550275:
+  dump.cs:1550276:	// RVA: 0x9FE756B Offset: 0x9FE356B VA: 0x9FE756B Slot: 26
+  dump.cs:1550309:
+  dump.cs:1550310:	// RVA: 0x9FE7AEA Offset: 0x9FE3AEA VA: 0x9FE7AEA Slot: 23
+> dump.cs:1550311:	public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:1550312:
+  dump.cs:1550313:	// RVA: 0x9FE7C1A Offset: 0x9FE3C1A VA: 0x9FE7C1A Slot: 25
+  dump.cs:1550314:	public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:1550315:
+  dump.cs:1550316:	// RVA: 0x9FE7C5E Offset: 0x9FE3C5E VA: 0x9FE7C5E Slot: 26
+  dump.cs:1550321:
+  dump.cs:1550322:	// RVA: 0x9FE7B2E Offset: 0x9FE3B2E VA: 0x9FE7B2E
+> dump.cs:1550323:	private ICryptoTransform NewEncryptor(byte[] rgbKey, CipherMode mode, byte[] rgbIV, int feedbackSize, 
+RijndaelManagedTransformMode encryptMode) { }
+  dump.cs:1550324:}
+  dump.cs:1550325:
+  dump.cs:1550326:// Namespace: System.Security.Cryptography
+  dump.cs:1550327:internal enum RijndaelManagedTransformMode // TypeDefIndex: 35147
+  dump.cs:1550328:{
+  dump.cs:1550329:	// Fields
+  dump.cs:1550330:	public int value__; // 0x0
+> dump.cs:1550331:	public const RijndaelManagedTransformMode Encrypt = 0;
+  dump.cs:1550332:	public const RijndaelManagedTransformMode Decrypt = 1;
+  dump.cs:1550333:}
+  dump.cs:1550334:
+  dump.cs:1550335:// Namespace: System.Security.Cryptography
+  dump.cs:1550336:public sealed class RijndaelManagedTransform : ICryptoTransform, IDisposable // TypeDefIndex: 35148
+  dump.cs:1550344:	private int m_inputBlockSize; // 0x1C
+  dump.cs:1550345:	private int m_outputBlockSize; // 0x20
+> dump.cs:1550346:	private int[] m_encryptKeyExpansion; // 0x24
+  dump.cs:1550347:	private int[] m_decryptKeyExpansion; // 0x28
+  dump.cs:1550348:	private int m_Nr; // 0x2C
+  dump.cs:1550349:	private int m_Nb; // 0x30
+  dump.cs:1550350:	private int m_Nk; // 0x34
+> dump.cs:1550351:	private int[] m_encryptindex; // 0x38
+  dump.cs:1550352:	private int[] m_decryptindex; // 0x3C
+  dump.cs:1550353:	private int[] m_IV; // 0x40
+  dump.cs:1550354:	private int[] m_lastBlockBuffer; // 0x44
+  dump.cs:1550355:	private byte[] m_depadBuffer; // 0x48
+  dump.cs:1550356:	private byte[] m_shiftRegister; // 0x4C
+  dump.cs:1550395:
+  dump.cs:1550396:	// RVA: 0x9FE8EF3 Offset: 0x9FE4EF3 VA: 0x9FE8EF3
+> dump.cs:1550397:	private int EncryptData(byte[] inputBuffer, int inputOffset, int inputCount, ref byte[] outputBuffer, int outputOffset, 
+PaddingMode paddingMode, bool fLast) { }
+  dump.cs:1550398:
+  dump.cs:1550399:	// RVA: 0x9FE9A67 Offset: 0x9FE5A67 VA: 0x9FE9A67
+  dump.cs:1550400:	private int DecryptData(byte[] inputBuffer, int inputOffset, int inputCount, ref byte[] outputBuffer, int outputOffset, 
+PaddingMode paddingMode, bool fLast) { }
+  dump.cs:1550401:
+  dump.cs:1550402:	// RVA: 0x9FEA9A6 Offset: 0x9FE69A6 VA: 0x9FEA9A6
+> dump.cs:1550403:	private void Enc(int* encryptindex, int* encryptKeyExpansion, int* T, int* TF, int* work, int* temp) { }
+  dump.cs:1550404:
+  dump.cs:1550405:	// RVA: 0x9FEABB4 Offset: 0x9FE6BB4 VA: 0x9FEABB4
+  dump.cs:1550406:	private void Dec(int* decryptindex, int* decryptKeyExpansion, int* iT, int* iTF, int* work, int* temp) { }
+  dump.cs:1550407:
+  dump.cs:1550408:	// RVA: 0x9FE83E3 Offset: 0x9FE43E3 VA: 0x9FE83E3
+  dump.cs:1550517:
+  dump.cs:1550518:	// RVA: 0x9FED621 Offset: 0x9FE9621 VA: 0x9FED621 Slot: 10
+> dump.cs:1550519:	public virtual byte[] EncryptValue(byte[] rgb) { }
+  dump.cs:1550520:
+  dump.cs:1550521:	// RVA: 0x9FED69C Offset: 0x9FE969C VA: 0x9FED69C Slot: 8
+  dump.cs:1550522:	public override void FromXmlString(string xmlString) { }
+  dump.cs:1550523:
+  dump.cs:1550524:	// RVA: 0x9FEDCCA Offset: 0x9FE9CCA VA: 0x9FEDCCA Slot: 9
+  dump.cs:1550577:
+  dump.cs:1550578:	// RVA: 0x9FEE7C6 Offset: 0x9FEA7C6 VA: 0x9FEE7C6 Slot: 10
+> dump.cs:1550579:	public override byte[] EncryptValue(byte[] rgb) { }
+  dump.cs:1550580:
+  dump.cs:1550581:	// RVA: 0x9FEE824 Offset: 0x9FEA824 VA: 0x9FEE824 Slot: 11
+  dump.cs:1550582:	public override RSAParameters ExportParameters(bool includePrivateParameters) { }
+  dump.cs:1550583:
+  dump.cs:1550584:	// RVA: 0x9FEE9EB Offset: 0x9FEA9EB VA: 0x9FEE9EB Slot: 12
+  dump.cs:1551044:
+  dump.cs:1551045:	// RVA: 0x9FF47AB Offset: 0x9FF07AB VA: 0x9FF47AB Slot: 22
+> dump.cs:1551046:	public virtual ICryptoTransform CreateEncryptor() { }
+  dump.cs:1551047:
+  dump.cs:1551048:	// RVA: -1 Offset: -1 Slot: 23
+> dump.cs:1551049:	public abstract ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV);
+  dump.cs:1551050:
+  dump.cs:1551051:	// RVA: 0x9FF4855 Offset: 0x9FF0855 VA: 0x9FF4855 Slot: 24
+  dump.cs:1551052:	public virtual ICryptoTransform CreateDecryptor() { }
+  dump.cs:1551053:
+  dump.cs:1551054:	// RVA: -1 Offset: -1 Slot: 25
+  dump.cs:1551105:
+  dump.cs:1551106:	// RVA: 0x9FF534C Offset: 0x9FF134C VA: 0x9FF534C Slot: 23
+> dump.cs:1551107:	public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:1551108:
+  dump.cs:1551109:	// RVA: 0x9FF5473 Offset: 0x9FF1473 VA: 0x9FF5473 Slot: 25
+  dump.cs:1551110:	public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:1551111:
+  dump.cs:1551112:	// RVA: 0x9FF5594 Offset: 0x9FF1594 VA: 0x9FF5594 Slot: 26
+  dump.cs:1551223:
+  dump.cs:1551224:	// RVA: 0x9FF8AC3 Offset: 0x9FF4AC3 VA: 0x9FF8AC3
+> dump.cs:1551225:	internal void .ctor(SymmetricAlgorithm symmAlgo, bool encryption, byte[] key, byte[] iv) { }
+  dump.cs:1551226:
+  dump.cs:1551227:	// RVA: 0x9FF91FE Offset: 0x9FF51FE VA: 0x9FF91FE
+  dump.cs:1551228:	private uint CipherFunct(uint r, int n) { }
+  dump.cs:1551229:
+  dump.cs:1551230:	// RVA: 0x9FF9457 Offset: 0x9FF5457 VA: 0x9FF9457
+  dump.cs:1551357:
+  dump.cs:1551358:	// RVA: 0x9FFB870 Offset: 0x9FF7870 VA: 0x9FFB870
+> dump.cs:1551359:	public void .ctor(RC2 rc2Algo, bool encryption, byte[] key, byte[] iv) { }
+  dump.cs:1551360:
+  dump.cs:1551361:	// RVA: 0x9FFBE65 Offset: 0x9FF7E65 VA: 0x9FFBE65 Slot: 17
+  dump.cs:1551362:	protected override void ECB(byte[] input, byte[] output) { }
+  dump.cs:1551363:
+  dump.cs:1551364:	// RVA: 0x9FFCA59 Offset: 0x9FF8A59 VA: 0x9FFCA59
+  dump.cs:1551522:
+  dump.cs:1551523:	// RVA: 0x9FFEBD3 Offset: 0x9FFABD3 VA: 0x9FFEBD3
+> dump.cs:1551524:	public void .ctor(TripleDES algo, bool encryption, byte[] key, byte[] iv) { }
+  dump.cs:1551525:
+  dump.cs:1551526:	// RVA: 0x9FFF0D8 Offset: 0x9FFB0D8 VA: 0x9FFF0D8 Slot: 17
+  dump.cs:1551527:	protected override void ECB(byte[] input, byte[] output) { }
+  dump.cs:1551528:
+  dump.cs:1551529:	// RVA: 0x9FFF024 Offset: 0x9FFB024 VA: 0x9FFF024
+  dump.cs:1575870:	public const FileOptions DeleteOnClose = 67108864;
+  dump.cs:1575871:	public const FileOptions SequentialScan = 134217728;
+> dump.cs:1575872:	public const FileOptions Encrypted = 16384;
+  dump.cs:1575873:}
+  dump.cs:1575874:
+  dump.cs:1575875:// Namespace: System.IO
+  dump.cs:1575876:public enum FileShare // TypeDefIndex: 35768
+  dump.cs:1575877:{
+  dump.cs:1577605:	public const FileAttributes Offline = 4096;
+  dump.cs:1577606:	public const FileAttributes NotContentIndexed = 8192;
+> dump.cs:1577607:	public const FileAttributes Encrypted = 16384;
+  dump.cs:1577608:	public const FileAttributes IntegrityStream = 32768;
+  dump.cs:1577609:	public const FileAttributes NoScrubData = 131072;
+  dump.cs:1577610:}
+  dump.cs:1577611:
+  dump.cs:1577612:// Namespace: 
+  dump.cs:1578796:	public const MonoIOError ERROR_FILENAME_EXCED_RANGE = 206;
+  dump.cs:1578797:	public const MonoIOError ERROR_DIRECTORY = 267;
+> dump.cs:1578798:	public const MonoIOError ERROR_ENCRYPTION_FAILED = 6000;
+  dump.cs:1578799:}
+  dump.cs:1578800:
+  dump.cs:1578801:// Namespace: System.IO
+  dump.cs:1578802:internal struct MonoIOStat // TypeDefIndex: 35829
+  dump.cs:1578803:{
+  dump.cs:1809449:
+  dump.cs:1809450:	// RVA: -1 Offset: -1 Slot: 7
+> dump.cs:1809451:	public abstract void set_EncryptionPolicy(EncryptionPolicy value);
+  dump.cs:1809452:
+  dump.cs:1809453:	// RVA: -1 Offset: -1 Slot: 8
+  dump.cs:1809454:	public abstract void set_CertificateRevocationCheckMode(X509RevocationMode value);
+  dump.cs:1809455:
+  dump.cs:1809456:	// RVA: -1 Offset: -1 Slot: 9
+  dump.cs:1809500:
+  dump.cs:1809501:	// RVA: 0xA45FCD8 Offset: 0xA45BCD8 VA: 0xA45FCD8 Slot: 7
+> dump.cs:1809502:	public override void set_EncryptionPolicy(EncryptionPolicy value) { }
+  dump.cs:1809503:
+  dump.cs:1809504:	// RVA: 0xA45FD19 Offset: 0xA45BD19 VA: 0xA45FD19 Slot: 5
+  dump.cs:1809505:	public override SslProtocols get_EnabledSslProtocols() { }
+  dump.cs:1809506:
+  dump.cs:1809507:	// RVA: 0xA45FD49 Offset: 0xA45BD49 VA: 0xA45FD49 Slot: 6
+  dump.cs:1814144:	public const OidGroup All = 0;
+  dump.cs:1814145:	public const OidGroup HashAlgorithm = 1;
+> dump.cs:1814146:	public const OidGroup EncryptionAlgorithm = 2;
+  dump.cs:1814147:	public const OidGroup PublicKeyAlgorithm = 3;
+  dump.cs:1814148:	public const OidGroup SignatureAlgorithm = 4;
+  dump.cs:1814149:	public const OidGroup Attribute = 5;
+  dump.cs:1814150:	public const OidGroup ExtensionOrAttribute = 6;
+  dump.cs:1814151:	public const OidGroup EnhancedKeyUsage = 7;
+  dump.cs:1836151:{
+  dump.cs:1836152:	// Fields
+> dump.cs:1836153:	private EncryptionPolicy _encryptionPolicy; // 0x8
+  dump.cs:1836154:	private X509RevocationMode _checkCertificateRevocation; // 0xC
+  dump.cs:1836155:	private SslProtocols _enabledSslProtocols; // 0x10
+  dump.cs:1836156:	private bool _allowRenegotiation; // 0x14
+  dump.cs:1836157:	private string <TargetHost>k__BackingField; // 0x18
+  dump.cs:1836158:	private X509CertificateCollection <ClientCertificates>k__BackingField; // 0x1C
+  dump.cs:1836176:
+  dump.cs:1836177:	// RVA: 0xA7D905B Offset: 0xA7D505B VA: 0xA7D905B
+> dump.cs:1836178:	public void set_EncryptionPolicy(EncryptionPolicy value) { }
+  dump.cs:1836179:
+  dump.cs:1836180:	// RVA: 0xA7D9112 Offset: 0xA7D5112 VA: 0xA7D9112
+  dump.cs:1836181:	public SslProtocols get_EnabledSslProtocols() { }
+  dump.cs:1836182:
+  dump.cs:1836183:	// RVA: 0xA7D9123 Offset: 0xA7D5123 VA: 0xA7D9123
+  dump.cs:1836221:
+  dump.cs:1836222:// Namespace: System.Net.Security
+> dump.cs:1836223:public enum EncryptionPolicy // TypeDefIndex: 39250
+  dump.cs:1836224:{
+  dump.cs:1836225:	// Fields
+  dump.cs:1836226:	public int value__; // 0x0
+> dump.cs:1836227:	public const EncryptionPolicy RequireEncryption = 0;
+> dump.cs:1836228:	public const EncryptionPolicy AllowNoEncryption = 1;
+> dump.cs:1836229:	public const EncryptionPolicy NoEncryption = 2;
+  dump.cs:1836230:}
+  dump.cs:1836231:
+  dump.cs:1836232:// Namespace: System.Net.Security
+  dump.cs:1836233:public sealed class LocalCertificateSelectionCallback : MulticastDelegate // TypeDefIndex: 39251
+  dump.cs:1836234:{
+  dump.cs:1911989:	// Fields
+  dump.cs:1911990:	private string <Ssid>k__BackingField; // 0x10
+> dump.cs:1911991:	private string <NetworkEncryption>k__BackingField; // 0x14
+  dump.cs:1911992:	private string <Password>k__BackingField; // 0x18
+  dump.cs:1911993:	private bool <Hidden>k__BackingField; // 0x1C
+  dump.cs:1911994:	private string <Identity>k__BackingField; // 0x20
+  dump.cs:1911995:	private string <AnonymousIdentity>k__BackingField; // 0x24
+  dump.cs:1911996:	private string <EapMethod>k__BackingField; // 0x28
+  dump.cs:1912000:
+  dump.cs:1912001:	// RVA: 0xAD52687 Offset: 0xAD4E687 VA: 0xAD52687
+> dump.cs:1912002:	public void .ctor(string networkEncryption, string ssid, string password) { }
+  dump.cs:1912003:
+  dump.cs:1912004:	// RVA: 0xAD526CC Offset: 0xAD4E6CC VA: 0xAD526CC
+> dump.cs:1912005:	public void .ctor(string networkEncryption, string ssid, string password, bool hidden) { }
+  dump.cs:1912006:
+  dump.cs:1912007:	// RVA: 0xAD52717 Offset: 0xAD4E717 VA: 0xAD52717
+> dump.cs:1912008:	public void .ctor(string networkEncryption, string ssid, string password, bool hidden, string identity, string 
+anonymousIdentity, string eapMethod, string phase2Method) { }
+  dump.cs:1912009:
+  dump.cs:1912010:	// RVA: 0xAD52999 Offset: 0xAD4E999 VA: 0xAD52999
+  dump.cs:1912011:	public string get_Ssid() { }
+  dump.cs:1912012:
+  dump.cs:1912013:	// RVA: 0xAD529AA Offset: 0xAD4E9AA VA: 0xAD529AA
+  dump.cs:1912015:
+  dump.cs:1912016:	// RVA: 0xAD529E3 Offset: 0xAD4E9E3 VA: 0xAD529E3
+> dump.cs:1912017:	public string get_NetworkEncryption() { }
+  dump.cs:1912018:
+  dump.cs:1912019:	// RVA: 0xAD529F4 Offset: 0xAD4E9F4 VA: 0xAD529F4
+> dump.cs:1912020:	private void set_NetworkEncryption(string value) { }
+  dump.cs:1912021:
+  dump.cs:1912022:	// RVA: 0xAD52A2D Offset: 0xAD4EA2D VA: 0xAD52A2D
+  dump.cs:1912023:	public string get_Password() { }
+  dump.cs:1912024:
+  dump.cs:1912025:	// RVA: 0xAD52A3E Offset: 0xAD4EA3E VA: 0xAD52A3E
+  dump.cs:1913783:
+  dump.cs:1913784:	// RVA: 0xA3B683E Offset: 0xA3B283E VA: 0xA3B683E Slot: 22
+> dump.cs:1913785:	public override ICryptoTransform CreateEncryptor() { }
+  dump.cs:1913786:
+  dump.cs:1913787:	// RVA: 0xA3B688D Offset: 0xA3B288D VA: 0xA3B688D Slot: 23
+> dump.cs:1913788:	public override ICryptoTransform CreateEncryptor(byte[] key, byte[] iv) { }
+  dump.cs:1913789:
+  dump.cs:1913790:	// RVA: 0xA3B6A18 Offset: 0xA3B2A18 VA: 0xA3B6A18 Slot: 5
+  dump.cs:1913791:	protected override void Dispose(bool disposing) { }
+  dump.cs:1913792:
+  dump.cs:1913793:	// RVA: 0xA3B6B6C Offset: 0xA3B2B6C VA: 0xA3B6B6C Slot: 27
+  dump.cs:1913816:
+  dump.cs:1913817:	// RVA: 0xA3B7642 Offset: 0xA3B3642 VA: 0xA3B7642 Slot: 23
+> dump.cs:1913818:	public override ICryptoTransform CreateEncryptor(byte[] key, byte[] iv) { }
+  dump.cs:1913819:
+  dump.cs:1913820:	// RVA: 0xA3B775A Offset: 0xA3B375A VA: 0xA3B775A Slot: 10
+  dump.cs:1913821:	public override byte[] get_IV() { }
+  dump.cs:1913822:
+  dump.cs:1913823:	// RVA: 0xA3B778B Offset: 0xA3B378B VA: 0xA3B778B Slot: 11
+  dump.cs:1913858:
+  dump.cs:1913859:	// RVA: 0xA3B7A45 Offset: 0xA3B3A45 VA: 0xA3B7A45 Slot: 22
+> dump.cs:1913860:	public override ICryptoTransform CreateEncryptor() { }
+  dump.cs:1913861:
+  dump.cs:1913862:	// RVA: 0xA3B7AEF Offset: 0xA3B3AEF VA: 0xA3B7AEF Slot: 5
+  dump.cs:1913863:	protected override void Dispose(bool disposing) { }
+  dump.cs:1913864:}
+  dump.cs:1913865:
+  dump.cs:1913886:
+  dump.cs:1913887:	// RVA: 0xA3B6E23 Offset: 0xA3B2E23 VA: 0xA3B6E23
+> dump.cs:1913888:	public void .ctor(Aes algo, bool encryption, byte[] key, byte[] iv) { }
+  dump.cs:1913889:
+  dump.cs:1913890:	// RVA: 0xA3B7BE2 Offset: 0xA3B3BE2 VA: 0xA3B7BE2 Slot: 17
+  dump.cs:1913891:	protected override void ECB(byte[] input, byte[] output) { }
+  dump.cs:1913892:
+  dump.cs:1913893:	// RVA: 0xA3B7B25 Offset: 0xA3B3B25 VA: 0xA3B7B25
+  dump.cs:1913895:
+  dump.cs:1913896:	// RVA: 0xA3B7C2C Offset: 0xA3B3C2C VA: 0xA3B7C2C
+> dump.cs:1913897:	private void Encrypt128(byte[] indata, byte[] outdata, uint[] ekey) { }
+  dump.cs:1913898:
+  dump.cs:1913899:	// RVA: 0xA3BA0D8 Offset: 0xA3B60D8 VA: 0xA3BA0D8
+  dump.cs:1913900:	private void Decrypt128(byte[] indata, byte[] outdata, uint[] ekey) { }
+  dump.cs:1913901:
+  dump.cs:1913902:	// RVA: 0xA3BC559 Offset: 0xA3B8559 VA: 0xA3BC559
+  dump.cs:1965036:
+  dump.cs:1965037:// Namespace: 
+> dump.cs:1965038:public class PKCS7.EncryptedData // TypeDefIndex: 42380
+  dump.cs:1965039:{
+  dump.cs:1965040:	// Fields
+  dump.cs:1965041:	private byte _version; // 0x8
+  dump.cs:1965042:	private PKCS7.ContentInfo _content; // 0xC
+> dump.cs:1965043:	private PKCS7.ContentInfo _encryptionAlgorithm; // 0x10
+> dump.cs:1965044:	private byte[] _encrypted; // 0x14
+  dump.cs:1965045:
+  dump.cs:1965046:	// Methods
+  dump.cs:1965047:
+  dump.cs:1965048:	// RVA: 0x9F583D9 Offset: 0x9F543D9 VA: 0x9F583D9
+  dump.cs:1965049:	public void .ctor() { }
+  dump.cs:1965053:
+  dump.cs:1965054:	// RVA: 0x9F587B7 Offset: 0x9F547B7 VA: 0x9F587B7
+> dump.cs:1965055:	public PKCS7.ContentInfo get_EncryptionAlgorithm() { }
+  dump.cs:1965056:
+  dump.cs:1965057:	// RVA: 0x9F587C8 Offset: 0x9F547C8 VA: 0x9F587C8
+> dump.cs:1965058:	public byte[] get_EncryptedContent() { }
+  dump.cs:1965059:}
+  dump.cs:1965060:
+  dump.cs:1965061:// Namespace: 
+  dump.cs:1965062:public class PKCS7.SignedData // TypeDefIndex: 42381
+  dump.cs:1965063:{
+  dump.cs:1965267:
+  dump.cs:1965268:	// RVA: 0x9F5BE87 Offset: 0x9F57E87 VA: 0x9F5BE87
+> dump.cs:1965269:	public byte[] Decrypt(string algorithmOid, byte[] salt, int iterationCount, byte[] encryptedData) { }
+  dump.cs:1965270:
+  dump.cs:1965271:	// RVA: 0x9F5B3FB Offset: 0x9F573FB VA: 0x9F5B3FB
+> dump.cs:1965272:	public byte[] Decrypt(PKCS7.EncryptedData ed) { }
+  dump.cs:1965273:
+  dump.cs:1965274:	// RVA: 0x9F5CEFC Offset: 0x9F58EFC VA: 0x9F5CEFC
+> dump.cs:1965275:	public byte[] Encrypt(string algorithmOid, byte[] salt, int iterationCount, byte[] data) { }
+  dump.cs:1965276:
+  dump.cs:1965277:	// RVA: 0x9F5D1A2 Offset: 0x9F591A2 VA: 0x9F5D1A2
+  dump.cs:1965278:	private DSAParameters GetExistingParameters(out bool found) { }
+  dump.cs:1965279:
+  dump.cs:1965280:	// RVA: 0x9F5DAB8 Offset: 0x9F59AB8 VA: 0x9F5DAB8
+  dump.cs:1965294:
+  dump.cs:1965295:	// RVA: 0x9F617A4 Offset: 0x9F5D7A4 VA: 0x9F617A4
+> dump.cs:1965296:	private PKCS7.ContentInfo EncryptedContentInfo(ASN1 safeBags, string algorithmOid) { }
+  dump.cs:1965297:
+  dump.cs:1965298:	// RVA: 0x9F6176F Offset: 0x9F5D76F VA: 0x9F6176F
+  dump.cs:1965299:	public void AddCertificate(X509Certificate cert) { }
+  dump.cs:1965300:
+  dump.cs:1965301:	// RVA: 0x9F61BA3 Offset: 0x9F5DBA3 VA: 0x9F61BA3
+  dump.cs:1966995:
+  dump.cs:1966996:// Namespace: 
+> dump.cs:1966997:public class PKCS8.EncryptedPrivateKeyInfo // TypeDefIndex: 42433
+  dump.cs:1966998:{
+  dump.cs:1966999:	// Fields
+  dump.cs:1967000:	private string _algorithm; // 0x8
+  dump.cs:1967001:	private byte[] _salt; // 0xC
+  dump.cs:1967002:	private int _iterations; // 0x10
+  dump.cs:1967015:
+  dump.cs:1967016:	// RVA: 0x9F7547F Offset: 0x9F7147F VA: 0x9F7547F
+> dump.cs:1967017:	public byte[] get_EncryptedData() { }
+  dump.cs:1967018:
+  dump.cs:1967019:	// RVA: 0x9F75504 Offset: 0x9F71504 VA: 0x9F75504
+  dump.cs:1967020:	public byte[] get_Salt() { }
+  dump.cs:1967021:
+  dump.cs:1967022:	// RVA: 0x9F755FE Offset: 0x9F715FE VA: 0x9F755FE
+  dump.cs:1967082:
+  dump.cs:1967083:	// RVA: 0x9F764FE Offset: 0x9F724FE VA: 0x9F764FE Slot: 10
+> dump.cs:1967084:	public override byte[] EncryptValue(byte[] rgb) { }
+  dump.cs:1967085:
+  dump.cs:1967086:	// RVA: 0x9F76A2D Offset: 0x9F72A2D VA: 0x9F76A2D Slot: 11
+  dump.cs:1967087:	public override RSAParameters ExportParameters(bool includePrivateParameters) { }
+  dump.cs:1967088:
+  dump.cs:1967089:	// RVA: 0x9F76FD6 Offset: 0x9F72FD6 VA: 0x9F76FD6 Slot: 12
+
+

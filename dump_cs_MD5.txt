@@ -1,0 +1,311 @@
+﻿
+  dump.cs:66215:	public uint emulator_score; // 0x2C
+  dump.cs:66216:	public string country_code; // 0x30
+> dump.cs:66217:	public string signature_md5; // 0x34
+  dump.cs:66218:	public uint using_version; // 0x38
+  dump.cs:66219:	public ulong partic_group_id; // 0x3C
+  dump.cs:66220:	public uint system_platform; // 0x44
+  dump.cs:66221:	public MatchClientInfo client_info; // 0x48
+  dump.cs:66222:	public uint cs_rank; // 0x4C
+  dump.cs:66274:	public uint emulator_score; // 0x20
+  dump.cs:66275:	public string country_code; // 0x24
+> dump.cs:66276:	public string signature_md5; // 0x28
+  dump.cs:66277:	public uint using_version; // 0x2C
+  dump.cs:66278:	public EGroup.InviteeType target_type; // 0x30
+  dump.cs:66279:	public uint system_platform; // 0x34
+  dump.cs:66280:	public MatchClientInfo client_info; // 0x38
+  dump.cs:66281:	public uint cs_rank; // 0x3C
+  dump.cs:162528:	public const EHacker.HackerPoolCdt HackerPoolCdt_FFANTI = 2;
+  dump.cs:162529:	public const EHacker.HackerPoolCdt HackerPoolCdt_START_TIME = 3;
+> dump.cs:162530:	public const EHacker.HackerPoolCdt HackerPoolCdt_MD5_FILE_EXCEPTION = 4;
+> dump.cs:162531:	public const EHacker.HackerPoolCdt HackerPoolCdt_MD5_SCAN_COUNT = 5;
+> dump.cs:162532:	public const EHacker.HackerPoolCdt HackerPoolCdt_MD5_COUNT = 6;
+  dump.cs:162533:	public const EHacker.HackerPoolCdt HackerPoolCdt_PMS_HOOK = 7;
+  dump.cs:162534:	public const EHacker.HackerPoolCdt HackerPoolCdt_CLIENT_INFO_EMPTY = 8;
+  dump.cs:162535:	public const EHacker.HackerPoolCdt HackerPoolCdt_NATIVE_RESULT = 9;
+> dump.cs:162536:	public const EHacker.HackerPoolCdt HackerPoolCdt_MD5_COUNT_AND_VALUE = 15;
+  dump.cs:162537:	public const EHacker.HackerPoolCdt HackerPoolCdt_MATCH_MODE_CHECK = 16;
+  dump.cs:162538:	public const EHacker.HackerPoolCdt HackerPoolCdt_IS_HACKER_CHECK = 17;
+  dump.cs:162539:	public const EHacker.HackerPoolCdt HackerPoolCdt_GIN_CHECK_DATA_EMPTY_ANDROID = 18;
+  dump.cs:162540:	public const EHacker.HackerPoolCdt HackerPoolCdt_GIN_CHECK_DATA_EMPTY_IOS = 19;
+  dump.cs:162541:	public const EHacker.HackerPoolCdt HackerPoolCdt_GIN_CHECK_DATA_EMPTY_PC = 20;
+  dump.cs:281788:	public int local_version; // 0x14
+  dump.cs:281789:	public int server_version; // 0x18
+> dump.cs:281790:	public string MD5; // 0x1C
+  dump.cs:281791:	public string base_code; // 0x20
+  dump.cs:281792:
+  dump.cs:281793:	// Methods
+  dump.cs:281794:
+  dump.cs:281795:	// RVA: 0x76F4F40 Offset: 0x76F0F40 VA: 0x76F4F40
+  dump.cs:282191:	public string network_operator_a; // 0x9C
+  dump.cs:282192:	public string network_type_a; // 0xA0
+> dump.cs:282193:	public string signature_md5; // 0xA4
+  dump.cs:282194:	public int game_installed_disk_avail_storage; // 0xA8
+  dump.cs:282195:	public int game_installed_disk_total_storage; // 0xAC
+  dump.cs:282196:	public int external_sdcard_avail_storage; // 0xB0
+  dump.cs:282197:	public int external_sdcard_total_storage; // 0xB4
+  dump.cs:282198:	public string cpu_architecture; // 0xB8
+  dump.cs:288350:	public static bool IsHighFps; // 0x125
+  dump.cs:288351:	public static string InGameSplitSceneReplaceLabel; // 0x128
+> dump.cs:288352:	private static byte[] <UGCGSGameData_MD5>k__BackingField; // 0x12C
+  dump.cs:288353:	private static NNFJBFKLJBA <UGCGSGameData>k__BackingField; // 0x130
+  dump.cs:288354:	public static UGCResInfo UGCGameResInfoForLocalTest; // 0x134
+  dump.cs:288355:	public static byte[] UGCGameDataBytesForLocalTest; // 0x138
+  dump.cs:288356:	public static bool IsUGCDownloadingNotNecessaryResInGame; // 0x13C
+  dump.cs:288357:	public static bool IsMatchStarted; // 0x13D
+  dump.cs:288558:
+  dump.cs:288559:	// RVA: 0x785F96A Offset: 0x785B96A VA: 0x785F96A
+> dump.cs:288560:	public static byte[] get_UGCGSGameData_MD5() { }
+  dump.cs:288561:
+  dump.cs:288562:	// RVA: 0x785F9C8 Offset: 0x785B9C8 VA: 0x785F9C8
+> dump.cs:288563:	private static void set_UGCGSGameData_MD5(byte[] value) { }
+  dump.cs:288564:
+  dump.cs:288565:	// RVA: 0x785FA3C Offset: 0x785BA3C VA: 0x785FA3C
+  dump.cs:288566:	public static NNFJBFKLJBA get_UGCGSGameData() { }
+  dump.cs:288567:
+  dump.cs:288568:	// RVA: 0x785FA9A Offset: 0x785BA9A VA: 0x785FA9A
+  dump.cs:288570:
+  dump.cs:288571:	// RVA: 0x785FB0E Offset: 0x785BB0E VA: 0x785FB0E
+> dump.cs:288572:	public static void SetUGCGSGameData(NNFJBFKLJBA gameData, byte[] md5) { }
+  dump.cs:288573:
+  dump.cs:288574:	// RVA: 0x785FC4A Offset: 0x785BC4A VA: 0x785FC4A
+  dump.cs:288575:	public static PerformacneMonitor get_BattleGamePerfMonitor() { }
+  dump.cs:288576:
+  dump.cs:288577:	// RVA: 0x785FD72 Offset: 0x785BD72 VA: 0x785FD72
+  dump.cs:334946:	public const string SensiSettingPreset = "SensiSettingPreset";
+  dump.cs:334947:	public const string DownloadCentreShowKey = "ShowDownloadCentre";
+> dump.cs:334948:	public const string OBSettingMD5 = "OB_{0}_Account_{1}_SettingMD5";
+  dump.cs:334949:	public const string ChatBlockListKey = "ChatBlockList";
+  dump.cs:334950:	public const string MaxLobbyOpenKey = "MaxLobbyOpen";
+  dump.cs:334951:	public const string SpectatorCamerMoveSpeedKey = "SpectatorCamerMoveSpeed";
+  dump.cs:334952:	public const string SpectatorCamerRotateSpeedKey = "SpectatorCamerRotateSpeed";
+  dump.cs:334953:	public const string ReduceResolutionKey = "ReduceResolution";
+  dump.cs:335232:
+  dump.cs:335233:	// RVA: 0x8C5669F Offset: 0x8C5269F VA: 0x8C5669F
+> dump.cs:335234:	public static void UpdateOBSettingMD5(string currentMD5) { }
+  dump.cs:335235:
+  dump.cs:335236:	// RVA: 0x8C5680F Offset: 0x8C5280F VA: 0x8C5680F
+> dump.cs:335237:	public static string GetOBSettingMD5() { }
+  dump.cs:335238:
+  dump.cs:335239:	// RVA: 0x8C5698B Offset: 0x8C5298B VA: 0x8C5698B
+> dump.cs:335240:	public static bool IsEqualToLocalSettingMD5(string MD5) { }
+  dump.cs:335241:
+  dump.cs:335242:	// RVA: 0x8C56A61 Offset: 0x8C52A61 VA: 0x8C56A61
+  dump.cs:335243:	public static void SetAutoUploadSwitch(int enable) { }
+  dump.cs:335244:
+  dump.cs:335245:	// RVA: 0x8C56BBC Offset: 0x8C52BBC VA: 0x8C56BBC
+  dump.cs:695204:	private UINewKeyActionSettingController m_KeyActionSettingController; // 0xC8
+  dump.cs:695205:	private UISettingContentBase m_CurrentShowContent; // 0xCC
+> dump.cs:695206:	private string m_SettingMD5; // 0xD0
+  dump.cs:695207:	private bool m_RecommendBindOTP; // 0xD4
+  dump.cs:695208:
+  dump.cs:695209:	// Methods
+  dump.cs:695210:
+  dump.cs:695211:	// RVA: 0x53F0590 Offset: 0x53EC590 VA: 0x53F0590
+> dump.cs:695212:	public string get_SettingMD5() { }
+  dump.cs:695213:
+  dump.cs:695214:	// RVA: 0x53F05FD Offset: 0x53EC5FD VA: 0x53F05FD
+  dump.cs:695215:	public static ResourceID GetResourceID() { }
+  dump.cs:695216:
+  dump.cs:695217:	// RVA: 0x53F06BB Offset: 0x53EC6BB VA: 0x53F06BB Slot: 26
+  dump.cs:824930:	public ulong RuntimeDataLength; // 0x78
+  dump.cs:824931:	public ulong ProjectDataLength; // 0x80
+> dump.cs:824932:	public byte[] RuntimeDataMD5; // 0x88
+> dump.cs:824933:	public byte[] ProjectDataMD5; // 0x8C
+  dump.cs:824934:	public bool LocalSave; // 0x90
+  dump.cs:824935:	public uint ModeTemplateId; // 0x94
+  dump.cs:824936:	public OAMCFBDOEHM.NFOFAFMNKOL ErrorSeverity; // 0x98
+  dump.cs:824937:	public List<WorkshopCommentTag> CommentTags; // 0x9C
+  dump.cs:824938:	public EWorkshop.EditorType EditorType; // 0xA0
+  dump.cs:825003:	public bool Abstract; // 0x1C0
+  dump.cs:825004:	public string OfflineCustomCoverUrl; // 0x1C4
+> dump.cs:825005:	public byte[] CustomCoverMD5; // 0x1C8
+  dump.cs:825006:	public int AutoDownloadIndex; // 0x1CC
+  dump.cs:825007:	public uint UGCSocialFlag; // 0x1D0
+  dump.cs:825008:	public bool EnableAutoStorage; // 0x1D4
+  dump.cs:825009:	public bool IsCoverAuditing; // 0x1D5
+  dump.cs:825010:	public GCEPELDHMPD LogCache; // 0x1D8
+  dump.cs:829785:
+  dump.cs:829786:	// RVA: 0x61212E3 Offset: 0x611D2E3 VA: 0x61212E3
+> dump.cs:829787:	public string GetUploadSettingMD5() { }
+  dump.cs:829788:
+  dump.cs:829789:	// RVA: 0x6121D92 Offset: 0x611DD92 VA: 0x6121D92
+> dump.cs:829790:	public string GetSettingMD5() { }
+  dump.cs:829791:
+  dump.cs:829792:	// RVA: 0x61232C4 Offset: 0x611F2C4 VA: 0x61232C4
+  dump.cs:829793:	public void CheckUploadSetting() { }
+  dump.cs:829794:
+  dump.cs:829795:	// RVA: 0x61236D7 Offset: 0x611F6D7 VA: 0x61236D7
+  dump.cs:830375:
+  dump.cs:830376:	// RVA: 0x6140756 Offset: 0x613C756 VA: 0x6140756
+> dump.cs:830377:	public bool MD5Check() { }
+  dump.cs:830378:
+  dump.cs:830379:	// RVA: 0x61407C0 Offset: 0x613C7C0 VA: 0x61407C0
+  dump.cs:830380:	public bool PopUpCheck() { }
+  dump.cs:830381:
+  dump.cs:830382:	// RVA: 0x6140974 Offset: 0x613C974 VA: 0x6140974
+  dump.cs:970213:	public const FFStopWatch.TagType LoadFileInfo = 34;
+  dump.cs:970214:	public const FFStopWatch.TagType DownloadCommonShader = 35;
+> dump.cs:970215:	public const FFStopWatch.TagType CaculateMD5 = 36;
+  dump.cs:970216:	public const FFStopWatch.TagType StartGetLocalVersion = 37;
+  dump.cs:970217:	public const FFStopWatch.TagType StartGetLocalVersion_Finished = 38;
+  dump.cs:970218:	public const FFStopWatch.TagType StartVersionCheck = 39;
+  dump.cs:970219:	public const FFStopWatch.TagType CowGameEntry_RefreshConfigData = 40;
+  dump.cs:970220:	public const FFStopWatch.TagType CowGameEntry_ParseResourceConf = 41;
+  dump.cs:994469:	private string <Name>k__BackingField; // 0x8
+  dump.cs:994470:	private string <UUID>k__BackingField; // 0xC
+> dump.cs:994471:	private string <UseVersionMD5>k__BackingField; // 0x10
+  dump.cs:994472:	private int <WhoRequire>k__BackingField; // 0x14
+  dump.cs:994473:	private List<UGCCustomLevelObjectEditorManifest.ResFile> <FileList>k__BackingField; // 0x18
+  dump.cs:994474:
+  dump.cs:994475:	// Methods
+  dump.cs:994476:
+  dump.cs:994488:
+  dump.cs:994489:	// RVA: 0x6CB03F6 Offset: 0x6CAC3F6 VA: 0x6CB03F6
+> dump.cs:994490:	public string get_UseVersionMD5() { }
+  dump.cs:994491:
+  dump.cs:994492:	// RVA: 0x6CB0407 Offset: 0x6CAC407 VA: 0x6CB0407
+> dump.cs:994493:	public void set_UseVersionMD5(string value) { }
+  dump.cs:994494:
+  dump.cs:994495:	// RVA: 0x6CB0440 Offset: 0x6CAC440 VA: 0x6CB0440
+  dump.cs:994496:	public int get_WhoRequire() { }
+  dump.cs:994497:
+  dump.cs:994498:	// RVA: 0x6CB0451 Offset: 0x6CAC451 VA: 0x6CB0451
+  dump.cs:1006591:	public string DownloadUrl; // 0xC
+  dump.cs:1006592:	public string LocalUrl; // 0x10
+> dump.cs:1006593:	public string VersionOrMD5; // 0x14
+  dump.cs:1006594:	public string UUID; // 0x18
+  dump.cs:1006595:	public bool IsNeedLoadData; // 0x1C
+  dump.cs:1006596:	public byte[] DownloadedData; // 0x20
+  dump.cs:1006597:	public UGCResourceForGameData.PackageOrABFileInfo.EDownloadStatus DownloadStatus; // 0x24
+  dump.cs:1006598:	public int GuessFileSize; // 0x28
+  dump.cs:1249182:
+  dump.cs:1249183:	// RVA: 0x85ACFB6 Offset: 0x85A8FB6 VA: 0x85ACFB6
+> dump.cs:1249184:	private static string ComputeMD5Hash(string input) { }
+  dump.cs:1249185:
+  dump.cs:1249186:	// RVA: 0x85AD3F8 Offset: 0x85A93F8 VA: 0x85AD3F8
+  dump.cs:1249187:	public static void ClearCachedKey() { }
+  dump.cs:1249188:
+  dump.cs:1249189:	// RVA: 0x85AD464 Offset: 0x85A9464 VA: 0x85AD464
+  dump.cs:1329241:	public const IDMAP0 COW-UIGroupWaitingController-IsOpenHippoCrisisLobby0 = 21240;
+  dump.cs:1329242:	public const IDMAP0 COW-UIGroupWaitingController-OnWholeBtnClick0 = 21220;
+> dump.cs:1329243:	public const IDMAP0 COW-UIModelSkinModCheck-MD5Check0 = 21244;
+  dump.cs:1329244:	public const IDMAP0 COW-UIModelSkinModCheck-RecordNextTimeStamp0 = 21246;
+  dump.cs:1329245:	public const IDMAP0 COW-UIModelSkinModCheck-TimeCheck0 = 21245;
+  dump.cs:1329246:	public const IDMAP0 COW-UISkinModCheckPopWndController-OnDisabledBtnClick0 = 21250;
+  dump.cs:1329247:	public const IDMAP0 COW-UISkinModCheckPopWndController-OnConfirmBtnClick0 = 21251;
+  dump.cs:1329248:	public const IDMAP0 COW-UISkinModCheckPopWndController-ChangeBtnStateHandle0 = 21249;
+  dump.cs:1339155:	public const IDMAP0 COW-GameSettingData-SetUsingSpHudCsplayerInfo0 = 34597;
+  dump.cs:1339156:	public const IDMAP0 COW-GameSettingData-SetMusicVolume0 = 34598;
+> dump.cs:1339157:	public const IDMAP0 COW-GameSettingData-UpdateOBSettingMD50 = 34599;
+> dump.cs:1339158:	public const IDMAP0 COW-GameSettingData-GetOBSettingMD50 = 34600;
+> dump.cs:1339159:	public const IDMAP0 COW-GameSettingData-IsEqualToLocalSettingMD50 = 34601;
+  dump.cs:1339160:	public const IDMAP0 COW-GameSettingData-SetAutoUploadSwitch0 = 34602;
+  dump.cs:1339161:	public const IDMAP0 COW-GameSettingData-IsAutoUploadSwitchOpen0 = 34603;
+  dump.cs:1339162:	public const IDMAP0 COW-GameSettingData-SetIngameEmojiSwitch0 = 34604;
+  dump.cs:1339163:	public const IDMAP0 COW-GameSettingData-SetSoundEffect0 = 34605;
+  dump.cs:1339164:	public const IDMAP0 COW-GameSettingData-SetKillSoundEffect0 = 34606;
+  dump.cs:1340317:	public const IDMAP0 COW-SettingDetail-InitDefaultSetting0 = 35980;
+  dump.cs:1340318:	public const IDMAP0 COW-UIModelSetting-ZipString0 = 35981;
+> dump.cs:1340319:	public const IDMAP0 COW-UIModelSetting-GetSettingMD50 = 35979;
+  dump.cs:1340320:	public const IDMAP0 COW-UIModelSetting-ProcessSettingDownload0 = 35966;
+  dump.cs:1340321:	public const IDMAP0 COW-UIModelSetting-GenerateSettingContentBaseContent0 = 35983;
+  dump.cs:1340322:	public const IDMAP0 COW-UIModelSetting-SendSettingDownloadInfoLog0 = 35982;
+  dump.cs:1340323:	public const IDMAP0 COW-UIModelSetting-DownloadSettingInConflict0 = 35961;
+  dump.cs:1340324:	public const IDMAP0 COW-AutoTaskSettingSync-Do0 = 35958;
+  dump.cs:1374698:	public const IDMAP1 COW-UIBasicSettingController-SetNetworkSettingPageShown0 = 76903;
+  dump.cs:1374699:	public const IDMAP1 COW-UIBasicSettingController-OnUIInit0 = 76536;
+> dump.cs:1374700:	public const IDMAP1 COW-UISettingController-get_SettingMD50 = 76910;
+  dump.cs:1374701:	public const IDMAP1 COW-UIBasicSettingController-RefreshSyncSetting0 = 76909;
+  dump.cs:1374702:	public const IDMAP1 COW-UIBasicSettingController-RefreshScroll0 = 76905;
+  dump.cs:1374703:	public const IDMAP1 COW-UIModelOTP-get_RecommendBindOTP0 = 76915;
+  dump.cs:1374704:	public const IDMAP1 COW-UIBasicSettingController-RefreshRecommendIcon0 = 76914;
+  dump.cs:1374705:	public const IDMAP1 COW-UIBasicSettingController-OnUIOpen0 = 76904;
+  dump.cs:1407167:	public const IDMAP2 COW-UISettingController-RefreshSoundSettingRedTips0 = 115293;
+  dump.cs:1407168:	public const IDMAP2 COW-UIModelSetting-SetSettingCtrl0 = 115294;
+> dump.cs:1407169:	public const IDMAP2 COW-UIModelSetting-GetUploadSettingMD50 = 115299;
+  dump.cs:1407170:	public const IDMAP2 COW-UISettingController-SettingDelayCoroutine0 = 115295;
+  dump.cs:1407171:	public const IDMAP2 COW-UISettingController-OnUIInit0 = 115276;
+  dump.cs:1407172:	public const IDMAP2 COW-UIModelSetting-AutoUploadSetting0 = 115304;
+  dump.cs:1407173:	public const IDMAP2 COW-UISettingController-OnUIDestory0 = 115303;
+  dump.cs:1407174:	public const IDMAP2 COW-UISettingController-UseCustomizedAnimation0 = 115305;
+  dump.cs:1549978:
+  dump.cs:1549979:// Namespace: System.Security.Cryptography
+> dump.cs:1549980:public class HMACMD5 : HMAC // TypeDefIndex: 35131
+  dump.cs:1549981:{
+  dump.cs:1549982:	// Methods
+  dump.cs:1549983:
+  dump.cs:1549984:	// RVA: 0x9FE53F0 Offset: 0x9FE13F0 VA: 0x9FE53F0
+  dump.cs:1549985:	public void .ctor() { }
+  dump.cs:1550195:
+  dump.cs:1550196:// Namespace: System.Security.Cryptography
+> dump.cs:1550197:public abstract class MD5 : HashAlgorithm // TypeDefIndex: 35141
+  dump.cs:1550198:{
+  dump.cs:1550199:	// Methods
+  dump.cs:1550200:
+  dump.cs:1550201:	// RVA: 0x9FE6D40 Offset: 0x9FE2D40 VA: 0x9FE6D40
+  dump.cs:1550202:	protected void .ctor() { }
+  dump.cs:1550203:
+  dump.cs:1550204:	// RVA: 0x9FE6D76 Offset: 0x9FE2D76 VA: 0x9FE6D76
+> dump.cs:1550205:	public static MD5 Create() { }
+  dump.cs:1550206:}
+  dump.cs:1550207:
+  dump.cs:1550208:// Namespace: System.Security.Cryptography
+  dump.cs:1550209:public abstract class RandomNumberGenerator : IDisposable // TypeDefIndex: 35142
+  dump.cs:1550210:{
+  dump.cs:1551299:
+  dump.cs:1551300:// Namespace: System.Security.Cryptography
+> dump.cs:1551301:public sealed class MD5CryptoServiceProvider : MD5 // TypeDefIndex: 35176
+  dump.cs:1551302:{
+  dump.cs:1551303:	// Fields
+  dump.cs:1551304:	private uint[] _H; // 0x18
+  dump.cs:1551305:	private uint[] buff; // 0x1C
+  dump.cs:1551306:	private ulong count; // 0x20
+  dump.cs:1583763:	public int value__; // 0x0
+  dump.cs:1583764:	public const AssemblyHashAlgorithm None = 0;
+> dump.cs:1583765:	public const AssemblyHashAlgorithm MD5 = 32771;
+  dump.cs:1583766:	public const AssemblyHashAlgorithm SHA1 = 32772;
+  dump.cs:1583767:	public const AssemblyHashAlgorithm SHA256 = 32780;
+  dump.cs:1583768:	public const AssemblyHashAlgorithm SHA384 = 32781;
+  dump.cs:1583769:	public const AssemblyHashAlgorithm SHA512 = 32782;
+  dump.cs:1583770:}
+  dump.cs:1828877:	public const HttpRequestHeader ContentLanguage = 14;
+  dump.cs:1828878:	public const HttpRequestHeader ContentLocation = 15;
+> dump.cs:1828879:	public const HttpRequestHeader ContentMd5 = 16;
+  dump.cs:1828880:	public const HttpRequestHeader ContentRange = 17;
+  dump.cs:1828881:	public const HttpRequestHeader Expires = 18;
+  dump.cs:1828882:	public const HttpRequestHeader LastModified = 19;
+  dump.cs:1828883:	public const HttpRequestHeader Accept = 20;
+  dump.cs:1828884:	public const HttpRequestHeader AcceptCharset = 21;
+  dump.cs:1856864:	public const BsonBinaryType UuidOld = 3;
+  dump.cs:1856865:	public const BsonBinaryType Uuid = 4;
+> dump.cs:1856866:	public const BsonBinaryType Md5 = 5;
+  dump.cs:1856867:	public const BsonBinaryType UserDefined = 128;
+  dump.cs:1856868:}
+  dump.cs:1856869:
+  dump.cs:1856870:// Namespace: Newtonsoft.Json.Bson
+  dump.cs:1856871:internal class BsonBinaryWriter // TypeDefIndex: 39757
+  dump.cs:1966248:	public ushort value__; // 0x0
+  dump.cs:1966249:	public const CipherSuiteCode TLS_NULL_WITH_NULL_NULL = 0;
+> dump.cs:1966250:	public const CipherSuiteCode TLS_RSA_WITH_NULL_MD5 = 1;
+  dump.cs:1966251:	public const CipherSuiteCode TLS_RSA_WITH_NULL_SHA = 2;
+> dump.cs:1966252:	public const CipherSuiteCode TLS_RSA_EXPORT_WITH_RC4_40_MD5 = 3;
+> dump.cs:1966253:	public const CipherSuiteCode TLS_RSA_WITH_RC4_128_MD5 = 4;
+  dump.cs:1966254:	public const CipherSuiteCode TLS_RSA_WITH_RC4_128_SHA = 5;
+> dump.cs:1966255:	public const CipherSuiteCode TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5 = 6;
+  dump.cs:1966256:	public const CipherSuiteCode TLS_RSA_WITH_IDEA_CBC_SHA = 7;
+  dump.cs:1966257:	public const CipherSuiteCode TLS_RSA_EXPORT_WITH_DES40_CBC_SHA = 8;
+  dump.cs:1966258:	public const CipherSuiteCode TLS_RSA_WITH_DES_CBC_SHA = 9;
+  dump.cs:1966259:	public const CipherSuiteCode TLS_RSA_WITH_3DES_EDE_CBC_SHA = 10;
+  dump.cs:1966260:	public const CipherSuiteCode TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA = 11;
+  dump.cs:1966270:	public const CipherSuiteCode TLS_DHE_RSA_WITH_DES_CBC_SHA = 21;
+  dump.cs:1966271:	public const CipherSuiteCode TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA = 22;
+> dump.cs:1966272:	public const CipherSuiteCode TLS_DH_anon_EXPORT_WITH_RC4_40_MD5 = 23;
+> dump.cs:1966273:	public const CipherSuiteCode TLS_DH_anon_WITH_RC4_128_MD5 = 24;
+  dump.cs:1966274:	public const CipherSuiteCode TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA = 25;
+  dump.cs:1966275:	public const CipherSuiteCode TLS_DH_anon_WITH_DES_CBC_SHA = 26;
+  dump.cs:1966276:	public const CipherSuiteCode TLS_DH_anon_WITH_3DES_EDE_CBC_SHA = 27;
+  dump.cs:1966277:	public const CipherSuiteCode TLS_RSA_WITH_AES_128_CBC_SHA = 47;
+  dump.cs:1966278:	public const CipherSuiteCode TLS_DH_DSS_WITH_AES_128_CBC_SHA = 48;
+
+

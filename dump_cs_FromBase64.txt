@@ -1,0 +1,45 @@
+﻿
+  dump.cs:844308:
+  dump.cs:844309:	// RVA: 0x628281C Offset: 0x627E81C VA: 0x628281C
+> dump.cs:844310:	public static string FromBase64(string base64) { }
+  dump.cs:844311:
+  dump.cs:844312:	// RVA: 0x627E66D Offset: 0x627A66D VA: 0x627E66D
+  dump.cs:844313:	public static string GetClientVersion() { }
+  dump.cs:844314:
+  dump.cs:844315:	// RVA: 0x6282908 Offset: 0x627E908 VA: 0x6282908
+  dump.cs:1411257:	public const IDMAP3 COW-UIFrontEndScene-OnLobbySkyboardDisplayOpen0 = 120167;
+  dump.cs:1411258:	public const IDMAP3 COW-UIFrontEndScene-FrontEndSpontaneousMessageHandler-get_I0 = 120168;
+> dump.cs:1411259:	public const IDMAP3 COW-OpenedByUrl-FromBase640 = 120185;
+  dump.cs:1411260:	public const IDMAP3 COW-OpenedByUrl-ProcessFallback0 = 120210;
+  dump.cs:1411261:	public const IDMAP3 COW-OpenedByUrl-Init0 = 120169;
+  dump.cs:1411262:	public const IDMAP3 COW-UIFrontEndScene-OnDeepLink_CharactersNew0 = 120212;
+  dump.cs:1411263:	public const IDMAP3 COW-UIFrontEndScene-OnDeepLink_ElitePass0 = 120213;
+  dump.cs:1411264:	public const IDMAP3 COW-UIFrontEndScene-OnDeepLink_Gacha0 = 120214;
+  dump.cs:1461712:
+  dump.cs:1461713:	// RVA: 0xA0DBC30 Offset: 0xA0D7C30 VA: 0xA0DBC30
+> dump.cs:1461714:	public static byte[] FromBase64String(string s) { }
+  dump.cs:1461715:
+  dump.cs:1461716:	// RVA: 0xA0DBEAA Offset: 0xA0D7EAA VA: 0xA0DBEAA
+> dump.cs:1461717:	public static bool TryFromBase64Chars(ReadOnlySpan<char> chars, Span<byte> bytes, out int bytesWritten) { }
+  dump.cs:1461718:
+  dump.cs:1461719:	// RVA: 0xA0DC548 Offset: 0xA0D8548 VA: 0xA0DC548
+  dump.cs:1461720:	private static void CopyToTempBufferWithoutWhiteSpace(ReadOnlySpan<char> chars, Span<char> tempBuffer, out int 
+consumed, out int charsWritten) { }
+  dump.cs:1461721:
+  dump.cs:1461722:	// RVA: 0xA0DC668 Offset: 0xA0D8668 VA: 0xA0DC668
+  dump.cs:1461724:
+  dump.cs:1461725:	// RVA: 0xA0DC68C Offset: 0xA0D868C VA: 0xA0DC68C
+> dump.cs:1461726:	public static byte[] FromBase64CharArray(char[] inArray, int offset, int length) { }
+  dump.cs:1461727:
+  dump.cs:1461728:	// RVA: 0xA0DBCFC Offset: 0xA0D7CFC VA: 0xA0DBCFC
+> dump.cs:1461729:	private static byte[] FromBase64CharPtr(char* inputPtr, int inputLength) { }
+  dump.cs:1461730:
+  dump.cs:1461731:	// RVA: 0xA0DC889 Offset: 0xA0D8889 VA: 0xA0DC889
+> dump.cs:1461732:	private static int FromBase64_ComputeResultLength(char* inputPtr, int inputLength) { }
+  dump.cs:1461733:
+  dump.cs:1461734:	// RVA: 0xA0DC940 Offset: 0xA0D8940 VA: 0xA0DC940
+  dump.cs:1461735:	private static void .cctor() { }
+  dump.cs:1461736:}
+  dump.cs:1461737:
+
+

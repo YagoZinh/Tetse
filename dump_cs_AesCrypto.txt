@@ -1,0 +1,11 @@
+﻿
+  dump.cs:1913799:
+  dump.cs:1913800:// Namespace: System.Security.Cryptography
+> dump.cs:1913801:public sealed class AesCryptoServiceProvider : Aes // TypeDefIndex: 41188
+  dump.cs:1913802:{
+  dump.cs:1913803:	// Methods
+  dump.cs:1913804:
+  dump.cs:1913805:	// RVA: 0xA3B6C0A Offset: 0xA3B2C0A VA: 0xA3B6C0A
+  dump.cs:1913806:	public void .ctor() { }
+
+

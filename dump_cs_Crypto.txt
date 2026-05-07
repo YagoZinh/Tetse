@@ -1,0 +1,1767 @@
+﻿
+  dump.cs:49234:	public const int EndOfCentralRecordBaseSize = 22;
+  dump.cs:49235:	public const int ENDHDR = 22;
+> dump.cs:49236:	public const int CryptoHeaderSize = 12;
+> dump.cs:49237:	public const int CRYPTO_HEADER_SIZE = 12;
+  dump.cs:49238:	public const int LocalHeaderSignature = 67324752;
+  dump.cs:49239:	public const int LOCSIG = 67324752;
+  dump.cs:49240:	public const int SpanningSignature = 134695760;
+  dump.cs:49241:	public const int SPANNINGSIG = 134695760;
+  dump.cs:49242:	public const int SpanningTempSignature = 808471376;
+  dump.cs:49350:	private long offset; // 0x4C
+  dump.cs:49351:	private bool forceZip64_; // 0x54
+> dump.cs:49352:	private byte cryptoCheckValue_; // 0x55
+  dump.cs:49353:	private int _aesVer; // 0x58
+  dump.cs:49354:	private int _aesEncryptionStrength; // 0x5C
+  dump.cs:49355:
+  dump.cs:49356:	// Methods
+  dump.cs:49357:
+  dump.cs:49384:
+  dump.cs:49385:	// RVA: 0x3850225 Offset: 0x384C225 VA: 0x3850225
+> dump.cs:49386:	internal byte get_CryptoCheckValue() { }
+  dump.cs:49387:
+  dump.cs:49388:	// RVA: 0x3850236 Offset: 0x384C236 VA: 0x3850236
+> dump.cs:49389:	internal void set_CryptoCheckValue(byte value) { }
+  dump.cs:49390:
+  dump.cs:49391:	// RVA: 0x385024A Offset: 0x384C24A VA: 0x385024A
+  dump.cs:49392:	public int get_Flags() { }
+  dump.cs:49393:
+  dump.cs:49394:	// RVA: 0x385025B Offset: 0x384C25B VA: 0x385025B
+  dump.cs:50685:	// Fields
+  dump.cs:50686:	private string password; // 0x14
+> dump.cs:50687:	private ICryptoTransform cryptoTransform_; // 0x18
+  dump.cs:50688:	protected byte[] AESAuthCode; // 0x1C
+  dump.cs:50689:	private byte[] buffer_; // 0x20
+  dump.cs:50690:	protected Deflater deflater_; // 0x24
+  dump.cs:50691:	protected Stream baseOutputStream_; // 0x28
+  dump.cs:50692:	private bool isClosed_; // 0x2C
+  dump.cs:50693:	private bool isStreamOwner_; // 0x2D
+> dump.cs:50694:	private static RNGCryptoServiceProvider _aesRnd; // 0x0
+  dump.cs:50695:
+  dump.cs:50696:	// Methods
+  dump.cs:50697:
+  dump.cs:50698:	// RVA: 0x396E958 Offset: 0x396A958 VA: 0x396E958
+  dump.cs:50699:	public void .ctor(Stream baseOutputStream) { }
+  dump.cs:50797:	private byte[] internalClearText; // 0x18
+  dump.cs:50798:	private int available; // 0x1C
+> dump.cs:50799:	private ICryptoTransform cryptoTransform; // 0x20
+  dump.cs:50800:	private Stream inputStream; // 0x24
+  dump.cs:50801:
+  dump.cs:50802:	// Methods
+  dump.cs:50803:
+  dump.cs:50804:	// RVA: 0x396FB36 Offset: 0x396BB36 VA: 0x396FB36
+  dump.cs:50857:
+  dump.cs:50858:	// RVA: 0x3970332 Offset: 0x396C332 VA: 0x3970332
+> dump.cs:50859:	public void set_CryptoTransform(ICryptoTransform value) { }
+  dump.cs:50860:}
+  dump.cs:50861:
+  dump.cs:50862:// Namespace: ICSharpCode.SharpZipLib.Zip.Compression.Streams
+  dump.cs:50863:public class InflaterInputStream : Stream // TypeDefIndex: 1487
+  dump.cs:50864:{
+  dump.cs:51166:
+  dump.cs:51167:// Namespace: ICSharpCode.SharpZipLib.Encryption
+> dump.cs:51168:internal class PkzipClassicCryptoBase // TypeDefIndex: 1496
+  dump.cs:51169:{
+  dump.cs:51170:	// Fields
+  dump.cs:51171:	private uint[] keys; // 0x8
+  dump.cs:51172:
+  dump.cs:51173:	// Methods
+  dump.cs:51190:
+  dump.cs:51191:// Namespace: ICSharpCode.SharpZipLib.Encryption
+> dump.cs:51192:internal class PkzipClassicEncryptCryptoTransform : PkzipClassicCryptoBase, ICryptoTransform, IDisposable // TypeDefIndex: 
+1497
+  dump.cs:51193:{
+  dump.cs:51194:	// Methods
+  dump.cs:51195:
+  dump.cs:51196:	// RVA: 0x3972AA3 Offset: 0x396EAA3 VA: 0x3972AA3
+  dump.cs:51197:	internal void .ctor(byte[] keyBlock) { }
+  dump.cs:51220:
+  dump.cs:51221:// Namespace: ICSharpCode.SharpZipLib.Encryption
+> dump.cs:51222:internal class PkzipClassicDecryptCryptoTransform : PkzipClassicCryptoBase, ICryptoTransform, IDisposable // TypeDefIndex: 
+1498
+  dump.cs:51223:{
+  dump.cs:51224:	// Methods
+  dump.cs:51225:
+  dump.cs:51226:	// RVA: 0x3972C57 Offset: 0x396EC57 VA: 0x3972C57
+  dump.cs:51227:	internal void .ctor(byte[] keyBlock) { }
+  dump.cs:51282:
+  dump.cs:51283:	// RVA: 0x3973328 Offset: 0x396F328 VA: 0x3973328 Slot: 23
+> dump.cs:51284:	public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:51285:
+  dump.cs:51286:	// RVA: 0x39733D2 Offset: 0x396F3D2 VA: 0x39733D2 Slot: 25
+> dump.cs:51287:	public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:51288:
+  dump.cs:51289:	// RVA: 0x396EB0B Offset: 0x396AB0B VA: 0x396EB0B
+  dump.cs:51290:	public void .ctor() { }
+  dump.cs:51291:}
+  dump.cs:51292:
+  dump.cs:51293:// Namespace: ICSharpCode.SharpZipLib.Encryption
+> dump.cs:51294:internal class ZipAESTransform : ICryptoTransform, IDisposable // TypeDefIndex: 1500
+  dump.cs:51295:{
+  dump.cs:51296:	// Fields
+  dump.cs:51297:	private const int PWD_VER_LENGTH = 2;
+  dump.cs:51298:	private const int KEY_ROUNDS = 1000;
+  dump.cs:51299:	private const int ENCRYPT_BLOCK = 16;
+  dump.cs:51300:	private int _blockSize; // 0x8
+> dump.cs:51301:	private ICryptoTransform _encryptor; // 0xC
+  dump.cs:51302:	private readonly byte[] _counterNonce; // 0x10
+  dump.cs:51303:	private byte[] _encryptBuffer; // 0x14
+  dump.cs:51304:	private int _encrPos; // 0x18
+  dump.cs:51305:	private byte[] _pwdVerifier; // 0x1C
+  dump.cs:51306:	private HMACSHA1 _hmacsha1; // 0x20
+  dump.cs:1236594:	private const int DecryptionBufferSize = 61440;
+  dump.cs:1236595:	private byte[] m_DecryptionBuffer; // 0x5C
+> dump.cs:1236596:	public int m_DecryptorBlockSize; // 0x60
+> dump.cs:1236597:	public ICryptoTransform m_Decryptor; // 0x64
+  dump.cs:1236598:	private Thread[] m_PreloadCSVThread; // 0x68
+  dump.cs:1236599:
+  dump.cs:1236600:	// Methods
+  dump.cs:1236601:
+  dump.cs:1236602:	// RVA: 0x84F72B5 Offset: 0x84F32B5 VA: 0x84F72B5
+  dump.cs:1246140:
+  dump.cs:1246141:// Namespace: GCommon
+> dump.cs:1246142:public static class NetworkCryptologyUtil // TypeDefIndex: 33719
+  dump.cs:1246143:{
+  dump.cs:1246144:	// Fields
+  dump.cs:1246145:	public static byte[] TestKey; // 0x0
+  dump.cs:1246146:	public static readonly int SALT_LEN; // 0x4
+  dump.cs:1246147:	public static readonly int ZERO_LEN; // 0x8
+  dump.cs:1249229:{
+  dump.cs:1249230:	// Fields
+> dump.cs:1249231:	private static SHA1CryptoServiceProvider m_SHA1; // 0x0
+  dump.cs:1249232:
+  dump.cs:1249233:	// Methods
+  dump.cs:1249234:
+  dump.cs:1249235:	// RVA: 0x85ADCAA Offset: 0x85A9CAA VA: 0x85ADCAA
+  dump.cs:1249236:	public static string GetFileHash(string filePath) { }
+  dump.cs:1249237:
+  dump.cs:1249238:	// RVA: 0x85AE0A9 Offset: 0x85AA0A9 VA: 0x85AE0A9
+> dump.cs:1249239:	public static void HashBlock(SHA1CryptoServiceProvider worker, byte[] data, int offset, int size) { }
+  dump.cs:1249240:
+  dump.cs:1249241:	// RVA: 0x85AE204 Offset: 0x85AA204 VA: 0x85AE204
+> dump.cs:1249242:	public static string HashFinalBlock(SHA1CryptoServiceProvider worker, byte[] data, int offset) { }
+  dump.cs:1249243:
+  dump.cs:1249244:	// RVA: 0x85AE3EB Offset: 0x85AA3EB VA: 0x85AE3EB
+> dump.cs:1249245:	public static string ComputeHash(SHA1CryptoServiceProvider worker, byte[] data, int offset = 0) { }
+  dump.cs:1249246:
+  dump.cs:1249247:	// RVA: 0x85AE5AF Offset: 0x85AA5AF VA: 0x85AE5AF
+  dump.cs:1249248:	public static void Decryption(byte[] fileBytes, out byte[] decryptionBytes) { }
+  dump.cs:1249249:
+  dump.cs:1249250:	// RVA: 0x85AECC0 Offset: 0x85AACC0 VA: 0x85AECC0
+> dump.cs:1249251:	public static ICryptoTransform CreateDecryptor(out int blockSize) { }
+  dump.cs:1249252:
+  dump.cs:1249253:	// RVA: 0x85AEE06 Offset: 0x85AAE06 VA: 0x85AEE06
+> dump.cs:1249254:	public static int Decryption(ICryptoTransform decryptor, int blockSize, byte[] fileBytes, ref byte[] decryptionBytes) { 
+}
+  dump.cs:1249255:
+  dump.cs:1249256:	// RVA: 0x85AF183 Offset: 0x85AB183 VA: 0x85AF183
+  dump.cs:1249257:	public void .ctor() { }
+  dump.cs:1249258:
+  dump.cs:1249259:	// RVA: 0x85AF1B4 Offset: 0x85AB1B4 VA: 0x85AF1B4
+  dump.cs:1249505:	protected readonly object m_TempFileLock; // 0x58
+  dump.cs:1249506:	protected long m_TempFileLength; // 0x5C
+> dump.cs:1249507:	protected SHA1CryptoServiceProvider m_HashWorker; // 0x64
+  dump.cs:1249508:	protected byte[] m_HashBuffer; // 0x68
+  dump.cs:1249509:	protected bool m_NeedHashTemp; // 0x6C
+  dump.cs:1249510:	protected const int GETDATA_TIKECOUNT = 5;
+  dump.cs:1249511:	private int m_curTick; // 0x70
+  dump.cs:1249512:
+  dump.cs:1249572:	private byte[] m_Buffer; // 0x50
+  dump.cs:1249573:	private bool m_IsFinished; // 0x54
+> dump.cs:1249574:	private SHA1CryptoServiceProvider m_HashWorker; // 0x58
+  dump.cs:1249575:
+  dump.cs:1249576:	// Methods
+  dump.cs:1249577:
+  dump.cs:1249578:	// RVA: 0x85B1AFE Offset: 0x85ADAFE VA: 0x85B1AFE
+  dump.cs:1249579:	public void .ctor(bool OptimizeRead) { }
+  dump.cs:1249625:	private byte[] m_Buffer; // 0x40
+  dump.cs:1249626:	private bool m_IsFinished; // 0x44
+> dump.cs:1249627:	private SHA1CryptoServiceProvider m_HashWorker; // 0x48
+  dump.cs:1249628:
+  dump.cs:1249629:	// Methods
+  dump.cs:1249630:
+  dump.cs:1249631:	// RVA: 0x85B26FB Offset: 0x85AE6FB VA: 0x85B26FB Slot: 7
+  dump.cs:1249632:	protected override void OnStart(float time) { }
+  dump.cs:1249715:	protected long m_DownloadingSize; // 0x5C
+  dump.cs:1249716:	protected long m_LastDownloadedSize; // 0x64
+> dump.cs:1249717:	protected SHA1CryptoServiceProvider m_HashWorker; // 0x6C
+  dump.cs:1249718:	protected byte[] m_HashBuffer; // 0x70
+  dump.cs:1249719:	protected bool m_NeedHashTemp; // 0x74
+  dump.cs:1249720:	protected FileStream m_FlagStream; // 0x78
+  dump.cs:1249721:	protected BitArrayRich m_TempFlag; // 0x7C
+  dump.cs:1249722:	protected BitArrayRich m_RunningFlag; // 0x80
+  dump.cs:1450418:
+  dump.cs:1450419:	// RVA: 0x9F7FB7B Offset: 0x9F7BB7B VA: 0x9F7FB7B
+> dump.cs:1450420:	internal static extern void GetNonCryptographicallySecureRandomBytes(byte* buffer, int length) { }
+  dump.cs:1450421:
+  dump.cs:1450422:	// RVA: 0x9F7FEA1 Offset: 0x9F7BEA1 VA: 0x9F7FEA1
+  dump.cs:1450423:	internal static extern IntPtr OpenDir(string path) { }
+  dump.cs:1450424:
+  dump.cs:1450425:	// RVA: 0x9F7FEE8 Offset: 0x9F7BEE8 VA: 0x9F7FEE8
+  dump.cs:1451966:}
+  dump.cs:1451967:
+> dump.cs:1451968:// Namespace: Mono.Security.Cryptography
+> dump.cs:1451969:internal sealed class CryptoConvert // TypeDefIndex: 34474
+  dump.cs:1451970:{
+  dump.cs:1451971:	// Methods
+  dump.cs:1451972:
+  dump.cs:1451973:	// RVA: 0x9F939D2 Offset: 0x9F8F9D2 VA: 0x9F939D2
+  dump.cs:1451974:	private static int ToInt32LE(byte[] bytes, int offset) { }
+  dump.cs:1452011:}
+  dump.cs:1452012:
+> dump.cs:1452013:// Namespace: Mono.Security.Cryptography
+  dump.cs:1452014:internal sealed class KeyBuilder // TypeDefIndex: 34475
+  dump.cs:1452015:{
+  dump.cs:1452016:	// Fields
+  dump.cs:1452017:	private static RandomNumberGenerator rng; // 0x0
+  dump.cs:1452018:
+  dump.cs:1452029:}
+  dump.cs:1452030:
+> dump.cs:1452031:// Namespace: Mono.Security.Cryptography
+  dump.cs:1452032:internal class KeyPairPersistence // TypeDefIndex: 34476
+  dump.cs:1452033:{
+  dump.cs:1452034:	// Fields
+  dump.cs:1452035:	private static bool _userPathExists; // 0x0
+  dump.cs:1452036:	private static string _userPath; // 0x4
+  dump.cs:1452130:}
+  dump.cs:1452131:
+> dump.cs:1452132:// Namespace: Mono.Security.Cryptography
+  dump.cs:1452133:internal abstract class MD2 : HashAlgorithm // TypeDefIndex: 34477
+  dump.cs:1452134:{
+  dump.cs:1452135:	// Methods
+  dump.cs:1452136:
+  dump.cs:1452137:	// RVA: 0x9F97280 Offset: 0x9F93280 VA: 0x9F97280
+  dump.cs:1452142:}
+  dump.cs:1452143:
+> dump.cs:1452144:// Namespace: Mono.Security.Cryptography
+  dump.cs:1452145:internal class MD2Managed : MD2 // TypeDefIndex: 34478
+  dump.cs:1452146:{
+  dump.cs:1452147:	// Fields
+  dump.cs:1452148:	private byte[] state; // 0x18
+  dump.cs:1452149:	private byte[] checksum; // 0x1C
+  dump.cs:1452177:}
+  dump.cs:1452178:
+> dump.cs:1452179:// Namespace: Mono.Security.Cryptography
+  dump.cs:1452180:internal abstract class MD4 : HashAlgorithm // TypeDefIndex: 34479
+  dump.cs:1452181:{
+  dump.cs:1452182:	// Methods
+  dump.cs:1452183:
+  dump.cs:1452184:	// RVA: 0x9F97AB2 Offset: 0x9F93AB2 VA: 0x9F97AB2
+  dump.cs:1452189:}
+  dump.cs:1452190:
+> dump.cs:1452191:// Namespace: Mono.Security.Cryptography
+  dump.cs:1452192:internal class MD4Managed : MD4 // TypeDefIndex: 34480
+  dump.cs:1452193:{
+  dump.cs:1452194:	// Fields
+  dump.cs:1452195:	private uint[] state; // 0x18
+  dump.cs:1452196:	private byte[] buffer; // 0x1C
+  dump.cs:1452247:}
+  dump.cs:1452248:
+> dump.cs:1452249:// Namespace: Mono.Security.Cryptography
+  dump.cs:1452250:internal sealed class PKCS1 // TypeDefIndex: 34481
+  dump.cs:1452251:{
+  dump.cs:1452252:	// Fields
+  dump.cs:1452253:	private static byte[] emptySHA1; // 0x0
+  dump.cs:1452254:	private static byte[] emptySHA256; // 0x4
+  dump.cs:1452301:}
+  dump.cs:1452302:
+> dump.cs:1452303:// Namespace: Mono.Security.Cryptography
+  dump.cs:1452304:internal class RSAManaged : RSA // TypeDefIndex: 34483
+  dump.cs:1452305:{
+  dump.cs:1452306:	// Fields
+  dump.cs:1452307:	private bool isCRTpossible; // 0x10
+  dump.cs:1452308:	private bool keyBlinding; // 0x11
+  dump.cs:1452361:}
+  dump.cs:1452362:
+> dump.cs:1452363:// Namespace: Mono.Security.Cryptography
+> dump.cs:1452364:internal abstract class SymmetricTransform : ICryptoTransform, IDisposable // TypeDefIndex: 34484
+  dump.cs:1452365:{
+  dump.cs:1452366:	// Fields
+  dump.cs:1452367:	protected SymmetricAlgorithm algo; // 0x8
+  dump.cs:1452368:	protected bool encrypt; // 0xC
+  dump.cs:1452369:	protected int BlockSizeByte; // 0x10
+  dump.cs:1452462:}
+  dump.cs:1452463:
+> dump.cs:1452464:// Namespace: Mono.Security.Cryptography
+  dump.cs:1452465:internal class DSAManaged : DSA // TypeDefIndex: 34486
+  dump.cs:1452466:{
+  dump.cs:1452467:	// Fields
+  dump.cs:1452468:	private bool keypairGenerated; // 0x10
+  dump.cs:1452469:	private bool m_disposed; // 0x11
+  dump.cs:1453088:}
+  dump.cs:1453089:
+> dump.cs:1453090:// Namespace: Internal.Cryptography
+  dump.cs:1453091:internal static class Helpers // TypeDefIndex: 34509
+  dump.cs:1453092:{
+  dump.cs:1453093:	// Methods
+  dump.cs:1453094:
+  dump.cs:1453095:	// RVA: 0x9FA573B Offset: 0x9FA173B VA: 0x9FA573B
+  dump.cs:1549120:}
+  dump.cs:1549121:
+> dump.cs:1549122:// Namespace: System.Security.Cryptography
+  dump.cs:1549123:public class Rfc2898DeriveBytes : DeriveBytes // TypeDefIndex: 35101
+  dump.cs:1549124:{
+  dump.cs:1549125:	// Fields
+  dump.cs:1549126:	private readonly byte[] _password; // 0x8
+  dump.cs:1549127:	private byte[] _salt; // 0xC
+  dump.cs:1549169:
+  dump.cs:1549170:// Namespace: 
+> dump.cs:1549171:private struct CryptoStream.<ReadAsyncInternal>d__37 : IAsyncStateMachine // TypeDefIndex: 35102
+  dump.cs:1549172:{
+  dump.cs:1549173:	// Fields
+  dump.cs:1549174:	public int <>1__state; // 0x0
+  dump.cs:1549175:	public AsyncTaskMethodBuilder<int> <>t__builder; // 0x4
+> dump.cs:1549176:	public CryptoStream <>4__this; // 0x10
+  dump.cs:1549177:	public byte[] buffer; // 0x14
+  dump.cs:1549178:	public int offset; // 0x18
+  dump.cs:1549179:	public int count; // 0x1C
+  dump.cs:1549180:	public CancellationToken cancellationToken; // 0x20
+  dump.cs:1549181:	private SemaphoreSlim <semaphore>5__2; // 0x24
+  dump.cs:1549193:
+  dump.cs:1549194:// Namespace: 
+> dump.cs:1549195:private struct CryptoStream.<ReadAsyncCore>d__42 : IAsyncStateMachine // TypeDefIndex: 35103
+  dump.cs:1549196:{
+  dump.cs:1549197:	// Fields
+  dump.cs:1549198:	public int <>1__state; // 0x0
+  dump.cs:1549199:	public AsyncTaskMethodBuilder<int> <>t__builder; // 0x4
+  dump.cs:1549200:	public int count; // 0x10
+  dump.cs:1549201:	public int offset; // 0x14
+> dump.cs:1549202:	public CryptoStream <>4__this; // 0x18
+  dump.cs:1549203:	public byte[] buffer; // 0x1C
+  dump.cs:1549204:	public bool useAsync; // 0x20
+  dump.cs:1549205:	public CancellationToken cancellationToken; // 0x24
+  dump.cs:1549206:	private int <bytesToDeliver>5__2; // 0x28
+  dump.cs:1549207:	private int <currentOutputIndex>5__3; // 0x2C
+  dump.cs:1549221:
+  dump.cs:1549222:// Namespace: 
+> dump.cs:1549223:private struct CryptoStream.<WriteAsyncInternal>d__46 : IAsyncStateMachine // TypeDefIndex: 35104
+  dump.cs:1549224:{
+  dump.cs:1549225:	// Fields
+  dump.cs:1549226:	public int <>1__state; // 0x0
+  dump.cs:1549227:	public AsyncTaskMethodBuilder <>t__builder; // 0x4
+> dump.cs:1549228:	public CryptoStream <>4__this; // 0x10
+  dump.cs:1549229:	public byte[] buffer; // 0x14
+  dump.cs:1549230:	public int offset; // 0x18
+  dump.cs:1549231:	public int count; // 0x1C
+  dump.cs:1549232:	public CancellationToken cancellationToken; // 0x20
+  dump.cs:1549233:	private SemaphoreSlim <semaphore>5__2; // 0x24
+  dump.cs:1549245:
+  dump.cs:1549246:// Namespace: 
+> dump.cs:1549247:private struct CryptoStream.<WriteAsyncCore>d__49 : IAsyncStateMachine // TypeDefIndex: 35105
+  dump.cs:1549248:{
+  dump.cs:1549249:	// Fields
+  dump.cs:1549250:	public int <>1__state; // 0x0
+  dump.cs:1549251:	public AsyncTaskMethodBuilder <>t__builder; // 0x4
+  dump.cs:1549252:	public int count; // 0x10
+  dump.cs:1549253:	public int offset; // 0x14
+> dump.cs:1549254:	public CryptoStream <>4__this; // 0x18
+  dump.cs:1549255:	public byte[] buffer; // 0x1C
+  dump.cs:1549256:	public bool useAsync; // 0x20
+  dump.cs:1549257:	public CancellationToken cancellationToken; // 0x24
+  dump.cs:1549258:	private int <bytesToWrite>5__2; // 0x28
+  dump.cs:1549259:	private int <currentInputIndex>5__3; // 0x2C
+  dump.cs:1549273:
+  dump.cs:1549274:// Namespace: 
+> dump.cs:1549275:private sealed class CryptoStream.<>c // TypeDefIndex: 35106
+  dump.cs:1549276:{
+  dump.cs:1549277:	// Fields
+> dump.cs:1549278:	public static readonly CryptoStream.<>c <>9; // 0x0
+  dump.cs:1549279:	public static Func<SemaphoreSlim> <>9__54_0; // 0x4
+  dump.cs:1549280:
+  dump.cs:1549281:	// Methods
+  dump.cs:1549282:
+  dump.cs:1549283:	// RVA: 0x9FE0639 Offset: 0x9FDC639 VA: 0x9FE0639
+  dump.cs:1549291:}
+  dump.cs:1549292:
+> dump.cs:1549293:// Namespace: System.Security.Cryptography
+> dump.cs:1549294:public class CryptoStream : Stream, IDisposable // TypeDefIndex: 35107
+  dump.cs:1549295:{
+  dump.cs:1549296:	// Fields
+  dump.cs:1549297:	private readonly Stream _stream; // 0x14
+> dump.cs:1549298:	private readonly ICryptoTransform _transform; // 0x18
+> dump.cs:1549299:	private readonly CryptoStreamMode _transformMode; // 0x1C
+  dump.cs:1549300:	private byte[] _inputBuffer; // 0x20
+  dump.cs:1549301:	private int _inputBufferIndex; // 0x24
+  dump.cs:1549302:	private int _inputBlockSize; // 0x28
+  dump.cs:1549303:	private byte[] _outputBuffer; // 0x2C
+  dump.cs:1549304:	private int _outputBufferIndex; // 0x30
+  dump.cs:1549313:
+  dump.cs:1549314:	// RVA: 0x9FDB37C Offset: 0x9FD737C VA: 0x9FDB37C
+> dump.cs:1549315:	public void .ctor(Stream stream, ICryptoTransform transform, CryptoStreamMode mode) { }
+  dump.cs:1549316:
+  dump.cs:1549317:	// RVA: 0x9FDB3B7 Offset: 0x9FD73B7 VA: 0x9FDB3B7
+> dump.cs:1549318:	public void .ctor(Stream stream, ICryptoTransform transform, CryptoStreamMode mode, bool leaveOpen) { }
+  dump.cs:1549319:
+  dump.cs:1549320:	// RVA: 0x9FDB773 Offset: 0x9FD7773 VA: 0x9FDB773 Slot: 7
+  dump.cs:1549321:	public override bool get_CanRead() { }
+  dump.cs:1549322:
+  dump.cs:1549323:	// RVA: 0x9FDB784 Offset: 0x9FD7784 VA: 0x9FDB784 Slot: 8
+  dump.cs:1549415:}
+  dump.cs:1549416:
+> dump.cs:1549417:// Namespace: System.Security.Cryptography
+> dump.cs:1549418:public enum CryptoStreamMode // TypeDefIndex: 35108
+  dump.cs:1549419:{
+  dump.cs:1549420:	// Fields
+  dump.cs:1549421:	public int value__; // 0x0
+> dump.cs:1549422:	public const CryptoStreamMode Read = 0;
+> dump.cs:1549423:	public const CryptoStreamMode Write = 1;
+  dump.cs:1549424:}
+  dump.cs:1549425:
+> dump.cs:1549426:// Namespace: System.Security.Cryptography
+> dump.cs:1549427:public static class CryptographicOperations // TypeDefIndex: 35109
+  dump.cs:1549428:{
+  dump.cs:1549429:	// Methods
+  dump.cs:1549430:
+  dump.cs:1549431:	// RVA: 0x9FDEAA0 Offset: 0x9FDAAA0 VA: 0x9FDEAA0
+  dump.cs:1549432:	public static void ZeroMemory(Span<byte> buffer) { }
+  dump.cs:1549433:}
+  dump.cs:1549434:
+> dump.cs:1549435:// Namespace: System.Security.Cryptography
+> dump.cs:1549436:public abstract class HashAlgorithm : IDisposable, ICryptoTransform // TypeDefIndex: 35110
+  dump.cs:1549437:{
+  dump.cs:1549438:	// Fields
+  dump.cs:1549439:	private bool _disposed; // 0x8
+  dump.cs:1549440:	protected int HashSizeValue; // 0xC
+  dump.cs:1549441:	protected internal byte[] HashValue; // 0x10
+  dump.cs:1549517:}
+  dump.cs:1549518:
+> dump.cs:1549519:// Namespace: System.Security.Cryptography
+  dump.cs:1549520:public struct HashAlgorithmName : IEquatable<HashAlgorithmName> // TypeDefIndex: 35111
+  dump.cs:1549521:{
+  dump.cs:1549522:	// Fields
+  dump.cs:1549523:	private readonly string _name; // 0x0
+  dump.cs:1549524:
+  dump.cs:1549559:}
+  dump.cs:1549560:
+> dump.cs:1549561:// Namespace: System.Security.Cryptography
+  dump.cs:1549562:public abstract class Aes : SymmetricAlgorithm // TypeDefIndex: 35112
+  dump.cs:1549563:{
+  dump.cs:1549564:	// Fields
+  dump.cs:1549565:	private static KeySizes[] s_legalBlockSizes; // 0x0
+  dump.cs:1549566:	private static KeySizes[] s_legalKeySizes; // 0x4
+  dump.cs:1549575:}
+  dump.cs:1549576:
+> dump.cs:1549577:// Namespace: System.Security.Cryptography
+  dump.cs:1549578:public abstract class AsymmetricAlgorithm : IDisposable // TypeDefIndex: 35113
+  dump.cs:1549579:{
+  dump.cs:1549580:	// Fields
+  dump.cs:1549581:	protected int KeySizeValue; // 0x8
+  dump.cs:1549582:	protected KeySizes[] LegalKeySizesValue; // 0xC
+  dump.cs:1549609:}
+  dump.cs:1549610:
+> dump.cs:1549611:// Namespace: System.Security.Cryptography
+  dump.cs:1549612:public abstract class AsymmetricSignatureDeformatter // TypeDefIndex: 35114
+  dump.cs:1549613:{
+  dump.cs:1549614:	// Methods
+  dump.cs:1549615:
+  dump.cs:1549616:	// RVA: 0x9FE22C5 Offset: 0x9FDE2C5 VA: 0x9FE22C5
+  dump.cs:1549627:}
+  dump.cs:1549628:
+> dump.cs:1549629:// Namespace: System.Security.Cryptography
+  dump.cs:1549630:public abstract class AsymmetricSignatureFormatter // TypeDefIndex: 35115
+  dump.cs:1549631:{
+  dump.cs:1549632:	// Methods
+  dump.cs:1549633:
+  dump.cs:1549634:	// RVA: 0x9FE22F6 Offset: 0x9FDE2F6 VA: 0x9FE22F6
+  dump.cs:1549636:}
+  dump.cs:1549637:
+> dump.cs:1549638:// Namespace: System.Security.Cryptography
+  dump.cs:1549639:public enum CipherMode // TypeDefIndex: 35116
+  dump.cs:1549640:{
+  dump.cs:1549641:	// Fields
+  dump.cs:1549642:	public int value__; // 0x0
+  dump.cs:1549643:	public const CipherMode CBC = 1;
+  dump.cs:1549648:}
+  dump.cs:1549649:
+> dump.cs:1549650:// Namespace: System.Security.Cryptography
+  dump.cs:1549651:public enum PaddingMode // TypeDefIndex: 35117
+  dump.cs:1549652:{
+  dump.cs:1549653:	// Fields
+  dump.cs:1549654:	public int value__; // 0x0
+  dump.cs:1549655:	public const PaddingMode None = 1;
+  dump.cs:1549660:}
+  dump.cs:1549661:
+> dump.cs:1549662:// Namespace: System.Security.Cryptography
+  dump.cs:1549663:public sealed class KeySizes // TypeDefIndex: 35118
+  dump.cs:1549664:{
+  dump.cs:1549665:	// Fields
+  dump.cs:1549666:	private int m_minSize; // 0x8
+  dump.cs:1549667:	private int m_maxSize; // 0xC
+  dump.cs:1549689:}
+  dump.cs:1549690:
+> dump.cs:1549691:// Namespace: System.Security.Cryptography
+> dump.cs:1549692:public class CryptographicException : SystemException // TypeDefIndex: 35119
+  dump.cs:1549693:{
+  dump.cs:1549694:	// Methods
+  dump.cs:1549695:
+  dump.cs:1549696:	// RVA: 0x9FE2428 Offset: 0x9FDE428 VA: 0x9FE2428
+  dump.cs:1549697:	public void .ctor() { }
+  dump.cs:1549710:}
+  dump.cs:1549711:
+> dump.cs:1549712:// Namespace: System.Security.Cryptography
+> dump.cs:1549713:public class CryptographicUnexpectedOperationException : CryptographicException // TypeDefIndex: 35120
+  dump.cs:1549714:{
+  dump.cs:1549715:	// Methods
+  dump.cs:1549716:
+  dump.cs:1549717:	// RVA: 0x9FE25CC Offset: 0x9FDE5CC VA: 0x9FE25CC
+  dump.cs:1549718:	public void .ctor() { }
+  dump.cs:1549725:}
+  dump.cs:1549726:
+> dump.cs:1549727:// Namespace: System.Security.Cryptography
+  dump.cs:1549728:public enum CspProviderFlags // TypeDefIndex: 35121
+  dump.cs:1549729:{
+  dump.cs:1549730:	// Fields
+  dump.cs:1549731:	public int value__; // 0x0
+  dump.cs:1549732:	public const CspProviderFlags NoFlags = 0;
+  dump.cs:1549741:}
+  dump.cs:1549742:
+> dump.cs:1549743:// Namespace: System.Security.Cryptography
+  dump.cs:1549744:public sealed class CspParameters // TypeDefIndex: 35122
+  dump.cs:1549745:{
+  dump.cs:1549746:	// Fields
+  dump.cs:1549747:	public int ProviderType; // 0x8
+  dump.cs:1549748:	public string ProviderName; // 0xC
+  dump.cs:1549772:}
+  dump.cs:1549773:
+> dump.cs:1549774:// Namespace: System.Security.Cryptography
+  dump.cs:1549775:public abstract class DeriveBytes : IDisposable // TypeDefIndex: 35123
+  dump.cs:1549776:{
+  dump.cs:1549777:	// Methods
+  dump.cs:1549778:
+  dump.cs:1549779:	// RVA: -1 Offset: -1 Slot: 5
+  dump.cs:1549790:}
+  dump.cs:1549791:
+> dump.cs:1549792:// Namespace: System.Security.Cryptography
+  dump.cs:1549793:public abstract class DES : SymmetricAlgorithm // TypeDefIndex: 35124
+  dump.cs:1549794:{
+  dump.cs:1549795:	// Fields
+  dump.cs:1549796:	private static KeySizes[] s_legalBlockSizes; // 0x0
+  dump.cs:1549797:	private static KeySizes[] s_legalKeySizes; // 0x4
+  dump.cs:1549827:}
+  dump.cs:1549828:
+> dump.cs:1549829:// Namespace: System.Security.Cryptography
+> dump.cs:1549830:public sealed class DESCryptoServiceProvider : DES // TypeDefIndex: 35125
+  dump.cs:1549831:{
+  dump.cs:1549832:	// Methods
+  dump.cs:1549833:
+  dump.cs:1549834:	// RVA: 0x9FE3135 Offset: 0x9FDF135 VA: 0x9FE3135
+  dump.cs:1549835:	public void .ctor() { }
+  dump.cs:1549836:
+  dump.cs:1549837:	// RVA: 0x9FE344E Offset: 0x9FDF44E VA: 0x9FE344E Slot: 23
+> dump.cs:1549838:	public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:1549839:
+  dump.cs:1549840:	// RVA: 0x9FE3595 Offset: 0x9FDF595 VA: 0x9FE3595 Slot: 25
+> dump.cs:1549841:	public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:1549842:
+  dump.cs:1549843:	// RVA: 0x9FE36D6 Offset: 0x9FDF6D6 VA: 0x9FE36D6 Slot: 26
+  dump.cs:1549844:	public override void GenerateKey() { }
+  dump.cs:1549845:
+  dump.cs:1549846:	// RVA: 0x9FE3832 Offset: 0x9FDF832 VA: 0x9FE3832 Slot: 27
+  dump.cs:1549848:}
+  dump.cs:1549849:
+> dump.cs:1549850:// Namespace: System.Security.Cryptography
+  dump.cs:1549851:public struct DSAParameters // TypeDefIndex: 35126
+  dump.cs:1549852:{
+  dump.cs:1549853:	// Fields
+  dump.cs:1549854:	public byte[] P; // 0x0
+  dump.cs:1549855:	public byte[] Q; // 0x4
+  dump.cs:1549862:}
+  dump.cs:1549863:
+> dump.cs:1549864:// Namespace: System.Security.Cryptography
+  dump.cs:1549865:public abstract class DSA : AsymmetricAlgorithm // TypeDefIndex: 35127
+  dump.cs:1549866:{
+  dump.cs:1549867:	// Methods
+  dump.cs:1549868:
+  dump.cs:1549869:	// RVA: 0x9FE38DC Offset: 0x9FDF8DC VA: 0x9FE38DC
+  dump.cs:1549889:}
+  dump.cs:1549890:
+> dump.cs:1549891:// Namespace: System.Security.Cryptography
+  dump.cs:1549892:public class DSASignatureDeformatter : AsymmetricSignatureDeformatter // TypeDefIndex: 35128
+  dump.cs:1549893:{
+  dump.cs:1549894:	// Fields
+  dump.cs:1549895:	private DSA _dsaKey; // 0x8
+  dump.cs:1549896:	private string _oid; // 0xC
+  dump.cs:1549914:}
+  dump.cs:1549915:
+> dump.cs:1549916:// Namespace: System.Security.Cryptography
+  dump.cs:1549917:public class DSASignatureFormatter : AsymmetricSignatureFormatter // TypeDefIndex: 35129
+  dump.cs:1549918:{
+  dump.cs:1549919:	// Fields
+  dump.cs:1549920:	private string _oid; // 0x8
+  dump.cs:1549921:
+  dump.cs:1549926:}
+  dump.cs:1549927:
+> dump.cs:1549928:// Namespace: System.Security.Cryptography
+  dump.cs:1549929:public abstract class HMAC : KeyedHashAlgorithm // TypeDefIndex: 35130
+  dump.cs:1549930:{
+  dump.cs:1549931:	// Fields
+  dump.cs:1549932:	private int blockSizeValue; // 0x1C
+  dump.cs:1549933:	internal string m_hashName; // 0x20
+  dump.cs:1549977:}
+  dump.cs:1549978:
+> dump.cs:1549979:// Namespace: System.Security.Cryptography
+  dump.cs:1549980:public class HMACMD5 : HMAC // TypeDefIndex: 35131
+  dump.cs:1549981:{
+  dump.cs:1549982:	// Methods
+  dump.cs:1549983:
+  dump.cs:1549984:	// RVA: 0x9FE53F0 Offset: 0x9FE13F0 VA: 0x9FE53F0
+  dump.cs:1549989:}
+  dump.cs:1549990:
+> dump.cs:1549991:// Namespace: System.Security.Cryptography
+  dump.cs:1549992:public class HMACRIPEMD160 : HMAC // TypeDefIndex: 35132
+  dump.cs:1549993:{
+  dump.cs:1549994:	// Methods
+  dump.cs:1549995:
+  dump.cs:1549996:	// RVA: 0x9FE5526 Offset: 0x9FE1526 VA: 0x9FE5526
+  dump.cs:1550001:}
+  dump.cs:1550002:
+> dump.cs:1550003:// Namespace: System.Security.Cryptography
+  dump.cs:1550004:public class HMACSHA1 : HMAC // TypeDefIndex: 35133
+  dump.cs:1550005:{
+  dump.cs:1550006:	// Methods
+  dump.cs:1550007:
+  dump.cs:1550008:	// RVA: 0x9FE4F05 Offset: 0x9FE0F05 VA: 0x9FE4F05
+  dump.cs:1550016:}
+  dump.cs:1550017:
+> dump.cs:1550018:// Namespace: System.Security.Cryptography
+  dump.cs:1550019:public class HMACSHA256 : HMAC // TypeDefIndex: 35134
+  dump.cs:1550020:{
+  dump.cs:1550021:	// Methods
+  dump.cs:1550022:
+  dump.cs:1550023:	// RVA: 0x9FE5903 Offset: 0x9FE1903 VA: 0x9FE5903
+  dump.cs:1550028:}
+  dump.cs:1550029:
+> dump.cs:1550030:// Namespace: System.Security.Cryptography
+  dump.cs:1550031:public class HMACSHA384 : HMAC // TypeDefIndex: 35135
+  dump.cs:1550032:{
+  dump.cs:1550033:	// Fields
+  dump.cs:1550034:	private bool m_useLegacyBlockSize; // 0x35
+  dump.cs:1550035:
+  dump.cs:1550046:}
+  dump.cs:1550047:
+> dump.cs:1550048:// Namespace: System.Security.Cryptography
+  dump.cs:1550049:public class HMACSHA512 : HMAC // TypeDefIndex: 35136
+  dump.cs:1550050:{
+  dump.cs:1550051:	// Fields
+  dump.cs:1550052:	private bool m_useLegacyBlockSize; // 0x35
+  dump.cs:1550053:
+  dump.cs:1550064:}
+  dump.cs:1550065:
+> dump.cs:1550066:// Namespace: System.Security.Cryptography
+> dump.cs:1550067:public interface ICryptoTransform : IDisposable // TypeDefIndex: 35137
+  dump.cs:1550068:{
+  dump.cs:1550069:	// Methods
+  dump.cs:1550070:
+  dump.cs:1550071:	// RVA: -1 Offset: -1 Slot: 0
+  dump.cs:1550072:	public abstract int get_InputBlockSize();
+  dump.cs:1550088:}
+  dump.cs:1550089:
+> dump.cs:1550090:// Namespace: System.Security.Cryptography
+  dump.cs:1550091:public abstract class KeyedHashAlgorithm : HashAlgorithm // TypeDefIndex: 35138
+  dump.cs:1550092:{
+  dump.cs:1550093:	// Fields
+  dump.cs:1550094:	protected byte[] KeyValue; // 0x18
+  dump.cs:1550095:
+  dump.cs:1550109:}
+  dump.cs:1550110:
+> dump.cs:1550111:// Namespace: System.Security.Cryptography
+  dump.cs:1550112:public class MACTripleDES : KeyedHashAlgorithm // TypeDefIndex: 35139
+  dump.cs:1550113:{
+  dump.cs:1550114:	// Fields
+> dump.cs:1550115:	private ICryptoTransform m_encryptor; // 0x1C
+> dump.cs:1550116:	private CryptoStream _cs; // 0x20
+  dump.cs:1550117:	private TailStream _ts; // 0x24
+  dump.cs:1550118:	private int m_bytesPerBlock; // 0x28
+  dump.cs:1550119:	private TripleDES des; // 0x2C
+  dump.cs:1550120:
+  dump.cs:1550121:	// Methods
+  dump.cs:1550137:}
+  dump.cs:1550138:
+> dump.cs:1550139:// Namespace: System.Security.Cryptography
+  dump.cs:1550140:internal sealed class TailStream : Stream // TypeDefIndex: 35140
+  dump.cs:1550141:{
+  dump.cs:1550142:	// Fields
+  dump.cs:1550143:	private byte[] _Buffer; // 0x14
+  dump.cs:1550144:	private int _BufferSize; // 0x18
+  dump.cs:1550194:}
+  dump.cs:1550195:
+> dump.cs:1550196:// Namespace: System.Security.Cryptography
+  dump.cs:1550197:public abstract class MD5 : HashAlgorithm // TypeDefIndex: 35141
+  dump.cs:1550198:{
+  dump.cs:1550199:	// Methods
+  dump.cs:1550200:
+  dump.cs:1550201:	// RVA: 0x9FE6D40 Offset: 0x9FE2D40 VA: 0x9FE6D40
+  dump.cs:1550206:}
+  dump.cs:1550207:
+> dump.cs:1550208:// Namespace: System.Security.Cryptography
+  dump.cs:1550209:public abstract class RandomNumberGenerator : IDisposable // TypeDefIndex: 35142
+  dump.cs:1550210:{
+  dump.cs:1550211:	// Methods
+  dump.cs:1550212:
+  dump.cs:1550213:	// RVA: 0x9FE6DD7 Offset: 0x9FE2DD7 VA: 0x9FE6DD7
+  dump.cs:1550227:}
+  dump.cs:1550228:
+> dump.cs:1550229:// Namespace: System.Security.Cryptography
+  dump.cs:1550230:public abstract class RC2 : SymmetricAlgorithm // TypeDefIndex: 35143
+  dump.cs:1550231:{
+  dump.cs:1550232:	// Fields
+  dump.cs:1550233:	protected int EffectiveKeySizeValue; // 0x2C
+  dump.cs:1550234:	private static KeySizes[] s_legalBlockSizes; // 0x0
+  dump.cs:1550253:}
+  dump.cs:1550254:
+> dump.cs:1550255:// Namespace: System.Security.Cryptography
+> dump.cs:1550256:public sealed class RC2CryptoServiceProvider : RC2 // TypeDefIndex: 35144
+  dump.cs:1550257:{
+  dump.cs:1550258:	// Fields
+  dump.cs:1550259:	private bool m_use40bitSalt; // 0x30
+  dump.cs:1550260:	private static KeySizes[] s_legalKeySizes; // 0x0
+  dump.cs:1550261:
+  dump.cs:1550269:
+  dump.cs:1550270:	// RVA: 0x9FE73B7 Offset: 0x9FE33B7 VA: 0x9FE73B7 Slot: 23
+> dump.cs:1550271:	public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:1550272:
+  dump.cs:1550273:	// RVA: 0x9FE7494 Offset: 0x9FE3494 VA: 0x9FE7494 Slot: 25
+> dump.cs:1550274:	public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:1550275:
+  dump.cs:1550276:	// RVA: 0x9FE756B Offset: 0x9FE356B VA: 0x9FE756B Slot: 26
+  dump.cs:1550277:	public override void GenerateKey() { }
+  dump.cs:1550278:
+  dump.cs:1550279:	// RVA: 0x9FE761F Offset: 0x9FE361F VA: 0x9FE761F Slot: 27
+  dump.cs:1550284:}
+  dump.cs:1550285:
+> dump.cs:1550286:// Namespace: System.Security.Cryptography
+  dump.cs:1550287:public abstract class Rijndael : SymmetricAlgorithm // TypeDefIndex: 35145
+  dump.cs:1550288:{
+  dump.cs:1550289:	// Fields
+  dump.cs:1550290:	private static KeySizes[] s_legalBlockSizes; // 0x0
+  dump.cs:1550291:	private static KeySizes[] s_legalKeySizes; // 0x4
+  dump.cs:1550300:}
+  dump.cs:1550301:
+> dump.cs:1550302:// Namespace: System.Security.Cryptography
+  dump.cs:1550303:public sealed class RijndaelManaged : Rijndael // TypeDefIndex: 35146
+  dump.cs:1550304:{
+  dump.cs:1550305:	// Methods
+  dump.cs:1550306:
+  dump.cs:1550307:	// RVA: 0x9FE79F4 Offset: 0x9FE39F4 VA: 0x9FE79F4
+  dump.cs:1550309:
+  dump.cs:1550310:	// RVA: 0x9FE7AEA Offset: 0x9FE3AEA VA: 0x9FE7AEA Slot: 23
+> dump.cs:1550311:	public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:1550312:
+  dump.cs:1550313:	// RVA: 0x9FE7C1A Offset: 0x9FE3C1A VA: 0x9FE7C1A Slot: 25
+> dump.cs:1550314:	public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:1550315:
+  dump.cs:1550316:	// RVA: 0x9FE7C5E Offset: 0x9FE3C5E VA: 0x9FE7C5E Slot: 26
+  dump.cs:1550317:	public override void GenerateKey() { }
+  dump.cs:1550318:
+  dump.cs:1550319:	// RVA: 0x9FE7CB0 Offset: 0x9FE3CB0 VA: 0x9FE7CB0 Slot: 27
+  dump.cs:1550321:
+  dump.cs:1550322:	// RVA: 0x9FE7B2E Offset: 0x9FE3B2E VA: 0x9FE7B2E
+> dump.cs:1550323:	private ICryptoTransform NewEncryptor(byte[] rgbKey, CipherMode mode, byte[] rgbIV, int feedbackSize, 
+RijndaelManagedTransformMode encryptMode) { }
+  dump.cs:1550324:}
+  dump.cs:1550325:
+> dump.cs:1550326:// Namespace: System.Security.Cryptography
+  dump.cs:1550327:internal enum RijndaelManagedTransformMode // TypeDefIndex: 35147
+  dump.cs:1550328:{
+  dump.cs:1550329:	// Fields
+  dump.cs:1550330:	public int value__; // 0x0
+  dump.cs:1550331:	public const RijndaelManagedTransformMode Encrypt = 0;
+  dump.cs:1550333:}
+  dump.cs:1550334:
+> dump.cs:1550335:// Namespace: System.Security.Cryptography
+> dump.cs:1550336:public sealed class RijndaelManagedTransform : ICryptoTransform, IDisposable // TypeDefIndex: 35148
+  dump.cs:1550337:{
+  dump.cs:1550338:	// Fields
+  dump.cs:1550339:	private CipherMode m_cipherMode; // 0x8
+  dump.cs:1550340:	private PaddingMode m_paddingValue; // 0xC
+  dump.cs:1550341:	private RijndaelManagedTransformMode m_transformMode; // 0x10
+  dump.cs:1550428:}
+  dump.cs:1550429:
+> dump.cs:1550430:// Namespace: System.Security.Cryptography
+  dump.cs:1550431:public abstract class RIPEMD160 : HashAlgorithm // TypeDefIndex: 35149
+  dump.cs:1550432:{
+  dump.cs:1550433:	// Methods
+  dump.cs:1550434:
+  dump.cs:1550435:	// RVA: 0x9FEB187 Offset: 0x9FE7187 VA: 0x9FEB187
+  dump.cs:1550440:}
+  dump.cs:1550441:
+> dump.cs:1550442:// Namespace: System.Security.Cryptography
+  dump.cs:1550443:public class RIPEMD160Managed : RIPEMD160 // TypeDefIndex: 35150
+  dump.cs:1550444:{
+  dump.cs:1550445:	// Fields
+  dump.cs:1550446:	private byte[] _buffer; // 0x18
+  dump.cs:1550447:	private long _count; // 0x1C
+  dump.cs:1550491:}
+  dump.cs:1550492:
+> dump.cs:1550493:// Namespace: System.Security.Cryptography
+  dump.cs:1550494:public struct RSAParameters // TypeDefIndex: 35151
+  dump.cs:1550495:{
+  dump.cs:1550496:	// Fields
+  dump.cs:1550497:	public byte[] Exponent; // 0x0
+  dump.cs:1550498:	public byte[] Modulus; // 0x4
+  dump.cs:1550505:}
+  dump.cs:1550506:
+> dump.cs:1550507:// Namespace: System.Security.Cryptography
+  dump.cs:1550508:public abstract class RSA : AsymmetricAlgorithm // TypeDefIndex: 35152
+  dump.cs:1550509:{
+  dump.cs:1550510:	// Methods
+  dump.cs:1550511:
+  dump.cs:1550512:	// RVA: 0x9FED52E Offset: 0x9FE952E VA: 0x9FED52E
+  dump.cs:1550532:}
+  dump.cs:1550533:
+> dump.cs:1550534:// Namespace: System.Security.Cryptography
+> dump.cs:1550535:public sealed class RSACryptoServiceProvider : RSA // TypeDefIndex: 35153
+  dump.cs:1550536:{
+  dump.cs:1550537:	// Fields
+  dump.cs:1550538:	private static CspProviderFlags s_UseMachineKeyStore; // 0x0
+  dump.cs:1550539:	private KeyPairPersistence store; // 0x10
+  dump.cs:1550540:	private bool persistKey; // 0x14
+  dump.cs:1550598:}
+  dump.cs:1550599:
+> dump.cs:1550600:// Namespace: System.Security.Cryptography
+  dump.cs:1550601:public abstract class SHA1 : HashAlgorithm // TypeDefIndex: 35154
+  dump.cs:1550602:{
+  dump.cs:1550603:	// Methods
+  dump.cs:1550604:
+  dump.cs:1550605:	// RVA: 0x9FEEEEA Offset: 0x9FEAEEA VA: 0x9FEEEEA
+  dump.cs:1550610:}
+  dump.cs:1550611:
+> dump.cs:1550612:// Namespace: System.Security.Cryptography
+  dump.cs:1550613:public class SHA1Managed : SHA1 // TypeDefIndex: 35155
+  dump.cs:1550614:{
+  dump.cs:1550615:	// Fields
+  dump.cs:1550616:	private byte[] _buffer; // 0x18
+  dump.cs:1550617:	private long _count; // 0x1C
+  dump.cs:1550649:}
+  dump.cs:1550650:
+> dump.cs:1550651:// Namespace: System.Security.Cryptography
+  dump.cs:1550652:public abstract class SHA256 : HashAlgorithm // TypeDefIndex: 35156
+  dump.cs:1550653:{
+  dump.cs:1550654:	// Methods
+  dump.cs:1550655:
+  dump.cs:1550656:	// RVA: 0x9FEFAC6 Offset: 0x9FEBAC6 VA: 0x9FEFAC6
+  dump.cs:1550661:}
+  dump.cs:1550662:
+> dump.cs:1550663:// Namespace: System.Security.Cryptography
+  dump.cs:1550664:public class SHA256Managed : SHA256 // TypeDefIndex: 35157
+  dump.cs:1550665:{
+  dump.cs:1550666:	// Fields
+  dump.cs:1550667:	private byte[] _buffer; // 0x18
+  dump.cs:1550668:	private long _count; // 0x1C
+  dump.cs:1550725:}
+  dump.cs:1550726:
+> dump.cs:1550727:// Namespace: System.Security.Cryptography
+  dump.cs:1550728:public abstract class SHA384 : HashAlgorithm // TypeDefIndex: 35158
+  dump.cs:1550729:{
+  dump.cs:1550730:	// Methods
+  dump.cs:1550731:
+  dump.cs:1550732:	// RVA: 0x9FF0A93 Offset: 0x9FECA93 VA: 0x9FF0A93
+  dump.cs:1550737:}
+  dump.cs:1550738:
+> dump.cs:1550739:// Namespace: System.Security.Cryptography
+  dump.cs:1550740:public class SHA384Managed : SHA384 // TypeDefIndex: 35159
+  dump.cs:1550741:{
+  dump.cs:1550742:	// Fields
+  dump.cs:1550743:	private byte[] _buffer; // 0x18
+  dump.cs:1550744:	private ulong _count; // 0x1C
+  dump.cs:1550801:}
+  dump.cs:1550802:
+> dump.cs:1550803:// Namespace: System.Security.Cryptography
+  dump.cs:1550804:public abstract class SHA512 : HashAlgorithm // TypeDefIndex: 35160
+  dump.cs:1550805:{
+  dump.cs:1550806:	// Methods
+  dump.cs:1550807:
+  dump.cs:1550808:	// RVA: 0x9FF20E0 Offset: 0x9FEE0E0 VA: 0x9FF20E0
+  dump.cs:1550813:}
+  dump.cs:1550814:
+> dump.cs:1550815:// Namespace: System.Security.Cryptography
+  dump.cs:1550816:public class SHA512Managed : SHA512 // TypeDefIndex: 35161
+  dump.cs:1550817:{
+  dump.cs:1550818:	// Fields
+  dump.cs:1550819:	private byte[] _buffer; // 0x18
+  dump.cs:1550820:	private ulong _count; // 0x1C
+  dump.cs:1550877:}
+  dump.cs:1550878:
+> dump.cs:1550879:// Namespace: System.Security.Cryptography
+  dump.cs:1550880:public class SignatureDescription // TypeDefIndex: 35162
+  dump.cs:1550881:{
+  dump.cs:1550882:	// Fields
+  dump.cs:1550883:	private string _strKey; // 0x8
+  dump.cs:1550884:	private string _strDigest; // 0xC
+  dump.cs:1550904:}
+  dump.cs:1550905:
+> dump.cs:1550906:// Namespace: System.Security.Cryptography
+  dump.cs:1550907:internal abstract class RSAPKCS1SignatureDescription : SignatureDescription // TypeDefIndex: 35163
+  dump.cs:1550908:{
+  dump.cs:1550909:	// Fields
+  dump.cs:1550910:	private string _hashAlgorithm; // 0x18
+  dump.cs:1550911:
+  dump.cs:1550916:}
+  dump.cs:1550917:
+> dump.cs:1550918:// Namespace: System.Security.Cryptography
+  dump.cs:1550919:internal class RSAPKCS1SHA1SignatureDescription : RSAPKCS1SignatureDescription // TypeDefIndex: 35164
+  dump.cs:1550920:{
+  dump.cs:1550921:	// Methods
+  dump.cs:1550922:
+  dump.cs:1550923:	// RVA: 0x9FF37B8 Offset: 0x9FEF7B8 VA: 0x9FF37B8
+  dump.cs:1550925:}
+  dump.cs:1550926:
+> dump.cs:1550927:// Namespace: System.Security.Cryptography
+  dump.cs:1550928:internal class RSAPKCS1SHA256SignatureDescription : RSAPKCS1SignatureDescription // TypeDefIndex: 35165
+  dump.cs:1550929:{
+  dump.cs:1550930:	// Methods
+  dump.cs:1550931:
+  dump.cs:1550932:	// RVA: 0x9FF3826 Offset: 0x9FEF826 VA: 0x9FF3826
+  dump.cs:1550934:}
+  dump.cs:1550935:
+> dump.cs:1550936:// Namespace: System.Security.Cryptography
+  dump.cs:1550937:internal class RSAPKCS1SHA384SignatureDescription : RSAPKCS1SignatureDescription // TypeDefIndex: 35166
+  dump.cs:1550938:{
+  dump.cs:1550939:	// Methods
+  dump.cs:1550940:
+  dump.cs:1550941:	// RVA: 0x9FF3894 Offset: 0x9FEF894 VA: 0x9FF3894
+  dump.cs:1550943:}
+  dump.cs:1550944:
+> dump.cs:1550945:// Namespace: System.Security.Cryptography
+  dump.cs:1550946:internal class RSAPKCS1SHA512SignatureDescription : RSAPKCS1SignatureDescription // TypeDefIndex: 35167
+  dump.cs:1550947:{
+  dump.cs:1550948:	// Methods
+  dump.cs:1550949:
+  dump.cs:1550950:	// RVA: 0x9FF3902 Offset: 0x9FEF902 VA: 0x9FF3902
+  dump.cs:1550952:}
+  dump.cs:1550953:
+> dump.cs:1550954:// Namespace: System.Security.Cryptography
+  dump.cs:1550955:internal class DSASignatureDescription : SignatureDescription // TypeDefIndex: 35168
+  dump.cs:1550956:{
+  dump.cs:1550957:	// Methods
+  dump.cs:1550958:
+  dump.cs:1550959:	// RVA: 0x9FF3970 Offset: 0x9FEF970 VA: 0x9FF3970
+  dump.cs:1550961:}
+  dump.cs:1550962:
+> dump.cs:1550963:// Namespace: System.Security.Cryptography
+  dump.cs:1550964:public abstract class SymmetricAlgorithm : IDisposable // TypeDefIndex: 35169
+  dump.cs:1550965:{
+  dump.cs:1550966:	// Fields
+  dump.cs:1550967:	protected int BlockSizeValue; // 0x8
+  dump.cs:1550968:	protected int FeedbackSizeValue; // 0xC
+  dump.cs:1551044:
+  dump.cs:1551045:	// RVA: 0x9FF47AB Offset: 0x9FF07AB VA: 0x9FF47AB Slot: 22
+> dump.cs:1551046:	public virtual ICryptoTransform CreateEncryptor() { }
+  dump.cs:1551047:
+  dump.cs:1551048:	// RVA: -1 Offset: -1 Slot: 23
+> dump.cs:1551049:	public abstract ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV);
+  dump.cs:1551050:
+  dump.cs:1551051:	// RVA: 0x9FF4855 Offset: 0x9FF0855 VA: 0x9FF4855 Slot: 24
+> dump.cs:1551052:	public virtual ICryptoTransform CreateDecryptor() { }
+  dump.cs:1551053:
+  dump.cs:1551054:	// RVA: -1 Offset: -1 Slot: 25
+> dump.cs:1551055:	public abstract ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV);
+  dump.cs:1551056:
+  dump.cs:1551057:	// RVA: -1 Offset: -1 Slot: 26
+  dump.cs:1551058:	public abstract void GenerateKey();
+  dump.cs:1551059:
+  dump.cs:1551060:	// RVA: -1 Offset: -1 Slot: 27
+  dump.cs:1551062:}
+  dump.cs:1551063:
+> dump.cs:1551064:// Namespace: System.Security.Cryptography
+  dump.cs:1551065:public abstract class TripleDES : SymmetricAlgorithm // TypeDefIndex: 35170
+  dump.cs:1551066:{
+  dump.cs:1551067:	// Fields
+  dump.cs:1551068:	private static KeySizes[] s_legalBlockSizes; // 0x0
+  dump.cs:1551069:	private static KeySizes[] s_legalKeySizes; // 0x4
+  dump.cs:1551096:}
+  dump.cs:1551097:
+> dump.cs:1551098:// Namespace: System.Security.Cryptography
+> dump.cs:1551099:public sealed class TripleDESCryptoServiceProvider : TripleDES // TypeDefIndex: 35171
+  dump.cs:1551100:{
+  dump.cs:1551101:	// Methods
+  dump.cs:1551102:
+  dump.cs:1551103:	// RVA: 0x9FF4EAC Offset: 0x9FF0EAC VA: 0x9FF4EAC
+  dump.cs:1551104:	public void .ctor() { }
+  dump.cs:1551105:
+  dump.cs:1551106:	// RVA: 0x9FF534C Offset: 0x9FF134C VA: 0x9FF534C Slot: 23
+> dump.cs:1551107:	public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:1551108:
+  dump.cs:1551109:	// RVA: 0x9FF5473 Offset: 0x9FF1473 VA: 0x9FF5473 Slot: 25
+> dump.cs:1551110:	public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV) { }
+  dump.cs:1551111:
+  dump.cs:1551112:	// RVA: 0x9FF5594 Offset: 0x9FF1594 VA: 0x9FF5594 Slot: 26
+  dump.cs:1551113:	public override void GenerateKey() { }
+  dump.cs:1551114:
+  dump.cs:1551115:	// RVA: 0x9FF5773 Offset: 0x9FF1773 VA: 0x9FF5773 Slot: 27
+  dump.cs:1551117:}
+  dump.cs:1551118:
+> dump.cs:1551119:// Namespace: System.Security.Cryptography
+  dump.cs:1551120:internal static class Utils // TypeDefIndex: 35172
+  dump.cs:1551121:{
+  dump.cs:1551122:	// Fields
+> dump.cs:1551123:	private static RNGCryptoServiceProvider _rng; // 0x0
+  dump.cs:1551124:
+  dump.cs:1551125:	// Methods
+  dump.cs:1551126:
+  dump.cs:1551127:	// RVA: 0x9FF56C3 Offset: 0x9FF16C3 VA: 0x9FF56C3
+> dump.cs:1551128:	internal static RNGCryptoServiceProvider get_StaticRandomNumberGenerator() { }
+  dump.cs:1551129:
+  dump.cs:1551130:	// RVA: 0x9FF5816 Offset: 0x9FF1816 VA: 0x9FF5816
+  dump.cs:1551131:	internal static byte[] GenerateRandom(int keySize) { }
+  dump.cs:1551132:
+  dump.cs:1551133:	// RVA: 0x9FF5340 Offset: 0x9FF1340 VA: 0x9FF5340
+  dump.cs:1551171:}
+  dump.cs:1551172:
+> dump.cs:1551173:// Namespace: System.Security.Cryptography
+> dump.cs:1551174:public class CryptoConfig // TypeDefIndex: 35173
+  dump.cs:1551175:{
+  dump.cs:1551176:	// Fields
+  dump.cs:1551177:	private static readonly object lockObject; // 0x0
+  dump.cs:1551178:	private static Dictionary<string, Type> algorithms; // 0x4
+  dump.cs:1551179:
+  dump.cs:1551202:}
+  dump.cs:1551203:
+> dump.cs:1551204:// Namespace: System.Security.Cryptography
+  dump.cs:1551205:internal class DESTransform : SymmetricTransform // TypeDefIndex: 35174
+  dump.cs:1551206:{
+  dump.cs:1551207:	// Fields
+  dump.cs:1551208:	internal static readonly int KEY_BIT_SIZE; // 0x0
+  dump.cs:1551209:	internal static readonly int KEY_BYTE_SIZE; // 0x4
+  dump.cs:1551250:}
+  dump.cs:1551251:
+> dump.cs:1551252:// Namespace: System.Security.Cryptography
+> dump.cs:1551253:public sealed class DSACryptoServiceProvider : DSA // TypeDefIndex: 35175
+  dump.cs:1551254:{
+  dump.cs:1551255:	// Fields
+  dump.cs:1551256:	private KeyPairPersistence store; // 0x10
+  dump.cs:1551257:	private bool persistKey; // 0x14
+  dump.cs:1551258:	private bool persisted; // 0x15
+  dump.cs:1551298:}
+  dump.cs:1551299:
+> dump.cs:1551300:// Namespace: System.Security.Cryptography
+> dump.cs:1551301:public sealed class MD5CryptoServiceProvider : MD5 // TypeDefIndex: 35176
+  dump.cs:1551302:{
+  dump.cs:1551303:	// Fields
+  dump.cs:1551304:	private uint[] _H; // 0x18
+  dump.cs:1551305:	private uint[] buff; // 0x1C
+  dump.cs:1551306:	private ulong count; // 0x20
+  dump.cs:1551342:}
+  dump.cs:1551343:
+> dump.cs:1551344:// Namespace: System.Security.Cryptography
+  dump.cs:1551345:internal class RC2Transform : SymmetricTransform // TypeDefIndex: 35177
+  dump.cs:1551346:{
+  dump.cs:1551347:	// Fields
+  dump.cs:1551348:	private ushort R0; // 0x34
+  dump.cs:1551349:	private ushort R1; // 0x36
+  dump.cs:1551366:}
+  dump.cs:1551367:
+> dump.cs:1551368:// Namespace: System.Security.Cryptography
+> dump.cs:1551369:public sealed class RNGCryptoServiceProvider : RandomNumberGenerator // TypeDefIndex: 35178
+  dump.cs:1551370:{
+  dump.cs:1551371:	// Fields
+  dump.cs:1551372:	private static object _lock; // 0x0
+  dump.cs:1551373:	private IntPtr _handle; // 0x8
+  dump.cs:1551374:
+  dump.cs:1551406:}
+  dump.cs:1551407:
+> dump.cs:1551408:// Namespace: System.Security.Cryptography
+  dump.cs:1551409:public class RSAPKCS1SignatureDeformatter : AsymmetricSignatureDeformatter // TypeDefIndex: 35179
+  dump.cs:1551410:{
+  dump.cs:1551411:	// Fields
+  dump.cs:1551412:	private RSA rsa; // 0x8
+  dump.cs:1551413:	private string hashName; // 0xC
+  dump.cs:1551431:}
+  dump.cs:1551432:
+> dump.cs:1551433:// Namespace: System.Security.Cryptography
+  dump.cs:1551434:public class RSAPKCS1SignatureFormatter : AsymmetricSignatureFormatter // TypeDefIndex: 35180
+  dump.cs:1551435:{
+  dump.cs:1551436:	// Methods
+  dump.cs:1551437:
+  dump.cs:1551438:	// RVA: 0x9FFD4A9 Offset: 0x9FF94A9 VA: 0x9FFD4A9
+  dump.cs:1551440:}
+  dump.cs:1551441:
+> dump.cs:1551442:// Namespace: System.Security.Cryptography
+  dump.cs:1551443:internal class SHA1Internal // TypeDefIndex: 35181
+  dump.cs:1551444:{
+  dump.cs:1551445:	// Fields
+  dump.cs:1551446:	private const int BLOCK_SIZE_BYTES = 64;
+  dump.cs:1551447:	private uint[] _H; // 0x8
+  dump.cs:1551481:}
+  dump.cs:1551482:
+> dump.cs:1551483:// Namespace: System.Security.Cryptography
+> dump.cs:1551484:public sealed class SHA1CryptoServiceProvider : SHA1 // TypeDefIndex: 35182
+  dump.cs:1551485:{
+  dump.cs:1551486:	// Fields
+  dump.cs:1551487:	private SHA1Internal sha; // 0x18
+  dump.cs:1551488:
+  dump.cs:1551489:	// Methods
+  dump.cs:1551508:}
+  dump.cs:1551509:
+> dump.cs:1551510:// Namespace: System.Security.Cryptography
+  dump.cs:1551511:internal class TripleDESTransform : SymmetricTransform // TypeDefIndex: 35183
+  dump.cs:1551512:{
+  dump.cs:1551513:	// Fields
+  dump.cs:1551514:	private DESTransform E1; // 0x34
+  dump.cs:1551515:	private DESTransform D2; // 0x38
+  dump.cs:1551531:}
+  dump.cs:1551532:
+> dump.cs:1551533:// Namespace: System.Security.Cryptography
+> dump.cs:1551534:internal static class CryptoConfigForwarder // TypeDefIndex: 35184
+  dump.cs:1551535:{
+  dump.cs:1551536:	// Methods
+  dump.cs:1551537:
+  dump.cs:1551538:	// RVA: 0x9FFF220 Offset: 0x9FFB220 VA: 0x9FFF220
+  dump.cs:1551539:	internal static object CreateFromName(string name) { }
+  dump.cs:1551540:}
+  dump.cs:1551541:
+> dump.cs:1551542:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1551543:public enum X509ContentType // TypeDefIndex: 35185
+  dump.cs:1551544:{
+  dump.cs:1551545:	// Fields
+  dump.cs:1551546:	public int value__; // 0x0
+  dump.cs:1551547:	public const X509ContentType Unknown = 0;
+  dump.cs:1551555:}
+  dump.cs:1551556:
+> dump.cs:1551557:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1551558:public enum X509KeyStorageFlags // TypeDefIndex: 35186
+  dump.cs:1551559:{
+  dump.cs:1551560:	// Fields
+  dump.cs:1551561:	public int value__; // 0x0
+  dump.cs:1551562:	public const X509KeyStorageFlags DefaultKeySet = 0;
+  dump.cs:1551569:}
+  dump.cs:1551570:
+> dump.cs:1551571:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1551572:public class X509Certificate : IDisposable, IDeserializationCallback, ISerializable // TypeDefIndex: 35187
+  dump.cs:1551573:{
+  dump.cs:1551574:	// Fields
+  dump.cs:1551575:	private X509CertificateImpl impl; // 0x8
+  dump.cs:1551576:	private byte[] lazyCertHash; // 0xC
+  dump.cs:1551689:}
+  dump.cs:1551690:
+> dump.cs:1551691:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1551692:internal abstract class X509CertificateImpl : IDisposable // TypeDefIndex: 35188
+  dump.cs:1551693:{
+  dump.cs:1551694:	// Methods
+  dump.cs:1551695:
+  dump.cs:1551696:	// RVA: -1 Offset: -1 Slot: 5
+  dump.cs:1551761:}
+  dump.cs:1551762:
+> dump.cs:1551763:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1551764:internal static class X509Helper // TypeDefIndex: 35189
+  dump.cs:1551765:{
+  dump.cs:1551766:	// Methods
+  dump.cs:1551767:
+  dump.cs:1551768:	// RVA: 0xA00105E Offset: 0x9FFD05E VA: 0xA00105E
+  dump.cs:1562067:	|
+  dump.cs:1562068:	|-RVA: 0x8EC1969 Offset: 0x8EBD969 VA: 0x8EC1969
+> dump.cs:1562069:	|-AsyncTaskMethodBuilder.Start<CryptoStream.<WriteAsyncCore>d__49>
+  dump.cs:1562070:	|
+  dump.cs:1562071:	|-RVA: 0x8EC1A80 Offset: 0x8EBDA80 VA: 0x8EC1A80
+> dump.cs:1562072:	|-AsyncTaskMethodBuilder.Start<CryptoStream.<WriteAsyncInternal>d__46>
+  dump.cs:1562073:	|
+  dump.cs:1562074:	|-RVA: 0x8EC1B97 Offset: 0x8EBDB97 VA: 0x8EC1B97
+  dump.cs:1562075:	|-AsyncTaskMethodBuilder.Start<JArray.<WriteToAsync>d__0>
+  dump.cs:1562076:	|
+  dump.cs:1562077:	|-RVA: 0x8EC1CAE Offset: 0x8EBDCAE VA: 0x8EC1CAE
+  dump.cs:1562429:	|
+  dump.cs:1562430:	|-RVA: 0x8EBE09A Offset: 0x8EBA09A VA: 0x8EBE09A
+> dump.cs:1562431:	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<ForceAsyncAwaiter, CryptoStream.<WriteAsyncInternal>d__46>
+  dump.cs:1562432:	|
+  dump.cs:1562433:	|-RVA: 0x8EBE12A Offset: 0x8EBA12A VA: 0x8EBE12A
+  dump.cs:1562434:	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TaskAwaiter, AnalyticsServiceInstance.<SetAnalyticsEnabled>d__69>
+  dump.cs:1562435:	|
+  dump.cs:1562436:	|-RVA: 0x8EBE1BA Offset: 0x8EBA1BA VA: 0x8EBE1BA
+  dump.cs:1562441:	|
+  dump.cs:1562442:	|-RVA: 0x8EBE2DA Offset: 0x8EBA2DA VA: 0x8EBE2DA
+> dump.cs:1562443:	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TaskAwaiter, CryptoStream.<WriteAsyncInternal>d__46>
+  dump.cs:1562444:	|
+  dump.cs:1562445:	|-RVA: 0x8EBE36A Offset: 0x8EBA36A VA: 0x8EBE36A
+  dump.cs:1562446:	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TaskAwaiter, Ua2CoreInitializeCallback.<Initialize>d__2>
+  dump.cs:1562447:	|
+  dump.cs:1562448:	|-RVA: 0x8EBE3FA Offset: 0x8EBA3FA VA: 0x8EBE3FA
+  dump.cs:1562474:	|
+  dump.cs:1562475:	|-RVA: 0x8EBE90A Offset: 0x8EBA90A VA: 0x8EBE90A
+> dump.cs:1562476:	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<ValueTaskAwaiter, CryptoStream.<WriteAsyncCore>d__49>
+  dump.cs:1562477:	|
+  dump.cs:1562478:	|-RVA: 0x8EBE99A Offset: 0x8EBA99A VA: 0x8EBE99A
+  dump.cs:1562479:	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<__Il2CppFullySharedGenericType, __Il2CppFullySharedGenericType>
+  dump.cs:1562480:	|
+  dump.cs:1562481:	|-RVA: 0x8EBEA26 Offset: 0x8EBAA26 VA: 0x8EBEA26
+  dump.cs:1562843:	|
+  dump.cs:1562844:	|-RVA: 0x8D65BE9 Offset: 0x8D61BE9 VA: 0x8D65BE9
+> dump.cs:1562845:	|-AsyncTaskMethodBuilder<int>.Start<CryptoStream.<ReadAsyncCore>d__42>
+  dump.cs:1562846:	|
+  dump.cs:1562847:	|-RVA: 0x8D65D00 Offset: 0x8D61D00 VA: 0x8D65D00
+> dump.cs:1562848:	|-AsyncTaskMethodBuilder<int>.Start<CryptoStream.<ReadAsyncInternal>d__37>
+  dump.cs:1562849:	|
+  dump.cs:1562850:	|-RVA: 0x8D65E17 Offset: 0x8D61E17 VA: 0x8D65E17
+  dump.cs:1562851:	|-AsyncTaskMethodBuilder<int>.Start<FixedSizeReadStream.<ProcessReadAsync>d__5>
+  dump.cs:1562852:	|
+  dump.cs:1562853:	|-RVA: 0x8D65F2E Offset: 0x8D61F2E VA: 0x8D65F2E
+  dump.cs:1563198:	|
+  dump.cs:1563199:	|-RVA: 0x8D650BB Offset: 0x8D610BB VA: 0x8D650BB
+> dump.cs:1563200:	|-AsyncTaskMethodBuilder<int>.AwaitUnsafeOnCompleted<TaskAwaiter<int>, CryptoStream.<ReadAsyncInternal>d__37>
+  dump.cs:1563201:	|
+  dump.cs:1563202:	|-RVA: 0x8D652FB Offset: 0x8D612FB VA: 0x8D652FB
+> dump.cs:1563203:	|-AsyncTaskMethodBuilder<int>.AwaitUnsafeOnCompleted<ValueTaskAwaiter<int>, CryptoStream.<ReadAsyncCore>d__42>
+  dump.cs:1563204:	|
+  dump.cs:1563205:	|-RVA: 0x8D6553B Offset: 0x8D6153B VA: 0x8D6553B
+> dump.cs:1563206:	|-AsyncTaskMethodBuilder<int>.AwaitUnsafeOnCompleted<ForceAsyncAwaiter, CryptoStream.<ReadAsyncInternal>d__37>
+  dump.cs:1563207:	|
+  dump.cs:1563208:	|-RVA: 0x8D6577B Offset: 0x8D6177B VA: 0x8D6577B
+  dump.cs:1563209:	|-AsyncTaskMethodBuilder<int>.AwaitUnsafeOnCompleted<ConfiguredTaskAwaitable.ConfiguredTaskAwaiter, 
+WebReadStream.<ReadAsync>d__28>
+  dump.cs:1563210:	|
+  dump.cs:1563211:	|-RVA: 0x8D668FD Offset: 0x8D628FD VA: 0x8D668FD
+  dump.cs:1563465:	|
+  dump.cs:1563466:	|-RVA: 0x8D75107 Offset: 0x8D71107 VA: 0x8D75107
+> dump.cs:1563467:	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<ForceAsyncAwaiter, 
+CryptoStream.<WriteAsyncInternal>d__46>
+  dump.cs:1563468:	|
+  dump.cs:1563469:	|-RVA: 0x8D75347 Offset: 0x8D71347 VA: 0x8D75347
+  dump.cs:1563470:	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<TaskAwaiter, 
+AnalyticsServiceInstance.<SetAnalyticsEnabled>d__69>
+  dump.cs:1563471:	|
+  dump.cs:1563472:	|-RVA: 0x8D755A6 Offset: 0x8D715A6 VA: 0x8D755A6
+  dump.cs:1563477:	|
+  dump.cs:1563478:	|-RVA: 0x8D75A54 Offset: 0x8D71A54 VA: 0x8D75A54
+> dump.cs:1563479:	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<TaskAwaiter, CryptoStream.<WriteAsyncInternal>d__46>
+  dump.cs:1563480:	|
+  dump.cs:1563481:	|-RVA: 0x8D75C94 Offset: 0x8D71C94 VA: 0x8D75C94
+  dump.cs:1563482:	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<TaskAwaiter, Ua2CoreInitializeCallback.<Initialize>d__2>
+  dump.cs:1563483:	|
+  dump.cs:1563484:	|-RVA: 0x8D75EED Offset: 0x8D71EED VA: 0x8D75EED
+  dump.cs:1563510:	|
+  dump.cs:1563511:	|-RVA: 0x8D773E5 Offset: 0x8D733E5 VA: 0x8D773E5
+> dump.cs:1563512:	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<ValueTaskAwaiter, CryptoStream.<WriteAsyncCore>d__49>
+  dump.cs:1563513:	|
+  dump.cs:1563514:	|-RVA: 0x8D7764F Offset: 0x8D7364F VA: 0x8D7764F
+  dump.cs:1563515:	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<ConfiguredTaskAwaitable.ConfiguredTaskAwaiter, 
+AsyncProtocolRequest.<ProcessOperation>d__24>
+  dump.cs:1563516:	|
+  dump.cs:1563517:	|-RVA: 0x8D7788F Offset: 0x8D7388F VA: 0x8D7788F
+  dump.cs:1809777:}
+  dump.cs:1809778:
+> dump.cs:1809779:// Namespace: Internal.Cryptography
+  dump.cs:1809780:internal static class OidLookup // TypeDefIndex: 38635
+  dump.cs:1809781:{
+  dump.cs:1809782:	// Fields
+  dump.cs:1809783:	private static readonly ConcurrentDictionary<string, string> s_lateBoundOidToFriendlyName; // 0x0
+  dump.cs:1809784:	private static readonly ConcurrentDictionary<string, string> s_lateBoundFriendlyNameToOid; // 0x4
+  dump.cs:1809808:}
+  dump.cs:1809809:
+> dump.cs:1809810:// Namespace: Internal.Cryptography.Pal
+  dump.cs:1809811:internal enum GeneralNameType // TypeDefIndex: 38636
+  dump.cs:1809812:{
+  dump.cs:1809813:	// Fields
+  dump.cs:1809814:	public int value__; // 0x0
+  dump.cs:1809815:	public const GeneralNameType OtherName = 0;
+  dump.cs:1809872:}
+  dump.cs:1809873:
+> dump.cs:1809874:// Namespace: Internal.Cryptography.Pal
+  dump.cs:1809875:internal struct CertificateData // TypeDefIndex: 38639
+  dump.cs:1809876:{
+  dump.cs:1809877:	// Fields
+  dump.cs:1809878:	internal byte[] RawData; // 0x0
+  dump.cs:1809879:	internal byte[] SubjectPublicKeyInfo; // 0x4
+  dump.cs:1813927:}
+  dump.cs:1813928:
+> dump.cs:1813929:// Namespace: System.Security.Cryptography
+  dump.cs:1813930:internal class DerSequenceReader // TypeDefIndex: 38743
+  dump.cs:1813931:{
+  dump.cs:1813932:	// Fields
+  dump.cs:1813933:	internal static DateTimeFormatInfo s_validityDateTimeFormatInfo; // 0x0
+  dump.cs:1813934:	private static Encoding s_utf8EncodingWithExceptionFallback; // 0x4
+  dump.cs:1814038:}
+  dump.cs:1814039:
+> dump.cs:1814040:// Namespace: System.Security.Cryptography
+  dump.cs:1814041:public sealed class Oid // TypeDefIndex: 38744
+  dump.cs:1814042:{
+  dump.cs:1814043:	// Fields
+  dump.cs:1814044:	private string _value; // 0x8
+  dump.cs:1814045:	private string _friendlyName; // 0xC
+  dump.cs:1814076:}
+  dump.cs:1814077:
+> dump.cs:1814078:// Namespace: System.Security.Cryptography
+  dump.cs:1814079:public sealed class OidCollection : ICollection, IEnumerable // TypeDefIndex: 38745
+  dump.cs:1814080:{
+  dump.cs:1814081:	// Fields
+  dump.cs:1814082:	private readonly List<Oid> _list; // 0x8
+  dump.cs:1814083:
+  dump.cs:1814112:}
+  dump.cs:1814113:
+> dump.cs:1814114:// Namespace: System.Security.Cryptography
+  dump.cs:1814115:public sealed class OidEnumerator : IEnumerator // TypeDefIndex: 38746
+  dump.cs:1814116:{
+  dump.cs:1814117:	// Fields
+  dump.cs:1814118:	private readonly OidCollection _oids; // 0x8
+  dump.cs:1814119:	private int _current; // 0xC
+  dump.cs:1814137:}
+  dump.cs:1814138:
+> dump.cs:1814139:// Namespace: System.Security.Cryptography
+  dump.cs:1814140:public enum OidGroup // TypeDefIndex: 38747
+  dump.cs:1814141:{
+  dump.cs:1814142:	// Fields
+  dump.cs:1814143:	public int value__; // 0x0
+  dump.cs:1814144:	public const OidGroup All = 0;
+  dump.cs:1814155:}
+  dump.cs:1814156:
+> dump.cs:1814157:// Namespace: System.Security.Cryptography
+  dump.cs:1814158:internal enum AsnDecodeStatus // TypeDefIndex: 38748
+  dump.cs:1814159:{
+  dump.cs:1814160:	// Fields
+  dump.cs:1814161:	public int value__; // 0x0
+  dump.cs:1814162:	public const AsnDecodeStatus NotDecoded = -1;
+  dump.cs:1814168:}
+  dump.cs:1814169:
+> dump.cs:1814170:// Namespace: System.Security.Cryptography
+  dump.cs:1814171:public class AsnEncodedData // TypeDefIndex: 38749
+  dump.cs:1814172:{
+  dump.cs:1814173:	// Fields
+  dump.cs:1814174:	internal Oid _oid; // 0x8
+  dump.cs:1814175:	internal byte[] _raw; // 0xC
+  dump.cs:1814232:}
+  dump.cs:1814233:
+> dump.cs:1814234:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814235:public enum OpenFlags // TypeDefIndex: 38750
+  dump.cs:1814236:{
+  dump.cs:1814237:	// Fields
+  dump.cs:1814238:	public int value__; // 0x0
+  dump.cs:1814239:	public const OpenFlags ReadOnly = 0;
+  dump.cs:1814244:}
+  dump.cs:1814245:
+> dump.cs:1814246:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814247:public enum StoreLocation // TypeDefIndex: 38751
+  dump.cs:1814248:{
+  dump.cs:1814249:	// Fields
+  dump.cs:1814250:	public int value__; // 0x0
+  dump.cs:1814251:	public const StoreLocation CurrentUser = 1;
+  dump.cs:1814253:}
+  dump.cs:1814254:
+> dump.cs:1814255:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814256:public enum StoreName // TypeDefIndex: 38752
+  dump.cs:1814257:{
+  dump.cs:1814258:	// Fields
+  dump.cs:1814259:	public int value__; // 0x0
+  dump.cs:1814260:	public const StoreName AddressBook = 1;
+  dump.cs:1814268:}
+  dump.cs:1814269:
+> dump.cs:1814270:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814271:public enum X500DistinguishedNameFlags // TypeDefIndex: 38753
+  dump.cs:1814272:{
+  dump.cs:1814273:	// Fields
+  dump.cs:1814274:	public int value__; // 0x0
+  dump.cs:1814275:	public const X500DistinguishedNameFlags None = 0;
+  dump.cs:1814285:}
+  dump.cs:1814286:
+> dump.cs:1814287:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814288:public enum X509ChainStatusFlags // TypeDefIndex: 38754
+  dump.cs:1814289:{
+  dump.cs:1814290:	// Fields
+  dump.cs:1814291:	public int value__; // 0x0
+  dump.cs:1814292:	public const X509ChainStatusFlags NoError = 0;
+  dump.cs:1814318:}
+  dump.cs:1814319:
+> dump.cs:1814320:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814321:public enum X509FindType // TypeDefIndex: 38755
+  dump.cs:1814322:{
+  dump.cs:1814323:	// Fields
+  dump.cs:1814324:	public int value__; // 0x0
+  dump.cs:1814325:	public const X509FindType FindByThumbprint = 0;
+  dump.cs:1814340:}
+  dump.cs:1814341:
+> dump.cs:1814342:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814343:public enum X509KeyUsageFlags // TypeDefIndex: 38756
+  dump.cs:1814344:{
+  dump.cs:1814345:	// Fields
+  dump.cs:1814346:	public int value__; // 0x0
+  dump.cs:1814347:	public const X509KeyUsageFlags None = 0;
+  dump.cs:1814357:}
+  dump.cs:1814358:
+> dump.cs:1814359:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814360:public enum X509NameType // TypeDefIndex: 38757
+  dump.cs:1814361:{
+  dump.cs:1814362:	// Fields
+  dump.cs:1814363:	public int value__; // 0x0
+  dump.cs:1814364:	public const X509NameType SimpleName = 0;
+  dump.cs:1814370:}
+  dump.cs:1814371:
+> dump.cs:1814372:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814373:public enum X509RevocationFlag // TypeDefIndex: 38758
+  dump.cs:1814374:{
+  dump.cs:1814375:	// Fields
+  dump.cs:1814376:	public int value__; // 0x0
+  dump.cs:1814377:	public const X509RevocationFlag EndCertificateOnly = 0;
+  dump.cs:1814380:}
+  dump.cs:1814381:
+> dump.cs:1814382:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814383:public enum X509RevocationMode // TypeDefIndex: 38759
+  dump.cs:1814384:{
+  dump.cs:1814385:	// Fields
+  dump.cs:1814386:	public int value__; // 0x0
+  dump.cs:1814387:	public const X509RevocationMode NoCheck = 0;
+  dump.cs:1814390:}
+  dump.cs:1814391:
+> dump.cs:1814392:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814393:public enum X509SubjectKeyIdentifierHashAlgorithm // TypeDefIndex: 38760
+  dump.cs:1814394:{
+  dump.cs:1814395:	// Fields
+  dump.cs:1814396:	public int value__; // 0x0
+  dump.cs:1814397:	public const X509SubjectKeyIdentifierHashAlgorithm Sha1 = 0;
+  dump.cs:1814400:}
+  dump.cs:1814401:
+> dump.cs:1814402:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814403:public enum X509VerificationFlags // TypeDefIndex: 38761
+  dump.cs:1814404:{
+  dump.cs:1814405:	// Fields
+  dump.cs:1814406:	public int value__; // 0x0
+  dump.cs:1814407:	public const X509VerificationFlags NoFlag = 0;
+  dump.cs:1814421:}
+  dump.cs:1814422:
+> dump.cs:1814423:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814424:public sealed class PublicKey // TypeDefIndex: 38762
+  dump.cs:1814425:{
+  dump.cs:1814426:	// Fields
+  dump.cs:1814427:	private AsnEncodedData _keyValue; // 0x8
+  dump.cs:1814428:	private AsnEncodedData _params; // 0xC
+  dump.cs:1814460:}
+  dump.cs:1814461:
+> dump.cs:1814462:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814463:public sealed class X500DistinguishedName : AsnEncodedData // TypeDefIndex: 38763
+  dump.cs:1814464:{
+  dump.cs:1814465:	// Fields
+  dump.cs:1814466:	private string name; // 0x10
+  dump.cs:1814467:	private byte[] canonEncoding; // 0x14
+  dump.cs:1814494:}
+  dump.cs:1814495:
+> dump.cs:1814496:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814497:public sealed class X509BasicConstraintsExtension : X509Extension // TypeDefIndex: 38764
+  dump.cs:1814498:{
+  dump.cs:1814499:	// Fields
+  dump.cs:1814500:	internal const string oid = "2.5.29.19";
+  dump.cs:1814501:	internal const string friendlyName = "Basic Constraints";
+  dump.cs:1814538:}
+  dump.cs:1814539:
+> dump.cs:1814540:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814541:public class X509Certificate2 : X509Certificate // TypeDefIndex: 38765
+  dump.cs:1814542:{
+  dump.cs:1814543:	// Fields
+  dump.cs:1814544:	private byte[] lazyRawData; // 0x38
+  dump.cs:1814545:	private Oid lazySignatureAlgorithm; // 0x3C
+  dump.cs:1814629:}
+  dump.cs:1814630:
+> dump.cs:1814631:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814632:public class X509Certificate2Collection : X509CertificateCollection // TypeDefIndex: 38766
+  dump.cs:1814633:{
+  dump.cs:1814634:	// Fields
+  dump.cs:1814635:	private static string[] newline_split; // 0x0
+  dump.cs:1814636:
+  dump.cs:1814668:}
+  dump.cs:1814669:
+> dump.cs:1814670:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814671:public sealed class X509Certificate2Enumerator : IEnumerator // TypeDefIndex: 38767
+  dump.cs:1814672:{
+  dump.cs:1814673:	// Fields
+  dump.cs:1814674:	private IEnumerator enumerator; // 0x8
+  dump.cs:1814675:
+  dump.cs:1814695:}
+  dump.cs:1814696:
+> dump.cs:1814697:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814698:internal abstract class X509Certificate2Impl : X509CertificateImpl // TypeDefIndex: 38768
+  dump.cs:1814699:{
+  dump.cs:1814700:	// Methods
+  dump.cs:1814701:
+  dump.cs:1814702:	// RVA: -1 Offset: -1 Slot: 21
+  dump.cs:1814737:}
+  dump.cs:1814738:
+> dump.cs:1814739:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814740:internal class X509Certificate2ImplMono : X509Certificate2ImplUnix // TypeDefIndex: 38769
+  dump.cs:1814741:{
+  dump.cs:1814742:	// Fields
+  dump.cs:1814743:	private X509CertificateImplCollection intermediateCerts; // 0x60
+  dump.cs:1814744:	private X509Certificate _cert; // 0x64
+  dump.cs:1814803:}
+  dump.cs:1814804:
+> dump.cs:1814805:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814806:internal abstract class X509Certificate2ImplUnix : X509Certificate2Impl // TypeDefIndex: 38770
+  dump.cs:1814807:{
+  dump.cs:1814808:	// Fields
+  dump.cs:1814809:	private bool readCertData; // 0x8
+  dump.cs:1814810:	private CertificateData certData; // 0xC
+  dump.cs:1814900:}
+  dump.cs:1814901:
+> dump.cs:1814902:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814903:public class X509CertificateCollection : CollectionBase // TypeDefIndex: 38772
+  dump.cs:1814904:{
+  dump.cs:1814905:	// Methods
+  dump.cs:1814906:
+  dump.cs:1814907:	// RVA: 0xA817B1F Offset: 0xA813B1F VA: 0xA817B1F
+  dump.cs:1814924:}
+  dump.cs:1814925:
+> dump.cs:1814926:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814927:internal class X509CertificateImplCollection : IDisposable // TypeDefIndex: 38773
+  dump.cs:1814928:{
+  dump.cs:1814929:	// Fields
+  dump.cs:1814930:	private List<X509CertificateImpl> list; // 0x8
+  dump.cs:1814931:
+  dump.cs:1814960:}
+  dump.cs:1814961:
+> dump.cs:1814962:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814963:public class X509Chain : IDisposable // TypeDefIndex: 38774
+  dump.cs:1814964:{
+  dump.cs:1814965:	// Fields
+  dump.cs:1814966:	private X509ChainImpl impl; // 0x8
+  dump.cs:1814967:
+  dump.cs:1815008:}
+  dump.cs:1815009:
+> dump.cs:1815010:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1815011:public class X509ChainElement // TypeDefIndex: 38775
+  dump.cs:1815012:{
+  dump.cs:1815013:	// Fields
+  dump.cs:1815014:	private X509Certificate2 certificate; // 0x8
+  dump.cs:1815015:	private X509ChainStatus[] status; // 0xC
+  dump.cs:1815044:}
+  dump.cs:1815045:
+> dump.cs:1815046:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1815047:public sealed class X509ChainElementCollection : ICollection, IEnumerable // TypeDefIndex: 38776
+  dump.cs:1815048:{
+  dump.cs:1815049:	// Fields
+  dump.cs:1815050:	private ArrayList _list; // 0x8
+  dump.cs:1815051:
+  dump.cs:1815086:}
+  dump.cs:1815087:
+> dump.cs:1815088:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1815089:public sealed class X509ChainElementEnumerator : IEnumerator // TypeDefIndex: 38777
+  dump.cs:1815090:{
+  dump.cs:1815091:	// Fields
+  dump.cs:1815092:	private IEnumerator enumerator; // 0x8
+  dump.cs:1815093:
+  dump.cs:1815110:}
+  dump.cs:1815111:
+> dump.cs:1815112:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1815113:internal abstract class X509ChainImpl : IDisposable // TypeDefIndex: 38778
+  dump.cs:1815114:{
+  dump.cs:1815115:	// Methods
+  dump.cs:1815116:
+  dump.cs:1815117:	// RVA: -1 Offset: -1 Slot: 5
+  dump.cs:1815149:}
+  dump.cs:1815150:
+> dump.cs:1815151:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1815152:internal class X509ChainImplMono : X509ChainImpl // TypeDefIndex: 38779
+  dump.cs:1815153:{
+  dump.cs:1815154:	// Fields
+  dump.cs:1815155:	private StoreLocation location; // 0x8
+  dump.cs:1815156:	private X509ChainElementCollection elements; // 0xC
+  dump.cs:1815284:}
+  dump.cs:1815285:
+> dump.cs:1815286:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1815287:public sealed class X509ChainPolicy // TypeDefIndex: 38780
+  dump.cs:1815288:{
+  dump.cs:1815289:	// Fields
+  dump.cs:1815290:	private OidCollection apps; // 0x8
+  dump.cs:1815291:	private OidCollection cert; // 0xC
+  dump.cs:1815328:}
+  dump.cs:1815329:
+> dump.cs:1815330:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1815331:public struct X509ChainStatus // TypeDefIndex: 38781
+  dump.cs:1815332:{
+  dump.cs:1815333:	// Fields
+  dump.cs:1815334:	private X509ChainStatusFlags status; // 0x0
+  dump.cs:1815335:	private string info; // 0x4
+  dump.cs:1815353:}
+  dump.cs:1815354:
+> dump.cs:1815355:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1815356:public sealed class X509EnhancedKeyUsageExtension : X509Extension // TypeDefIndex: 38782
+  dump.cs:1815357:{
+  dump.cs:1815358:	// Fields
+  dump.cs:1815359:	private OidCollection _enhKeyUsage; // 0x14
+  dump.cs:1815360:	private AsnDecodeStatus _status; // 0x18
+  dump.cs:1815384:}
+  dump.cs:1815385:
+> dump.cs:1815386:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1815387:public class X509Extension : AsnEncodedData // TypeDefIndex: 38783
+  dump.cs:1815388:{
+  dump.cs:1815389:	// Fields
+  dump.cs:1815390:	private bool _critical; // 0x10
+  dump.cs:1815391:
+  dump.cs:1815411:}
+  dump.cs:1815412:
+> dump.cs:1815413:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1815414:public sealed class X509ExtensionCollection : ICollection, IEnumerable // TypeDefIndex: 38784
+  dump.cs:1815415:{
+  dump.cs:1815416:	// Fields
+  dump.cs:1815417:	private static byte[] Empty; // 0x0
+  dump.cs:1815418:	private ArrayList _list; // 0x8
+  dump.cs:1815451:}
+  dump.cs:1815452:
+> dump.cs:1815453:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1815454:public sealed class X509ExtensionEnumerator : IEnumerator // TypeDefIndex: 38785
+  dump.cs:1815455:{
+  dump.cs:1815456:	// Fields
+  dump.cs:1815457:	private IEnumerator enumerator; // 0x8
+  dump.cs:1815458:
+  dump.cs:1815475:}
+  dump.cs:1815476:
+> dump.cs:1815477:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1815478:internal static class X509Helper2 // TypeDefIndex: 38786
+  dump.cs:1815479:{
+  dump.cs:1815480:	// Methods
+  dump.cs:1815481:
+  dump.cs:1815482:	// RVA: 0xA821D29 Offset: 0xA81DD29 VA: 0xA821D29
+  dump.cs:1815496:}
+  dump.cs:1815497:
+> dump.cs:1815498:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1815499:public sealed class X509KeyUsageExtension : X509Extension // TypeDefIndex: 38787
+  dump.cs:1815500:{
+  dump.cs:1815501:	// Fields
+  dump.cs:1815502:	internal const string oid = "2.5.29.15";
+  dump.cs:1815503:	internal const string friendlyName = "Key Usage";
+  dump.cs:1815536:}
+  dump.cs:1815537:
+> dump.cs:1815538:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1815539:public sealed class X509Store : IDisposable // TypeDefIndex: 38788
+  dump.cs:1815540:{
+  dump.cs:1815541:	// Fields
+  dump.cs:1815542:	private string _name; // 0x8
+  dump.cs:1815543:	private StoreLocation _location; // 0xC
+  dump.cs:1815570:}
+  dump.cs:1815571:
+> dump.cs:1815572:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1815573:public sealed class X509SubjectKeyIdentifierExtension : X509Extension // TypeDefIndex: 38789
+  dump.cs:1815574:{
+  dump.cs:1815575:	// Fields
+  dump.cs:1815576:	internal const string oid = "2.5.29.14";
+  dump.cs:1815577:	internal const string friendlyName = "Subject Key Identifier";
+  dump.cs:1913729:}
+  dump.cs:1913730:
+> dump.cs:1913731:// Namespace: System.Security.Cryptography
+  dump.cs:1913732:public sealed class AesManaged : Aes // TypeDefIndex: 41187
+  dump.cs:1913733:{
+  dump.cs:1913734:	// Fields
+  dump.cs:1913735:	private RijndaelManaged m_rijndael; // 0x2C
+  dump.cs:1913736:
+  dump.cs:1913777:
+  dump.cs:1913778:	// RVA: 0xA3B6664 Offset: 0xA3B2664 VA: 0xA3B6664 Slot: 24
+> dump.cs:1913779:	public override ICryptoTransform CreateDecryptor() { }
+  dump.cs:1913780:
+  dump.cs:1913781:	// RVA: 0xA3B66B3 Offset: 0xA3B26B3 VA: 0xA3B66B3 Slot: 25
+> dump.cs:1913782:	public override ICryptoTransform CreateDecryptor(byte[] key, byte[] iv) { }
+  dump.cs:1913783:
+  dump.cs:1913784:	// RVA: 0xA3B683E Offset: 0xA3B283E VA: 0xA3B683E Slot: 22
+> dump.cs:1913785:	public override ICryptoTransform CreateEncryptor() { }
+  dump.cs:1913786:
+  dump.cs:1913787:	// RVA: 0xA3B688D Offset: 0xA3B288D VA: 0xA3B688D Slot: 23
+> dump.cs:1913788:	public override ICryptoTransform CreateEncryptor(byte[] key, byte[] iv) { }
+  dump.cs:1913789:
+  dump.cs:1913790:	// RVA: 0xA3B6A18 Offset: 0xA3B2A18 VA: 0xA3B6A18 Slot: 5
+  dump.cs:1913791:	protected override void Dispose(bool disposing) { }
+  dump.cs:1913792:
+  dump.cs:1913793:	// RVA: 0xA3B6B6C Offset: 0xA3B2B6C VA: 0xA3B6B6C Slot: 27
+  dump.cs:1913798:}
+  dump.cs:1913799:
+> dump.cs:1913800:// Namespace: System.Security.Cryptography
+> dump.cs:1913801:public sealed class AesCryptoServiceProvider : Aes // TypeDefIndex: 41188
+  dump.cs:1913802:{
+  dump.cs:1913803:	// Methods
+  dump.cs:1913804:
+  dump.cs:1913805:	// RVA: 0xA3B6C0A Offset: 0xA3B2C0A VA: 0xA3B6C0A
+  dump.cs:1913806:	public void .ctor() { }
+  dump.cs:1913813:
+  dump.cs:1913814:	// RVA: 0xA3B6D0B Offset: 0xA3B2D0B VA: 0xA3B6D0B Slot: 25
+> dump.cs:1913815:	public override ICryptoTransform CreateDecryptor(byte[] key, byte[] iv) { }
+  dump.cs:1913816:
+  dump.cs:1913817:	// RVA: 0xA3B7642 Offset: 0xA3B3642 VA: 0xA3B7642 Slot: 23
+> dump.cs:1913818:	public override ICryptoTransform CreateEncryptor(byte[] key, byte[] iv) { }
+  dump.cs:1913819:
+  dump.cs:1913820:	// RVA: 0xA3B775A Offset: 0xA3B375A VA: 0xA3B775A Slot: 10
+  dump.cs:1913821:	public override byte[] get_IV() { }
+  dump.cs:1913822:
+  dump.cs:1913823:	// RVA: 0xA3B778B Offset: 0xA3B378B VA: 0xA3B778B Slot: 11
+  dump.cs:1913855:
+  dump.cs:1913856:	// RVA: 0xA3B799B Offset: 0xA3B399B VA: 0xA3B799B Slot: 24
+> dump.cs:1913857:	public override ICryptoTransform CreateDecryptor() { }
+  dump.cs:1913858:
+  dump.cs:1913859:	// RVA: 0xA3B7A45 Offset: 0xA3B3A45 VA: 0xA3B7A45 Slot: 22
+> dump.cs:1913860:	public override ICryptoTransform CreateEncryptor() { }
+  dump.cs:1913861:
+  dump.cs:1913862:	// RVA: 0xA3B7AEF Offset: 0xA3B3AEF VA: 0xA3B7AEF Slot: 5
+  dump.cs:1913863:	protected override void Dispose(bool disposing) { }
+  dump.cs:1913864:}
+  dump.cs:1913865:
+> dump.cs:1913866:// Namespace: System.Security.Cryptography
+  dump.cs:1913867:internal class AesTransform : SymmetricTransform // TypeDefIndex: 41189
+  dump.cs:1913868:{
+  dump.cs:1913869:	// Fields
+  dump.cs:1913870:	private uint[] expandedKey; // 0x34
+  dump.cs:1913871:	private int Nk; // 0x38
+  dump.cs:1913904:}
+  dump.cs:1913905:
+> dump.cs:1913906:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1913907:public static class RSACertificateExtensions // TypeDefIndex: 41190
+  dump.cs:1913908:{
+  dump.cs:1913909:	// Methods
+  dump.cs:1913910:
+  dump.cs:1913911:	// RVA: 0xA3BC9A6 Offset: 0xA3B89A6 VA: 0xA3BC9A6
+  dump.cs:1966778:}
+  dump.cs:1966779:
+> dump.cs:1966780:// Namespace: Mono.Security.Cryptography
+> dump.cs:1966781:public sealed class CryptoConvert // TypeDefIndex: 42426
+  dump.cs:1966782:{
+  dump.cs:1966783:	// Methods
+  dump.cs:1966784:
+  dump.cs:1966785:	// RVA: 0x9F714D8 Offset: 0x9F6D4D8 VA: 0x9F714D8
+  dump.cs:1966786:	public static string ToHex(byte[] input) { }
+  dump.cs:1966787:}
+  dump.cs:1966788:
+> dump.cs:1966789:// Namespace: Mono.Security.Cryptography
+  dump.cs:1966790:public abstract class MD2 : HashAlgorithm // TypeDefIndex: 42427
+  dump.cs:1966791:{
+  dump.cs:1966792:	// Methods
+  dump.cs:1966793:
+  dump.cs:1966794:	// RVA: 0x9F71644 Offset: 0x9F6D644 VA: 0x9F71644
+  dump.cs:1966799:}
+  dump.cs:1966800:
+> dump.cs:1966801:// Namespace: Mono.Security.Cryptography
+  dump.cs:1966802:public class MD2Managed : MD2 // TypeDefIndex: 42428
+  dump.cs:1966803:{
+  dump.cs:1966804:	// Fields
+  dump.cs:1966805:	private byte[] state; // 0x18
+  dump.cs:1966806:	private byte[] checksum; // 0x1C
+  dump.cs:1966834:}
+  dump.cs:1966835:
+> dump.cs:1966836:// Namespace: Mono.Security.Cryptography
+  dump.cs:1966837:public abstract class MD4 : HashAlgorithm // TypeDefIndex: 42429
+  dump.cs:1966838:{
+  dump.cs:1966839:	// Methods
+  dump.cs:1966840:
+  dump.cs:1966841:	// RVA: 0x9F71E76 Offset: 0x9F6DE76 VA: 0x9F71E76
+  dump.cs:1966846:}
+  dump.cs:1966847:
+> dump.cs:1966848:// Namespace: Mono.Security.Cryptography
+  dump.cs:1966849:public class MD4Managed : MD4 // TypeDefIndex: 42430
+  dump.cs:1966850:{
+  dump.cs:1966851:	// Fields
+  dump.cs:1966852:	private uint[] state; // 0x18
+  dump.cs:1966853:	private byte[] buffer; // 0x1C
+  dump.cs:1966904:}
+  dump.cs:1966905:
+> dump.cs:1966906:// Namespace: Mono.Security.Cryptography
+  dump.cs:1966907:public sealed class PKCS1 // TypeDefIndex: 42431
+  dump.cs:1966908:{
+  dump.cs:1966909:	// Fields
+  dump.cs:1966910:	private static byte[] emptySHA1; // 0x0
+  dump.cs:1966911:	private static byte[] emptySHA256; // 0x4
+  dump.cs:1967027:}
+  dump.cs:1967028:
+> dump.cs:1967029:// Namespace: Mono.Security.Cryptography
+  dump.cs:1967030:public sealed class PKCS8 // TypeDefIndex: 42434
+  dump.cs:1967031:{}
+  dump.cs:1967032:
+  dump.cs:1967033:// Namespace: 
+  dump.cs:1967034:public sealed class RSAManaged.KeyGeneratedEventHandler : MulticastDelegate // TypeDefIndex: 42435
+  dump.cs:1967043:}
+  dump.cs:1967044:
+> dump.cs:1967045:// Namespace: Mono.Security.Cryptography
+  dump.cs:1967046:public class RSAManaged : RSA // TypeDefIndex: 42436
+  dump.cs:1967047:{
+  dump.cs:1967048:	// Fields
+  dump.cs:1967049:	private bool isCRTpossible; // 0x10
+  dump.cs:1967050:	private bool keyBlinding; // 0x11
+
+

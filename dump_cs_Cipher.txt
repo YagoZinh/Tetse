@@ -1,0 +1,897 @@
+﻿
+  dump.cs:54810:	public const CURL_ERROR_CODE CURLE_OBSOLETE57 = 57;
+  dump.cs:54811:	public const CURL_ERROR_CODE CURLE_SSL_CERTPROBLEM = 58;
+> dump.cs:54812:	public const CURL_ERROR_CODE CURLE_SSL_CIPHER = 59;
+  dump.cs:54813:	public const CURL_ERROR_CODE CURLE_PEER_FAILED_VERIFICATION = 60;
+  dump.cs:54814:	public const CURL_ERROR_CODE CURLE_BAD_CONTENT_ENCODING = 61;
+  dump.cs:54815:	public const CURL_ERROR_CODE CURLE_LDAP_INVALID_URL = 62;
+  dump.cs:54816:	public const CURL_ERROR_CODE CURLE_FILESIZE_EXCEEDED = 63;
+  dump.cs:54817:	public const CURL_ERROR_CODE CURLE_USE_SSL_FAILED = 64;
+  dump.cs:255815:	public const EventID UI_BIGEVENT_TEMPLATE_LOADINGMASK_CLOSE = 2744;
+  dump.cs:255816:	public const EventID UI_BIGEVENT_TC_MAINANIMATION_IN = 2745;
+> dump.cs:255817:	public const EventID UI_BIGEVENT_TC_DECIPHEREND_CLOSE = 2746;
+  dump.cs:255818:	public const EventID UI_REPLAY_FORCE_UPDATE = 2747;
+  dump.cs:255819:	public const EventID UI_SHOW_KEYACTIONSETTING = 2748;
+  dump.cs:255820:	public const EventID UI_HUD_INGAMECHATRECEIVE = 2749;
+  dump.cs:255821:	public const EventID UI_FFWS_FLAG_BANNER_FINISH = 2750;
+  dump.cs:255822:	public const EventID UI_FFWS_FLAG_GUIDE_FINISH = 2751;
+  dump.cs:266066:	public static readonly ResourceID UIBIGEVENT_CUSTOMTC_RULEPOPUPWND; // 0x2DA8
+  dump.cs:266067:	public static readonly ResourceID UIBIGEVENT_CUSTOMTC_TUTORIALBTNITEM; // 0x2DAC
+> dump.cs:266068:	public static readonly ResourceID UIBIGEVENT_CUSTOMTC_DECIPHERPOPUPWND; // 0x2DB0
+  dump.cs:266069:	public static readonly ResourceID UIBIGEVENT_CUSTOMTC_PROGRESSTIPSPOPUPWND; // 0x2DB4
+  dump.cs:266070:	public static readonly ResourceID UIBIGEVENT_CUSTOMTC_OPENPOPUPWND; // 0x2DB8
+  dump.cs:266071:	public static readonly ResourceID UIBIGEVENT_CUSTOMTC_BOXPREVIEWPOPUPWND; // 0x2DBC
+  dump.cs:266072:	public static readonly ResourceID UI_HUD_BATTLELEVEL_DETAILTIPS_POPUP; // 0x2DC0
+  dump.cs:266073:	public static readonly ResourceID UISEASONREPLAYOVERVIEWHIGHLIGHTBUTTON; // 0x2DC4
+  dump.cs:266424:	public static readonly ResourceID UIFX_JUMPSUIT23B_TCPREVIEW_01; // 0x3340
+  dump.cs:266425:	public static readonly ResourceID UIFX_JUMPSUIT23B_TCTASK_01; // 0x3344
+> dump.cs:266426:	public static readonly ResourceID UIFX_JUMPSUIT23B_DECIPHERPOPUPWND_NOISE; // 0x3348
+> dump.cs:266427:	public static readonly ResourceID UIFX_JUMPSUIT23B_DECIPHERPOPUPWND_SUCCESSLABEL; // 0x334C
+  dump.cs:266428:	public static readonly ResourceID UIFX_JUMPSUIT23B_TCCENTERBG_01; // 0x3350
+  dump.cs:266429:	public static readonly ResourceID UIFX_JUMPSUIT23B_TCPIECEITEM_03; // 0x3354
+  dump.cs:266430:	public static readonly ResourceID UIFX_JUMPSUIT23B_TCBOXBTN_02; // 0x3358
+  dump.cs:266431:	public static readonly ResourceID UILOBBYV2UGCRESERVEWND; // 0x335C
+  dump.cs:266432:	public static readonly ResourceID UIPROFILEHISTORYNODE; // 0x3360
+  dump.cs:353913:
+  dump.cs:353914:// Namespace: 
+> dump.cs:353915:private sealed class UIBigEvent_CustomTC_DecipherPopupWndController.<ScrollProgress>d__35 : IEnumerator<object>, 
+IEnumerator, IDisposable // TypeDefIndex: 13103
+  dump.cs:353916:{
+  dump.cs:353917:	// Fields
+  dump.cs:353918:	private int <>1__state; // 0x8
+  dump.cs:353919:	private object <>2__current; // 0xC
+> dump.cs:353920:	public UIBigEvent_CustomTC_DecipherPopupWndController <>4__this; // 0x10
+  dump.cs:353921:	private int <FinalCount>5__2; // 0x14
+  dump.cs:353922:	private float <deltaCount>5__3; // 0x18
+  dump.cs:353923:	private float <NowCount>5__4; // 0x1C
+  dump.cs:353924:
+  dump.cs:353925:	// Methods
+  dump.cs:353945:
+  dump.cs:353946:// Namespace: 
+> dump.cs:353947:private sealed class UIBigEvent_CustomTC_DecipherPopupWndController.<WaitOpenAnimation>d__34 : IEnumerator<object>, 
+IEnumerator, IDisposable // TypeDefIndex: 13104
+  dump.cs:353948:{
+  dump.cs:353949:	// Fields
+  dump.cs:353950:	private int <>1__state; // 0x8
+  dump.cs:353951:	private object <>2__current; // 0xC
+> dump.cs:353952:	public UIBigEvent_CustomTC_DecipherPopupWndController <>4__this; // 0x10
+  dump.cs:353953:
+  dump.cs:353954:	// Methods
+  dump.cs:353955:
+  dump.cs:353956:	// RVA: 0x2F0D08C Offset: 0x2F0908C VA: 0x2F0D08C
+  dump.cs:353957:	public void .ctor(int <>1__state) { }
+  dump.cs:353974:
+  dump.cs:353975:// Namespace: COW
+> dump.cs:353976:public class UIBigEvent_CustomTC_DecipherPopupWndController : UIPopupWindowController, IBigEventTemplateIdentifier // 
+TypeDefIndex: 13105
+  dump.cs:353977:{
+  dump.cs:353978:	// Fields
+> dump.cs:353979:	private UIBigEvent_CustomTC_DecipherPopupWndView m_View; // 0x78
+  dump.cs:353980:	private UIModelBigEventTemplate m_UIModelBigEventTemplate; // 0x7C
+  dump.cs:353981:	private UIModelBigEvent_CustomTC m_UIModelCustomTC; // 0x80
+  dump.cs:353982:	private CustomTCPieceInfo m_PieceInfo; // 0x84
+  dump.cs:353983:	private CustomTCPieceInfo.TCPieceState m_PieceState; // 0x88
+  dump.cs:353984:	private bool m_IsDecoding; // 0x8C
+> dump.cs:353985:	private ResourceID m_DecipherVFXResID; // 0x90
+> dump.cs:353986:	private GameObject m_DecipherVFXGO; // 0x94
+  dump.cs:353987:	private ResourceID m_SuccessVFXResID; // 0x98
+  dump.cs:353988:	private GameObject m_SuccessVFXGO; // 0x9C
+> dump.cs:353989:	private const string TC_IDLE_ANIM = "UIFX_Jumpsuit23B_DecipherPopupWnd_Stand";
+> dump.cs:353990:	private const string TC_OPEN_ANIM = "UIFX_Jumpsuit23B_DecipherPopupWnd_Open";
+> dump.cs:353991:	private const string TC_DECIPHER_ANIM = "UIFX_Jumpsuit23B_DecipherPopupWnd_Noise";
+> dump.cs:353992:	private const string TC_PERFECT_ANIM = "UIFX_Jumpsuit23B_DecipherPopupWnd_Explode";
+> dump.cs:353993:	private const string TC_VIEW_OPEN_ANIM = "UIFX_Jumpsuit23B_DecipherPopupWnd_UiOpen";
+> dump.cs:353994:	private const string TC_VIEW_EXOLODE_ANIM = "UIFX_Jumpsuit23B_DecipherPopupWnd_UiExplode";
+> dump.cs:353995:	private const string TC_VIEW_SUCCESS_ANIM = "UIFX_Jumpsuit23B_DecipherPopupWnd_UiSuccesslabel";
+  dump.cs:353996:	private Animation m_VFX_Animation; // 0xA0
+  dump.cs:353997:	private uint m_OldProgress; // 0xA4
+  dump.cs:353998:	private uint m_TargetProgress; // 0xA8
+  dump.cs:353999:	private uint m_Multiple; // 0xAC
+  dump.cs:354000:	private float m_AnimationTime; // 0xB0
+  dump.cs:354001:	private const float ScrollTime = 0,8;
+  dump.cs:354002:	private float m_Open_Time; // 0xB4
+> dump.cs:354003:	private float m_Decipher_Time; // 0xB8
+  dump.cs:354004:	private float m_Perfect_Time; // 0xBC
+  dump.cs:354005:	private float m_uiOpen_Time; // 0xC0
+  dump.cs:354006:	private EBigEventTemplateUseType <TemplateUseType>k__BackingField; // 0xC4
+  dump.cs:354007:
+  dump.cs:354008:	// Methods
+  dump.cs:354051:
+  dump.cs:354052:	// RVA: 0x2F0E045 Offset: 0x2F0A045 VA: 0x2F0E045
+> dump.cs:354053:	private void OnClickDecipherBtn() { }
+  dump.cs:354054:
+  dump.cs:354055:	// RVA: 0x2F0E0D2 Offset: 0x2F0A0D2 VA: 0x2F0E0D2 Slot: 67
+  dump.cs:354056:	protected override void OnSetNavigationController() { }
+  dump.cs:354057:
+  dump.cs:354058:	// RVA: 0x2F0E5BE Offset: 0x2F0A5BE VA: 0x2F0E5BE
+  dump.cs:354179:	private UIModelBigEventTemplate m_UIModelBigEventTemplate; // 0x5C
+  dump.cs:354180:	private UIBigEvent_CustomTC_MainView m_View; // 0x60
+> dump.cs:354181:	private UIBigEvent_CustomTC_DecipherPopupWndController m_DecipherPopupWndCtrl; // 0x64
+  dump.cs:354182:	private bool m_PieceInit; // 0x68
+  dump.cs:354183:	private List<UIBigEvent_CustomTC_PieceItemController> m_PieceItemList; // 0x6C
+  dump.cs:354184:	private ResourceID m_TCRewardPreviewVFXResID; // 0x70
+  dump.cs:354185:	private GameObject m_TCRewardPreviewVFXGO; // 0x74
+  dump.cs:354186:	private ResourceID m_TCMainInVFXResID; // 0x78
+  dump.cs:354229:
+  dump.cs:354230:	// RVA: 0x2F107A6 Offset: 0x2F0C7A6 VA: 0x2F107A6
+> dump.cs:354231:	private void OnClickDecipherBtn() { }
+  dump.cs:354232:
+  dump.cs:354233:	// RVA: 0x2F10827 Offset: 0x2F0C827 VA: 0x2F10827
+  dump.cs:354234:	private void OnClickPreviewBtn() { }
+  dump.cs:354235:
+  dump.cs:354236:	// RVA: 0x2F10A3D Offset: 0x2F0CA3D VA: 0x2F10A3D
+  dump.cs:354247:
+  dump.cs:354248:	// RVA: 0x2F0976B Offset: 0x2F0576B VA: 0x2F0976B
+> dump.cs:354249:	public bool GetDecipherGuide(out UIWidget targetWidget, out UIButton finishButton) { }
+  dump.cs:354250:
+  dump.cs:354251:	// RVA: 0x2F11643 Offset: 0x2F0D643 VA: 0x2F11643 Slot: 55
+  dump.cs:354252:	public uint GetInterestedPropID(UIBaseModel model) { }
+  dump.cs:354253:
+  dump.cs:354254:	// RVA: 0x2F1175A Offset: 0x2F0D75A VA: 0x2F1175A Slot: 54
+  dump.cs:354256:
+  dump.cs:354257:	// RVA: 0x2F13929 Offset: 0x2F0F929 VA: 0x2F13929
+> dump.cs:354258:	private void OnDecipherClose(object[] data) { }
+  dump.cs:354259:
+  dump.cs:354260:	// RVA: 0x2F1499C Offset: 0x2F1099C VA: 0x2F1499C
+  dump.cs:354261:	private void PlayCirculateBoxIn() { }
+  dump.cs:354262:
+  dump.cs:354263:	// RVA: 0x2F14722 Offset: 0x2F10722 VA: 0x2F14722
+  dump.cs:745914:	private const string ModelBigEvent_CustomTC_Animation = "ModelBigEventCustomTCAnimation{0}";
+  dump.cs:745915:	private const string ModelBigEvent_CustomTC_AnimationFirstIn = "ModelBigEvent_CustomTC_AnimationFirstIn{0}";
+> dump.cs:745916:	public const string GuideDecipherKey = "CustomTC_Guide_Decipher";
+  dump.cs:745917:	public const string GuideMissionKey = "CustomTC_Guide_Mission";
+  dump.cs:745918:	public const string GuideTutorialKey = "CustomTC_Guide_Tutorial";
+  dump.cs:745919:	private uint <CustomEventId>k__BackingField; // 0x14
+  dump.cs:745920:	private uint <CurrentPiece>k__BackingField; // 0x18
+  dump.cs:745921:	private uint <CurrentProgress>k__BackingField; // 0x1C
+  dump.cs:746133:
+  dump.cs:746134:	// RVA: 0x5908791 Offset: 0x5904791 VA: 0x5908791
+> dump.cs:746135:	public string GetTCDecipherBtnCdnUrl(uint useType) { }
+  dump.cs:746136:
+  dump.cs:746137:	// RVA: 0x5908812 Offset: 0x5904812 VA: 0x5908812
+  dump.cs:746138:	public string GetTCShareBtnCdnUrl(uint useType) { }
+  dump.cs:746139:
+  dump.cs:746140:	// RVA: 0x5908893 Offset: 0x5904893 VA: 0x5908893
+  dump.cs:746178:
+  dump.cs:746179:	// RVA: 0x5908F20 Offset: 0x5904F20 VA: 0x5908F20
+> dump.cs:746180:	public string GetTCDecipheringAnimationBgUrl(uint useType) { }
+  dump.cs:746181:
+  dump.cs:746182:	// RVA: 0x5908FA1 Offset: 0x5904FA1 VA: 0x5908FA1
+> dump.cs:746183:	public string GetTCDecipheringAnimationTipsBgUrl(uint useType) { }
+  dump.cs:746184:
+  dump.cs:746185:	// RVA: 0x5909022 Offset: 0x5905022 VA: 0x5909022
+> dump.cs:746186:	public string GetTCDecipheringAnimationCancelBtnUrl(uint useType) { }
+  dump.cs:746187:
+  dump.cs:746188:	// RVA: 0x59090A3 Offset: 0x59050A3 VA: 0x59090A3
+> dump.cs:746189:	public string GetTCPerfectDecipheringBgUrl(uint useType) { }
+  dump.cs:746190:
+  dump.cs:746191:	// RVA: 0x5909124 Offset: 0x5905124 VA: 0x5909124
+  dump.cs:746192:	public string GetTCStartAnimationPrintBgUrl(uint useType) { }
+  dump.cs:746193:
+  dump.cs:746194:	// RVA: 0x59091A5 Offset: 0x59051A5 VA: 0x59091A5
+  dump.cs:746220:
+  dump.cs:746221:	// RVA: 0x59097DB Offset: 0x59057DB VA: 0x59097DB
+> dump.cs:746222:	public Color GetTCDecipheringAnimationNumColor(uint useType) { }
+  dump.cs:746223:
+  dump.cs:746224:	// RVA: 0x59098ED Offset: 0x59058ED VA: 0x59098ED
+  dump.cs:746225:	public UIModelBigEventTemplate.LocStrWithColor GetNoTokenWndTitleDescLoc(uint useType) { }
+  dump.cs:746226:
+  dump.cs:746227:	// RVA: 0x59099B9 Offset: 0x59059B9 VA: 0x59099B9
+  dump.cs:746238:
+  dump.cs:746239:	// RVA: 0x5909CE9 Offset: 0x5905CE9 VA: 0x5909CE9
+> dump.cs:746240:	public UIModelBigEventTemplate.LocStrWithColor GetTCDecipherBtnLoc(uint useType) { }
+  dump.cs:746241:
+  dump.cs:746242:	// RVA: 0x5909DB5 Offset: 0x5905DB5 VA: 0x5909DB5
+> dump.cs:746243:	public UIModelBigEventTemplate.LocStrWithColor GetTCDecipherBtnFreeLoc(uint useType) { }
+  dump.cs:746244:
+  dump.cs:746245:	// RVA: 0x5909E81 Offset: 0x5905E81 VA: 0x5909E81
+  dump.cs:746246:	public UIModelBigEventTemplate.LocStrWithColor GetTCRewardPreviewBtnLoc(uint useType) { }
+  dump.cs:746247:
+  dump.cs:746248:	// RVA: 0x5909F4D Offset: 0x5905F4D VA: 0x5909F4D
+  dump.cs:746259:
+  dump.cs:746260:	// RVA: 0x590A27D Offset: 0x590627D VA: 0x590A27D
+> dump.cs:746261:	public UIModelBigEventTemplate.LocStrWithColor GetTCDecipheringAnimationTipsTitleLoc(uint useType) { }
+  dump.cs:746262:
+  dump.cs:746263:	// RVA: 0x590A349 Offset: 0x5906349 VA: 0x590A349
+> dump.cs:746264:	public UIModelBigEventTemplate.LocStrWithColor GetTCDecipheringAnimationCancelLoc(uint useType) { }
+  dump.cs:746265:
+  dump.cs:746266:	// RVA: 0x590A415 Offset: 0x5906415 VA: 0x590A415
+> dump.cs:746267:	public UIModelBigEventTemplate.LocStrWithColor GetTCPerfectDecipheringLoc(uint useType) { }
+  dump.cs:746268:
+  dump.cs:746269:	// RVA: 0x590A4E1 Offset: 0x59064E1 VA: 0x590A4E1
+  dump.cs:746270:	public UIModelBigEventTemplate.LocStrWithColor GetTCStartSuccessLoc(uint useType) { }
+  dump.cs:746271:
+  dump.cs:746272:	// RVA: 0x590A5AD Offset: 0x59065AD VA: 0x590A5AD
+  dump.cs:746292:
+  dump.cs:746293:	// RVA: 0x590AE35 Offset: 0x5906E35 VA: 0x590AE35
+> dump.cs:746294:	public ResourceID GetTCDecipheringAnimationSuccessUIFX(uint useType) { }
+  dump.cs:746295:
+  dump.cs:746296:	// RVA: 0x590AFE7 Offset: 0x5906FE7 VA: 0x590AFE7
+> dump.cs:746297:	public ResourceID GetTCDecipheringAnimationUIFX(uint useType) { }
+  dump.cs:746298:
+  dump.cs:746299:	// RVA: 0x590B199 Offset: 0x5907199 VA: 0x590B199
+  dump.cs:746300:	public ResourceID GetTCStartAnimationPrintUIFX(uint useType) { }
+  dump.cs:746301:
+  dump.cs:746302:	// RVA: 0x590B34B Offset: 0x590734B VA: 0x590B34B
+  dump.cs:746325:
+  dump.cs:746326:	// RVA: 0x590C0F8 Offset: 0x59080F8 VA: 0x590C0F8
+> dump.cs:746327:	public ResourceID GetTCDecipherInSound(uint useType) { }
+  dump.cs:746328:
+  dump.cs:746329:	// RVA: 0x590C2AA Offset: 0x59082AA VA: 0x590C2AA
+> dump.cs:746330:	public ResourceID GetTCDecipherPerfectSound(uint useType) { }
+  dump.cs:746331:
+  dump.cs:746332:	// RVA: 0x590C45C Offset: 0x590845C VA: 0x590C45C
+> dump.cs:746333:	public ResourceID GetTCDecipherSound(uint useType) { }
+  dump.cs:746334:
+  dump.cs:746335:	// RVA: 0x590C60E Offset: 0x590860E VA: 0x590C60E
+> dump.cs:746336:	public ResourceID GetTCDecipherSuccessSound(uint useType) { }
+  dump.cs:746337:
+  dump.cs:746338:	// RVA: 0x590C7C0 Offset: 0x59087C0 VA: 0x590C7C0
+  dump.cs:746339:	public ResourceID GetTCOpenInSound(uint useType) { }
+  dump.cs:746340:
+  dump.cs:746341:	// RVA: 0x590C972 Offset: 0x5908972 VA: 0x590C972
+  dump.cs:769394:	public const EBigEventTemplateConfigKey TCRewardPreviewBtnCdn = 378;
+  dump.cs:769395:	public const EBigEventTemplateConfigKey TCMainBGVFX = 379;
+> dump.cs:769396:	public const EBigEventTemplateConfigKey TCDecipherBtnCdn = 380;
+> dump.cs:769397:	public const EBigEventTemplateConfigKey TCDecipherBtnLoc = 381;
+> dump.cs:769398:	public const EBigEventTemplateConfigKey TCDecipherBtnFreeLoc = 382;
+  dump.cs:769399:	public const EBigEventTemplateConfigKey TCShareBtnCdn = 383;
+  dump.cs:769400:	public const EBigEventTemplateConfigKey TCShareRewardCdn = 384;
+  dump.cs:769401:	public const EBigEventTemplateConfigKey TCRewardPreviewBtnLoc = 385;
+  dump.cs:769402:	public const EBigEventTemplateConfigKey TCCirculateBoxBgCdn = 386;
+  dump.cs:769403:	public const EBigEventTemplateConfigKey TCCirculateBoxItemCdn = 387;
+  dump.cs:769428:	public const EBigEventTemplateConfigKey TCRewardPreviewUIFX = 412;
+  dump.cs:769429:	public const EBigEventTemplateConfigKey TCMainAnimationInUIFX = 413;
+> dump.cs:769430:	public const EBigEventTemplateConfigKey TCDecipheringAnimationCancelLoc = 414;
+> dump.cs:769431:	public const EBigEventTemplateConfigKey TCDecipheringAnimationBg = 415;
+> dump.cs:769432:	public const EBigEventTemplateConfigKey TCDecipheringAnimationNumColor = 416;
+> dump.cs:769433:	public const EBigEventTemplateConfigKey TCDecipheringAnimationTipsBg = 417;
+> dump.cs:769434:	public const EBigEventTemplateConfigKey TCDecipheringAnimationTipsTitleLoc = 418;
+> dump.cs:769435:	public const EBigEventTemplateConfigKey TCDecipheringAnimationCancelBtn = 419;
+> dump.cs:769436:	public const EBigEventTemplateConfigKey TCPerfectDecipheringBg = 420;
+> dump.cs:769437:	public const EBigEventTemplateConfigKey TCPerfectDecipheringLoc = 421;
+> dump.cs:769438:	public const EBigEventTemplateConfigKey TCDecipheringAnimationSuccessUIFX = 422;
+> dump.cs:769439:	public const EBigEventTemplateConfigKey TCDecipheringAnimationUIFX = 423;
+  dump.cs:769440:	public const EBigEventTemplateConfigKey TCStartAnimationPrintBg = 424;
+  dump.cs:769441:	public const EBigEventTemplateConfigKey TCStartAnimationPrint = 425;
+  dump.cs:769442:	public const EBigEventTemplateConfigKey TCStartSuccessBg = 426;
+  dump.cs:769443:	public const EBigEventTemplateConfigKey TCStartSuccessLoc = 427;
+  dump.cs:769444:	public const EBigEventTemplateConfigKey TCStartAnimationPrintLoc = 428;
+  dump.cs:769454:	public const EBigEventTemplateConfigKey TCReceiveNormalBtn = 438;
+  dump.cs:769455:	public const EBigEventTemplateConfigKey TCReceiveLightBtn = 439;
+> dump.cs:769456:	public const EBigEventTemplateConfigKey TCDecipherInSound = 440;
+> dump.cs:769457:	public const EBigEventTemplateConfigKey TCDecipherPerfectSound = 441;
+> dump.cs:769458:	public const EBigEventTemplateConfigKey TCDecipherSound = 442;
+> dump.cs:769459:	public const EBigEventTemplateConfigKey TCDecipherSuccessSound = 443;
+  dump.cs:769460:	public const EBigEventTemplateConfigKey TCOpenInSound = 444;
+  dump.cs:769461:	public const EBigEventTemplateConfigKey TCOpenSuccessSound = 445;
+  dump.cs:769462:	public const EBigEventTemplateConfigKey TCPieceUnlockSound = 446;
+  dump.cs:769463:	public const EBigEventTemplateConfigKey TCPieceProgressSound = 447;
+  dump.cs:769464:	public const EBigEventTemplateConfigKey MSMainPageTitleEnterVFX = 448;
+  dump.cs:862328:
+  dump.cs:862329:// Namespace: COW
+> dump.cs:862330:public class UIBigEvent_CustomTC_DecipherPopupWndView : UIBaseView // TypeDefIndex: 24232
+  dump.cs:862331:{
+  dump.cs:862332:	// Fields
+> dump.cs:862333:	public GameObject UIBigEvent_CustomTC_DecipherPopupWnd; // 0x48
+> dump.cs:862334:	public UIButton DecipherBtn; // 0x4C
+> dump.cs:862335:	public UINetworkTexture DecipherBtnSprite; // 0x50
+  dump.cs:862336:	public UICenterTargetHelper TokenCenter; // 0x54
+> dump.cs:862337:	public UILabel DecipherLabel; // 0x58
+  dump.cs:862338:	public UISprite TokenIcon; // 0x5C
+  dump.cs:862339:	public UILabel TokenCount; // 0x60
+  dump.cs:862340:	public UIButton CancelBtn; // 0x64
+  dump.cs:862341:	public UINetworkTexture CancelBtnSprite; // 0x68
+  dump.cs:862342:	public UILabel CancelLabel; // 0x6C
+  dump.cs:862344:	public UINetworkTexture BgTexture; // 0x74
+  dump.cs:862345:	public UINetworkTexture SuccessBG; // 0x78
+> dump.cs:862346:	public Transform DecipherVFX; // 0x7C
+  dump.cs:862347:	public Transform SucccessVFX; // 0x80
+  dump.cs:862348:	public UILabel ProgressLabel; // 0x84
+  dump.cs:862349:	public UILabel PerfectLabel; // 0x88
+  dump.cs:862350:	public UINetworkTexture ItemTexture; // 0x8C
+  dump.cs:862351:	public UILabel SuccessLabel; // 0x90
+  dump.cs:862353:	public GameObject SuccessRoot; // 0x98
+  dump.cs:862354:	public UILabel PerfectNum; // 0x9C
+> dump.cs:862355:	public Animation DecipherAnimation; // 0xA0
+  dump.cs:862356:
+  dump.cs:862357:	// Methods
+  dump.cs:862358:
+  dump.cs:862359:	// RVA: 0x6442635 Offset: 0x643E635 VA: 0x6442635 Slot: 4
+  dump.cs:862360:	protected override void OnInit(Transform holder) { }
+  dump.cs:862372:	// Fields
+  dump.cs:862373:	public Animation MainAnimation; // 0x48
+> dump.cs:862374:	public UIButton DecipherBtn; // 0x4C
+> dump.cs:862375:	public UINetworkTexture DecipherBtnSprite; // 0x50
+> dump.cs:862376:	public UILabel DecipherLabel; // 0x54
+  dump.cs:862377:	public UISprite TokenIcon; // 0x58
+  dump.cs:862378:	public UILabel TokenCount; // 0x5C
+> dump.cs:862379:	public GameObject DecipherRedDot; // 0x60
+  dump.cs:862380:	public UIButton PreviewBtn; // 0x64
+  dump.cs:862381:	public UINetworkTexture PreviewBtnSprite; // 0x68
+  dump.cs:862382:	public UIButton ShareBtn; // 0x6C
+  dump.cs:862383:	public UINetworkTexture ShareBtnSprite; // 0x70
+  dump.cs:862384:	public GameObject ShareRed; // 0x74
+  dump.cs:1235834:
+  dump.cs:1235835:	// RVA: 0x84F21CC Offset: 0x84EE1CC VA: 0x84F21CC
+> dump.cs:1235836:	public static string Decrypt(byte[] cipherText, AES.AESOption option) { }
+  dump.cs:1235837:}
+  dump.cs:1235838:
+  dump.cs:1235839:// Namespace: GCommon
+  dump.cs:1235840:public class AndroidDisplayMetricsUtil // TypeDefIndex: 33474
+  dump.cs:1235841:{
+  dump.cs:1343335:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCStartAnimationPrintUrl0 = 39608;
+  dump.cs:1343336:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCStartSuccessBgUrl0 = 39609;
+> dump.cs:1343337:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCDecipheringAnimationTipsBgUrl0 = 39610;
+> dump.cs:1343338:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCDecipheringAnimationBgUrl0 = 39611;
+  dump.cs:1343339:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCShareImageCdnUrl0 = 39612;
+  dump.cs:1343340:	public const IDMAP0 COW-UIBigEvent_CustomTCController-InitTokenOwnedShowState0 = 39613;
+  dump.cs:1343341:	public const IDMAP0 COW-UIBigEvent_CustomTCController-InitLeftTopTitleCDNAndOpenTime0 = 39614;
+  dump.cs:1343342:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetMainCloseBgCdnUrl0 = 39616;
+  dump.cs:1343343:	public const IDMAP0 COW-UIBigEvent_CustomTCController-InitCloseBtnShowState0 = 39615;
+  dump.cs:1343344:	public const IDMAP0 COW-UIBigEvent_CustomTCController-InitEffect0 = 39617;
+  dump.cs:1343345:	public const IDMAP0 COW-UIBigEvent_CustomTCController-OnTemplateUIInit0 = 39586;
+> dump.cs:1343346:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCDecipherBtnFreeLoc0 = 39622;
+> dump.cs:1343347:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCDecipherBtnLoc0 = 39623;
+  dump.cs:1343348:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-get_PiecesDict0 = 39626;
+  dump.cs:1343349:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetPieceDesc0 = 39625;
+  dump.cs:1343350:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-TokenEnoughDecodePiece0 = 39624;
+  dump.cs:1343351:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetCurrentPieceConsume0 = 39628;
+  dump.cs:1343352:	public const IDMAP0 COW-UIBigEvent_CustomTC_MainController-RefreshTokenView0 = 39620;
+  dump.cs:1343373:	public const IDMAP0 COW-UIBigEvent_CustomTCController-OnGotoNavigation0 = 39650;
+  dump.cs:1343374:	public const IDMAP0 COW-UIBigEvent_CustomTCController-OnNavigationShowed0 = 39584;
+> dump.cs:1343375:	public const IDMAP0 COW-UIBigEvent_CustomTC_MainController-GetDecipherGuide0 = 39653;
+  dump.cs:1343376:	public const IDMAP0 COW-UIModelBigEventTemplate-IsMissionComplete0 = 39654;
+  dump.cs:1343377:	public const IDMAP0 COW-UIBigEvent_CustomTC_MissionBtnItemController-GetMissionGuide0 = 39655;
+  dump.cs:1343378:	public const IDMAP0 COW-UIBigEvent_CustomTCController-StartGuide0 = 39652;
+  dump.cs:1343379:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCPieceTransitionUIFX0 = 39659;
+  dump.cs:1343380:	public const IDMAP0 COW-UIBigEvent_CustomTC_PieceItemController-PlayPieceOutAnimition0 = 39658;
+  dump.cs:1343404:	public const IDMAP0 COW-UIBigEvent_CustomTC_BtnItemController-OpenPeakDayPopupWnd0 = 39688;
+  dump.cs:1343405:	public const IDMAP0 COW-UIBigEvent_CustomTC_BtnItemController-OpenMissionPopupWnd0 = 39689;
+> dump.cs:1343406:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-GetResourceID0 = 39690;
+  dump.cs:1343407:	public const IDMAP0 COW-UIBigEvent_CustomTC_TokenPopWndController-SetToken0 = 39695;
+  dump.cs:1343408:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-AddUnclaimedRewards0 = 39699;
+  dump.cs:1343409:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-RequestDecodeCustomTCPiece0 = 39694;
+> dump.cs:1343410:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-OnClickDecipherBtn0 = 39692;
+> dump.cs:1343411:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-OnCloseBtnClick0 = 39701;
+> dump.cs:1343412:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-OnMaskCloseBtnClick0 = 39702;
+> dump.cs:1343413:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-OnUIInit0 = 39691;
+> dump.cs:1343414:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-DestoryEffectVFX0 = 39704;
+> dump.cs:1343415:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-OnUIDestory0 = 39703;
+> dump.cs:1343416:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-PlayAnimationSafe0 = 39712;
+> dump.cs:1343417:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-MakeItemPixelPerfect0 = 39713;
+> dump.cs:1343418:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCDecipherSuccessSound0 = 39714;
+> dump.cs:1343419:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-RefreshViewEndAnim0 = 39711;
+> dump.cs:1343420:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-ScrollProgress0 = 39707;
+> dump.cs:1343421:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-RefreshViewBeforeAnim0 = 39718;
+> dump.cs:1343422:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-SetProgressInfo0 = 39706;
+> dump.cs:1343423:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCDecipherInSound0 = 39719;
+> dump.cs:1343424:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCPerfectDecipheringLoc0 = 39725;
+> dump.cs:1343425:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCDecipherPerfectSound0 = 39726;
+> dump.cs:1343426:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCDecipherSound0 = 39727;
+> dump.cs:1343427:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-PlayProgressInfo0 = 39724;
+> dump.cs:1343428:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-WaitOpenAnimation0 = 39720;
+> dump.cs:1343429:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-SetPieceInfo0 = 39705;
+> dump.cs:1343430:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-PlayProgressInfo1 = 39731;
+> dump.cs:1343431:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCDecipheringAnimationUIFX0 = 39733;
+> dump.cs:1343432:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCDecipheringAnimationSuccessUIFX0 = 39734;
+> dump.cs:1343433:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-InitEffectVFX0 = 39732;
+> dump.cs:1343434:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCDecipherBtnCdnUrl0 = 39738;
+> dump.cs:1343435:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCDecipheringAnimationCancelBtnUrl0 = 39739;
+> dump.cs:1343436:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCPerfectDecipheringBgUrl0 = 39740;
+> dump.cs:1343437:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCDecipheringAnimationNumColor0 = 39741;
+> dump.cs:1343438:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCDecipheringAnimationCancelLoc0 = 39742;
+> dump.cs:1343439:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-GetTCDecipheringAnimationTipsTitleLoc0 = 39743;
+> dump.cs:1343440:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-OnTemplateUIInit0 = 39737;
+> dump.cs:1343441:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-OnSetNavigationController0 = 39735;
+> dump.cs:1343442:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-UseCustomizedAnimation0 = 39744;
+> dump.cs:1343443:	public const IDMAP0 COW-UIBigEvent_CustomTC_DecipherPopupWndController-GetTemplateType0 = 39745;
+  dump.cs:1343444:	public const IDMAP0 COW-UIBigEvent_CustomTC_LoadingMaskPopupWndController-GetResourceID0 = 39746;
+  dump.cs:1343445:	public const IDMAP0 COW-UIBigEvent_CustomTC_LoadingMaskPopupWndController-OnUIInit0 = 39747;
+  dump.cs:1343446:	public const IDMAP0 COW-UIBigEvent_CustomTC_LoadingMaskPopupWndController-RefreshLoadingMaskNeedDownloadCdn0 = 39748;
+  dump.cs:1343447:	public const IDMAP0 COW-UIBigEvent_CustomTC_LoadingMaskPopupWndController-OnDataChanged0 = 39749;
+  dump.cs:1343448:	public const IDMAP0 COW-UIBigEvent_CustomTC_LoadingMaskPopupWndController-GetInterestedPropID0 = 39750;
+  dump.cs:1343455:	public const IDMAP0 COW-UIBigEvent_CustomTC_MainController-ScrollProgress0 = 39766;
+  dump.cs:1343456:	public const IDMAP0 COW-UIBigEvent_CustomTC_MainController-StartProgressAnimation0 = 39765;
+> dump.cs:1343457:	public const IDMAP0 COW-UIBigEvent_CustomTC_MainController-OnDecipherClose0 = 39754;
+> dump.cs:1343458:	public const IDMAP0 COW-UIBigEvent_CustomTC_MainController-OnClickDecipherBtn0 = 39773;
+  dump.cs:1343459:	public const IDMAP0 COW-UIBigEvent_CustomTC_MainController-OnClickPreviewBtn0 = 39774;
+  dump.cs:1343460:	public const IDMAP0 COW-UIBigEvent_CustomTC_MainController-OnShareClose0 = 39776;
+  dump.cs:1343461:	public const IDMAP0 COW-UIBigEvent_CustomTC_MainController-OnClickShareBtn0 = 39775;
+  dump.cs:1343462:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-RemoveUnclaimedRewards0 = 39781;
+  dump.cs:1343463:	public const IDMAP0 COW-UIModelBigEvent_CustomTC-RequestCustomTCReward0 = 39778;
+  dump.cs:1416835:	public const IDMAP3 COW-UIBigEvent_CustomTC_BoxPreviewPopupWndView-OnInit0 = 126691;
+  dump.cs:1416836:	public const IDMAP3 COW-UIBigEvent_CustomTC_BtnItemView-OnInit0 = 126692;
+> dump.cs:1416837:	public const IDMAP3 COW-UIBigEvent_CustomTC_DecipherPopupWndView-OnInit0 = 126693;
+  dump.cs:1416838:	public const IDMAP3 COW-UIBigEvent_CustomTC_MainView-OnInit0 = 126694;
+  dump.cs:1416839:	public const IDMAP3 COW-UIBigEvent_CustomTC_MissionBtnItemView-OnInit0 = 126695;
+  dump.cs:1416840:	public const IDMAP3 COW-UIBigEvent_CustomTC_MissionItemView-OnInit0 = 126696;
+  dump.cs:1416841:	public const IDMAP3 COW-UIBigEvent_CustomTC_MissionPopupWndView-OnInit0 = 126697;
+  dump.cs:1416842:	public const IDMAP3 COW-UIBigEvent_CustomTC_OpenPopupWndView-OnInit0 = 126698;
+  dump.cs:1549637:
+  dump.cs:1549638:// Namespace: System.Security.Cryptography
+> dump.cs:1549639:public enum CipherMode // TypeDefIndex: 35116
+  dump.cs:1549640:{
+  dump.cs:1549641:	// Fields
+  dump.cs:1549642:	public int value__; // 0x0
+> dump.cs:1549643:	public const CipherMode CBC = 1;
+> dump.cs:1549644:	public const CipherMode ECB = 2;
+> dump.cs:1549645:	public const CipherMode OFB = 3;
+> dump.cs:1549646:	public const CipherMode CFB = 4;
+> dump.cs:1549647:	public const CipherMode CTS = 5;
+  dump.cs:1549648:}
+  dump.cs:1549649:
+  dump.cs:1549650:// Namespace: System.Security.Cryptography
+  dump.cs:1549651:public enum PaddingMode // TypeDefIndex: 35117
+  dump.cs:1549652:{
+  dump.cs:1550321:
+  dump.cs:1550322:	// RVA: 0x9FE7B2E Offset: 0x9FE3B2E VA: 0x9FE7B2E
+> dump.cs:1550323:	private ICryptoTransform NewEncryptor(byte[] rgbKey, CipherMode mode, byte[] rgbIV, int feedbackSize, 
+RijndaelManagedTransformMode encryptMode) { }
+  dump.cs:1550324:}
+  dump.cs:1550325:
+  dump.cs:1550326:// Namespace: System.Security.Cryptography
+  dump.cs:1550327:internal enum RijndaelManagedTransformMode // TypeDefIndex: 35147
+  dump.cs:1550328:{
+  dump.cs:1550337:{
+  dump.cs:1550338:	// Fields
+> dump.cs:1550339:	private CipherMode m_cipherMode; // 0x8
+  dump.cs:1550340:	private PaddingMode m_paddingValue; // 0xC
+  dump.cs:1550341:	private RijndaelManagedTransformMode m_transformMode; // 0x10
+  dump.cs:1550342:	private int m_blockSizeBits; // 0x14
+  dump.cs:1550343:	private int m_blockSizeBytes; // 0x18
+  dump.cs:1550344:	private int m_inputBlockSize; // 0x1C
+  dump.cs:1550365:
+  dump.cs:1550366:	// RVA: 0x9FE7D02 Offset: 0x9FE3D02 VA: 0x9FE7D02
+> dump.cs:1550367:	internal void .ctor(byte[] rgbKey, CipherMode mode, byte[] rgbIV, int blockSize, int feedbackSize, PaddingMode 
+PaddingValue, RijndaelManagedTransformMode transformMode) { }
+  dump.cs:1550368:
+  dump.cs:1550369:	// RVA: 0x9FE89DA Offset: 0x9FE49DA VA: 0x9FE89DA Slot: 10
+  dump.cs:1550370:	public void Dispose() { }
+  dump.cs:1550371:
+  dump.cs:1550372:	// RVA: 0x9FE8A0B Offset: 0x9FE4A0B VA: 0x9FE8A0B
+  dump.cs:1550972:	protected KeySizes[] LegalKeySizesValue; // 0x1C
+  dump.cs:1550973:	protected int KeySizeValue; // 0x20
+> dump.cs:1550974:	protected CipherMode ModeValue; // 0x24
+  dump.cs:1550975:	protected PaddingMode PaddingValue; // 0x28
+  dump.cs:1550976:
+  dump.cs:1550977:	// Methods
+  dump.cs:1550978:
+  dump.cs:1550979:	// RVA: 0x9FF3A52 Offset: 0x9FEFA52 VA: 0x9FF3A52
+  dump.cs:1551026:
+  dump.cs:1551027:	// RVA: 0x9FF455D Offset: 0x9FF055D VA: 0x9FF455D Slot: 18
+> dump.cs:1551028:	public virtual CipherMode get_Mode() { }
+  dump.cs:1551029:
+  dump.cs:1551030:	// RVA: 0x9FF456E Offset: 0x9FF056E VA: 0x9FF456E Slot: 19
+> dump.cs:1551031:	public virtual void set_Mode(CipherMode value) { }
+  dump.cs:1551032:
+  dump.cs:1551033:	// RVA: 0x9FF4602 Offset: 0x9FF0602 VA: 0x9FF4602 Slot: 20
+  dump.cs:1551034:	public virtual PaddingMode get_Padding() { }
+  dump.cs:1551035:
+  dump.cs:1551036:	// RVA: 0x9FF4613 Offset: 0x9FF0613 VA: 0x9FF4613 Slot: 21
+  dump.cs:1551226:
+  dump.cs:1551227:	// RVA: 0x9FF91FE Offset: 0x9FF51FE VA: 0x9FF91FE
+> dump.cs:1551228:	private uint CipherFunct(uint r, int n) { }
+  dump.cs:1551229:
+  dump.cs:1551230:	// RVA: 0x9FF9457 Offset: 0x9FF5457 VA: 0x9FF9457
+  dump.cs:1551231:	internal static void Permutation(byte[] input, byte[] output, uint[] permTab, bool preSwap) { }
+  dump.cs:1551232:
+  dump.cs:1551233:	// RVA: 0x9FF9716 Offset: 0x9FF5716 VA: 0x9FF9716
+  dump.cs:1807974:
+  dump.cs:1807975:// Namespace: 
+> dump.cs:1807976:public enum UnityTls.unitytls_ciphersuite // TypeDefIndex: 38551
+  dump.cs:1807977:{
+  dump.cs:1807978:	// Fields
+  dump.cs:1807979:	public uint value__; // 0x0
+> dump.cs:1807980:	public const UnityTls.unitytls_ciphersuite UNITYTLS_CIPHERSUITE_INVALID = 16777215;
+  dump.cs:1807981:}
+  dump.cs:1807982:
+  dump.cs:1807983:// Namespace: 
+  dump.cs:1807984:public enum UnityTls.unitytls_protocol // TypeDefIndex: 38552
+  dump.cs:1807985:{
+  dump.cs:1808322:
+  dump.cs:1808323:// Namespace: 
+> dump.cs:1808324:public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_set_supported_ciphersuites_t : MulticastDelegate 
+// TypeDefIndex: 38581
+  dump.cs:1808325:{
+  dump.cs:1808326:	// Methods
+  dump.cs:1808327:
+  dump.cs:1808328:	// RVA: 0xA4524A9 Offset: 0xA44E4A9 VA: 0xA4524A9
+  dump.cs:1808329:	public void .ctor(object object, IntPtr method) { }
+  dump.cs:1808330:
+  dump.cs:1808331:	// RVA: 0xA452560 Offset: 0xA44E560 VA: 0xA452560 Slot: 13
+> dump.cs:1808332:	public virtual void Invoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_ciphersuite* supportedCiphersuites, IntPtr 
+supportedCiphersuitesLen, UnityTls.unitytls_errorstate* errorState) { }
+  dump.cs:1808333:}
+  dump.cs:1808334:
+  dump.cs:1808335:// Namespace: 
+> dump.cs:1808336:public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_get_ciphersuite_t : MulticastDelegate // 
+TypeDefIndex: 38582
+  dump.cs:1808337:{
+  dump.cs:1808338:	// Methods
+  dump.cs:1808339:
+  dump.cs:1808340:	// RVA: 0xA4525A9 Offset: 0xA44E5A9 VA: 0xA4525A9
+  dump.cs:1808341:	public void .ctor(object object, IntPtr method) { }
+  dump.cs:1808342:
+  dump.cs:1808343:	// RVA: 0xA452660 Offset: 0xA44E660 VA: 0xA452660 Slot: 13
+> dump.cs:1808344:	public virtual UnityTls.unitytls_ciphersuite Invoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_errorstate* 
+errorState) { }
+  dump.cs:1808345:}
+  dump.cs:1808346:
+  dump.cs:1808347:// Namespace: 
+  dump.cs:1808348:public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_get_protocol_t : MulticastDelegate // 
+TypeDefIndex: 38583
+  dump.cs:1808349:{
+  dump.cs:1808457:	public UnityTls.unitytls_interface_struct.unitytls_tlsctx_set_trace_callback_t unitytls_tlsctx_set_trace_callback; // 
+0x68
+  dump.cs:1808458:	public UnityTls.unitytls_interface_struct.unitytls_tlsctx_set_x509verify_callback_t 
+unitytls_tlsctx_set_x509verify_callback; // 0x6C
+> dump.cs:1808459:	public UnityTls.unitytls_interface_struct.unitytls_tlsctx_set_supported_ciphersuites_t 
+unitytls_tlsctx_set_supported_ciphersuites; // 0x70
+> dump.cs:1808460:	public UnityTls.unitytls_interface_struct.unitytls_tlsctx_get_ciphersuite_t unitytls_tlsctx_get_ciphersuite; // 0x74
+  dump.cs:1808461:	public UnityTls.unitytls_interface_struct.unitytls_tlsctx_get_protocol_t unitytls_tlsctx_get_protocol; // 0x78
+  dump.cs:1808462:	public UnityTls.unitytls_interface_struct.unitytls_tlsctx_process_handshake_t unitytls_tlsctx_process_handshake; // 0x7C
+  dump.cs:1808463:	public UnityTls.unitytls_interface_struct.unitytls_tlsctx_read_t unitytls_tlsctx_read; // 0x80
+  dump.cs:1808464:	public UnityTls.unitytls_interface_struct.unitytls_tlsctx_write_t unitytls_tlsctx_write; // 0x84
+  dump.cs:1808465:	public UnityTls.unitytls_interface_struct.unitytls_tlsctx_notify_close_t unitytls_tlsctx_notify_close; // 0x88
+  dump.cs:1814346:	public int value__; // 0x0
+  dump.cs:1814347:	public const X509KeyUsageFlags None = 0;
+> dump.cs:1814348:	public const X509KeyUsageFlags EncipherOnly = 1;
+  dump.cs:1814349:	public const X509KeyUsageFlags CrlSign = 2;
+  dump.cs:1814350:	public const X509KeyUsageFlags KeyCertSign = 4;
+  dump.cs:1814351:	public const X509KeyUsageFlags KeyAgreement = 8;
+> dump.cs:1814352:	public const X509KeyUsageFlags DataEncipherment = 16;
+> dump.cs:1814353:	public const X509KeyUsageFlags KeyEncipherment = 32;
+  dump.cs:1814354:	public const X509KeyUsageFlags NonRepudiation = 64;
+  dump.cs:1814355:	public const X509KeyUsageFlags DigitalSignature = 128;
+> dump.cs:1814356:	public const X509KeyUsageFlags DecipherOnly = 32768;
+  dump.cs:1814357:}
+  dump.cs:1814358:
+  dump.cs:1814359:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814360:public enum X509NameType // TypeDefIndex: 38757
+  dump.cs:1814361:{
+  dump.cs:1913765:
+  dump.cs:1913766:	// RVA: 0xA3B64AE Offset: 0xA3B24AE VA: 0xA3B64AE Slot: 18
+> dump.cs:1913767:	public override CipherMode get_Mode() { }
+  dump.cs:1913768:
+  dump.cs:1913769:	// RVA: 0xA3B64FD Offset: 0xA3B24FD VA: 0xA3B64FD Slot: 19
+> dump.cs:1913770:	public override void set_Mode(CipherMode value) { }
+  dump.cs:1913771:
+  dump.cs:1913772:	// RVA: 0xA3B65B7 Offset: 0xA3B25B7 VA: 0xA3B65B7 Slot: 20
+  dump.cs:1913773:	public override PaddingMode get_Padding() { }
+  dump.cs:1913774:
+  dump.cs:1913775:	// RVA: 0xA3B6606 Offset: 0xA3B2606 VA: 0xA3B6606 Slot: 21
+  dump.cs:1913843:
+  dump.cs:1913844:	// RVA: 0xA3B78B2 Offset: 0xA3B38B2 VA: 0xA3B78B2 Slot: 18
+> dump.cs:1913845:	public override CipherMode get_Mode() { }
+  dump.cs:1913846:
+  dump.cs:1913847:	// RVA: 0xA3B78C3 Offset: 0xA3B38C3 VA: 0xA3B78C3 Slot: 19
+> dump.cs:1913848:	public override void set_Mode(CipherMode value) { }
+  dump.cs:1913849:
+  dump.cs:1913850:	// RVA: 0xA3B7955 Offset: 0xA3B3955 VA: 0xA3B7955 Slot: 20
+  dump.cs:1913851:	public override PaddingMode get_Padding() { }
+  dump.cs:1913852:
+  dump.cs:1913853:	// RVA: 0xA3B7966 Offset: 0xA3B3966 VA: 0xA3B7966 Slot: 21
+  dump.cs:1966243:
+  dump.cs:1966244:// Namespace: Mono.Security.Interface
+> dump.cs:1966245:public enum CipherSuiteCode // TypeDefIndex: 42416
+  dump.cs:1966246:{
+  dump.cs:1966247:	// Fields
+  dump.cs:1966248:	public ushort value__; // 0x0
+> dump.cs:1966249:	public const CipherSuiteCode TLS_NULL_WITH_NULL_NULL = 0;
+> dump.cs:1966250:	public const CipherSuiteCode TLS_RSA_WITH_NULL_MD5 = 1;
+> dump.cs:1966251:	public const CipherSuiteCode TLS_RSA_WITH_NULL_SHA = 2;
+> dump.cs:1966252:	public const CipherSuiteCode TLS_RSA_EXPORT_WITH_RC4_40_MD5 = 3;
+> dump.cs:1966253:	public const CipherSuiteCode TLS_RSA_WITH_RC4_128_MD5 = 4;
+> dump.cs:1966254:	public const CipherSuiteCode TLS_RSA_WITH_RC4_128_SHA = 5;
+> dump.cs:1966255:	public const CipherSuiteCode TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5 = 6;
+> dump.cs:1966256:	public const CipherSuiteCode TLS_RSA_WITH_IDEA_CBC_SHA = 7;
+> dump.cs:1966257:	public const CipherSuiteCode TLS_RSA_EXPORT_WITH_DES40_CBC_SHA = 8;
+> dump.cs:1966258:	public const CipherSuiteCode TLS_RSA_WITH_DES_CBC_SHA = 9;
+> dump.cs:1966259:	public const CipherSuiteCode TLS_RSA_WITH_3DES_EDE_CBC_SHA = 10;
+> dump.cs:1966260:	public const CipherSuiteCode TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA = 11;
+> dump.cs:1966261:	public const CipherSuiteCode TLS_DH_DSS_WITH_DES_CBC_SHA = 12;
+> dump.cs:1966262:	public const CipherSuiteCode TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA = 13;
+> dump.cs:1966263:	public const CipherSuiteCode TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA = 14;
+> dump.cs:1966264:	public const CipherSuiteCode TLS_DH_RSA_WITH_DES_CBC_SHA = 15;
+> dump.cs:1966265:	public const CipherSuiteCode TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA = 16;
+> dump.cs:1966266:	public const CipherSuiteCode TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA = 17;
+> dump.cs:1966267:	public const CipherSuiteCode TLS_DHE_DSS_WITH_DES_CBC_SHA = 18;
+> dump.cs:1966268:	public const CipherSuiteCode TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA = 19;
+> dump.cs:1966269:	public const CipherSuiteCode TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA = 20;
+> dump.cs:1966270:	public const CipherSuiteCode TLS_DHE_RSA_WITH_DES_CBC_SHA = 21;
+> dump.cs:1966271:	public const CipherSuiteCode TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA = 22;
+> dump.cs:1966272:	public const CipherSuiteCode TLS_DH_anon_EXPORT_WITH_RC4_40_MD5 = 23;
+> dump.cs:1966273:	public const CipherSuiteCode TLS_DH_anon_WITH_RC4_128_MD5 = 24;
+> dump.cs:1966274:	public const CipherSuiteCode TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA = 25;
+> dump.cs:1966275:	public const CipherSuiteCode TLS_DH_anon_WITH_DES_CBC_SHA = 26;
+> dump.cs:1966276:	public const CipherSuiteCode TLS_DH_anon_WITH_3DES_EDE_CBC_SHA = 27;
+> dump.cs:1966277:	public const CipherSuiteCode TLS_RSA_WITH_AES_128_CBC_SHA = 47;
+> dump.cs:1966278:	public const CipherSuiteCode TLS_DH_DSS_WITH_AES_128_CBC_SHA = 48;
+> dump.cs:1966279:	public const CipherSuiteCode TLS_DH_RSA_WITH_AES_128_CBC_SHA = 49;
+> dump.cs:1966280:	public const CipherSuiteCode TLS_DHE_DSS_WITH_AES_128_CBC_SHA = 50;
+> dump.cs:1966281:	public const CipherSuiteCode TLS_DHE_RSA_WITH_AES_128_CBC_SHA = 51;
+> dump.cs:1966282:	public const CipherSuiteCode TLS_DH_anon_WITH_AES_128_CBC_SHA = 52;
+> dump.cs:1966283:	public const CipherSuiteCode TLS_RSA_WITH_AES_256_CBC_SHA = 53;
+> dump.cs:1966284:	public const CipherSuiteCode TLS_DH_DSS_WITH_AES_256_CBC_SHA = 54;
+> dump.cs:1966285:	public const CipherSuiteCode TLS_DH_RSA_WITH_AES_256_CBC_SHA = 55;
+> dump.cs:1966286:	public const CipherSuiteCode TLS_DHE_DSS_WITH_AES_256_CBC_SHA = 56;
+> dump.cs:1966287:	public const CipherSuiteCode TLS_DHE_RSA_WITH_AES_256_CBC_SHA = 57;
+> dump.cs:1966288:	public const CipherSuiteCode TLS_DH_anon_WITH_AES_256_CBC_SHA = 58;
+> dump.cs:1966289:	public const CipherSuiteCode TLS_RSA_WITH_CAMELLIA_128_CBC_SHA = 65;
+> dump.cs:1966290:	public const CipherSuiteCode TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA = 66;
+> dump.cs:1966291:	public const CipherSuiteCode TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA = 67;
+> dump.cs:1966292:	public const CipherSuiteCode TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA = 68;
+> dump.cs:1966293:	public const CipherSuiteCode TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA = 69;
+> dump.cs:1966294:	public const CipherSuiteCode TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA = 70;
+> dump.cs:1966295:	public const CipherSuiteCode TLS_RSA_WITH_CAMELLIA_256_CBC_SHA = 132;
+> dump.cs:1966296:	public const CipherSuiteCode TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA = 133;
+> dump.cs:1966297:	public const CipherSuiteCode TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA = 134;
+> dump.cs:1966298:	public const CipherSuiteCode TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA = 135;
+> dump.cs:1966299:	public const CipherSuiteCode TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA = 136;
+> dump.cs:1966300:	public const CipherSuiteCode TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA = 137;
+> dump.cs:1966301:	public const CipherSuiteCode TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 186;
+> dump.cs:1966302:	public const CipherSuiteCode TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256 = 187;
+> dump.cs:1966303:	public const CipherSuiteCode TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 188;
+> dump.cs:1966304:	public const CipherSuiteCode TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256 = 189;
+> dump.cs:1966305:	public const CipherSuiteCode TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 190;
+> dump.cs:1966306:	public const CipherSuiteCode TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256 = 191;
+> dump.cs:1966307:	public const CipherSuiteCode TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 = 192;
+> dump.cs:1966308:	public const CipherSuiteCode TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256 = 193;
+> dump.cs:1966309:	public const CipherSuiteCode TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256 = 194;
+> dump.cs:1966310:	public const CipherSuiteCode TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256 = 195;
+> dump.cs:1966311:	public const CipherSuiteCode TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 = 196;
+> dump.cs:1966312:	public const CipherSuiteCode TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256 = 197;
+> dump.cs:1966313:	public const CipherSuiteCode TLS_RSA_WITH_SEED_CBC_SHA = 150;
+> dump.cs:1966314:	public const CipherSuiteCode TLS_DH_DSS_WITH_SEED_CBC_SHA = 151;
+> dump.cs:1966315:	public const CipherSuiteCode TLS_DH_RSA_WITH_SEED_CBC_SHA = 152;
+> dump.cs:1966316:	public const CipherSuiteCode TLS_DHE_DSS_WITH_SEED_CBC_SHA = 153;
+> dump.cs:1966317:	public const CipherSuiteCode TLS_DHE_RSA_WITH_SEED_CBC_SHA = 154;
+> dump.cs:1966318:	public const CipherSuiteCode TLS_DH_anon_WITH_SEED_CBC_SHA = 155;
+> dump.cs:1966319:	public const CipherSuiteCode TLS_PSK_WITH_RC4_128_SHA = 138;
+> dump.cs:1966320:	public const CipherSuiteCode TLS_PSK_WITH_3DES_EDE_CBC_SHA = 139;
+> dump.cs:1966321:	public const CipherSuiteCode TLS_PSK_WITH_AES_128_CBC_SHA = 140;
+> dump.cs:1966322:	public const CipherSuiteCode TLS_PSK_WITH_AES_256_CBC_SHA = 141;
+> dump.cs:1966323:	public const CipherSuiteCode TLS_DHE_PSK_WITH_RC4_128_SHA = 142;
+> dump.cs:1966324:	public const CipherSuiteCode TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA = 143;
+> dump.cs:1966325:	public const CipherSuiteCode TLS_DHE_PSK_WITH_AES_128_CBC_SHA = 144;
+> dump.cs:1966326:	public const CipherSuiteCode TLS_DHE_PSK_WITH_AES_256_CBC_SHA = 145;
+> dump.cs:1966327:	public const CipherSuiteCode TLS_RSA_PSK_WITH_RC4_128_SHA = 146;
+> dump.cs:1966328:	public const CipherSuiteCode TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA = 147;
+> dump.cs:1966329:	public const CipherSuiteCode TLS_RSA_PSK_WITH_AES_128_CBC_SHA = 148;
+> dump.cs:1966330:	public const CipherSuiteCode TLS_RSA_PSK_WITH_AES_256_CBC_SHA = 149;
+> dump.cs:1966331:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_NULL_SHA = 49153;
+> dump.cs:1966332:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_RC4_128_SHA = 49154;
+> dump.cs:1966333:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA = 49155;
+> dump.cs:1966334:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA = 49156;
+> dump.cs:1966335:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA = 49157;
+> dump.cs:1966336:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_NULL_SHA = 49158;
+> dump.cs:1966337:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_RC4_128_SHA = 49159;
+> dump.cs:1966338:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA = 49160;
+> dump.cs:1966339:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA = 49161;
+> dump.cs:1966340:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA = 49162;
+> dump.cs:1966341:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_NULL_SHA = 49163;
+> dump.cs:1966342:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_RC4_128_SHA = 49164;
+> dump.cs:1966343:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA = 49165;
+> dump.cs:1966344:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_AES_128_CBC_SHA = 49166;
+> dump.cs:1966345:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_AES_256_CBC_SHA = 49167;
+> dump.cs:1966346:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_NULL_SHA = 49168;
+> dump.cs:1966347:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_RC4_128_SHA = 49169;
+> dump.cs:1966348:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA = 49170;
+> dump.cs:1966349:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA = 49171;
+> dump.cs:1966350:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA = 49172;
+> dump.cs:1966351:	public const CipherSuiteCode TLS_ECDH_anon_WITH_NULL_SHA = 49173;
+> dump.cs:1966352:	public const CipherSuiteCode TLS_ECDH_anon_WITH_RC4_128_SHA = 49174;
+> dump.cs:1966353:	public const CipherSuiteCode TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA = 49175;
+> dump.cs:1966354:	public const CipherSuiteCode TLS_ECDH_anon_WITH_AES_128_CBC_SHA = 49176;
+> dump.cs:1966355:	public const CipherSuiteCode TLS_ECDH_anon_WITH_AES_256_CBC_SHA = 49177;
+> dump.cs:1966356:	public const CipherSuiteCode TLS_PSK_WITH_NULL_SHA = 44;
+> dump.cs:1966357:	public const CipherSuiteCode TLS_DHE_PSK_WITH_NULL_SHA = 45;
+> dump.cs:1966358:	public const CipherSuiteCode TLS_RSA_PSK_WITH_NULL_SHA = 46;
+> dump.cs:1966359:	public const CipherSuiteCode TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA = 49178;
+> dump.cs:1966360:	public const CipherSuiteCode TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA = 49179;
+> dump.cs:1966361:	public const CipherSuiteCode TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA = 49180;
+> dump.cs:1966362:	public const CipherSuiteCode TLS_SRP_SHA_WITH_AES_128_CBC_SHA = 49181;
+> dump.cs:1966363:	public const CipherSuiteCode TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA = 49182;
+> dump.cs:1966364:	public const CipherSuiteCode TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA = 49183;
+> dump.cs:1966365:	public const CipherSuiteCode TLS_SRP_SHA_WITH_AES_256_CBC_SHA = 49184;
+> dump.cs:1966366:	public const CipherSuiteCode TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA = 49185;
+> dump.cs:1966367:	public const CipherSuiteCode TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA = 49186;
+> dump.cs:1966368:	public const CipherSuiteCode TLS_RSA_WITH_NULL_SHA256 = 59;
+> dump.cs:1966369:	public const CipherSuiteCode TLS_RSA_WITH_AES_128_CBC_SHA256 = 60;
+> dump.cs:1966370:	public const CipherSuiteCode TLS_RSA_WITH_AES_256_CBC_SHA256 = 61;
+> dump.cs:1966371:	public const CipherSuiteCode TLS_DH_DSS_WITH_AES_128_CBC_SHA256 = 62;
+> dump.cs:1966372:	public const CipherSuiteCode TLS_DH_RSA_WITH_AES_128_CBC_SHA256 = 63;
+> dump.cs:1966373:	public const CipherSuiteCode TLS_DHE_DSS_WITH_AES_128_CBC_SHA256 = 64;
+> dump.cs:1966374:	public const CipherSuiteCode TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 = 103;
+> dump.cs:1966375:	public const CipherSuiteCode TLS_DH_DSS_WITH_AES_256_CBC_SHA256 = 104;
+> dump.cs:1966376:	public const CipherSuiteCode TLS_DH_RSA_WITH_AES_256_CBC_SHA256 = 105;
+> dump.cs:1966377:	public const CipherSuiteCode TLS_DHE_DSS_WITH_AES_256_CBC_SHA256 = 106;
+> dump.cs:1966378:	public const CipherSuiteCode TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 = 107;
+> dump.cs:1966379:	public const CipherSuiteCode TLS_DH_anon_WITH_AES_128_CBC_SHA256 = 108;
+> dump.cs:1966380:	public const CipherSuiteCode TLS_DH_anon_WITH_AES_256_CBC_SHA256 = 109;
+> dump.cs:1966381:	public const CipherSuiteCode TLS_RSA_WITH_AES_128_GCM_SHA256 = 156;
+> dump.cs:1966382:	public const CipherSuiteCode TLS_RSA_WITH_AES_256_GCM_SHA384 = 157;
+> dump.cs:1966383:	public const CipherSuiteCode TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 = 158;
+> dump.cs:1966384:	public const CipherSuiteCode TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 = 159;
+> dump.cs:1966385:	public const CipherSuiteCode TLS_DH_RSA_WITH_AES_128_GCM_SHA256 = 160;
+> dump.cs:1966386:	public const CipherSuiteCode TLS_DH_RSA_WITH_AES_256_GCM_SHA384 = 161;
+> dump.cs:1966387:	public const CipherSuiteCode TLS_DHE_DSS_WITH_AES_128_GCM_SHA256 = 162;
+> dump.cs:1966388:	public const CipherSuiteCode TLS_DHE_DSS_WITH_AES_256_GCM_SHA384 = 163;
+> dump.cs:1966389:	public const CipherSuiteCode TLS_DH_DSS_WITH_AES_128_GCM_SHA256 = 164;
+> dump.cs:1966390:	public const CipherSuiteCode TLS_DH_DSS_WITH_AES_256_GCM_SHA384 = 165;
+> dump.cs:1966391:	public const CipherSuiteCode TLS_DH_anon_WITH_AES_128_GCM_SHA256 = 166;
+> dump.cs:1966392:	public const CipherSuiteCode TLS_DH_anon_WITH_AES_256_GCM_SHA384 = 167;
+> dump.cs:1966393:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 = 49187;
+> dump.cs:1966394:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 = 49188;
+> dump.cs:1966395:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256 = 49189;
+> dump.cs:1966396:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384 = 49190;
+> dump.cs:1966397:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 = 49191;
+> dump.cs:1966398:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 = 49192;
+> dump.cs:1966399:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256 = 49193;
+> dump.cs:1966400:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384 = 49194;
+> dump.cs:1966401:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 = 49195;
+> dump.cs:1966402:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 = 49196;
+> dump.cs:1966403:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256 = 49197;
+> dump.cs:1966404:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384 = 49198;
+> dump.cs:1966405:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 = 49199;
+> dump.cs:1966406:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 = 49200;
+> dump.cs:1966407:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256 = 49201;
+> dump.cs:1966408:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384 = 49202;
+> dump.cs:1966409:	public const CipherSuiteCode TLS_PSK_WITH_AES_128_GCM_SHA256 = 168;
+> dump.cs:1966410:	public const CipherSuiteCode TLS_PSK_WITH_AES_256_GCM_SHA384 = 169;
+> dump.cs:1966411:	public const CipherSuiteCode TLS_DHE_PSK_WITH_AES_128_GCM_SHA256 = 170;
+> dump.cs:1966412:	public const CipherSuiteCode TLS_DHE_PSK_WITH_AES_256_GCM_SHA384 = 171;
+> dump.cs:1966413:	public const CipherSuiteCode TLS_RSA_PSK_WITH_AES_128_GCM_SHA256 = 172;
+> dump.cs:1966414:	public const CipherSuiteCode TLS_RSA_PSK_WITH_AES_256_GCM_SHA384 = 173;
+> dump.cs:1966415:	public const CipherSuiteCode TLS_PSK_WITH_AES_128_CBC_SHA256 = 174;
+> dump.cs:1966416:	public const CipherSuiteCode TLS_PSK_WITH_AES_256_CBC_SHA384 = 175;
+> dump.cs:1966417:	public const CipherSuiteCode TLS_PSK_WITH_NULL_SHA256 = 176;
+> dump.cs:1966418:	public const CipherSuiteCode TLS_PSK_WITH_NULL_SHA384 = 177;
+> dump.cs:1966419:	public const CipherSuiteCode TLS_DHE_PSK_WITH_AES_128_CBC_SHA256 = 178;
+> dump.cs:1966420:	public const CipherSuiteCode TLS_DHE_PSK_WITH_AES_256_CBC_SHA384 = 179;
+> dump.cs:1966421:	public const CipherSuiteCode TLS_DHE_PSK_WITH_NULL_SHA256 = 180;
+> dump.cs:1966422:	public const CipherSuiteCode TLS_DHE_PSK_WITH_NULL_SHA384 = 181;
+> dump.cs:1966423:	public const CipherSuiteCode TLS_RSA_PSK_WITH_AES_128_CBC_SHA256 = 182;
+> dump.cs:1966424:	public const CipherSuiteCode TLS_RSA_PSK_WITH_AES_256_CBC_SHA384 = 183;
+> dump.cs:1966425:	public const CipherSuiteCode TLS_RSA_PSK_WITH_NULL_SHA256 = 184;
+> dump.cs:1966426:	public const CipherSuiteCode TLS_RSA_PSK_WITH_NULL_SHA384 = 185;
+> dump.cs:1966427:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_RC4_128_SHA = 49203;
+> dump.cs:1966428:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA = 49204;
+> dump.cs:1966429:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA = 49205;
+> dump.cs:1966430:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA = 49206;
+> dump.cs:1966431:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256 = 49207;
+> dump.cs:1966432:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384 = 49208;
+> dump.cs:1966433:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_NULL_SHA = 49209;
+> dump.cs:1966434:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_NULL_SHA256 = 49210;
+> dump.cs:1966435:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_NULL_SHA384 = 49211;
+> dump.cs:1966436:	public const CipherSuiteCode TLS_EMPTY_RENEGOTIATION_INFO_SCSV = 255;
+> dump.cs:1966437:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256 = 49266;
+> dump.cs:1966438:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384 = 49267;
+> dump.cs:1966439:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256 = 49268;
+> dump.cs:1966440:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384 = 49269;
+> dump.cs:1966441:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 49270;
+> dump.cs:1966442:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384 = 49271;
+> dump.cs:1966443:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 49272;
+> dump.cs:1966444:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384 = 49273;
+> dump.cs:1966445:	public const CipherSuiteCode TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49274;
+> dump.cs:1966446:	public const CipherSuiteCode TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49275;
+> dump.cs:1966447:	public const CipherSuiteCode TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49276;
+> dump.cs:1966448:	public const CipherSuiteCode TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49277;
+> dump.cs:1966449:	public const CipherSuiteCode TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49278;
+> dump.cs:1966450:	public const CipherSuiteCode TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49279;
+> dump.cs:1966451:	public const CipherSuiteCode TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256 = 49280;
+> dump.cs:1966452:	public const CipherSuiteCode TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384 = 49281;
+> dump.cs:1966453:	public const CipherSuiteCode TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256 = 49282;
+> dump.cs:1966454:	public const CipherSuiteCode TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384 = 49283;
+> dump.cs:1966455:	public const CipherSuiteCode TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256 = 49284;
+> dump.cs:1966456:	public const CipherSuiteCode TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384 = 49285;
+> dump.cs:1966457:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256 = 49286;
+> dump.cs:1966458:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384 = 49287;
+> dump.cs:1966459:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256 = 49288;
+> dump.cs:1966460:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384 = 49289;
+> dump.cs:1966461:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49290;
+> dump.cs:1966462:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49291;
+> dump.cs:1966463:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49292;
+> dump.cs:1966464:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49293;
+> dump.cs:1966465:	public const CipherSuiteCode TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256 = 49294;
+> dump.cs:1966466:	public const CipherSuiteCode TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384 = 49295;
+> dump.cs:1966467:	public const CipherSuiteCode TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256 = 49296;
+> dump.cs:1966468:	public const CipherSuiteCode TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384 = 49297;
+> dump.cs:1966469:	public const CipherSuiteCode TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256 = 49298;
+> dump.cs:1966470:	public const CipherSuiteCode TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384 = 49299;
+> dump.cs:1966471:	public const CipherSuiteCode TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256 = 49300;
+> dump.cs:1966472:	public const CipherSuiteCode TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384 = 49301;
+> dump.cs:1966473:	public const CipherSuiteCode TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256 = 49302;
+> dump.cs:1966474:	public const CipherSuiteCode TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384 = 49303;
+> dump.cs:1966475:	public const CipherSuiteCode TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256 = 49304;
+> dump.cs:1966476:	public const CipherSuiteCode TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384 = 49305;
+> dump.cs:1966477:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256 = 49306;
+> dump.cs:1966478:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384 = 49307;
+> dump.cs:1966479:	public const CipherSuiteCode TLS_RSA_WITH_AES_128_CCM = 49308;
+> dump.cs:1966480:	public const CipherSuiteCode TLS_RSA_WITH_AES_256_CCM = 49309;
+> dump.cs:1966481:	public const CipherSuiteCode TLS_DHE_RSA_WITH_AES_128_CCM = 49310;
+> dump.cs:1966482:	public const CipherSuiteCode TLS_DHE_RSA_WITH_AES_256_CCM = 49311;
+> dump.cs:1966483:	public const CipherSuiteCode TLS_RSA_WITH_AES_128_CCM_8 = 49312;
+> dump.cs:1966484:	public const CipherSuiteCode TLS_RSA_WITH_AES_256_CCM_8 = 49313;
+> dump.cs:1966485:	public const CipherSuiteCode TLS_DHE_RSA_WITH_AES_128_CCM_8 = 49314;
+> dump.cs:1966486:	public const CipherSuiteCode TLS_DHE_RSA_WITH_AES_256_CCM_8 = 49315;
+> dump.cs:1966487:	public const CipherSuiteCode TLS_PSK_WITH_AES_128_CCM = 49316;
+> dump.cs:1966488:	public const CipherSuiteCode TLS_PSK_WITH_AES_256_CCM = 49317;
+> dump.cs:1966489:	public const CipherSuiteCode TLS_DHE_PSK_WITH_AES_128_CCM = 49318;
+> dump.cs:1966490:	public const CipherSuiteCode TLS_DHE_PSK_WITH_AES_256_CCM = 49319;
+> dump.cs:1966491:	public const CipherSuiteCode TLS_PSK_WITH_AES_128_CCM_8 = 49320;
+> dump.cs:1966492:	public const CipherSuiteCode TLS_PSK_WITH_AES_256_CCM_8 = 49321;
+> dump.cs:1966493:	public const CipherSuiteCode TLS_PSK_DHE_WITH_AES_128_CCM_8 = 49322;
+> dump.cs:1966494:	public const CipherSuiteCode TLS_PSK_DHE_WITH_AES_256_CCM_8 = 49323;
+> dump.cs:1966495:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 = 52243;
+> dump.cs:1966496:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 = 52244;
+> dump.cs:1966497:	public const CipherSuiteCode TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 = 52245;
+> dump.cs:1966498:	public const CipherSuiteCode TLS_RSA_WITH_ESTREAM_SALSA20_SHA1 = 58384;
+> dump.cs:1966499:	public const CipherSuiteCode TLS_RSA_WITH_SALSA20_SHA1 = 58385;
+> dump.cs:1966500:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_ESTREAM_SALSA20_SHA1 = 58386;
+> dump.cs:1966501:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_SALSA20_SHA1 = 58387;
+> dump.cs:1966502:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_ESTREAM_SALSA20_SHA1 = 58388;
+> dump.cs:1966503:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_SALSA20_SHA1 = 58389;
+> dump.cs:1966504:	public const CipherSuiteCode TLS_PSK_WITH_ESTREAM_SALSA20_SHA1 = 58390;
+> dump.cs:1966505:	public const CipherSuiteCode TLS_PSK_WITH_SALSA20_SHA1 = 58391;
+> dump.cs:1966506:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_ESTREAM_SALSA20_SHA1 = 58392;
+> dump.cs:1966507:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_SALSA20_SHA1 = 58393;
+> dump.cs:1966508:	public const CipherSuiteCode TLS_RSA_PSK_WITH_ESTREAM_SALSA20_SHA1 = 58394;
+> dump.cs:1966509:	public const CipherSuiteCode TLS_RSA_PSK_WITH_SALSA20_SHA1 = 58395;
+> dump.cs:1966510:	public const CipherSuiteCode TLS_DHE_PSK_WITH_ESTREAM_SALSA20_SHA1 = 58396;
+> dump.cs:1966511:	public const CipherSuiteCode TLS_DHE_PSK_WITH_SALSA20_SHA1 = 58397;
+> dump.cs:1966512:	public const CipherSuiteCode TLS_DHE_RSA_WITH_ESTREAM_SALSA20_SHA1 = 58398;
+> dump.cs:1966513:	public const CipherSuiteCode TLS_DHE_RSA_WITH_SALSA20_SHA1 = 58399;
+> dump.cs:1966514:	public const CipherSuiteCode TLS_FALLBACK_SCSV = 22016;
+  dump.cs:1966515:}
+  dump.cs:1966516:
+  dump.cs:1966517:// Namespace: Mono.Security.Interface
+  dump.cs:1966518:public class MonoTlsConnectionInfo // TypeDefIndex: 42417
+  dump.cs:1966519:{
+  dump.cs:1966520:	// Fields
+> dump.cs:1966521:	private CipherSuiteCode <CipherSuiteCode>k__BackingField; // 0x8
+  dump.cs:1966522:	private TlsProtocols <ProtocolVersion>k__BackingField; // 0xC
+  dump.cs:1966523:	private string <PeerDomainName>k__BackingField; // 0x10
+  dump.cs:1966524:
+  dump.cs:1966525:	// Methods
+  dump.cs:1966526:
+  dump.cs:1966527:	// RVA: 0x9F708BE Offset: 0x9F6C8BE VA: 0x9F708BE
+> dump.cs:1966528:	public CipherSuiteCode get_CipherSuiteCode() { }
+  dump.cs:1966529:
+  dump.cs:1966530:	// RVA: 0x9F708D0 Offset: 0x9F6C8D0 VA: 0x9F708D0
+> dump.cs:1966531:	public void set_CipherSuiteCode(CipherSuiteCode value) { }
+  dump.cs:1966532:
+  dump.cs:1966533:	// RVA: 0x9F708E6 Offset: 0x9F6C8E6 VA: 0x9F708E6
+  dump.cs:1966534:	public TlsProtocols get_ProtocolVersion() { }
+  dump.cs:1966535:
+  dump.cs:1966536:	// RVA: 0x9F708F7 Offset: 0x9F6C8F7 VA: 0x9F708F7
+  dump.cs:1966635:	private bool <DisallowUnauthenticatedCertificateRequest>k__BackingField; // 0x30
+  dump.cs:1966636:	private Nullable<TlsProtocols> <EnabledProtocols>k__BackingField; // 0x34
+> dump.cs:1966637:	private CipherSuiteCode[] <EnabledCiphers>k__BackingField; // 0x3C
+  dump.cs:1966638:	private bool cloned; // 0x40
+  dump.cs:1966639:	private bool checkCertName; // 0x41
+  dump.cs:1966640:	private bool checkCertRevocationStatus; // 0x42
+  dump.cs:1966641:	private Nullable<bool> useServicePointManagerCallback; // 0x43
+  dump.cs:1966642:	private bool skipSystemValidators; // 0x45
+  dump.cs:1966717:
+  dump.cs:1966718:	// RVA: 0x9F70F9E Offset: 0x9F6CF9E VA: 0x9F70F9E
+> dump.cs:1966719:	public CipherSuiteCode[] get_EnabledCiphers() { }
+  dump.cs:1966720:
+  dump.cs:1966721:	// RVA: 0x9F70FAF Offset: 0x9F6CFAF VA: 0x9F70FAF
+> dump.cs:1966722:	public void set_EnabledCiphers(CipherSuiteCode[] value) { }
+  dump.cs:1966723:
+  dump.cs:1966724:	// RVA: 0x9F70FE8 Offset: 0x9F6CFE8 VA: 0x9F70FE8
+  dump.cs:1966725:	public void .ctor() { }
+  dump.cs:1966726:
+  dump.cs:1966727:	// RVA: 0x9F71021 Offset: 0x9F6D021 VA: 0x9F71021
+  dump.cs:2003805:	public const UnityWebRequest.UnityWebRequestError FailedToReceiveData = 22;
+  dump.cs:2003806:	public const UnityWebRequest.UnityWebRequestError SSLCertificateError = 23;
+> dump.cs:2003807:	public const UnityWebRequest.UnityWebRequestError SSLCipherNotAvailable = 24;
+  dump.cs:2003808:	public const UnityWebRequest.UnityWebRequestError SSLCACertError = 25;
+  dump.cs:2003809:	public const UnityWebRequest.UnityWebRequestError UnrecognizedContentEncoding = 26;
+  dump.cs:2003810:	public const UnityWebRequest.UnityWebRequestError LoginFailed = 27;
+  dump.cs:2003811:	public const UnityWebRequest.UnityWebRequestError SSLShutdownFailed = 28;
+  dump.cs:2003812:	public const UnityWebRequest.UnityWebRequestError RedirectLimitInvalid = 29;
+
+

@@ -1,0 +1,273 @@
+﻿
+  dump.cs:61934:	public int value__; // 0x0
+  dump.cs:61935:	public const EmailCryptType EmailCryptTypeNone = 0;
+> dump.cs:61936:	public const EmailCryptType EmailCryptTypeSHA256 = 1;
+  dump.cs:61937:}
+  dump.cs:61938:
+  dump.cs:61939:// Namespace: AppsFlyerSDK
+  dump.cs:61940:public class AppsFlyerAndroid : IAppsFlyerAndroidBridge, IAppsFlyerNativeBridge // TypeDefIndex: 1780
+  dump.cs:61941:{
+  dump.cs:1136798:	protected long KOMMANDCOCL; // 0x144
+  dump.cs:1136799:	private static byte[] <HJNDICJHCLO>k__BackingField; // 0xC
+> dump.cs:1136800:	private static HMACSHA256 <EJFPAAOMNMA>k__BackingField; // 0x10
+  dump.cs:1136801:	private float <KJFEHFGGLNF>k__BackingField; // 0x14C
+  dump.cs:1136802:	protected static readonly Vector3 BNJLLPPHLNN; // 0x14
+  dump.cs:1136803:	protected static readonly Vector3 HCOCGDGJNAH; // 0x20
+  dump.cs:1136804:	protected GameObject BEBDOKFNDAL; // 0x150
+  dump.cs:1136805:	protected ITransformNode GCHLGFOALGF; // 0x154
+  dump.cs:1136862:
+  dump.cs:1136863:	// RVA: 0x7A8EFBC Offset: 0x7A8AFBC VA: 0x7A8EFBC
+> dump.cs:1136864:	public static HMACSHA256 HLEECDJBHLE() { }
+  dump.cs:1136865:
+  dump.cs:1136866:	// RVA: 0x7A8F017 Offset: 0x7A8B017 VA: 0x7A8F017
+> dump.cs:1136867:	private static void EDFAHPEDOPB(HMACSHA256 IMGNBGJDAHG) { }
+  dump.cs:1136868:
+  dump.cs:1136869:	// RVA: 0x7A8F086 Offset: 0x7A8B086 VA: 0x7A8F086
+  dump.cs:1136870:	public float JJAONDDHJEF() { }
+  dump.cs:1136871:
+  dump.cs:1136872:	// RVA: 0x7A8F09A Offset: 0x7A8B09A VA: 0x7A8F09A
+  dump.cs:1263413:
+  dump.cs:1263414:	// RVA: 0x86AE06F Offset: 0x86AA06F VA: 0x86AE06F
+> dump.cs:1263415:	internal string <Digest_SHA256>b__2_0(byte item) { }
+  dump.cs:1263416:}
+  dump.cs:1263417:
+  dump.cs:1263418:// Namespace: GarenaMSDKUnity.GMSDK
+  dump.cs:1263419:internal static class GMSDKUtility // TypeDefIndex: 34164
+  dump.cs:1263420:{
+  dump.cs:1263428:
+  dump.cs:1263429:	// RVA: 0x86AD92B Offset: 0x86A992B VA: 0x86AD92B
+> dump.cs:1263430:	public static string Digest_SHA256(string template) { }
+  dump.cs:1263431:
+  dump.cs:1263432:	// RVA: 0x86ADC83 Offset: 0x86A9C83 VA: 0x86ADC83
+  dump.cs:1263433:	public static string MakeUrlParameters(Dictionary<string, string> data) { }
+  dump.cs:1263434:}
+  dump.cs:1263435:
+  dump.cs:1452252:	// Fields
+  dump.cs:1452253:	private static byte[] emptySHA1; // 0x0
+> dump.cs:1452254:	private static byte[] emptySHA256; // 0x4
+  dump.cs:1452255:	private static byte[] emptySHA384; // 0x8
+  dump.cs:1452256:	private static byte[] emptySHA512; // 0xC
+  dump.cs:1452257:
+  dump.cs:1452258:	// Methods
+  dump.cs:1452259:
+  dump.cs:1549529:
+  dump.cs:1549530:	// RVA: 0x9FE1A72 Offset: 0x9FDDA72 VA: 0x9FE1A72
+> dump.cs:1549531:	public static HashAlgorithmName get_SHA256() { }
+  dump.cs:1549532:
+  dump.cs:1549533:	// RVA: 0x9FE1ACC Offset: 0x9FDDACC VA: 0x9FE1ACC
+  dump.cs:1549534:	public static HashAlgorithmName get_SHA384() { }
+  dump.cs:1549535:
+  dump.cs:1549536:	// RVA: 0x9FE1B26 Offset: 0x9FDDB26 VA: 0x9FE1B26
+  dump.cs:1550017:
+  dump.cs:1550018:// Namespace: System.Security.Cryptography
+> dump.cs:1550019:public class HMACSHA256 : HMAC // TypeDefIndex: 35134
+  dump.cs:1550020:{
+  dump.cs:1550021:	// Methods
+  dump.cs:1550022:
+  dump.cs:1550023:	// RVA: 0x9FE5903 Offset: 0x9FE1903 VA: 0x9FE5903
+  dump.cs:1550024:	public void .ctor() { }
+  dump.cs:1550650:
+  dump.cs:1550651:// Namespace: System.Security.Cryptography
+> dump.cs:1550652:public abstract class SHA256 : HashAlgorithm // TypeDefIndex: 35156
+  dump.cs:1550653:{
+  dump.cs:1550654:	// Methods
+  dump.cs:1550655:
+  dump.cs:1550656:	// RVA: 0x9FEFAC6 Offset: 0x9FEBAC6 VA: 0x9FEFAC6
+  dump.cs:1550657:	protected void .ctor() { }
+  dump.cs:1550658:
+  dump.cs:1550659:	// RVA: 0x9FEFAFC Offset: 0x9FEBAFC VA: 0x9FEFAFC
+> dump.cs:1550660:	public static SHA256 Create() { }
+  dump.cs:1550661:}
+  dump.cs:1550662:
+  dump.cs:1550663:// Namespace: System.Security.Cryptography
+> dump.cs:1550664:public class SHA256Managed : SHA256 // TypeDefIndex: 35157
+  dump.cs:1550665:{
+  dump.cs:1550666:	// Fields
+  dump.cs:1550667:	private byte[] _buffer; // 0x18
+  dump.cs:1550668:	private long _count; // 0x1C
+> dump.cs:1550669:	private uint[] _stateSHA256; // 0x24
+  dump.cs:1550670:	private uint[] _W; // 0x28
+  dump.cs:1550671:	private static readonly uint[] _K; // 0x0
+  dump.cs:1550672:
+  dump.cs:1550673:	// Methods
+  dump.cs:1550674:
+  dump.cs:1550719:
+  dump.cs:1550720:	// RVA: 0x9FF075C Offset: 0x9FEC75C VA: 0x9FF075C
+> dump.cs:1550721:	private static void SHA256Expand(uint* x) { }
+  dump.cs:1550722:
+  dump.cs:1550723:	// RVA: 0x9FF09E6 Offset: 0x9FEC9E6 VA: 0x9FF09E6
+  dump.cs:1550724:	private static void .cctor() { }
+  dump.cs:1550725:}
+  dump.cs:1550726:
+  dump.cs:1550926:
+  dump.cs:1550927:// Namespace: System.Security.Cryptography
+> dump.cs:1550928:internal class RSAPKCS1SHA256SignatureDescription : RSAPKCS1SignatureDescription // TypeDefIndex: 35165
+  dump.cs:1550929:{
+  dump.cs:1550930:	// Methods
+  dump.cs:1550931:
+  dump.cs:1550932:	// RVA: 0x9FF3826 Offset: 0x9FEF826 VA: 0x9FF3826
+  dump.cs:1550933:	public void .ctor() { }
+  dump.cs:1583765:	public const AssemblyHashAlgorithm MD5 = 32771;
+  dump.cs:1583766:	public const AssemblyHashAlgorithm SHA1 = 32772;
+> dump.cs:1583767:	public const AssemblyHashAlgorithm SHA256 = 32780;
+  dump.cs:1583768:	public const AssemblyHashAlgorithm SHA384 = 32781;
+  dump.cs:1583769:	public const AssemblyHashAlgorithm SHA512 = 32782;
+  dump.cs:1583770:}
+  dump.cs:1583771:
+  dump.cs:1583772:// Namespace: System.Configuration.Assemblies
+  dump.cs:1966299:	public const CipherSuiteCode TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA = 136;
+  dump.cs:1966300:	public const CipherSuiteCode TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA = 137;
+> dump.cs:1966301:	public const CipherSuiteCode TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 186;
+> dump.cs:1966302:	public const CipherSuiteCode TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256 = 187;
+> dump.cs:1966303:	public const CipherSuiteCode TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 188;
+> dump.cs:1966304:	public const CipherSuiteCode TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256 = 189;
+> dump.cs:1966305:	public const CipherSuiteCode TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 190;
+> dump.cs:1966306:	public const CipherSuiteCode TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256 = 191;
+> dump.cs:1966307:	public const CipherSuiteCode TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 = 192;
+> dump.cs:1966308:	public const CipherSuiteCode TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256 = 193;
+> dump.cs:1966309:	public const CipherSuiteCode TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256 = 194;
+> dump.cs:1966310:	public const CipherSuiteCode TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256 = 195;
+> dump.cs:1966311:	public const CipherSuiteCode TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 = 196;
+> dump.cs:1966312:	public const CipherSuiteCode TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256 = 197;
+  dump.cs:1966313:	public const CipherSuiteCode TLS_RSA_WITH_SEED_CBC_SHA = 150;
+  dump.cs:1966314:	public const CipherSuiteCode TLS_DH_DSS_WITH_SEED_CBC_SHA = 151;
+  dump.cs:1966315:	public const CipherSuiteCode TLS_DH_RSA_WITH_SEED_CBC_SHA = 152;
+  dump.cs:1966316:	public const CipherSuiteCode TLS_DHE_DSS_WITH_SEED_CBC_SHA = 153;
+  dump.cs:1966317:	public const CipherSuiteCode TLS_DHE_RSA_WITH_SEED_CBC_SHA = 154;
+  dump.cs:1966366:	public const CipherSuiteCode TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA = 49185;
+  dump.cs:1966367:	public const CipherSuiteCode TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA = 49186;
+> dump.cs:1966368:	public const CipherSuiteCode TLS_RSA_WITH_NULL_SHA256 = 59;
+> dump.cs:1966369:	public const CipherSuiteCode TLS_RSA_WITH_AES_128_CBC_SHA256 = 60;
+> dump.cs:1966370:	public const CipherSuiteCode TLS_RSA_WITH_AES_256_CBC_SHA256 = 61;
+> dump.cs:1966371:	public const CipherSuiteCode TLS_DH_DSS_WITH_AES_128_CBC_SHA256 = 62;
+> dump.cs:1966372:	public const CipherSuiteCode TLS_DH_RSA_WITH_AES_128_CBC_SHA256 = 63;
+> dump.cs:1966373:	public const CipherSuiteCode TLS_DHE_DSS_WITH_AES_128_CBC_SHA256 = 64;
+> dump.cs:1966374:	public const CipherSuiteCode TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 = 103;
+> dump.cs:1966375:	public const CipherSuiteCode TLS_DH_DSS_WITH_AES_256_CBC_SHA256 = 104;
+> dump.cs:1966376:	public const CipherSuiteCode TLS_DH_RSA_WITH_AES_256_CBC_SHA256 = 105;
+> dump.cs:1966377:	public const CipherSuiteCode TLS_DHE_DSS_WITH_AES_256_CBC_SHA256 = 106;
+> dump.cs:1966378:	public const CipherSuiteCode TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 = 107;
+> dump.cs:1966379:	public const CipherSuiteCode TLS_DH_anon_WITH_AES_128_CBC_SHA256 = 108;
+> dump.cs:1966380:	public const CipherSuiteCode TLS_DH_anon_WITH_AES_256_CBC_SHA256 = 109;
+> dump.cs:1966381:	public const CipherSuiteCode TLS_RSA_WITH_AES_128_GCM_SHA256 = 156;
+  dump.cs:1966382:	public const CipherSuiteCode TLS_RSA_WITH_AES_256_GCM_SHA384 = 157;
+> dump.cs:1966383:	public const CipherSuiteCode TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 = 158;
+  dump.cs:1966384:	public const CipherSuiteCode TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 = 159;
+> dump.cs:1966385:	public const CipherSuiteCode TLS_DH_RSA_WITH_AES_128_GCM_SHA256 = 160;
+  dump.cs:1966386:	public const CipherSuiteCode TLS_DH_RSA_WITH_AES_256_GCM_SHA384 = 161;
+> dump.cs:1966387:	public const CipherSuiteCode TLS_DHE_DSS_WITH_AES_128_GCM_SHA256 = 162;
+  dump.cs:1966388:	public const CipherSuiteCode TLS_DHE_DSS_WITH_AES_256_GCM_SHA384 = 163;
+> dump.cs:1966389:	public const CipherSuiteCode TLS_DH_DSS_WITH_AES_128_GCM_SHA256 = 164;
+  dump.cs:1966390:	public const CipherSuiteCode TLS_DH_DSS_WITH_AES_256_GCM_SHA384 = 165;
+> dump.cs:1966391:	public const CipherSuiteCode TLS_DH_anon_WITH_AES_128_GCM_SHA256 = 166;
+  dump.cs:1966392:	public const CipherSuiteCode TLS_DH_anon_WITH_AES_256_GCM_SHA384 = 167;
+> dump.cs:1966393:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 = 49187;
+  dump.cs:1966394:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 = 49188;
+> dump.cs:1966395:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256 = 49189;
+  dump.cs:1966396:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384 = 49190;
+> dump.cs:1966397:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 = 49191;
+  dump.cs:1966398:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 = 49192;
+> dump.cs:1966399:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256 = 49193;
+  dump.cs:1966400:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384 = 49194;
+> dump.cs:1966401:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 = 49195;
+  dump.cs:1966402:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 = 49196;
+> dump.cs:1966403:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256 = 49197;
+  dump.cs:1966404:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384 = 49198;
+> dump.cs:1966405:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 = 49199;
+  dump.cs:1966406:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 = 49200;
+> dump.cs:1966407:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256 = 49201;
+  dump.cs:1966408:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384 = 49202;
+> dump.cs:1966409:	public const CipherSuiteCode TLS_PSK_WITH_AES_128_GCM_SHA256 = 168;
+  dump.cs:1966410:	public const CipherSuiteCode TLS_PSK_WITH_AES_256_GCM_SHA384 = 169;
+> dump.cs:1966411:	public const CipherSuiteCode TLS_DHE_PSK_WITH_AES_128_GCM_SHA256 = 170;
+  dump.cs:1966412:	public const CipherSuiteCode TLS_DHE_PSK_WITH_AES_256_GCM_SHA384 = 171;
+> dump.cs:1966413:	public const CipherSuiteCode TLS_RSA_PSK_WITH_AES_128_GCM_SHA256 = 172;
+  dump.cs:1966414:	public const CipherSuiteCode TLS_RSA_PSK_WITH_AES_256_GCM_SHA384 = 173;
+> dump.cs:1966415:	public const CipherSuiteCode TLS_PSK_WITH_AES_128_CBC_SHA256 = 174;
+  dump.cs:1966416:	public const CipherSuiteCode TLS_PSK_WITH_AES_256_CBC_SHA384 = 175;
+> dump.cs:1966417:	public const CipherSuiteCode TLS_PSK_WITH_NULL_SHA256 = 176;
+  dump.cs:1966418:	public const CipherSuiteCode TLS_PSK_WITH_NULL_SHA384 = 177;
+> dump.cs:1966419:	public const CipherSuiteCode TLS_DHE_PSK_WITH_AES_128_CBC_SHA256 = 178;
+  dump.cs:1966420:	public const CipherSuiteCode TLS_DHE_PSK_WITH_AES_256_CBC_SHA384 = 179;
+> dump.cs:1966421:	public const CipherSuiteCode TLS_DHE_PSK_WITH_NULL_SHA256 = 180;
+  dump.cs:1966422:	public const CipherSuiteCode TLS_DHE_PSK_WITH_NULL_SHA384 = 181;
+> dump.cs:1966423:	public const CipherSuiteCode TLS_RSA_PSK_WITH_AES_128_CBC_SHA256 = 182;
+  dump.cs:1966424:	public const CipherSuiteCode TLS_RSA_PSK_WITH_AES_256_CBC_SHA384 = 183;
+> dump.cs:1966425:	public const CipherSuiteCode TLS_RSA_PSK_WITH_NULL_SHA256 = 184;
+  dump.cs:1966426:	public const CipherSuiteCode TLS_RSA_PSK_WITH_NULL_SHA384 = 185;
+  dump.cs:1966427:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_RC4_128_SHA = 49203;
+  dump.cs:1966428:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA = 49204;
+  dump.cs:1966429:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA = 49205;
+  dump.cs:1966430:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA = 49206;
+> dump.cs:1966431:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256 = 49207;
+  dump.cs:1966432:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384 = 49208;
+  dump.cs:1966433:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_NULL_SHA = 49209;
+> dump.cs:1966434:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_NULL_SHA256 = 49210;
+  dump.cs:1966435:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_NULL_SHA384 = 49211;
+  dump.cs:1966436:	public const CipherSuiteCode TLS_EMPTY_RENEGOTIATION_INFO_SCSV = 255;
+> dump.cs:1966437:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256 = 49266;
+  dump.cs:1966438:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384 = 49267;
+> dump.cs:1966439:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256 = 49268;
+  dump.cs:1966440:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384 = 49269;
+> dump.cs:1966441:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 49270;
+  dump.cs:1966442:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384 = 49271;
+> dump.cs:1966443:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256 = 49272;
+  dump.cs:1966444:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384 = 49273;
+> dump.cs:1966445:	public const CipherSuiteCode TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49274;
+  dump.cs:1966446:	public const CipherSuiteCode TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49275;
+> dump.cs:1966447:	public const CipherSuiteCode TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49276;
+  dump.cs:1966448:	public const CipherSuiteCode TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49277;
+> dump.cs:1966449:	public const CipherSuiteCode TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49278;
+  dump.cs:1966450:	public const CipherSuiteCode TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49279;
+> dump.cs:1966451:	public const CipherSuiteCode TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256 = 49280;
+  dump.cs:1966452:	public const CipherSuiteCode TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384 = 49281;
+> dump.cs:1966453:	public const CipherSuiteCode TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256 = 49282;
+  dump.cs:1966454:	public const CipherSuiteCode TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384 = 49283;
+> dump.cs:1966455:	public const CipherSuiteCode TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256 = 49284;
+  dump.cs:1966456:	public const CipherSuiteCode TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384 = 49285;
+> dump.cs:1966457:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256 = 49286;
+  dump.cs:1966458:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384 = 49287;
+> dump.cs:1966459:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256 = 49288;
+  dump.cs:1966460:	public const CipherSuiteCode TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384 = 49289;
+> dump.cs:1966461:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49290;
+  dump.cs:1966462:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49291;
+> dump.cs:1966463:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256 = 49292;
+  dump.cs:1966464:	public const CipherSuiteCode TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384 = 49293;
+> dump.cs:1966465:	public const CipherSuiteCode TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256 = 49294;
+  dump.cs:1966466:	public const CipherSuiteCode TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384 = 49295;
+> dump.cs:1966467:	public const CipherSuiteCode TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256 = 49296;
+  dump.cs:1966468:	public const CipherSuiteCode TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384 = 49297;
+> dump.cs:1966469:	public const CipherSuiteCode TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256 = 49298;
+  dump.cs:1966470:	public const CipherSuiteCode TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384 = 49299;
+> dump.cs:1966471:	public const CipherSuiteCode TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256 = 49300;
+  dump.cs:1966472:	public const CipherSuiteCode TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384 = 49301;
+> dump.cs:1966473:	public const CipherSuiteCode TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256 = 49302;
+  dump.cs:1966474:	public const CipherSuiteCode TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384 = 49303;
+> dump.cs:1966475:	public const CipherSuiteCode TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256 = 49304;
+  dump.cs:1966476:	public const CipherSuiteCode TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384 = 49305;
+> dump.cs:1966477:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256 = 49306;
+  dump.cs:1966478:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384 = 49307;
+  dump.cs:1966479:	public const CipherSuiteCode TLS_RSA_WITH_AES_128_CCM = 49308;
+  dump.cs:1966480:	public const CipherSuiteCode TLS_RSA_WITH_AES_256_CCM = 49309;
+  dump.cs:1966481:	public const CipherSuiteCode TLS_DHE_RSA_WITH_AES_128_CCM = 49310;
+  dump.cs:1966482:	public const CipherSuiteCode TLS_DHE_RSA_WITH_AES_256_CCM = 49311;
+  dump.cs:1966493:	public const CipherSuiteCode TLS_PSK_DHE_WITH_AES_128_CCM_8 = 49322;
+  dump.cs:1966494:	public const CipherSuiteCode TLS_PSK_DHE_WITH_AES_256_CCM_8 = 49323;
+> dump.cs:1966495:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 = 52243;
+> dump.cs:1966496:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 = 52244;
+> dump.cs:1966497:	public const CipherSuiteCode TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 = 52245;
+  dump.cs:1966498:	public const CipherSuiteCode TLS_RSA_WITH_ESTREAM_SALSA20_SHA1 = 58384;
+  dump.cs:1966499:	public const CipherSuiteCode TLS_RSA_WITH_SALSA20_SHA1 = 58385;
+  dump.cs:1966500:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_ESTREAM_SALSA20_SHA1 = 58386;
+  dump.cs:1966501:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_SALSA20_SHA1 = 58387;
+  dump.cs:1966502:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_ESTREAM_SALSA20_SHA1 = 58388;
+  dump.cs:1966909:	// Fields
+  dump.cs:1966910:	private static byte[] emptySHA1; // 0x0
+> dump.cs:1966911:	private static byte[] emptySHA256; // 0x4
+  dump.cs:1966912:	private static byte[] emptySHA384; // 0x8
+  dump.cs:1966913:	private static byte[] emptySHA512; // 0xC
+  dump.cs:1966914:
+  dump.cs:1966915:	// Methods
+  dump.cs:1966916:
+
+

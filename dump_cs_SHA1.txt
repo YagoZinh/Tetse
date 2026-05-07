@@ -1,0 +1,260 @@
+﻿
+  dump.cs:51304:	private int _encrPos; // 0x18
+  dump.cs:51305:	private byte[] _pwdVerifier; // 0x1C
+> dump.cs:51306:	private HMACSHA1 _hmacsha1; // 0x20
+  dump.cs:51307:	private bool _finalised; // 0x24
+  dump.cs:51308:	private bool _writeMode; // 0x25
+  dump.cs:51309:
+  dump.cs:51310:	// Methods
+  dump.cs:51311:
+  dump.cs:259622:	public static readonly float FreeLookCameraSensitivityScaleOnVehicle; // 0x1250
+  dump.cs:259623:	public static readonly bool FollowCameraRightTraceCameraCollision; // 0x1254
+> dump.cs:259624:	public static readonly bool FFAntihackSDKDetailEncryptBySHA1; // 0x1255
+  dump.cs:259625:	public static readonly bool ExcludeKillCameraFpsCount; // 0x1256
+  dump.cs:259626:	public static readonly int BlocklistMaxNum; // 0x1258
+  dump.cs:259627:	public static readonly int RefAllAvailableNum; // 0x125C
+  dump.cs:259628:	public static readonly int MaxRecentPlayersCount; // 0x1260
+  dump.cs:259629:	public static readonly int RefreshPlayerPresenceCD; // 0x1264
+  dump.cs:994514:	// Fields
+  dump.cs:994515:	private string <SubFileID>k__BackingField; // 0x8
+> dump.cs:994516:	private string <SHA1>k__BackingField; // 0xC
+  dump.cs:994517:	private int <FileSize>k__BackingField; // 0x10
+  dump.cs:994518:	private string <URL>k__BackingField; // 0x14
+  dump.cs:994519:	private int <PlatformRequireMask>k__BackingField; // 0x18
+  dump.cs:994520:
+  dump.cs:994521:	// Methods
+  dump.cs:994528:
+  dump.cs:994529:	// RVA: 0x6CB052A Offset: 0x6CAC52A VA: 0x6CB052A
+> dump.cs:994530:	public string get_SHA1() { }
+  dump.cs:994531:
+  dump.cs:994532:	// RVA: 0x6CB053B Offset: 0x6CAC53B VA: 0x6CB053B
+> dump.cs:994533:	public void set_SHA1(string value) { }
+  dump.cs:994534:
+  dump.cs:994535:	// RVA: 0x6CB0574 Offset: 0x6CAC574 VA: 0x6CB0574
+  dump.cs:994536:	public int get_FileSize() { }
+  dump.cs:994537:
+  dump.cs:994538:	// RVA: 0x6CB0585 Offset: 0x6CAC585 VA: 0x6CB0585
+  dump.cs:1006597:	public UGCResourceForGameData.PackageOrABFileInfo.EDownloadStatus DownloadStatus; // 0x24
+  dump.cs:1006598:	public int GuessFileSize; // 0x28
+> dump.cs:1006599:	public string SHA1; // 0x2C
+  dump.cs:1006600:	public int DownloadPriority; // 0x30
+  dump.cs:1006601:	public UGCResourceForGameData.EVFSFileType IsVFSFile; // 0x34
+  dump.cs:1006602:
+  dump.cs:1006603:	// Methods
+  dump.cs:1006604:
+  dump.cs:1006719:	private Action<int> m_allPreparedCallback; // 0x24
+  dump.cs:1006720:	private static string _hd_endfix; // 0x0
+> dump.cs:1006721:	private Dictionary<string, string> ABInfo2Sha1; // 0x28
+  dump.cs:1006722:	private List<UGCResourceForGameData.LoadedPackageInfo> m_loadedPackageInfoList; // 0x2C
+  dump.cs:1006723:	public static string FabUUID_StdLibrary; // 0x4
+  dump.cs:1006724:	public static string Fab_StdLibraryFile; // 0x8
+  dump.cs:1006725:
+  dump.cs:1006726:	// Methods
+  dump.cs:1006781:
+  dump.cs:1006782:	// RVA: 0x6DC7C3B Offset: 0x6DC3C3B VA: 0x6DC7C3B
+> dump.cs:1006783:	public UGCResourceForGameData.PackageOrABFileInfo GetDownloadedFileInfo(string UUID, string versionOrSha1) { }
+  dump.cs:1006784:
+  dump.cs:1006785:	// RVA: 0x6DC7E50 Offset: 0x6DC3E50 VA: 0x6DC7E50
+> dump.cs:1006786:	public UGCResourceForGameData.PackageOrABFileInfo GetDownloadedFileInfoBySHA1(string UUID, string sha1) { }
+  dump.cs:1006787:
+  dump.cs:1006788:	// RVA: 0x6DC7835 Offset: 0x6DC3835 VA: 0x6DC7835
+  dump.cs:1006789:	public void LoadToResourceManager() { }
+  dump.cs:1006790:
+  dump.cs:1006791:	// RVA: 0x6DC8929 Offset: 0x6DC4929 VA: 0x6DC8929
+  dump.cs:1249229:{
+  dump.cs:1249230:	// Fields
+> dump.cs:1249231:	private static SHA1CryptoServiceProvider m_SHA1; // 0x0
+  dump.cs:1249232:
+  dump.cs:1249233:	// Methods
+  dump.cs:1249234:
+  dump.cs:1249235:	// RVA: 0x85ADCAA Offset: 0x85A9CAA VA: 0x85ADCAA
+  dump.cs:1249236:	public static string GetFileHash(string filePath) { }
+  dump.cs:1249237:
+  dump.cs:1249238:	// RVA: 0x85AE0A9 Offset: 0x85AA0A9 VA: 0x85AE0A9
+> dump.cs:1249239:	public static void HashBlock(SHA1CryptoServiceProvider worker, byte[] data, int offset, int size) { }
+  dump.cs:1249240:
+  dump.cs:1249241:	// RVA: 0x85AE204 Offset: 0x85AA204 VA: 0x85AE204
+> dump.cs:1249242:	public static string HashFinalBlock(SHA1CryptoServiceProvider worker, byte[] data, int offset) { }
+  dump.cs:1249243:
+  dump.cs:1249244:	// RVA: 0x85AE3EB Offset: 0x85AA3EB VA: 0x85AE3EB
+> dump.cs:1249245:	public static string ComputeHash(SHA1CryptoServiceProvider worker, byte[] data, int offset = 0) { }
+  dump.cs:1249246:
+  dump.cs:1249247:	// RVA: 0x85AE5AF Offset: 0x85AA5AF VA: 0x85AE5AF
+  dump.cs:1249248:	public static void Decryption(byte[] fileBytes, out byte[] decryptionBytes) { }
+  dump.cs:1249249:
+  dump.cs:1249250:	// RVA: 0x85AECC0 Offset: 0x85AACC0 VA: 0x85AECC0
+  dump.cs:1249505:	protected readonly object m_TempFileLock; // 0x58
+  dump.cs:1249506:	protected long m_TempFileLength; // 0x5C
+> dump.cs:1249507:	protected SHA1CryptoServiceProvider m_HashWorker; // 0x64
+  dump.cs:1249508:	protected byte[] m_HashBuffer; // 0x68
+  dump.cs:1249509:	protected bool m_NeedHashTemp; // 0x6C
+  dump.cs:1249510:	protected const int GETDATA_TIKECOUNT = 5;
+  dump.cs:1249511:	private int m_curTick; // 0x70
+  dump.cs:1249512:
+  dump.cs:1249572:	private byte[] m_Buffer; // 0x50
+  dump.cs:1249573:	private bool m_IsFinished; // 0x54
+> dump.cs:1249574:	private SHA1CryptoServiceProvider m_HashWorker; // 0x58
+  dump.cs:1249575:
+  dump.cs:1249576:	// Methods
+  dump.cs:1249577:
+  dump.cs:1249578:	// RVA: 0x85B1AFE Offset: 0x85ADAFE VA: 0x85B1AFE
+  dump.cs:1249579:	public void .ctor(bool OptimizeRead) { }
+  dump.cs:1249625:	private byte[] m_Buffer; // 0x40
+  dump.cs:1249626:	private bool m_IsFinished; // 0x44
+> dump.cs:1249627:	private SHA1CryptoServiceProvider m_HashWorker; // 0x48
+  dump.cs:1249628:
+  dump.cs:1249629:	// Methods
+  dump.cs:1249630:
+  dump.cs:1249631:	// RVA: 0x85B26FB Offset: 0x85AE6FB VA: 0x85B26FB Slot: 7
+  dump.cs:1249632:	protected override void OnStart(float time) { }
+  dump.cs:1249715:	protected long m_DownloadingSize; // 0x5C
+  dump.cs:1249716:	protected long m_LastDownloadedSize; // 0x64
+> dump.cs:1249717:	protected SHA1CryptoServiceProvider m_HashWorker; // 0x6C
+  dump.cs:1249718:	protected byte[] m_HashBuffer; // 0x70
+  dump.cs:1249719:	protected bool m_NeedHashTemp; // 0x74
+  dump.cs:1249720:	protected FileStream m_FlagStream; // 0x78
+  dump.cs:1249721:	protected BitArrayRich m_TempFlag; // 0x7C
+  dump.cs:1249722:	protected BitArrayRich m_RunningFlag; // 0x80
+  dump.cs:1334665:	public const IDMAP0 COW-GamePlay-MJJNGIKKJMN-DDMIDJBCOIC0 = 27389;
+  dump.cs:1334666:	public const IDMAP0 COW-GamePlay-MJJNGIKKJMN-LDGAEKBOOLH-EIDGCHPDKGE0 = 27393;
+> dump.cs:1334667:	public const IDMAP0 COW-Gameplay-UGC-UGCResourceForGameData-GetDownloadedFileInfoBySHA10 = 27395;
+  dump.cs:1334668:	public const IDMAP0 COW-Gameplay-UGC-UGCResourceForGameData-LoadOnePackageToResourceManager0 = 27396;
+  dump.cs:1334669:	public const IDMAP0 COW-Gameplay-UGC-KMNMEIMJCHM-HKMDLCDCANG0 = 27394;
+  dump.cs:1334670:	public const IDMAP0 COW-GamePlay-MJJNGIKKJMN-BEPDGEEFAAC0 = 27392;
+  dump.cs:1334671:	public const IDMAP0 COW-Gameplay-UGC-DHCCOOKPILP-IAHDGHDOOLB0 = 27397;
+  dump.cs:1334672:	public const IDMAP0 COW-GamePlay-FCLEAHEPMCL-PANMKLKGDJD0 = 27399;
+  dump.cs:1452251:{
+  dump.cs:1452252:	// Fields
+> dump.cs:1452253:	private static byte[] emptySHA1; // 0x0
+  dump.cs:1452254:	private static byte[] emptySHA256; // 0x4
+  dump.cs:1452255:	private static byte[] emptySHA384; // 0x8
+  dump.cs:1452256:	private static byte[] emptySHA512; // 0xC
+  dump.cs:1452257:
+  dump.cs:1452258:	// Methods
+  dump.cs:1549526:
+  dump.cs:1549527:	// RVA: 0x9FE1A18 Offset: 0x9FDDA18 VA: 0x9FE1A18
+> dump.cs:1549528:	public static HashAlgorithmName get_SHA1() { }
+  dump.cs:1549529:
+  dump.cs:1549530:	// RVA: 0x9FE1A72 Offset: 0x9FDDA72 VA: 0x9FE1A72
+  dump.cs:1549531:	public static HashAlgorithmName get_SHA256() { }
+  dump.cs:1549532:
+  dump.cs:1549533:	// RVA: 0x9FE1ACC Offset: 0x9FDDACC VA: 0x9FE1ACC
+  dump.cs:1550002:
+  dump.cs:1550003:// Namespace: System.Security.Cryptography
+> dump.cs:1550004:public class HMACSHA1 : HMAC // TypeDefIndex: 35133
+  dump.cs:1550005:{
+  dump.cs:1550006:	// Methods
+  dump.cs:1550007:
+  dump.cs:1550008:	// RVA: 0x9FE4F05 Offset: 0x9FE0F05 VA: 0x9FE4F05
+  dump.cs:1550009:	public void .ctor() { }
+  dump.cs:1550013:
+  dump.cs:1550014:	// RVA: 0x9FE5808 Offset: 0x9FE1808 VA: 0x9FE5808
+> dump.cs:1550015:	public void .ctor(byte[] key, bool useManagedSha1) { }
+  dump.cs:1550016:}
+  dump.cs:1550017:
+  dump.cs:1550018:// Namespace: System.Security.Cryptography
+  dump.cs:1550019:public class HMACSHA256 : HMAC // TypeDefIndex: 35134
+  dump.cs:1550020:{
+  dump.cs:1550599:
+  dump.cs:1550600:// Namespace: System.Security.Cryptography
+> dump.cs:1550601:public abstract class SHA1 : HashAlgorithm // TypeDefIndex: 35154
+  dump.cs:1550602:{
+  dump.cs:1550603:	// Methods
+  dump.cs:1550604:
+  dump.cs:1550605:	// RVA: 0x9FEEEEA Offset: 0x9FEAEEA VA: 0x9FEEEEA
+  dump.cs:1550606:	protected void .ctor() { }
+  dump.cs:1550607:
+  dump.cs:1550608:	// RVA: 0x9FEEF20 Offset: 0x9FEAF20 VA: 0x9FEEF20
+> dump.cs:1550609:	public static SHA1 Create() { }
+  dump.cs:1550610:}
+  dump.cs:1550611:
+  dump.cs:1550612:// Namespace: System.Security.Cryptography
+> dump.cs:1550613:public class SHA1Managed : SHA1 // TypeDefIndex: 35155
+  dump.cs:1550614:{
+  dump.cs:1550615:	// Fields
+  dump.cs:1550616:	private byte[] _buffer; // 0x18
+  dump.cs:1550617:	private long _count; // 0x1C
+> dump.cs:1550618:	private uint[] _stateSHA1; // 0x24
+  dump.cs:1550619:	private uint[] _expandedBuffer; // 0x28
+  dump.cs:1550620:
+  dump.cs:1550621:	// Methods
+  dump.cs:1550622:
+  dump.cs:1550623:	// RVA: 0x9FEEF81 Offset: 0x9FEAF81 VA: 0x9FEEF81
+  dump.cs:1550917:
+  dump.cs:1550918:// Namespace: System.Security.Cryptography
+> dump.cs:1550919:internal class RSAPKCS1SHA1SignatureDescription : RSAPKCS1SignatureDescription // TypeDefIndex: 35164
+  dump.cs:1550920:{
+  dump.cs:1550921:	// Methods
+  dump.cs:1550922:
+  dump.cs:1550923:	// RVA: 0x9FF37B8 Offset: 0x9FEF7B8 VA: 0x9FF37B8
+  dump.cs:1550924:	public void .ctor() { }
+  dump.cs:1551441:
+  dump.cs:1551442:// Namespace: System.Security.Cryptography
+> dump.cs:1551443:internal class SHA1Internal // TypeDefIndex: 35181
+  dump.cs:1551444:{
+  dump.cs:1551445:	// Fields
+  dump.cs:1551446:	private const int BLOCK_SIZE_BYTES = 64;
+  dump.cs:1551447:	private uint[] _H; // 0x8
+  dump.cs:1551448:	private ulong count; // 0xC
+  dump.cs:1551482:
+  dump.cs:1551483:// Namespace: System.Security.Cryptography
+> dump.cs:1551484:public sealed class SHA1CryptoServiceProvider : SHA1 // TypeDefIndex: 35182
+  dump.cs:1551485:{
+  dump.cs:1551486:	// Fields
+> dump.cs:1551487:	private SHA1Internal sha; // 0x18
+  dump.cs:1551488:
+  dump.cs:1551489:	// Methods
+  dump.cs:1551490:
+  dump.cs:1551491:	// RVA: 0x9FFE989 Offset: 0x9FFA989 VA: 0x9FFE989
+  dump.cs:1551492:	public void .ctor() { }
+  dump.cs:1583764:	public const AssemblyHashAlgorithm None = 0;
+  dump.cs:1583765:	public const AssemblyHashAlgorithm MD5 = 32771;
+> dump.cs:1583766:	public const AssemblyHashAlgorithm SHA1 = 32772;
+  dump.cs:1583767:	public const AssemblyHashAlgorithm SHA256 = 32780;
+  dump.cs:1583768:	public const AssemblyHashAlgorithm SHA384 = 32781;
+  dump.cs:1583769:	public const AssemblyHashAlgorithm SHA512 = 32782;
+  dump.cs:1583770:}
+  dump.cs:1583771:
+  dump.cs:1814395:	// Fields
+  dump.cs:1814396:	public int value__; // 0x0
+> dump.cs:1814397:	public const X509SubjectKeyIdentifierHashAlgorithm Sha1 = 0;
+> dump.cs:1814398:	public const X509SubjectKeyIdentifierHashAlgorithm ShortSha1 = 1;
+> dump.cs:1814399:	public const X509SubjectKeyIdentifierHashAlgorithm CapiSha1 = 2;
+  dump.cs:1814400:}
+  dump.cs:1814401:
+  dump.cs:1814402:// Namespace: System.Security.Cryptography.X509Certificates
+  dump.cs:1814403:public enum X509VerificationFlags // TypeDefIndex: 38761
+  dump.cs:1814404:{
+  dump.cs:1966496:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 = 52244;
+  dump.cs:1966497:	public const CipherSuiteCode TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 = 52245;
+> dump.cs:1966498:	public const CipherSuiteCode TLS_RSA_WITH_ESTREAM_SALSA20_SHA1 = 58384;
+> dump.cs:1966499:	public const CipherSuiteCode TLS_RSA_WITH_SALSA20_SHA1 = 58385;
+> dump.cs:1966500:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_ESTREAM_SALSA20_SHA1 = 58386;
+> dump.cs:1966501:	public const CipherSuiteCode TLS_ECDHE_RSA_WITH_SALSA20_SHA1 = 58387;
+> dump.cs:1966502:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_ESTREAM_SALSA20_SHA1 = 58388;
+> dump.cs:1966503:	public const CipherSuiteCode TLS_ECDHE_ECDSA_WITH_SALSA20_SHA1 = 58389;
+> dump.cs:1966504:	public const CipherSuiteCode TLS_PSK_WITH_ESTREAM_SALSA20_SHA1 = 58390;
+> dump.cs:1966505:	public const CipherSuiteCode TLS_PSK_WITH_SALSA20_SHA1 = 58391;
+> dump.cs:1966506:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_ESTREAM_SALSA20_SHA1 = 58392;
+> dump.cs:1966507:	public const CipherSuiteCode TLS_ECDHE_PSK_WITH_SALSA20_SHA1 = 58393;
+> dump.cs:1966508:	public const CipherSuiteCode TLS_RSA_PSK_WITH_ESTREAM_SALSA20_SHA1 = 58394;
+> dump.cs:1966509:	public const CipherSuiteCode TLS_RSA_PSK_WITH_SALSA20_SHA1 = 58395;
+> dump.cs:1966510:	public const CipherSuiteCode TLS_DHE_PSK_WITH_ESTREAM_SALSA20_SHA1 = 58396;
+> dump.cs:1966511:	public const CipherSuiteCode TLS_DHE_PSK_WITH_SALSA20_SHA1 = 58397;
+> dump.cs:1966512:	public const CipherSuiteCode TLS_DHE_RSA_WITH_ESTREAM_SALSA20_SHA1 = 58398;
+> dump.cs:1966513:	public const CipherSuiteCode TLS_DHE_RSA_WITH_SALSA20_SHA1 = 58399;
+  dump.cs:1966514:	public const CipherSuiteCode TLS_FALLBACK_SCSV = 22016;
+  dump.cs:1966515:}
+  dump.cs:1966516:
+  dump.cs:1966517:// Namespace: Mono.Security.Interface
+  dump.cs:1966518:public class MonoTlsConnectionInfo // TypeDefIndex: 42417
+  dump.cs:1966908:{
+  dump.cs:1966909:	// Fields
+> dump.cs:1966910:	private static byte[] emptySHA1; // 0x0
+  dump.cs:1966911:	private static byte[] emptySHA256; // 0x4
+  dump.cs:1966912:	private static byte[] emptySHA384; // 0x8
+  dump.cs:1966913:	private static byte[] emptySHA512; // 0xC
+  dump.cs:1966914:
+  dump.cs:1966915:	// Methods
+
+

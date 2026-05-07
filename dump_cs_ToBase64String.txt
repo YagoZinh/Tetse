@@ -1,0 +1,20 @@
+﻿
+  dump.cs:1461688:
+  dump.cs:1461689:	// RVA: 0xA0DAFE0 Offset: 0xA0D6FE0 VA: 0xA0DAFE0
+> dump.cs:1461690:	public static string ToBase64String(byte[] inArray) { }
+  dump.cs:1461691:
+  dump.cs:1461692:	// RVA: 0xA0DB2BD Offset: 0xA0D72BD VA: 0xA0DB2BD
+> dump.cs:1461693:	public static string ToBase64String(byte[] inArray, int offset, int length) { }
+  dump.cs:1461694:
+  dump.cs:1461695:	// RVA: 0xA0DB33C Offset: 0xA0D733C VA: 0xA0DB33C
+> dump.cs:1461696:	public static string ToBase64String(byte[] inArray, int offset, int length, Base64FormattingOptions options) { }
+  dump.cs:1461697:
+  dump.cs:1461698:	// RVA: 0xA0DB0BC Offset: 0xA0D70BC VA: 0xA0DB0BC
+> dump.cs:1461699:	public static string ToBase64String(ReadOnlySpan<byte> bytes, Base64FormattingOptions options = 0) { }
+  dump.cs:1461700:
+  dump.cs:1461701:	// RVA: 0xA0DB865 Offset: 0xA0D7865 VA: 0xA0DB865
+  dump.cs:1461702:	public static int ToBase64CharArray(byte[] inArray, int offsetIn, int length, char[] outArray, int offsetOut) { }
+  dump.cs:1461703:
+  dump.cs:1461704:	// RVA: 0xA0DB8EF Offset: 0xA0D78EF VA: 0xA0DB8EF
+
+

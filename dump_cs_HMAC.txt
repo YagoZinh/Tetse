@@ -1,0 +1,294 @@
+﻿
+  dump.cs:51304:	private int _encrPos; // 0x18
+  dump.cs:51305:	private byte[] _pwdVerifier; // 0x1C
+> dump.cs:51306:	private HMACSHA1 _hmacsha1; // 0x20
+  dump.cs:51307:	private bool _finalised; // 0x24
+  dump.cs:51308:	private bool _writeMode; // 0x25
+  dump.cs:51309:
+  dump.cs:51310:	// Methods
+  dump.cs:51311:
+  dump.cs:92940:	public static UDPMessagePool<LLPFNNKMKON> NGOAJPMOOLK; // 0x77C
+  dump.cs:92941:	public static UDPMessagePool<OMOBKHHPGIH> CAGFIHAGMLB; // 0x780
+> dump.cs:92942:	public static UDPMessagePool<ELCLNJCHMAC> OOIGJMIMNGA; // 0x784
+  dump.cs:92943:	public static UDPMessagePool<MGDIEOFGIIN> PJHGBKLDJHA; // 0x788
+  dump.cs:92944:	public static UDPMessagePool<OBNKFOJALOB> LHDGIMPGBFE; // 0x78C
+  dump.cs:92945:	public static UDPMessagePool<MEFKPNPOKJJ> GLNMOJAHGMP; // 0x790
+  dump.cs:92946:	public static UDPMessagePool<DBNHEEPAMAD> FOAINDMMNBH; // 0x794
+  dump.cs:92947:	public static UDPMessagePool<JNECODHFANJ> JFDLINPNMEB; // 0x798
+  dump.cs:143742:
+  dump.cs:143743:// Namespace: message
+> dump.cs:143744:public class ELCLNJCHMAC : UDPClientMessageBase // TypeDefIndex: 5586
+  dump.cs:143745:{
+  dump.cs:143746:	// Fields
+  dump.cs:143747:	public bool KCEJKMKMBCO; // 0x9
+  dump.cs:143748:	public uint POBGKMDJMDC; // 0xC
+  dump.cs:143749:	public uint CMEKDNHLCGK; // 0x10
+  dump.cs:149087:{
+  dump.cs:149088:	// Fields
+> dump.cs:149089:	public float CBKKOHMACOB; // 0x8
+  dump.cs:149090:	public float BALGCNEMJFP; // 0xC
+  dump.cs:149091:
+  dump.cs:149092:	// Methods
+  dump.cs:149093:
+  dump.cs:149094:	// RVA: 0x5486B19 Offset: 0x5482B19 VA: 0x5486B19
+  dump.cs:1041560:
+  dump.cs:1041561:	// RVA: 0x71337DE Offset: 0x712F7DE VA: 0x71337DE
+> dump.cs:1041562:	private void GEHMACMODML(uint IDNEFEOPGIF) { }
+  dump.cs:1041563:
+  dump.cs:1041564:	// RVA: 0x7132948 Offset: 0x712E948 VA: 0x7132948
+  dump.cs:1041565:	private void IEBGFNPMMJO(uint IDNEFEOPGIF) { }
+  dump.cs:1041566:
+  dump.cs:1041567:	// RVA: 0x7133115 Offset: 0x712F115 VA: 0x7133115
+  dump.cs:1044683:
+  dump.cs:1044684:	// RVA: 0x71A7E43 Offset: 0x71A3E43 VA: 0x71A7E43
+> dump.cs:1044685:	private void AFFMPHMACMO() { }
+  dump.cs:1044686:
+  dump.cs:1044687:	// RVA: 0x703092B Offset: 0x702C92B VA: 0x703092B
+  dump.cs:1044688:	private void ODGPJIDKCEB() { }
+  dump.cs:1044689:
+  dump.cs:1044690:	// RVA: 0x71AA729 Offset: 0x71A6729 VA: 0x71AA729
+  dump.cs:1127528:
+  dump.cs:1127529:	// RVA: 0x798D7A3 Offset: 0x79897A3 VA: 0x798D7A3
+> dump.cs:1127530:	public string AHMHMACDFKK() { }
+  dump.cs:1127531:
+  dump.cs:1127532:	// RVA: 0x798D810 Offset: 0x7989810 VA: 0x798D810
+  dump.cs:1127533:	public uint PJJALIBJHAN() { }
+  dump.cs:1127534:
+  dump.cs:1127535:	// RVA: 0x798D87A Offset: 0x798987A VA: 0x798D87A Slot: 66
+  dump.cs:1136798:	protected long KOMMANDCOCL; // 0x144
+  dump.cs:1136799:	private static byte[] <HJNDICJHCLO>k__BackingField; // 0xC
+> dump.cs:1136800:	private static HMACSHA256 <EJFPAAOMNMA>k__BackingField; // 0x10
+  dump.cs:1136801:	private float <KJFEHFGGLNF>k__BackingField; // 0x14C
+  dump.cs:1136802:	protected static readonly Vector3 BNJLLPPHLNN; // 0x14
+  dump.cs:1136803:	protected static readonly Vector3 HCOCGDGJNAH; // 0x20
+  dump.cs:1136804:	protected GameObject BEBDOKFNDAL; // 0x150
+  dump.cs:1136805:	protected ITransformNode GCHLGFOALGF; // 0x154
+  dump.cs:1136862:
+  dump.cs:1136863:	// RVA: 0x7A8EFBC Offset: 0x7A8AFBC VA: 0x7A8EFBC
+> dump.cs:1136864:	public static HMACSHA256 HLEECDJBHLE() { }
+  dump.cs:1136865:
+  dump.cs:1136866:	// RVA: 0x7A8F017 Offset: 0x7A8B017 VA: 0x7A8F017
+> dump.cs:1136867:	private static void EDFAHPEDOPB(HMACSHA256 IMGNBGJDAHG) { }
+  dump.cs:1136868:
+  dump.cs:1136869:	// RVA: 0x7A8F086 Offset: 0x7A8B086 VA: 0x7A8F086
+  dump.cs:1136870:	public float JJAONDDHJEF() { }
+  dump.cs:1136871:
+  dump.cs:1136872:	// RVA: 0x7A8F09A Offset: 0x7A8B09A VA: 0x7A8F09A
+  dump.cs:1140928:
+  dump.cs:1140929:	// RVA: 0x7B61820 Offset: 0x7B5D820 VA: 0x7B61820
+> dump.cs:1140930:	private void DLBDOOKDCKG(ELCLNJCHMAC LHCHNFGKLHD) { }
+  dump.cs:1140931:
+  dump.cs:1140932:	// RVA: 0x7B61ABF Offset: 0x7B5DABF VA: 0x7B61ABF
+  dump.cs:1140933:	private void IJJPPFKMMBO(OHJHFOGFHNO LHCHNFGKLHD) { }
+  dump.cs:1140934:
+  dump.cs:1140935:	// RVA: 0x7B61E45 Offset: 0x7B5DE45 VA: 0x7B61E45
+  dump.cs:1163308:
+  dump.cs:1163309:// Namespace: COW.GamePlay
+> dump.cs:1163310:internal class AMFFNANEGKB : DFHMACEOJNC // TypeDefIndex: 31911
+  dump.cs:1163311:{
+  dump.cs:1163312:	// Fields
+  dump.cs:1163313:	private uint EAKBIEOLPPL; // 0x14C
+  dump.cs:1163314:	private uint DOMJMKONHEG; // 0x150
+  dump.cs:1163315:	private CPINICDIHHM NEKBHCNNHLP; // 0x154
+  dump.cs:1163454:
+  dump.cs:1163455:// Namespace: COW.GamePlay
+> dump.cs:1163456:internal class AOLGHNDEGMK : DFHMACEOJNC // TypeDefIndex: 31913
+  dump.cs:1163457:{
+  dump.cs:1163458:	// Fields
+  dump.cs:1163459:	private AOLGHNDEGMK.DGJJHAALEIH <LAKPCBECJHC>k__BackingField; // 0x14C
+  dump.cs:1163460:	protected float JFOBNMCBJAK; // 0x150
+  dump.cs:1163461:	protected float BLNJFIHLOIK; // 0x154
+  dump.cs:1163613:
+  dump.cs:1163614:// Namespace: COW.GamePlay
+> dump.cs:1163615:internal class OLHJBOOFEGF : DFHMACEOJNC // TypeDefIndex: 31914
+  dump.cs:1163616:{
+  dump.cs:1163617:	// Methods
+  dump.cs:1163618:
+  dump.cs:1163619:	// RVA: 0x7DA5964 Offset: 0x7DA1964 VA: 0x7DA5964 Slot: 8
+  dump.cs:1163620:	public override void PMMIDJBNLPP(ref ICollection<ResourceID> KPIDGGFMEAI, ref ICollection<ResourceID> DFJBNDDJDHP) { }
+  dump.cs:1163667:
+  dump.cs:1163668:// Namespace: COW.GamePlay
+> dump.cs:1163669:internal class EJCIGHHNHLJ : DFHMACEOJNC // TypeDefIndex: 31915
+  dump.cs:1163670:{
+  dump.cs:1163671:	// Fields
+  dump.cs:1163672:	private bool PNHICCINDIJ; // 0x14C
+  dump.cs:1163673:	private uint EAKBIEOLPPL; // 0x150
+  dump.cs:1163674:	private GameObject AFBCMLEMPCI; // 0x154
+  dump.cs:1164384:
+  dump.cs:1164385:// Namespace: COW.GamePlay
+> dump.cs:1164386:internal class MPGKHAMOFLP : DFHMACEOJNC // TypeDefIndex: 31928
+  dump.cs:1164387:{
+  dump.cs:1164388:	// Fields
+  dump.cs:1164389:	private uint EAKBIEOLPPL; // 0x14C
+  dump.cs:1164390:	private float DFHHABCNEOG; // 0x150
+  dump.cs:1164391:	private float AOHJAMCODML; // 0x154
+  dump.cs:1166042:
+  dump.cs:1166043:// Namespace: COW.GamePlay
+> dump.cs:1166044:internal class DFHMACEOJNC : PFLCPEHBBLN // TypeDefIndex: 31956
+  dump.cs:1166045:{
+  dump.cs:1166046:	// Fields
+  dump.cs:1166047:	protected float GEJLPKHNOJN; // 0x144
+  dump.cs:1166048:	protected float CBNBIKDBBFL; // 0x148
+  dump.cs:1166049:
+  dump.cs:1166119:
+  dump.cs:1166120:// Namespace: COW.GamePlay
+> dump.cs:1166121:internal class LHPCBNJIMCH : DFHMACEOJNC // TypeDefIndex: 31958
+  dump.cs:1166122:{
+  dump.cs:1166123:	// Fields
+  dump.cs:1166124:	private bool EFNJBLDOIPB; // 0x14C
+  dump.cs:1166125:	private LHPCBNJIMCH.MKAMIKLMKBH CLDAJMHMLON; // 0x150
+  dump.cs:1166126:	private float NKNKLPBKPDD; // 0x154
+  dump.cs:1166734:
+  dump.cs:1166735:// Namespace: COW.GamePlay
+> dump.cs:1166736:internal class KOCDMGMNDDK : DFHMACEOJNC // TypeDefIndex: 31971
+  dump.cs:1166737:{
+  dump.cs:1166738:	// Fields
+  dump.cs:1166739:	private float ILBFAGIIJIG; // 0x14C
+  dump.cs:1166740:	private float EBBFDEHLHCD; // 0x150
+  dump.cs:1166741:	private float IGJIEKKFHFM; // 0x154
+  dump.cs:1167412:
+  dump.cs:1167413:// Namespace: COW.GamePlay
+> dump.cs:1167414:internal class DBHNLHLLBBM : DFHMACEOJNC // TypeDefIndex: 31980
+  dump.cs:1167415:{
+  dump.cs:1167416:	// Fields
+  dump.cs:1167417:	private ResourceID LMONDGDJIJM; // 0x14C
+  dump.cs:1167418:	private GameObject AFBCMLEMPCI; // 0x150
+  dump.cs:1167419:
+  dump.cs:1206543:	private UIHudItemMarkShowView NOJLDPLOCIH; // 0x80
+  dump.cs:1206544:	private const float PDCHNICLOCG = 1;
+> dump.cs:1206545:	private uint FHMACPNKNLB; // 0x84
+  dump.cs:1206546:	private Vector3 GIJAJENGNMK; // 0x88
+  dump.cs:1206547:
+  dump.cs:1206548:	// Methods
+  dump.cs:1206549:
+  dump.cs:1206550:	// RVA: 0x8286A8D Offset: 0x8282A8D VA: 0x8286A8D
+  dump.cs:1427516:	public const IDMAP3 COW-GamePlay-Player-PKKOJCBCOPF0 = 138445;
+  dump.cs:1427517:	public const IDMAP3 COW-GamePlay-Player-COLICICMMEJ0 = 138454;
+> dump.cs:1427518:	public const IDMAP3 COW-GamePlay-Player-AFFMPHMACMO0 = 138456;
+  dump.cs:1427519:	public const IDMAP3 COW-GamePlay-SuperEmoteCameraAnimationManager-SwithAnimator0 = 138458;
+  dump.cs:1427520:	public const IDMAP3 COW-GamePlay-SuperEmoteCameraAnimationManager-PlayAnimation0 = 138459;
+  dump.cs:1427521:	public const IDMAP3 COW-GamePlay-Player-JPKAPPPPDPN0 = 138457;
+  dump.cs:1427522:	public const IDMAP3 COW-GamePlay-Player-RequestPlayBooyahSuperEmote0 = 138452;
+  dump.cs:1427523:	public const IDMAP3 COW-GamePlay-Player-JDNHJGFMHOF0 = 138448;
+  dump.cs:1427847:	public const IDMAP3 COW-GamePlay-Player-EDFMAPCGHPF0 = 138813;
+  dump.cs:1427848:	public const IDMAP3 COW-GamePlay-Player-IHKABLDFGAC0 = 138814;
+> dump.cs:1427849:	public const IDMAP3 COW-GamePlay-Player-GEHMACMODML0 = 138815;
+  dump.cs:1427850:	public const IDMAP3 COW-GamePlay-Player-MDENKOHHEKD0 = 138816;
+  dump.cs:1427851:	public const IDMAP3 COW-GamePlay-Player-RemoveEighthInfiniteEffect0 = 138812;
+  dump.cs:1427852:	public const IDMAP3 COW-GamePlay-Player-GetEighthInfiniteEffectIdByType0 = 138817;
+  dump.cs:1427853:	public const IDMAP3 COW-GamePlay-Player-get_IsPlayingEmoteWithCameraAnim0 = 138818;
+  dump.cs:1427854:	public const IDMAP3 COW-GamePlay-Player-DuoEmoteJoin0 = 138819;
+  dump.cs:1438585:	public const IDMAP3 COW-GamePlay-NGDMFPNOIOF-COW.GamePlay.IUGCBridgingEntity.IsStatic0 = 150435;
+  dump.cs:1438586:	public const IDMAP3 COW-GamePlay-NGDMFPNOIOF-CHICFJEKCJP0 = 150436;
+> dump.cs:1438587:	public const IDMAP3 COW-GamePlay-NGDMFPNOIOF-AHMHMACDFKK0 = 150437;
+  dump.cs:1438588:	public const IDMAP3 COW-GamePlay-NGDMFPNOIOF-OnStart0 = 150438;
+  dump.cs:1438589:	public const IDMAP3 COW-GamePlay-NGDMFPNOIOF-OnRecycleRes0 = 150439;
+  dump.cs:1438590:	public const IDMAP3 COW-GamePlay-NGDMFPNOIOF-FLNJFBDLOJN0 = 150441;
+  dump.cs:1438591:	public const IDMAP3 COW-GamePlay-NGDMFPNOIOF-CFHFEKAHCAI0 = 150440;
+  dump.cs:1438592:	public const IDMAP3 COW-GamePlay-NGDMFPNOIOF-InitEntityInfo0 = 150442;
+  dump.cs:1444543:	public const IDMAP4 COW-GamePlay-ANEGADMJJDK-OnTakeEffect0 = 156920;
+  dump.cs:1444544:	public const IDMAP4 COW-GamePlay-ANEGADMJJDK-OnStopNonPermanentEffect0 = 156921;
+> dump.cs:1444545:	public const IDMAP4 COW-GamePlay-DFHMACEOJNC-GBBGALIFFND0 = 156922;
+> dump.cs:1444546:	public const IDMAP4 COW-GamePlay-DFHMACEOJNC-BBFINNCAEGG0 = 156923;
+> dump.cs:1444547:	public const IDMAP4 COW-GamePlay-DFHMACEOJNC-PBELFCLACAD0 = 156924;
+> dump.cs:1444548:	public const IDMAP4 COW-GamePlay-DFHMACEOJNC-AALCLODGFFP0 = 156925;
+> dump.cs:1444549:	public const IDMAP4 COW-GamePlay-DFHMACEOJNC-PAMNHOLMFPG0 = 156926;
+> dump.cs:1444550:	public const IDMAP4 COW-GamePlay-DFHMACEOJNC-LFEAJHBIDPB0 = 156927;
+> dump.cs:1444551:	public const IDMAP4 COW-GamePlay-DFHMACEOJNC-KIJGIEPCPFL0 = 156928;
+> dump.cs:1444552:	public const IDMAP4 COW-GamePlay-DFHMACEOJNC-MKMMPAEBLFC0 = 156929;
+> dump.cs:1444553:	public const IDMAP4 COW-GamePlay-DFHMACEOJNC-ENEKCGGEHOC0 = 156930;
+  dump.cs:1444554:	public const IDMAP4 COW-GamePlay-LHPCBNJIMCH-GMOMBHDOHOE0 = 156932;
+  dump.cs:1444555:	public const IDMAP4 COW-GamePlay-LHPCBNJIMCH-DPLMGOJKKCM0 = 156931;
+  dump.cs:1444556:	public const IDMAP4 COW-GamePlay-LHPCBNJIMCH-PMMIDJBNLPP0 = 156933;
+  dump.cs:1444557:	public const IDMAP4 COW-GamePlay-LHPCBNJIMCH-ECCNJPHBBJO0 = 156934;
+  dump.cs:1444558:	public const IDMAP4 COW-GamePlay-LHPCBNJIMCH-BPDBNMCAFBI0 = 156936;
+  dump.cs:1549127:	private byte[] _salt; // 0xC
+  dump.cs:1549128:	private uint _iterations; // 0x10
+> dump.cs:1549129:	private HMAC _hmac; // 0x14
+  dump.cs:1549130:	private int _blockSize; // 0x18
+  dump.cs:1549131:	private byte[] _buffer; // 0x1C
+  dump.cs:1549132:	private uint _block; // 0x20
+  dump.cs:1549133:	private int _startIndex; // 0x24
+  dump.cs:1549134:	private int _endIndex; // 0x28
+  dump.cs:1549159:
+  dump.cs:1549160:	// RVA: 0x9FDA63E Offset: 0x9FD663E VA: 0x9FDA63E
+> dump.cs:1549161:	private HMAC OpenHmac() { }
+  dump.cs:1549162:
+  dump.cs:1549163:	// RVA: 0x9FDA8FD Offset: 0x9FD68FD VA: 0x9FDA8FD
+  dump.cs:1549164:	private void Initialize() { }
+  dump.cs:1549165:
+  dump.cs:1549166:	// RVA: 0x9FDAD65 Offset: 0x9FD6D65 VA: 0x9FDAD65
+  dump.cs:1549927:
+  dump.cs:1549928:// Namespace: System.Security.Cryptography
+> dump.cs:1549929:public abstract class HMAC : KeyedHashAlgorithm // TypeDefIndex: 35130
+  dump.cs:1549930:{
+  dump.cs:1549931:	// Fields
+  dump.cs:1549932:	private int blockSizeValue; // 0x1C
+  dump.cs:1549933:	internal string m_hashName; // 0x20
+  dump.cs:1549934:	internal HashAlgorithm m_hash1; // 0x24
+  dump.cs:1549959:
+  dump.cs:1549960:	// RVA: 0x9FE4E90 Offset: 0x9FE0E90 VA: 0x9FE4E90
+> dump.cs:1549961:	public static HMAC Create() { }
+  dump.cs:1549962:
+  dump.cs:1549963:	// RVA: 0x9FE4F47 Offset: 0x9FE0F47 VA: 0x9FE4F47 Slot: 20
+  dump.cs:1549964:	public override void Initialize() { }
+  dump.cs:1549965:
+  dump.cs:1549966:	// RVA: 0x9FE4FC4 Offset: 0x9FE0FC4 VA: 0x9FE4FC4 Slot: 18
+  dump.cs:1549978:
+  dump.cs:1549979:// Namespace: System.Security.Cryptography
+> dump.cs:1549980:public class HMACMD5 : HMAC // TypeDefIndex: 35131
+  dump.cs:1549981:{
+  dump.cs:1549982:	// Methods
+  dump.cs:1549983:
+  dump.cs:1549984:	// RVA: 0x9FE53F0 Offset: 0x9FE13F0 VA: 0x9FE53F0
+  dump.cs:1549985:	public void .ctor() { }
+  dump.cs:1549990:
+  dump.cs:1549991:// Namespace: System.Security.Cryptography
+> dump.cs:1549992:public class HMACRIPEMD160 : HMAC // TypeDefIndex: 35132
+  dump.cs:1549993:{
+  dump.cs:1549994:	// Methods
+  dump.cs:1549995:
+  dump.cs:1549996:	// RVA: 0x9FE5526 Offset: 0x9FE1526 VA: 0x9FE5526
+  dump.cs:1549997:	public void .ctor() { }
+  dump.cs:1550002:
+  dump.cs:1550003:// Namespace: System.Security.Cryptography
+> dump.cs:1550004:public class HMACSHA1 : HMAC // TypeDefIndex: 35133
+  dump.cs:1550005:{
+  dump.cs:1550006:	// Methods
+  dump.cs:1550007:
+  dump.cs:1550008:	// RVA: 0x9FE4F05 Offset: 0x9FE0F05 VA: 0x9FE4F05
+  dump.cs:1550009:	public void .ctor() { }
+  dump.cs:1550017:
+  dump.cs:1550018:// Namespace: System.Security.Cryptography
+> dump.cs:1550019:public class HMACSHA256 : HMAC // TypeDefIndex: 35134
+  dump.cs:1550020:{
+  dump.cs:1550021:	// Methods
+  dump.cs:1550022:
+  dump.cs:1550023:	// RVA: 0x9FE5903 Offset: 0x9FE1903 VA: 0x9FE5903
+  dump.cs:1550024:	public void .ctor() { }
+  dump.cs:1550029:
+  dump.cs:1550030:// Namespace: System.Security.Cryptography
+> dump.cs:1550031:public class HMACSHA384 : HMAC // TypeDefIndex: 35135
+  dump.cs:1550032:{
+  dump.cs:1550033:	// Fields
+  dump.cs:1550034:	private bool m_useLegacyBlockSize; // 0x35
+  dump.cs:1550035:
+  dump.cs:1550036:	// Methods
+  dump.cs:1550047:
+  dump.cs:1550048:// Namespace: System.Security.Cryptography
+> dump.cs:1550049:public class HMACSHA512 : HMAC // TypeDefIndex: 35136
+  dump.cs:1550050:{
+  dump.cs:1550051:	// Fields
+  dump.cs:1550052:	private bool m_useLegacyBlockSize; // 0x35
+  dump.cs:1550053:
+  dump.cs:1550054:	// Methods
+  dump.cs:1551168:
+  dump.cs:1551169:	// RVA: 0x9FF5CB0 Offset: 0x9FF1CB0 VA: 0x9FF5CB0
+> dump.cs:1551170:	internal static bool _ProduceLegacyHmacValues() { }
+  dump.cs:1551171:}
+  dump.cs:1551172:
+  dump.cs:1551173:// Namespace: System.Security.Cryptography
+  dump.cs:1551174:public class CryptoConfig // TypeDefIndex: 35173
+  dump.cs:1551175:{
+
+

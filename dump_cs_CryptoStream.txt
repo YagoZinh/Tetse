@@ -1,0 +1,203 @@
+﻿
+  dump.cs:1549169:
+  dump.cs:1549170:// Namespace: 
+> dump.cs:1549171:private struct CryptoStream.<ReadAsyncInternal>d__37 : IAsyncStateMachine // TypeDefIndex: 35102
+  dump.cs:1549172:{
+  dump.cs:1549173:	// Fields
+  dump.cs:1549174:	public int <>1__state; // 0x0
+  dump.cs:1549175:	public AsyncTaskMethodBuilder<int> <>t__builder; // 0x4
+> dump.cs:1549176:	public CryptoStream <>4__this; // 0x10
+  dump.cs:1549177:	public byte[] buffer; // 0x14
+  dump.cs:1549178:	public int offset; // 0x18
+  dump.cs:1549179:	public int count; // 0x1C
+  dump.cs:1549180:	public CancellationToken cancellationToken; // 0x20
+  dump.cs:1549181:	private SemaphoreSlim <semaphore>5__2; // 0x24
+  dump.cs:1549193:
+  dump.cs:1549194:// Namespace: 
+> dump.cs:1549195:private struct CryptoStream.<ReadAsyncCore>d__42 : IAsyncStateMachine // TypeDefIndex: 35103
+  dump.cs:1549196:{
+  dump.cs:1549197:	// Fields
+  dump.cs:1549198:	public int <>1__state; // 0x0
+  dump.cs:1549199:	public AsyncTaskMethodBuilder<int> <>t__builder; // 0x4
+  dump.cs:1549200:	public int count; // 0x10
+  dump.cs:1549201:	public int offset; // 0x14
+> dump.cs:1549202:	public CryptoStream <>4__this; // 0x18
+  dump.cs:1549203:	public byte[] buffer; // 0x1C
+  dump.cs:1549204:	public bool useAsync; // 0x20
+  dump.cs:1549205:	public CancellationToken cancellationToken; // 0x24
+  dump.cs:1549206:	private int <bytesToDeliver>5__2; // 0x28
+  dump.cs:1549207:	private int <currentOutputIndex>5__3; // 0x2C
+  dump.cs:1549221:
+  dump.cs:1549222:// Namespace: 
+> dump.cs:1549223:private struct CryptoStream.<WriteAsyncInternal>d__46 : IAsyncStateMachine // TypeDefIndex: 35104
+  dump.cs:1549224:{
+  dump.cs:1549225:	// Fields
+  dump.cs:1549226:	public int <>1__state; // 0x0
+  dump.cs:1549227:	public AsyncTaskMethodBuilder <>t__builder; // 0x4
+> dump.cs:1549228:	public CryptoStream <>4__this; // 0x10
+  dump.cs:1549229:	public byte[] buffer; // 0x14
+  dump.cs:1549230:	public int offset; // 0x18
+  dump.cs:1549231:	public int count; // 0x1C
+  dump.cs:1549232:	public CancellationToken cancellationToken; // 0x20
+  dump.cs:1549233:	private SemaphoreSlim <semaphore>5__2; // 0x24
+  dump.cs:1549245:
+  dump.cs:1549246:// Namespace: 
+> dump.cs:1549247:private struct CryptoStream.<WriteAsyncCore>d__49 : IAsyncStateMachine // TypeDefIndex: 35105
+  dump.cs:1549248:{
+  dump.cs:1549249:	// Fields
+  dump.cs:1549250:	public int <>1__state; // 0x0
+  dump.cs:1549251:	public AsyncTaskMethodBuilder <>t__builder; // 0x4
+  dump.cs:1549252:	public int count; // 0x10
+  dump.cs:1549253:	public int offset; // 0x14
+> dump.cs:1549254:	public CryptoStream <>4__this; // 0x18
+  dump.cs:1549255:	public byte[] buffer; // 0x1C
+  dump.cs:1549256:	public bool useAsync; // 0x20
+  dump.cs:1549257:	public CancellationToken cancellationToken; // 0x24
+  dump.cs:1549258:	private int <bytesToWrite>5__2; // 0x28
+  dump.cs:1549259:	private int <currentInputIndex>5__3; // 0x2C
+  dump.cs:1549273:
+  dump.cs:1549274:// Namespace: 
+> dump.cs:1549275:private sealed class CryptoStream.<>c // TypeDefIndex: 35106
+  dump.cs:1549276:{
+  dump.cs:1549277:	// Fields
+> dump.cs:1549278:	public static readonly CryptoStream.<>c <>9; // 0x0
+  dump.cs:1549279:	public static Func<SemaphoreSlim> <>9__54_0; // 0x4
+  dump.cs:1549280:
+  dump.cs:1549281:	// Methods
+  dump.cs:1549282:
+  dump.cs:1549283:	// RVA: 0x9FE0639 Offset: 0x9FDC639 VA: 0x9FE0639
+  dump.cs:1549292:
+  dump.cs:1549293:// Namespace: System.Security.Cryptography
+> dump.cs:1549294:public class CryptoStream : Stream, IDisposable // TypeDefIndex: 35107
+  dump.cs:1549295:{
+  dump.cs:1549296:	// Fields
+  dump.cs:1549297:	private readonly Stream _stream; // 0x14
+  dump.cs:1549298:	private readonly ICryptoTransform _transform; // 0x18
+> dump.cs:1549299:	private readonly CryptoStreamMode _transformMode; // 0x1C
+  dump.cs:1549300:	private byte[] _inputBuffer; // 0x20
+  dump.cs:1549301:	private int _inputBufferIndex; // 0x24
+  dump.cs:1549302:	private int _inputBlockSize; // 0x28
+  dump.cs:1549303:	private byte[] _outputBuffer; // 0x2C
+  dump.cs:1549304:	private int _outputBufferIndex; // 0x30
+  dump.cs:1549313:
+  dump.cs:1549314:	// RVA: 0x9FDB37C Offset: 0x9FD737C VA: 0x9FDB37C
+> dump.cs:1549315:	public void .ctor(Stream stream, ICryptoTransform transform, CryptoStreamMode mode) { }
+  dump.cs:1549316:
+  dump.cs:1549317:	// RVA: 0x9FDB3B7 Offset: 0x9FD73B7 VA: 0x9FDB3B7
+> dump.cs:1549318:	public void .ctor(Stream stream, ICryptoTransform transform, CryptoStreamMode mode, bool leaveOpen) { }
+  dump.cs:1549319:
+  dump.cs:1549320:	// RVA: 0x9FDB773 Offset: 0x9FD7773 VA: 0x9FDB773 Slot: 7
+  dump.cs:1549321:	public override bool get_CanRead() { }
+  dump.cs:1549322:
+  dump.cs:1549323:	// RVA: 0x9FDB784 Offset: 0x9FD7784 VA: 0x9FDB784 Slot: 8
+  dump.cs:1549416:
+  dump.cs:1549417:// Namespace: System.Security.Cryptography
+> dump.cs:1549418:public enum CryptoStreamMode // TypeDefIndex: 35108
+  dump.cs:1549419:{
+  dump.cs:1549420:	// Fields
+  dump.cs:1549421:	public int value__; // 0x0
+> dump.cs:1549422:	public const CryptoStreamMode Read = 0;
+> dump.cs:1549423:	public const CryptoStreamMode Write = 1;
+  dump.cs:1549424:}
+  dump.cs:1549425:
+  dump.cs:1549426:// Namespace: System.Security.Cryptography
+  dump.cs:1549427:public static class CryptographicOperations // TypeDefIndex: 35109
+  dump.cs:1549428:{
+  dump.cs:1550114:	// Fields
+  dump.cs:1550115:	private ICryptoTransform m_encryptor; // 0x1C
+> dump.cs:1550116:	private CryptoStream _cs; // 0x20
+  dump.cs:1550117:	private TailStream _ts; // 0x24
+  dump.cs:1550118:	private int m_bytesPerBlock; // 0x28
+  dump.cs:1550119:	private TripleDES des; // 0x2C
+  dump.cs:1550120:
+  dump.cs:1550121:	// Methods
+  dump.cs:1562067:	|
+  dump.cs:1562068:	|-RVA: 0x8EC1969 Offset: 0x8EBD969 VA: 0x8EC1969
+> dump.cs:1562069:	|-AsyncTaskMethodBuilder.Start<CryptoStream.<WriteAsyncCore>d__49>
+  dump.cs:1562070:	|
+  dump.cs:1562071:	|-RVA: 0x8EC1A80 Offset: 0x8EBDA80 VA: 0x8EC1A80
+> dump.cs:1562072:	|-AsyncTaskMethodBuilder.Start<CryptoStream.<WriteAsyncInternal>d__46>
+  dump.cs:1562073:	|
+  dump.cs:1562074:	|-RVA: 0x8EC1B97 Offset: 0x8EBDB97 VA: 0x8EC1B97
+  dump.cs:1562075:	|-AsyncTaskMethodBuilder.Start<JArray.<WriteToAsync>d__0>
+  dump.cs:1562076:	|
+  dump.cs:1562077:	|-RVA: 0x8EC1CAE Offset: 0x8EBDCAE VA: 0x8EC1CAE
+  dump.cs:1562429:	|
+  dump.cs:1562430:	|-RVA: 0x8EBE09A Offset: 0x8EBA09A VA: 0x8EBE09A
+> dump.cs:1562431:	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<ForceAsyncAwaiter, CryptoStream.<WriteAsyncInternal>d__46>
+  dump.cs:1562432:	|
+  dump.cs:1562433:	|-RVA: 0x8EBE12A Offset: 0x8EBA12A VA: 0x8EBE12A
+  dump.cs:1562434:	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TaskAwaiter, AnalyticsServiceInstance.<SetAnalyticsEnabled>d__69>
+  dump.cs:1562435:	|
+  dump.cs:1562436:	|-RVA: 0x8EBE1BA Offset: 0x8EBA1BA VA: 0x8EBE1BA
+  dump.cs:1562441:	|
+  dump.cs:1562442:	|-RVA: 0x8EBE2DA Offset: 0x8EBA2DA VA: 0x8EBE2DA
+> dump.cs:1562443:	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TaskAwaiter, CryptoStream.<WriteAsyncInternal>d__46>
+  dump.cs:1562444:	|
+  dump.cs:1562445:	|-RVA: 0x8EBE36A Offset: 0x8EBA36A VA: 0x8EBE36A
+  dump.cs:1562446:	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TaskAwaiter, Ua2CoreInitializeCallback.<Initialize>d__2>
+  dump.cs:1562447:	|
+  dump.cs:1562448:	|-RVA: 0x8EBE3FA Offset: 0x8EBA3FA VA: 0x8EBE3FA
+  dump.cs:1562474:	|
+  dump.cs:1562475:	|-RVA: 0x8EBE90A Offset: 0x8EBA90A VA: 0x8EBE90A
+> dump.cs:1562476:	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<ValueTaskAwaiter, CryptoStream.<WriteAsyncCore>d__49>
+  dump.cs:1562477:	|
+  dump.cs:1562478:	|-RVA: 0x8EBE99A Offset: 0x8EBA99A VA: 0x8EBE99A
+  dump.cs:1562479:	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<__Il2CppFullySharedGenericType, __Il2CppFullySharedGenericType>
+  dump.cs:1562480:	|
+  dump.cs:1562481:	|-RVA: 0x8EBEA26 Offset: 0x8EBAA26 VA: 0x8EBEA26
+  dump.cs:1562843:	|
+  dump.cs:1562844:	|-RVA: 0x8D65BE9 Offset: 0x8D61BE9 VA: 0x8D65BE9
+> dump.cs:1562845:	|-AsyncTaskMethodBuilder<int>.Start<CryptoStream.<ReadAsyncCore>d__42>
+  dump.cs:1562846:	|
+  dump.cs:1562847:	|-RVA: 0x8D65D00 Offset: 0x8D61D00 VA: 0x8D65D00
+> dump.cs:1562848:	|-AsyncTaskMethodBuilder<int>.Start<CryptoStream.<ReadAsyncInternal>d__37>
+  dump.cs:1562849:	|
+  dump.cs:1562850:	|-RVA: 0x8D65E17 Offset: 0x8D61E17 VA: 0x8D65E17
+  dump.cs:1562851:	|-AsyncTaskMethodBuilder<int>.Start<FixedSizeReadStream.<ProcessReadAsync>d__5>
+  dump.cs:1562852:	|
+  dump.cs:1562853:	|-RVA: 0x8D65F2E Offset: 0x8D61F2E VA: 0x8D65F2E
+  dump.cs:1563198:	|
+  dump.cs:1563199:	|-RVA: 0x8D650BB Offset: 0x8D610BB VA: 0x8D650BB
+> dump.cs:1563200:	|-AsyncTaskMethodBuilder<int>.AwaitUnsafeOnCompleted<TaskAwaiter<int>, CryptoStream.<ReadAsyncInternal>d__37>
+  dump.cs:1563201:	|
+  dump.cs:1563202:	|-RVA: 0x8D652FB Offset: 0x8D612FB VA: 0x8D652FB
+> dump.cs:1563203:	|-AsyncTaskMethodBuilder<int>.AwaitUnsafeOnCompleted<ValueTaskAwaiter<int>, CryptoStream.<ReadAsyncCore>d__42>
+  dump.cs:1563204:	|
+  dump.cs:1563205:	|-RVA: 0x8D6553B Offset: 0x8D6153B VA: 0x8D6553B
+> dump.cs:1563206:	|-AsyncTaskMethodBuilder<int>.AwaitUnsafeOnCompleted<ForceAsyncAwaiter, CryptoStream.<ReadAsyncInternal>d__37>
+  dump.cs:1563207:	|
+  dump.cs:1563208:	|-RVA: 0x8D6577B Offset: 0x8D6177B VA: 0x8D6577B
+  dump.cs:1563209:	|-AsyncTaskMethodBuilder<int>.AwaitUnsafeOnCompleted<ConfiguredTaskAwaitable.ConfiguredTaskAwaiter, 
+WebReadStream.<ReadAsync>d__28>
+  dump.cs:1563210:	|
+  dump.cs:1563211:	|-RVA: 0x8D668FD Offset: 0x8D628FD VA: 0x8D668FD
+  dump.cs:1563465:	|
+  dump.cs:1563466:	|-RVA: 0x8D75107 Offset: 0x8D71107 VA: 0x8D75107
+> dump.cs:1563467:	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<ForceAsyncAwaiter, 
+CryptoStream.<WriteAsyncInternal>d__46>
+  dump.cs:1563468:	|
+  dump.cs:1563469:	|-RVA: 0x8D75347 Offset: 0x8D71347 VA: 0x8D75347
+  dump.cs:1563470:	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<TaskAwaiter, 
+AnalyticsServiceInstance.<SetAnalyticsEnabled>d__69>
+  dump.cs:1563471:	|
+  dump.cs:1563472:	|-RVA: 0x8D755A6 Offset: 0x8D715A6 VA: 0x8D755A6
+  dump.cs:1563477:	|
+  dump.cs:1563478:	|-RVA: 0x8D75A54 Offset: 0x8D71A54 VA: 0x8D75A54
+> dump.cs:1563479:	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<TaskAwaiter, CryptoStream.<WriteAsyncInternal>d__46>
+  dump.cs:1563480:	|
+  dump.cs:1563481:	|-RVA: 0x8D75C94 Offset: 0x8D71C94 VA: 0x8D75C94
+  dump.cs:1563482:	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<TaskAwaiter, Ua2CoreInitializeCallback.<Initialize>d__2>
+  dump.cs:1563483:	|
+  dump.cs:1563484:	|-RVA: 0x8D75EED Offset: 0x8D71EED VA: 0x8D75EED
+  dump.cs:1563510:	|
+  dump.cs:1563511:	|-RVA: 0x8D773E5 Offset: 0x8D733E5 VA: 0x8D773E5
+> dump.cs:1563512:	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<ValueTaskAwaiter, CryptoStream.<WriteAsyncCore>d__49>
+  dump.cs:1563513:	|
+  dump.cs:1563514:	|-RVA: 0x8D7764F Offset: 0x8D7364F VA: 0x8D7764F
+  dump.cs:1563515:	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<ConfiguredTaskAwaitable.ConfiguredTaskAwaiter, 
+AsyncProtocolRequest.<ProcessOperation>d__24>
+  dump.cs:1563516:	|
+  dump.cs:1563517:	|-RVA: 0x8D7788F Offset: 0x8D7388F VA: 0x8D7788F
+
+
