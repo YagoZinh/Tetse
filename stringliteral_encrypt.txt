@@ -1,0 +1,85 @@
+﻿
+> stringliteral.json:43327:    "value": "ENCRYPTED_TOKEN",
+  stringliteral.json:43328:    "address": "0xB1DB3E8"
+> stringliteral.json:44251:    "value": "Encryption failed",
+  stringliteral.json:44252:    "address": "0xB1DB784"
+> stringliteral.json:44255:    "value": "EncryptionPolicy",
+  stringliteral.json:44256:    "address": "0xB1DB788"
+> stringliteral.json:46147:    "value": "EventTypeFileInfoEncrypt",
+  stringliteral.json:46148:    "address": "0xB1DBEEC"
+> stringliteral.json:52147:    "value": "FileInfoEncryption_EncryptedMask",
+  stringliteral.json:52148:    "address": "0xB1DD65C"
+> stringliteral.json:52151:    "value": "FileInfoEncryption_GGPDecryptFailed",
+  stringliteral.json:52152:    "address": "0xB1DD660"
+> stringliteral.json:52155:    "value": "FileInfoEncryption_LastState",
+  stringliteral.json:52156:    "address": "0xB1DD664"
+> stringliteral.json:62391:    "value": "Invalid AESEncryptionStrength ",
+  stringliteral.json:62392:    "address": "0xB1DFE60"
+> stringliteral.json:62475:    "value": "Invalid EncryptedData",
+  stringliteral.json:62476:    "address": "0xB1DFEB4"
+> stringliteral.json:67107:    "value": "Length of the data to encrypt is invalid.",
+  stringliteral.json:67108:    "address": "0xB1E10CC"
+> stringliteral.json:83747:    "value": "QDENCRYPTKEY",
+  stringliteral.json:83748:    "address": "0xB1E51CC"
+> stringliteral.json:155563:    "value": "[DownloadVersionInfo] TryReadEncryptedFileInfo: GGP magic not detected but PlayerPrefs indicates 
+file was encrypted, entering repair: {0}",
+  stringliteral.json:155564:    "address": "0xB1F6A54"
+> stringliteral.json:155567:    "value": "[DownloadVersionInfo] TryReadEncryptedFileInfo: file has GGP magic but encryption is OFF, 
+entering repair: {0}",
+  stringliteral.json:155568:    "address": "0xB1F6A58"
+> stringliteral.json:155571:    "value": "[DownloadVersionInfo] TryWriteEncryptedFileInfo: WriteEncryptedFile failed (result: {0}), 
+fallback to plaintext",
+  stringliteral.json:155572:    "address": "0xB1F6A5C"
+> stringliteral.json:155887:    "value": "[FileInfoEncryptionHelper] Cleared GGPDecryptFailedMask",
+  stringliteral.json:155888:    "address": "0xB1F6B98"
+> stringliteral.json:155891:    "value": "[FileInfoEncryptionHelper] GGP decryption failed for DownloadType {0}, mask: {1}",
+  stringliteral.json:155892:    "address": "0xB1F6B9C"
+> stringliteral.json:155895:    "value": "[FileInfoEncryptionHelper] GGPDecryptFailedMask restored: {0}",
+  stringliteral.json:155896:    "address": "0xB1F6BA0"
+> stringliteral.json:155899:    "value": "[FileInfoEncryptionHelper] Generated GGP key (length: {0})",
+  stringliteral.json:155900:    "address": "0xB1F6BA4"
+> stringliteral.json:155903:    "value": "[FileInfoEncryptionHelper] HasGGPEncryptionMagic check failed: {0}, error: {1}",
+  stringliteral.json:155904:    "address": "0xB1F6BA8"
+> stringliteral.json:155907:    "value": "[FileInfoEncryptionHelper] ReadDecryptedFile failed: {0}, error: {1}",
+  stringliteral.json:155908:    "address": "0xB1F6BAC"
+> stringliteral.json:155911:    "value": "[FileInfoEncryptionHelper] ReadDecryptedFile plaintext (no GGP magic): {0}",
+  stringliteral.json:155912:    "address": "0xB1F6BB0"
+> stringliteral.json:155915:    "value": "[FileInfoEncryptionHelper] ReadDecryptedFile via GGP: {0}, length: {1}",
+  stringliteral.json:155916:    "address": "0xB1F6BB4"
+> stringliteral.json:155919:    "value": "[FileInfoEncryptionHelper] ReadDecryptedFile: GGP ReadBufFromFile returned null: {0}",
+  stringliteral.json:155920:    "address": "0xB1F6BB8"
+> stringliteral.json:155923:    "value": "[FileInfoEncryptionHelper] ReadDecryptedFile: GGP decrypted content failed validation: {0}, 
+length: {1}",
+  stringliteral.json:155924:    "address": "0xB1F6BBC"
+> stringliteral.json:155927:    "value": "[FileInfoEncryptionHelper] WriteEncryptedFile failed: {0}, error: {1}",
+  stringliteral.json:155928:    "address": "0xB1F6BC0"
+> stringliteral.json:155931:    "value": "[FileInfoEncryptionHelper] WriteEncryptedFile via GGP: {0}, result: {1}, size: {2}",
+  stringliteral.json:155932:    "address": "0xB1F6BC4"
+> stringliteral.json:158663:    "value": "[OptioanalDownload] Encrypt plaintext FileInfo for {0}",
+  stringliteral.json:158664:    "address": "0xB1F7670"
+> stringliteral.json:158667:    "value": "[OptioanalDownload] Using repair flow for encryption recovery",
+  stringliteral.json:158668:    "address": "0xB1F7674"
+> stringliteral.json:159423:    "value": "[ResUpdateDownloadEngine] FileInfo encryption switched ON-\u003EOFF, need recover",
+  stringliteral.json:159424:    "address": "0xB1F7968"
+> stringliteral.json:159431:    "value": "[ResUpdateDownloadEngine] SendFileInfoEncryptLog: decrypt={0} encrypt={1}",
+  stringliteral.json:159432:    "address": "0xB1F7970"
+> stringliteral.json:177467:    "value": "encryption",
+  stringliteral.json:177468:    "address": "0xB1FBFE4"
+> stringliteral.json:182639:    "value": "invalid EncryptedData",
+  stringliteral.json:182640:    "address": "0xB1FD418"
+> stringliteral.json:182643:    "value": "invalid EncryptedPrivateKeyInfo",
+  stringliteral.json:182644:    "address": "0xB1FD41C"
+> stringliteral.json:182727:    "value": "invalid encryptionAlgorithm",
+  stringliteral.json:182728:    "address": "0xB1FD470"
+> stringliteral.json:186783:    "value": "missing EncryptedContentInfo",
+  stringliteral.json:186784:    "address": "0xB1FE448"
+> stringliteral.json:186787:    "value": "missing EncryptedContentInfo.ContentEncryptionAlgorithmIdentifier",
+  stringliteral.json:186788:    "address": "0xB1FE44C"
+> stringliteral.json:186791:    "value": "missing EncryptedContentInfo.ContentType",
+  stringliteral.json:186792:    "address": "0xB1FE450"
+> stringliteral.json:186795:    "value": "missing EncryptedContentInfo.EncryptedContent",
+  stringliteral.json:186796:    "address": "0xB1FE454"
+> stringliteral.json:190703:    "value": "public key encrypted",
+  stringliteral.json:190704:    "address": "0xB1FF398"
+
+

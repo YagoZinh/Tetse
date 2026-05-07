@@ -1,0 +1,33 @@
+﻿
+> stringliteral.json:23635:    "value": "AES Extra Data Length ",
+  stringliteral.json:23636:    "address": "0xB1D66FC"
+> stringliteral.json:23639:    "value": "AES Extra Data missing",
+  stringliteral.json:23640:    "address": "0xB1D6700"
+> stringliteral.json:23643:    "value": "AESKeySize must be 0, 128 or 256: ",
+  stringliteral.json:23644:    "address": "0xB1D6704"
+> stringliteral.json:62391:    "value": "Invalid AESEncryptionStrength ",
+  stringliteral.json:62392:    "address": "0xB1DFE60"
+> stringliteral.json:84287:    "value": "RSAES_OAEP",
+  stringliteral.json:84288:    "address": "0xB1E53E8"
+> stringliteral.json:95959:    "value": "System.Security.Cryptography.AesCryptoServiceProvider, System.Core",
+  stringliteral.json:95960:    "address": "0xB1E8180"
+> stringliteral.json:107955:    "value": "T_34_M_WS_PLAESEENTERCONTENT",
+  stringliteral.json:107956:    "address": "0xB1EB05C"
+> stringliteral.json:153183:    "value": "ZipAESTransform.TransformFinalBlock",
+  stringliteral.json:153184:    "address": "0xB1F6108"
+> stringliteral.json:170379:    "value": "aes",
+  stringliteral.json:170380:    "address": "0xB1FA434"
+> stringliteral.json:170383:    "value": "aes128",
+  stringliteral.json:170384:    "address": "0xB1FA438"
+> stringliteral.json:170387:    "value": "aes128wrap",
+  stringliteral.json:170388:    "address": "0xB1FA43C"
+> stringliteral.json:170391:    "value": "aes192",
+  stringliteral.json:170392:    "address": "0xB1FA440"
+> stringliteral.json:170395:    "value": "aes192wrap",
+  stringliteral.json:170396:    "address": "0xB1FA444"
+> stringliteral.json:170399:    "value": "aes256",
+  stringliteral.json:170400:    "address": "0xB1FA448"
+> stringliteral.json:170403:    "value": "aes256wrap",
+  stringliteral.json:170404:    "address": "0xB1FA44C"
+
+

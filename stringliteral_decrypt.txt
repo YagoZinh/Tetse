@@ -1,0 +1,28 @@
+﻿
+> stringliteral.json:52151:    "value": "FileInfoEncryption_GGPDecryptFailed",
+  stringliteral.json:52152:    "address": "0xB1DD660"
+> stringliteral.json:67103:    "value": "Length of the data to decrypt is invalid.",
+  stringliteral.json:67104:    "address": "0xB1E10C8"
+> stringliteral.json:155887:    "value": "[FileInfoEncryptionHelper] Cleared GGPDecryptFailedMask",
+  stringliteral.json:155888:    "address": "0xB1F6B98"
+> stringliteral.json:155891:    "value": "[FileInfoEncryptionHelper] GGP decryption failed for DownloadType {0}, mask: {1}",
+  stringliteral.json:155892:    "address": "0xB1F6B9C"
+> stringliteral.json:155895:    "value": "[FileInfoEncryptionHelper] GGPDecryptFailedMask restored: {0}",
+  stringliteral.json:155896:    "address": "0xB1F6BA0"
+> stringliteral.json:155907:    "value": "[FileInfoEncryptionHelper] ReadDecryptedFile failed: {0}, error: {1}",
+  stringliteral.json:155908:    "address": "0xB1F6BAC"
+> stringliteral.json:155911:    "value": "[FileInfoEncryptionHelper] ReadDecryptedFile plaintext (no GGP magic): {0}",
+  stringliteral.json:155912:    "address": "0xB1F6BB0"
+> stringliteral.json:155915:    "value": "[FileInfoEncryptionHelper] ReadDecryptedFile via GGP: {0}, length: {1}",
+  stringliteral.json:155916:    "address": "0xB1F6BB4"
+> stringliteral.json:155919:    "value": "[FileInfoEncryptionHelper] ReadDecryptedFile: GGP ReadBufFromFile returned null: {0}",
+  stringliteral.json:155920:    "address": "0xB1F6BB8"
+> stringliteral.json:155923:    "value": "[FileInfoEncryptionHelper] ReadDecryptedFile: GGP decrypted content failed validation: {0}, 
+length: {1}",
+  stringliteral.json:155924:    "address": "0xB1F6BBC"
+> stringliteral.json:158659:    "value": "[OpenedByUrl] ACTION_HUD_SHARE: Failed to decrypt share_code: {0}, error: {1}",
+  stringliteral.json:158660:    "address": "0xB1F766C"
+> stringliteral.json:159431:    "value": "[ResUpdateDownloadEngine] SendFileInfoEncryptLog: decrypt={0} encrypt={1}",
+  stringliteral.json:159432:    "address": "0xB1F7970"
+
+

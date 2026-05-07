@@ -1,0 +1,39 @@
+﻿
+> stringliteral.json:39831:    "value": "CustomTC_Guide_Decipher",
+  stringliteral.json:39832:    "address": "0xB1DA640"
+> stringliteral.json:40403:    "value": "Data Encipherment",
+  stringliteral.json:40404:    "address": "0xB1DA87C"
+> stringliteral.json:41111:    "value": "Decipher",
+  stringliteral.json:41112:    "address": "0xB1DAB40"
+> stringliteral.json:41115:    "value": "Decipher Only",
+  stringliteral.json:41116:    "address": "0xB1DAB44"
+> stringliteral.json:44223:    "value": "Encipher Only",
+  stringliteral.json:44224:    "address": "0xB1DB768"
+> stringliteral.json:51687:    "value": "Failed to set list of supported ciphers",
+  stringliteral.json:51688:    "address": "0xB1DD490"
+> stringliteral.json:65731:    "value": "Key Encipherment",
+  stringliteral.json:65732:    "address": "0xB1E0B6C"
+> stringliteral.json:93871:    "value": "Specified cipher mode is not valid for this algorithm.",
+  stringliteral.json:93872:    "address": "0xB1E7958"
+> stringliteral.json:120503:    "value": "T_48_T_HC_MISSION_DECIPHER_HACK",
+  stringliteral.json:120504:    "address": "0xB1EE160"
+> stringliteral.json:138779:    "value": "UIFX_Jumpsuit23B_DecipherPopupWnd_Explode",
+  stringliteral.json:138780:    "address": "0xB1F28C4"
+> stringliteral.json:138783:    "value": "UIFX_Jumpsuit23B_DecipherPopupWnd_Noise",
+  stringliteral.json:138784:    "address": "0xB1F28C8"
+> stringliteral.json:138787:    "value": "UIFX_Jumpsuit23B_DecipherPopupWnd_Open",
+  stringliteral.json:138788:    "address": "0xB1F28CC"
+> stringliteral.json:138791:    "value": "UIFX_Jumpsuit23B_DecipherPopupWnd_Stand",
+  stringliteral.json:138792:    "address": "0xB1F28D0"
+> stringliteral.json:138795:    "value": "UIFX_Jumpsuit23B_DecipherPopupWnd_UiExplode",
+  stringliteral.json:138796:    "address": "0xB1F28D4"
+> stringliteral.json:138799:    "value": "UIFX_Jumpsuit23B_DecipherPopupWnd_UiOpen",
+  stringliteral.json:138800:    "address": "0xB1F28D8"
+> stringliteral.json:138803:    "value": "UIFX_Jumpsuit23B_DecipherPopupWnd_UiSuccesslabel",
+  stringliteral.json:138804:    "address": "0xB1F28DC"
+> stringliteral.json:147539:    "value": "Unkown CipherMode",
+  stringliteral.json:147540:    "address": "0xB1F4AFC"
+> stringliteral.json:173631:    "value": "cipherText",
+  stringliteral.json:173632:    "address": "0xB1FB0E8"
+
+

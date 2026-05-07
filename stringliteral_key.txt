@@ -1,0 +1,1382 @@
+﻿
+> stringliteral.json:1039:    "value": "   KeyCode:",
+  stringliteral.json:1040:    "address": "0xB1D0EB8"
+> stringliteral.json:1895:    "value": " [BigEventTemplate] ProcessTemplateComponents: ConfigKey contains space: [-{0}-]",
+  stringliteral.json:1896:    "address": "0xB1D1210"
+> stringliteral.json:2507:    "value": " implementing interface ITextEdition is missing the implementation for keyboardType. Assigning a 
+value to ITextEdition.keyboardType will not update its value.",
+  stringliteral.json:2508:    "address": "0xB1D1474"
+> stringliteral.json:2511:    "value": " implementing interface ITextEdition is missing the implementation for keyboardType. Calling 
+ITextEdition.keyboardType of this type will always return Default.",
+  stringliteral.json:2512:    "address": "0xB1D1478"
+> stringliteral.json:2723:    "value": " key=",
+  stringliteral.json:2724:    "address": "0xB1D154C"
+> stringliteral.json:4951:    "value": "\u0027simpleType\u0027 or \u0027complexType\u0027 cannot follow \u0027unique\u0027, 
+\u0027key\u0027 or \u0027keyref\u0027.",
+  stringliteral.json:4952:    "address": "0xB1D1E00"
+> stringliteral.json:6143:    "value": ", PublicKeyToken=",
+  stringliteral.json:6144:    "address": "0xB1D22A8"
+> stringliteral.json:6147:    "value": ", PublicKeyToken=null",
+  stringliteral.json:6148:    "address": "0xB1D22AC"
+> stringliteral.json:6851:    "value": ", text in keyboard",
+  stringliteral.json:6852:    "address": "0xB1D256C"
+> stringliteral.json:11771:    "value": "\u003C/DSAKeyValue\u003E",
+  stringliteral.json:11772:    "address": "0xB1D38A4"
+> stringliteral.json:11807:    "value": "\u003C/RSAKeyValue\u003E",
+  stringliteral.json:11808:    "address": "0xB1D38C8"
+> stringliteral.json:11987:    "value": "\u003CDSAKeyValue\u003E",
+  stringliteral.json:11988:    "address": "0xB1D397C"
+> stringliteral.json:12051:    "value": "\u003CKeyPair\u003E{0}\t\u003CProperties\u003E{0}\t\t\u003CProvider ",
+  stringliteral.json:12052:    "address": "0xB1D39BC"
+> stringliteral.json:12091:    "value": "\u003CRSAKeyValue\u003E",
+  stringliteral.json:12092:    "address": "0xB1D39E4"
+> stringliteral.json:12839:    "value": "\u003Ctarget\u003E.PrimaryKey and \u003Csource\u003E.PrimaryKey have different Length.",
+  stringliteral.json:12840:    "address": "0xB1D3CD0"
+> stringliteral.json:13031:    "value": "\u003E{1}\t\t{0}{1}\t\u003C/KeyValue\u003E{1}\u003C/KeyPair\u003E{1}",
+  stringliteral.json:13032:    "address": "0xB1D3D90"
+> stringliteral.json:13187:    "value": "@@@@ accountid:{0} idx:{1} key:{2} enc:{3}",
+  stringliteral.json:13188:    "address": "0xB1D3E2C"
+> stringliteral.json:13959:    "value": "@FirebaseManager.Crashlytics.SetKeyValue(): {0}: {1}",
+  stringliteral.json:13960:    "address": "0xB1D4130"
+> stringliteral.json:14083:    "value": "@FirebaseMessagingDelegate.OnMsgRecved: explicit: {0}, msg id key {1}, msg id {2}",
+  stringliteral.json:14084:    "address": "0xB1D41AC"
+> stringliteral.json:14435:    "value": "@GameVoiceImpl_FreeFireVoice SetAppkeySecret done ",
+  stringliteral.json:14436:    "address": "0xB1D430C"
+> stringliteral.json:14471:    "value": "@GetLanguageNumberData not found key: {0} and no default!",
+  stringliteral.json:14472:    "address": "0xB1D4330"
+> stringliteral.json:14767:    "value": "@JDN OptionalDownloadDefaultIconShowManager Duplicate Icon Key Type:{0}, subType:{1}, 
+collectionType:{2}, otherType:{3},icon:{4}",
+  stringliteral.json:14768:    "address": "0xB1D4458"
+> stringliteral.json:14827:    "value": "@KEY_CUSTOMROOM_HIGHLIGHT_RECORD_REQUEST_PERMISSION: Value1: {0}",
+  stringliteral.json:14828:    "address": "0xB1D4494"
+> stringliteral.json:15827:    "value": "@RebateCardData.ParseDataFromRebateCardDesc(): RebateID: {0},Price: {1}, RebateDays: {2},NameKey: 
+{3},RebateCardType: {4}, RebateAmount: {5},FirstRebateAmount: {6}, ProductIdentifier: {7},EarningRatePercentage: 
+{8},DaysAheadForRenewalReminding: {9}, SubscriptionProductIdentifier_iOS :{10},SubscriptionProductIdentifier_Android: {11}, 
+SubscribePrice: {12},SubscribeBonus: {13} ",
+  stringliteral.json:15828:    "address": "0xB1D487C"
+> stringliteral.json:16383:    "value": "@UICustomParamUtil: {0} not found key",
+  stringliteral.json:16384:    "address": "0xB1D4AA8"
+> stringliteral.json:17171:    "value": "@UIModelMemberShip ValidToPurchase RebateItems ContainsKey :",
+  stringliteral.json:17172:    "address": "0xB1D4DBC"
+> stringliteral.json:19047:    "value": "@ZX OnSyncShardKey :{0}",
+  stringliteral.json:19048:    "address": "0xB1D5510"
+> stringliteral.json:20443:    "value": "@ct {0}: Read PlayerPrefs[{1}] = HasKey:{2} Value:{3}, Level:{4}",
+  stringliteral.json:20444:    "address": "0xB1D5A84"
+> stringliteral.json:20799:    "value": "@jingyu.lu: m_Curve has less than 2 keyframes",
+  stringliteral.json:20800:    "address": "0xB1D5BE8"
+> stringliteral.json:20803:    "value": "@jingyu.lu: m_Curve has less than 2 keyframs",
+  stringliteral.json:20804:    "address": "0xB1D5BEC"
+> stringliteral.json:21375:    "value": "@lxy,RegionLockDataManager sameKey in Region{0}",
+  stringliteral.json:21376:    "address": "0xB1D5E28"
+> stringliteral.json:22047:    "value": "@sk: TryShowTeamGoalSelectItem Dict no ContainsKey!!",
+  stringliteral.json:22048:    "address": "0xB1D60C8"
+> stringliteral.json:22295:    "value": "@wangxuan: hits dict has same key hint",
+  stringliteral.json:22296:    "address": "0xB1D61C0"
+> stringliteral.json:23015:    "value": "@zsn [feedback] TakeHighlightPhoto at key display time (passed)",
+  stringliteral.json:23016:    "address": "0xB1D6490"
+> stringliteral.json:23023:    "value": "@zsn [feedback] TakeHighlightPhoto scheduled at key display time: ",
+  stringliteral.json:23024:    "address": "0xB1D6498"
+> stringliteral.json:23371:    "value": "A deferred key does not have a value yet",
+  stringliteral.json:23372:    "address": "0xB1D65F4"
+> stringliteral.json:23487:    "value": "A type \u0027{0}\u0027 that is defined in a partially trusted assembly cannot be type forwarded 
+from an assembly with a different Public Key Token or without a public key token. To fix this, please either turn on unsafeTypeForwarding 
+flag in the configuration file or remove the TypeForwardedFrom attribute.",
+  stringliteral.json:23488:    "address": "0xB1D6668"
+> stringliteral.json:23587:    "value": "ACT_BIND_DAILY_KEY",
+  stringliteral.json:23588:    "address": "0xB1D66CC"
+> stringliteral.json:23643:    "value": "AESKeySize must be 0, 128 or 256: ",
+  stringliteral.json:23644:    "address": "0xB1D6704"
+> stringliteral.json:23667:    "value": "AICHATENTRANCEPOSKEY_{0}_{1}_{2}",
+  stringliteral.json:23668:    "address": "0xB1D671C"
+> stringliteral.json:24023:    "value": "AcceptGroupInviteKey",
+  stringliteral.json:24024:    "address": "0xB1D6880"
+> stringliteral.json:24067:    "value": "Accessed JArray values with invalid key value: {0}. Int32 array index expected.",
+  stringliteral.json:24068:    "address": "0xB1D68AC"
+> stringliteral.json:24071:    "value": "Accessed JConstructor values with invalid key value: {0}. Argument position index expected.",
+  stringliteral.json:24072:    "address": "0xB1D68B0"
+> stringliteral.json:24075:    "value": "Accessed JObject values with invalid key value: {0}. Object property name expected.",
+  stringliteral.json:24076:    "address": "0xB1D68B4"
+> stringliteral.json:24423:    "value": "ActiveKey",
+  stringliteral.json:24424:    "address": "0xB1D6A10"
+> stringliteral.json:24719:    "value": "AdjustDescKey",
+  stringliteral.json:24720:    "address": "0xB1D6B38"
+> stringliteral.json:25327:    "value": "An element with the same key \u0027{0}\u0027 already exists in the ExpandoObject.",
+  stringliteral.json:25328:    "address": "0xB1D6D98"
+> stringliteral.json:25403:    "value": "An item with the same key has already been added.",
+  stringliteral.json:25404:    "address": "0xB1D6DE4"
+> stringliteral.json:25407:    "value": "An item with the same key has already been added. Key: {0}",
+  stringliteral.json:25408:    "address": "0xB1D6DE8"
+> stringliteral.json:25911:    "value": "AppsFlyerNewInstallPrefKey",
+  stringliteral.json:25912:    "address": "0xB1D6FE0"
+> stringliteral.json:26883:    "value": "AudioEngineTypeCacheKey",
+  stringliteral.json:26884:    "address": "0xB1D73AC"
+> stringliteral.json:26899:    "value": "AudioFormatCodeKey",
+  stringliteral.json:26900:    "address": "0xB1D73BC"
+> stringliteral.json:27131:    "value": "AutoQuickMessageKey",
+  stringliteral.json:27132:    "address": "0xB1D74A4"
+> stringliteral.json:27155:    "value": "AutoSearchOpenKey",
+  stringliteral.json:27156:    "address": "0xB1D74BC"
+> stringliteral.json:27215:    "value": "AutoTaskOptionalClearTipWndKey_{0}_{1}",
+  stringliteral.json:27216:    "address": "0xB1D74F8"
+> stringliteral.json:27323:    "value": "AvatarKeyart",
+  stringliteral.json:27324:    "address": "0xB1D7564"
+> stringliteral.json:27371:    "value": "AvatarSlotKey",
+  stringliteral.json:27372:    "address": "0xB1D7594"
+> stringliteral.json:27599:    "value": "BASE64_PUBLIC_KEY",
+  stringliteral.json:27600:    "address": "0xB1D7678"
+> stringliteral.json:27755:    "value": "BE_KICKED_OFF_KEY_{0}_{1}",
+  stringliteral.json:27756:    "address": "0xB1D7714"
+> stringliteral.json:27939:    "value": "BRGlooAirdropGuideKey",
+  stringliteral.json:27940:    "address": "0xB1D77CC"
+> stringliteral.json:28847:    "value": "BR_SECRET_MISSION_FRONT_KEY_ERR",
+  stringliteral.json:28848:    "address": "0xB1D7B58"
+> stringliteral.json:31135:    "value": "BrandKeyart",
+  stringliteral.json:31136:    "address": "0xB1D8448"
+> stringliteral.json:31307:    "value": "BubbleKey",
+  stringliteral.json:31308:    "address": "0xB1D84F4"
+> stringliteral.json:31463:    "value": "BuildPetAndLoadoutKey_",
+  stringliteral.json:31464:    "address": "0xB1D8590"
+> stringliteral.json:31875:    "value": "CHANGE_MEMBERSHIP_VER_NOTICE_KEY_{0}",
+  stringliteral.json:31876:    "address": "0xB1D872C"
+> stringliteral.json:31935:    "value": "CLAN_EDIT_REGION_KEY_{0}",
+  stringliteral.json:31936:    "address": "0xB1D8768"
+> stringliteral.json:31939:    "value": "CLAN_EDIT_TAG_KEY_{0}",
+  stringliteral.json:31940:    "address": "0xB1D876C"
+> stringliteral.json:31943:    "value": "CLAN_EIDT_BADGE_KEY_{0}",
+  stringliteral.json:31944:    "address": "0xB1D8770"
+> stringliteral.json:31951:    "value": "CLAN_MAIN_PAGE_SETTING_KEY_{0}",
+  stringliteral.json:31952:    "address": "0xB1D8778"
+> stringliteral.json:31955:    "value": "CLAN_MAIN_TAG_KEY_{0}",
+  stringliteral.json:31956:    "address": "0xB1D877C"
+> stringliteral.json:32391:    "value": "CSGlooAirdropGuideKey",
+  stringliteral.json:32392:    "address": "0xB1D8930"
+> stringliteral.json:32599:    "value": "CSRoundShopBuffKey",
+  stringliteral.json:32600:    "address": "0xB1D8A00"
+> stringliteral.json:33571:    "value": "Cannot access a closed registry key.",
+  stringliteral.json:33572:    "address": "0xB1D8DCC"
+> stringliteral.json:33647:    "value": "Cannot add primary key constraint since primary key is already set for the table.",
+  stringliteral.json:33648:    "address": "0xB1D8E18"
+> stringliteral.json:33811:    "value": "Cannot clear table {0} because ForeignKeyConstraint {1} enforces constraints and there are child 
+rows in {2}.",
+  stringliteral.json:33812:    "address": "0xB1D8EBC"
+> stringliteral.json:33855:    "value": "Cannot convert null value to KeyValuePair.",
+  stringliteral.json:33856:    "address": "0xB1D8EE8"
+> stringliteral.json:33899:    "value": "Cannot create a Key from Columns that belong to different tables.",
+  stringliteral.json:33900:    "address": "0xB1D8F14"
+> stringliteral.json:33903:    "value": "Cannot create a Key when the same column is listed more than once: \u0027{0}\u0027",
+  stringliteral.json:33904:    "address": "0xB1D8F18"
+> stringliteral.json:33979:    "value": "Cannot decode public key from unknown OID \u0027{0}\u0027.",
+  stringliteral.json:33980:    "address": "0xB1D8F64"
+> stringliteral.json:33995:    "value": "Cannot delete a subkey tree because the subkey does not exist.",
+  stringliteral.json:33996:    "address": "0xB1D8F74"
+> stringliteral.json:34075:    "value": "Cannot export private key",
+  stringliteral.json:34076:    "address": "0xB1D8FC4"
+> stringliteral.json:34471:    "value": "Cannot proceed with serializing DataTable \u0027{0}\u0027. It contains a DataRow which has 
+multiple parent rows on the same Foreign Key.",
+  stringliteral.json:34472:    "address": "0xB1D9150"
+> stringliteral.json:34583:    "value": "Cannot remove table {0}, because it referenced in ForeignKeyConstraint {1}.  Remove the 
+constraint first.",
+  stringliteral.json:34584:    "address": "0xB1D91C0"
+> stringliteral.json:34603:    "value": "Cannot remove this column, because it is part of the parent key for relationship {0}.",
+  stringliteral.json:34604:    "address": "0xB1D91D4"
+> stringliteral.json:34607:    "value": "Cannot remove this column, because it\u0027s part of the primary key.",
+  stringliteral.json:34608:    "address": "0xB1D91D8"
+> stringliteral.json:34615:    "value": "Cannot remove unique constraint \u0027{0}\u0027. Remove foreign key constraint \u0027{1}\u0027 
+first.",
+  stringliteral.json:34616:    "address": "0xB1D91E0"
+> stringliteral.json:34619:    "value": "Cannot remove unique constraint since it\u0027s the primary key of a table.",
+  stringliteral.json:34620:    "address": "0xB1D91E4"
+> stringliteral.json:34623:    "value": "Cannot remove unique constraint since it\u0027s the primary key of table {0}.",
+  stringliteral.json:34624:    "address": "0xB1D91E8"
+> stringliteral.json:34943:    "value": "Cannot write to the registry key.",
+  stringliteral.json:34944:    "address": "0xB1D9328"
+> stringliteral.json:35223:    "value": "Certificate does not have a private key",
+  stringliteral.json:35224:    "address": "0xB1D9440"
+> stringliteral.json:35479:    "value": "ChannelKEY",
+  stringliteral.json:35480:    "address": "0xB1D9540"
+> stringliteral.json:35567:    "value": "ChatReportTimesKey",
+  stringliteral.json:35568:    "address": "0xB1D9598"
+> stringliteral.json:35755:    "value": "Child table key is missing in relation \u0027{0}\u0027.",
+  stringliteral.json:35756:    "address": "0xB1D9654"
+> stringliteral.json:35971:    "value": "ClanKey_",
+  stringliteral.json:35972:    "address": "0xB1D972C"
+> stringliteral.json:36047:    "value": "ClanReportTimesKey",
+  stringliteral.json:36048:    "address": "0xB1D9778"
+> stringliteral.json:36051:    "value": "ClanReportedTargetsKey",
+  stringliteral.json:36052:    "address": "0xB1D977C"
+> stringliteral.json:37175:    "value": "CollectionKey_",
+  stringliteral.json:37176:    "address": "0xB1D9BE0"
+> stringliteral.json:37435:    "value": "CommentKey",
+  stringliteral.json:37436:    "address": "0xB1D9CE4"
+> stringliteral.json:37535:    "value": "CompareTo: Not a PreloadResKey",
+  stringliteral.json:37536:    "address": "0xB1D9D48"
+> stringliteral.json:37559:    "value": "CompetitionKey_",
+  stringliteral.json:37560:    "address": "0xB1D9D60"
+> stringliteral.json:37687:    "value": "Conditional sections must specify the keyword \u0027IGNORE\u0027 or \u0027INCLUDE\u0027.",
+  stringliteral.json:37688:    "address": "0xB1D9DE0"
+> stringliteral.json:37783:    "value": "ConfigTitleNameKey; ",
+  stringliteral.json:37784:    "address": "0xB1D9E40"
+> stringliteral.json:37883:    "value": "Console key values must be between 0 and 255 inclusive.",
+  stringliteral.json:37884:    "address": "0xB1D9EA4"
+> stringliteral.json:38479:    "value": "Could not convert string \u0027{0}\u0027 to dictionary key type \u0027{1}\u0027. Create a 
+TypeConverter to convert from the string to the key type object.",
+  stringliteral.json:38480:    "address": "0xB1DA0F8"
+> stringliteral.json:38543:    "value": "Could not create machine key store \u0027{0}\u0027.",
+  stringliteral.json:38544:    "address": "0xB1DA138"
+> stringliteral.json:38555:    "value": "Could not create user key store \u0027{0}\u0027.",
+  stringliteral.json:38556:    "address": "0xB1DA144"
+> stringliteral.json:38723:    "value": "Could not secure machine key store \u0027{0}\u0027.",
+  stringliteral.json:38724:    "address": "0xB1DA1EC"
+> stringliteral.json:38727:    "value": "Could not secure user key store \u0027{0}\u0027.",
+  stringliteral.json:38728:    "address": "0xB1DA1F0"
+> stringliteral.json:39099:    "value": "CreateKeyValueCollectionPropertyBag",
+  stringliteral.json:39100:    "address": "0xB1DA364"
+> stringliteral.json:39103:    "value": "CreateKeyValuePairPropertyBag",
+  stringliteral.json:39104:    "address": "0xB1DA368"
+> stringliteral.json:39239:    "value": "CreditLevelChangeKey",
+  stringliteral.json:39240:    "address": "0xB1DA3F0"
+> stringliteral.json:39243:    "value": "CreditLevelChangeTabKey",
+  stringliteral.json:39244:    "address": "0xB1DA3F4"
+> stringliteral.json:39251:    "value": "CreditRankKey2",
+  stringliteral.json:39252:    "address": "0xB1DA3FC"
+> stringliteral.json:39459:    "value": "CupMatchAcceptNotificationKey",
+  stringliteral.json:39460:    "address": "0xB1DA4CC"
+> stringliteral.json:39479:    "value": "CupMatchKey_{0}_{1}",
+  stringliteral.json:39480:    "address": "0xB1DA4E0"
+> stringliteral.json:39719:    "value": "CustomEventMapKey",
+  stringliteral.json:39720:    "address": "0xB1DA5D0"
+> stringliteral.json:39979:    "value": "DISCOUNT_BUBBLE_SHOWED_KEY_{0}_{1}_{2}",
+  stringliteral.json:39980:    "address": "0xB1DA6D4"
+> stringliteral.json:41291:    "value": "DefaultKeyCode",
+  stringliteral.json:41292:    "address": "0xB1DABF4"
+> stringliteral.json:41307:    "value": "DefaultMessageWithKey",
+  stringliteral.json:41308:    "address": "0xB1DAC04"
+> stringliteral.json:41603:    "value": "DeleteKeySplashTypeCDNToDayDontShow",
+  stringliteral.json:41604:    "address": "0xB1DAD2C"
+> stringliteral.json:41979:    "value": "Dictionary KeysCopyTo() has null parameter",
+  stringliteral.json:41980:    "address": "0xB1DAEA4"
+> stringliteral.json:42539:    "value": "DownloadedCDNImageCacheKey",
+  stringliteral.json:42540:    "address": "0xB1DB0D4"
+> stringliteral.json:42915:    "value": "Duplicated key!",
+  stringliteral.json:42916:    "address": "0xB1DB24C"
+> stringliteral.json:43123:    "value": "ECLIPSESYS_MAIN_SHARE_HINT_KEY",
+  stringliteral.json:43124:    "address": "0xB1DB31C"
+> stringliteral.json:43575:    "value": "EURO_POLICY_KEY",
+  stringliteral.json:43576:    "address": "0xB1DB4E0"
+> stringliteral.json:43787:    "value": "EffectiveKeySize value must be at least as large as the KeySize value.",
+  stringliteral.json:43788:    "address": "0xB1DB5B4"
+> stringliteral.json:44607:    "value": "Enhanced Key Usage",
+  stringliteral.json:44608:    "address": "0xB1DB8E8"
+> stringliteral.json:44699:    "value": "EnterLobbyKey",
+  stringliteral.json:44700:    "address": "0xB1DB944"
+> stringliteral.json:45691:    "value": "Event:{0}   Character:\\0   Modifiers:{1}   KeyCode:{2}",
+  stringliteral.json:45692:    "address": "0xB1DBD24"
+> stringliteral.json:45719:    "value": "EventKeyFrame",
+  stringliteral.json:45720:    "address": "0xB1DBD40"
+> stringliteral.json:45723:    "value": "EventKeyFrameParam",
+  stringliteral.json:45724:    "address": "0xB1DBD44"
+> stringliteral.json:47063:    "value": "EvoPassBigAwardPlayerPrefKey{0}",
+  stringliteral.json:47064:    "address": "0xB1DC280"
+> stringliteral.json:47071:    "value": "EvoPassExpirePlayerPrefKey{0}",
+  stringliteral.json:47072:    "address": "0xB1DC288"
+> stringliteral.json:47075:    "value": "EvoPassNewPlayerPrefKey{0}",
+  stringliteral.json:47076:    "address": "0xB1DC28C"
+> stringliteral.json:47607:    "value": "Expecting {0} value(s) for the key being indexed, but received {1} value(s).",
+  stringliteral.json:47608:    "address": "0xB1DC4A0"
+> stringliteral.json:47835:    "value": "Extended Key Usage",
+  stringliteral.json:47836:    "address": "0xB1DC584"
+> stringliteral.json:48167:    "value": "FFWS03AutoShowChampionKey_",
+  stringliteral.json:48168:    "address": "0xB1DC6D0"
+> stringliteral.json:48171:    "value": "FFWS03AutoShowWarmUpKey_",
+  stringliteral.json:48172:    "address": "0xB1DC6D4"
+> stringliteral.json:48175:    "value": "FFWS03GuideKey_",
+  stringliteral.json:48176:    "address": "0xB1DC6D8"
+> stringliteral.json:48179:    "value": "FFWS03TeamShowKey_",
+  stringliteral.json:48180:    "address": "0xB1DC6DC"
+> stringliteral.json:50879:    "value": "FIRSTTOPUPEVENTKEY_{0}",
+  stringliteral.json:50880:    "address": "0xB1DD168"
+> stringliteral.json:50887:    "value": "FIRST_TOPUP_TEAM_KEY_{0}",
+  stringliteral.json:50888:    "address": "0xB1DD170"
+> stringliteral.json:51435:    "value": "Failed to enable constraints. One or more rows contain values violating non-null, unique, or 
+foreign-key constraints.",
+  stringliteral.json:51436:    "address": "0xB1DD394"
+> stringliteral.json:51623:    "value": "Failed to parse server key/certificate",
+  stringliteral.json:51624:    "address": "0xB1DD450"
+> stringliteral.json:52251:    "value": "FilterSettingTipsKey",
+  stringliteral.json:52252:    "address": "0xB1DD6C4"
+> stringliteral.json:52515:    "value": "FirstAddWishListTip_Key",
+  stringliteral.json:52516:    "address": "0xB1DD7CC"
+> stringliteral.json:52755:    "value": "FloatingKey",
+  stringliteral.json:52756:    "address": "0xB1DD8BC"
+> stringliteral.json:53087:    "value": "ForeignKeyConstraint {0} requires the child key values ({1}) to exist in the parent table.",
+  stringliteral.json:53088:    "address": "0xB1DDA08"
+> stringliteral.json:54015:    "value": "GachaKey_",
+  stringliteral.json:54016:    "address": "0xB1DDDA8"
+> stringliteral.json:54219:    "value": "GameResultFriendRecommendNotificationKey",
+  stringliteral.json:54220:    "address": "0xB1DDE74"
+> stringliteral.json:54223:    "value": "GameResultInviteRecommendNotificationKey",
+  stringliteral.json:54224:    "address": "0xB1DDE78"
+> stringliteral.json:54251:    "value": "GameTitleKey",
+  stringliteral.json:54252:    "address": "0xB1DDE94"
+> stringliteral.json:54283:    "value": "GameVoiceAutoBalanceKey",
+  stringliteral.json:54284:    "address": "0xB1DDEB4"
+> stringliteral.json:55047:    "value": "GetKeyImpl",
+  stringliteral.json:55048:    "address": "0xB1DE1B0"
+> stringliteral.json:55699:    "value": "GoposKey",
+  stringliteral.json:55700:    "address": "0xB1DE43C"
+> stringliteral.json:56079:    "value": "GrenadeSlotBeforeSmarIceWallEnableKey",
+  stringliteral.json:56080:    "address": "0xB1DE5B8"
+> stringliteral.json:56315:    "value": "GuideIntroKey",
+  stringliteral.json:56316:    "address": "0xB1DE6A4"
+> stringliteral.json:56807:    "value": "HIDDEN_PAGE_DESC_CONTENT_KEY",
+  stringliteral.json:56808:    "address": "0xB1DE890"
+> stringliteral.json:57267:    "value": "HasEnteredLiveTVKey",
+  stringliteral.json:57268:    "address": "0xB1DEA5C"
+> stringliteral.json:57359:    "value": "Hash key cannot be changed after the first write to the stream.",
+  stringliteral.json:57360:    "address": "0xB1DEAB8"
+> stringliteral.json:57867:    "value": "HideTeammateNameKey",
+  stringliteral.json:57868:    "address": "0xB1DECB4"
+> stringliteral.json:58911:    "value": "I18N, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756",
+  stringliteral.json:58912:    "address": "0xB1DF0C8"
+> stringliteral.json:59575:    "value": "INVENTORY(WAIT KEY)",
+  stringliteral.json:59576:    "address": "0xB1DF360"
+> stringliteral.json:59627:    "value": "IPMusicPlayKey",
+  stringliteral.json:59628:    "address": "0xB1DF394"
+> stringliteral.json:60107:    "value": "IconKey",
+  stringliteral.json:60108:    "address": "0xB1DF574"
+> stringliteral.json:60151:    "value": "IconTypeKey",
+  stringliteral.json:60152:    "address": "0xB1DF5A0"
+> stringliteral.json:60523:    "value": "If ref is present, all of \u003CcomplexType\u003E, \u003CsimpleType\u003E, \u003Ckey\u003E, 
+\u003Ckeyref\u003E, \u003Cunique\u003E, nillable, default, fixed, form, block, and type must be absent.",
+  stringliteral.json:60524:    "address": "0xB1DF714"
+> stringliteral.json:60775:    "value": "Improperly protected machine\u0027s key pairs in \u0027{0}\u0027.",
+  stringliteral.json:60776:    "address": "0xB1DF810"
+> stringliteral.json:60779:    "value": "Improperly protected user\u0027s key pairs in \u0027{0}\u0027.",
+  stringliteral.json:60780:    "address": "0xB1DF814"
+> stringliteral.json:60863:    "value": "InGameNewAvatarCdnGuideKey",
+  stringliteral.json:60864:    "address": "0xB1DF868"
+> stringliteral.json:61371:    "value": "InfoKey",
+  stringliteral.json:61372:    "address": "0xB1DFA64"
+> stringliteral.json:61451:    "value": "IngameNotificationReportKey",
+  stringliteral.json:61452:    "address": "0xB1DFAB4"
+> stringliteral.json:61475:    "value": "IngameTeammateKey",
+  stringliteral.json:61476:    "address": "0xB1DFACC"
+> stringliteral.json:61787:    "value": "InitedSmartIceWallKey",
+  stringliteral.json:61788:    "address": "0xB1DFC04"
+> stringliteral.json:62283:    "value": "Internal error; a key mismatch occurred",
+  stringliteral.json:62284:    "address": "0xB1DFDF4"
+> stringliteral.json:62287:    "value": "Internal error; a missing key occurred",
+  stringliteral.json:62288:    "address": "0xB1DFDF8"
+> stringliteral.json:62375:    "value": "Invalid \u0027Key\u0027 node inside constraint named: {0}.",
+  stringliteral.json:62376:    "address": "0xB1DFE50"
+> stringliteral.json:62403:    "value": "Invalid AuthorityKeyIdentifier extension",
+  stringliteral.json:62404:    "address": "0xB1DFE6C"
+> stringliteral.json:62547:    "value": "Invalid Relation definition: different length keys.",
+  stringliteral.json:62548:    "address": "0xB1DFEFC"
+> stringliteral.json:63059:    "value": "Invalid keyword for font ",
+  stringliteral.json:63060:    "address": "0xB1E00FC"
+> stringliteral.json:63063:    "value": "Invalid keyword for image source ",
+  stringliteral.json:63064:    "address": "0xB1E0100"
+> stringliteral.json:63431:    "value": "InventoryCombineGuideKey",
+  stringliteral.json:63432:    "address": "0xB1E0270"
+> stringliteral.json:63443:    "value": "InventoryEntryGuideKey",
+  stringliteral.json:63444:    "address": "0xB1E027C"
+> stringliteral.json:63447:    "value": "InventoryItemCombineKey",
+  stringliteral.json:63448:    "address": "0xB1E0280"
+> stringliteral.json:63475:    "value": "InventoryUselessGuideKey",
+  stringliteral.json:63476:    "address": "0xB1E029C"
+> stringliteral.json:64703:    "value": "Item has already been added. Key in dictionary: \u0027{0}\u0027  Key being added: 
+\u0027{1}\u0027",
+  stringliteral.json:64704:    "address": "0xB1E0768"
+> stringliteral.json:64803:    "value": "ItemFinderModeKey",
+  stringliteral.json:64804:    "address": "0xB1E07CC"
+> stringliteral.json:64847:    "value": "ItemKey",
+  stringliteral.json:64848:    "address": "0xB1E07F8"
+> stringliteral.json:64907:    "value": "ItemTypeKey",
+  stringliteral.json:64908:    "address": "0xB1E0834"
+> stringliteral.json:65179:    "value": "JoyKeyA",
+  stringliteral.json:65180:    "address": "0xB1E0944"
+> stringliteral.json:65183:    "value": "JoyKeyB",
+  stringliteral.json:65184:    "address": "0xB1E0948"
+> stringliteral.json:65187:    "value": "JoyKeyX",
+  stringliteral.json:65188:    "address": "0xB1E094C"
+> stringliteral.json:65191:    "value": "JoyKeyY",
+  stringliteral.json:65192:    "address": "0xB1E0950"
+> stringliteral.json:65375:    "value": "KEY",
+  stringliteral.json:65376:    "address": "0xB1E0A08"
+> stringliteral.json:65379:    "value": "KEY_AUTO_EQUIP_DEFAULT_MUSIC",
+  stringliteral.json:65380:    "address": "0xB1E0A0C"
+> stringliteral.json:65383:    "value": "KEY_BIND_ACCOUNT_IND_LAST_SHOW_TIME",
+  stringliteral.json:65384:    "address": "0xB1E0A10"
+> stringliteral.json:65387:    "value": "KEY_BIND_ACCOUNT_VN_LAST_SHOW_TIME",
+  stringliteral.json:65388:    "address": "0xB1E0A14"
+> stringliteral.json:65391:    "value": "KEY_CUSTOMROOM_ACHIEVEMENT_SOUND",
+  stringliteral.json:65392:    "address": "0xB1E0A18"
+> stringliteral.json:65395:    "value": "KEY_CUSTOMROOM_ADCS_TOGGLE",
+  stringliteral.json:65396:    "address": "0xB1E0A1C"
+> stringliteral.json:65399:    "value": "KEY_CUSTOMROOM_ERRORTIPS_ENABLED",
+  stringliteral.json:65400:    "address": "0xB1E0A20"
+> stringliteral.json:65403:    "value": "KEY_CUSTOMROOM_FIRE_SOUND",
+  stringliteral.json:65404:    "address": "0xB1E0A24"
+> stringliteral.json:65407:    "value": "KEY_CUSTOMROOM_HIGHLIGHT_PHOTO_ENABLED",
+  stringliteral.json:65408:    "address": "0xB1E0A28"
+> stringliteral.json:65411:    "value": "KEY_CUSTOMROOM_HIGHLIGHT_REQUEST_PERMISSION",
+  stringliteral.json:65412:    "address": "0xB1E0A2C"
+> stringliteral.json:65415:    "value": "KEY_CUSTOMROOM_IS_BLACK_BLOOD",
+  stringliteral.json:65416:    "address": "0xB1E0A30"
+> stringliteral.json:65419:    "value": "KEY_CUSTOMROOM_IS_SAFEZONE_DAMAGE_EFFECT_SHOW",
+  stringliteral.json:65420:    "address": "0xB1E0A34"
+> stringliteral.json:65423:    "value": "KEY_CUSTOMROOM_MOBILE_RECORD_REPLAY_ENABLED",
+  stringliteral.json:65424:    "address": "0xB1E0A38"
+> stringliteral.json:65427:    "value": "KEY_CUSTOMROOM_OPENINGCAM_ENABLED",
+  stringliteral.json:65428:    "address": "0xB1E0A3C"
+> stringliteral.json:65431:    "value": "KEY_CUSTOMROOM_PERSPECTIVE_COLOR_TYPE",
+  stringliteral.json:65432:    "address": "0xB1E0A40"
+> stringliteral.json:65435:    "value": "KEY_CUSTOMROOM_PERSPECTIVE_TYPE",
+  stringliteral.json:65436:    "address": "0xB1E0A44"
+> stringliteral.json:65439:    "value": "KEY_CUSTOMROOM_PLAYERSIGHT_ENABLED_TEMP",
+  stringliteral.json:65440:    "address": "0xB1E0A48"
+> stringliteral.json:65443:    "value": "KEY_CUSTOMROOM_RECORD_DELAY_OB_ENABLED",
+  stringliteral.json:65444:    "address": "0xB1E0A4C"
+> stringliteral.json:65447:    "value": "KEY_CUSTOMROOM_RECORD_REPLAY_ENABLED",
+  stringliteral.json:65448:    "address": "0xB1E0A50"
+> stringliteral.json:65451:    "value": "KEY_DAMAGE_LABEL_TOTAL",
+  stringliteral.json:65452:    "address": "0xB1E0A54"
+> stringliteral.json:65455:    "value": "KEY_DEMAGE_LABELTYPE",
+  stringliteral.json:65456:    "address": "0xB1E0A58"
+> stringliteral.json:65459:    "value": "KEY_FIRSTSHOW_SINGLEHIGHLIGHT",
+  stringliteral.json:65460:    "address": "0xB1E0A5C"
+> stringliteral.json:65463:    "value": "KEY_GUIDE_BINDACCOUNT",
+  stringliteral.json:65464:    "address": "0xB1E0A60"
+> stringliteral.json:65467:    "value": "KEY_IS_BLACK_BLOOD",
+  stringliteral.json:65468:    "address": "0xB1E0A64"
+> stringliteral.json:65471:    "value": "KEY_MAXSETTING_LOGINViDEO_ENABLED",
+  stringliteral.json:65472:    "address": "0xB1E0A68"
+> stringliteral.json:65475:    "value": "KEY_MAXSETTING_VIDEODECODER",
+  stringliteral.json:65476:    "address": "0xB1E0A6C"
+> stringliteral.json:65479:    "value": "KEY_MEI_PEI",
+  stringliteral.json:65480:    "address": "0xB1E0A70"
+> stringliteral.json:65483:    "value": "KEY_NEW_WEEK_BINDACCOUNT",
+  stringliteral.json:65484:    "address": "0xB1E0A74"
+> stringliteral.json:65487:    "value": "KEY_OPTIONAL_SETTING_AUTOCLEARONTIME",
+  stringliteral.json:65488:    "address": "0xB1E0A78"
+> stringliteral.json:65491:    "value": "KEY_OPTIONAL_SETTING_AUTODOWNLOAD",
+  stringliteral.json:65492:    "address": "0xB1E0A7C"
+> stringliteral.json:65495:    "value": "KEY_OTP_WEEK_BINDACCOUNT",
+  stringliteral.json:65496:    "address": "0xB1E0A80"
+> stringliteral.json:65499:    "value": "KEY_PC_FLAG_ENABLED",
+  stringliteral.json:65500:    "address": "0xB1E0A84"
+> stringliteral.json:65503:    "value": "KEY_REPLAY_MATCHEND_SHOWED",
+  stringliteral.json:65504:    "address": "0xB1E0A88"
+> stringliteral.json:65507:    "value": "KEY_SLIDE_CHANGE_COLOR_ENABLED",
+  stringliteral.json:65508:    "address": "0xB1E0A8C"
+> stringliteral.json:65511:    "value": "KEY_TEAM_BILLBOARD_ENABLED",
+  stringliteral.json:65512:    "address": "0xB1E0A90"
+> stringliteral.json:65515:    "value": "KEY_UGC_ACCEPT_FRIEND_GROUP_INVITE",
+  stringliteral.json:65516:    "address": "0xB1E0A94"
+> stringliteral.json:65519:    "value": "KEY_UGC_CAMERA_MOVE_SPEED",
+  stringliteral.json:65520:    "address": "0xB1E0A98"
+> stringliteral.json:65523:    "value": "KEY_UGC_SCENEEDIT_BTN_DESC",
+  stringliteral.json:65524:    "address": "0xB1E0A9C"
+> stringliteral.json:65527:    "value": "KEY_UGC_SCENEEDIT_GRID_GRAN",
+  stringliteral.json:65528:    "address": "0xB1E0AA0"
+> stringliteral.json:65531:    "value": "KEY_UGC_SCENEEDIT_GRID_SNAP",
+  stringliteral.json:65532:    "address": "0xB1E0AA4"
+> stringliteral.json:65535:    "value": "KEY_UGC_SCENEEDIT_POINT_DRAG",
+  stringliteral.json:65536:    "address": "0xB1E0AA8"
+> stringliteral.json:65539:    "value": "KEY_UGC_SCENEEDIT_ROTATE_INTERVAL",
+  stringliteral.json:65540:    "address": "0xB1E0AAC"
+> stringliteral.json:65543:    "value": "KEY_UGC_SCENEEDIT_SHOW_GRIDLINE",
+  stringliteral.json:65544:    "address": "0xB1E0AB0"
+> stringliteral.json:65547:    "value": "KEY_UGC_SceneEditFirstEnterNewMap",
+  stringliteral.json:65548:    "address": "0xB1E0AB4"
+> stringliteral.json:65551:    "value": "KEY_UPLOAD_SETTING_IND_LAST_SHOW_TIME",
+  stringliteral.json:65552:    "address": "0xB1E0AB8"
+> stringliteral.json:65555:    "value": "KEY_UPLOAD_SETTING_VN_LAST_SHOW_TIME",
+  stringliteral.json:65556:    "address": "0xB1E0ABC"
+> stringliteral.json:65559:    "value": "KEY_WereWolvesRoomModeName",
+  stringliteral.json:65560:    "address": "0xB1E0AC0"
+> stringliteral.json:65715:    "value": "Key",
+  stringliteral.json:65716:    "address": "0xB1E0B5C"
+> stringliteral.json:65719:    "value": "Key \u0027{0}\u0027 not found for removal.",
+  stringliteral.json:65720:    "address": "0xB1E0B60"
+> stringliteral.json:65723:    "value": "Key Agreement",
+  stringliteral.json:65724:    "address": "0xB1E0B64"
+> stringliteral.json:65727:    "value": "Key Blob: ",
+  stringliteral.json:65728:    "address": "0xB1E0B68"
+> stringliteral.json:65731:    "value": "Key Encipherment",
+  stringliteral.json:65732:    "address": "0xB1E0B6C"
+> stringliteral.json:65735:    "value": "Key Usage",
+  stringliteral.json:65736:    "address": "0xB1E0B70"
+> stringliteral.json:65739:    "value": "Key already in the list",
+  stringliteral.json:65740:    "address": "0xB1E0B74"
+> stringliteral.json:65743:    "value": "Key cannot be null.",
+  stringliteral.json:65744:    "address": "0xB1E0B78"
+> stringliteral.json:65747:    "value": "Key could not be mapped: ",
+  stringliteral.json:65748:    "address": "0xB1E0B7C"
+> stringliteral.json:65751:    "value": "Key is too small ({0} bytes), it should be between {1} and {2} bytes long.",
+  stringliteral.json:65752:    "address": "0xB1E0B80"
+> stringliteral.json:65755:    "value": "Key is too small ({0} bytes), it should be {1}, {2} or {3} bytes long.",
+  stringliteral.json:65756:    "address": "0xB1E0B84"
+> stringliteral.json:65759:    "value": "Key length is not valid",
+  stringliteral.json:65760:    "address": "0xB1E0B88"
+> stringliteral.json:65763:    "value": "Key size is illegal",
+  stringliteral.json:65764:    "address": "0xB1E0B8C"
+> stringliteral.json:65767:    "value": "Key tail should not require the old value",
+  stringliteral.json:65768:    "address": "0xB1E0B90"
+> stringliteral.json:65771:    "value": "Key tail should return a value",
+  stringliteral.json:65772:    "address": "0xB1E0B94"
+> stringliteral.json:65775:    "value": "Key:UpTo ",
+  stringliteral.json:65776:    "address": "0xB1E0B98"
+> stringliteral.json:65779:    "value": "KeyActionNameKey",
+  stringliteral.json:65780:    "address": "0xB1E0B9C"
+> stringliteral.json:65783:    "value": "KeyActionSetting_ChangeSaveKey",
+  stringliteral.json:65784:    "address": "0xB1E0BA0"
+> stringliteral.json:65787:    "value": "KeyActionString",
+  stringliteral.json:65788:    "address": "0xB1E0BA4"
+> stringliteral.json:65791:    "value": "KeyActionType",
+  stringliteral.json:65792:    "address": "0xB1E0BA8"
+> stringliteral.json:65795:    "value": "KeyArt",
+  stringliteral.json:65796:    "address": "0xB1E0BAC"
+> stringliteral.json:65799:    "value": "KeyBack",
+  stringliteral.json:65800:    "address": "0xB1E0BB0"
+> stringliteral.json:65803:    "value": "KeyBack/NormalIcon",
+  stringliteral.json:65804:    "address": "0xB1E0BB4"
+> stringliteral.json:65807:    "value": "KeyBack/SelectedIcon",
+  stringliteral.json:65808:    "address": "0xB1E0BB8"
+> stringliteral.json:65811:    "value": "KeyCode",
+  stringliteral.json:65812:    "address": "0xB1E0BBC"
+> stringliteral.json:65815:    "value": "KeyComparer",
+  stringliteral.json:65816:    "address": "0xB1E0BC0"
+> stringliteral.json:65819:    "value": "KeyFormat",
+  stringliteral.json:65820:    "address": "0xB1E0BC4"
+> stringliteral.json:65823:    "value": "KeyID=",
+  stringliteral.json:65824:    "address": "0xB1E0BC8"
+> stringliteral.json:65827:    "value": "KeyIgnoreScreenShotWnd",
+  stringliteral.json:65828:    "address": "0xB1E0BCC"
+> stringliteral.json:65831:    "value": "KeyPair",
+  stringliteral.json:65832:    "address": "0xB1E0BD0"
+> stringliteral.json:65835:    "value": "KeyPreDropMatchBeforeJoin",
+  stringliteral.json:65836:    "address": "0xB1E0BD4"
+> stringliteral.json:65839:    "value": "KeyShowRankRewardTipV2_",
+  stringliteral.json:65840:    "address": "0xB1E0BD8"
+> stringliteral.json:65843:    "value": "KeyValue",
+  stringliteral.json:65844:    "address": "0xB1E0BDC"
+> stringliteral.json:65847:    "value": "KeyValueInt",
+  stringliteral.json:65848:    "address": "0xB1E0BE0"
+> stringliteral.json:65851:    "value": "KeyValuePair\u00602",
+  stringliteral.json:65852:    "address": "0xB1E0BE4"
+> stringliteral.json:65855:    "value": "KeyValuePairs",
+  stringliteral.json:65856:    "address": "0xB1E0BE8"
+> stringliteral.json:65859:    "value": "Key_LadderMatchTaskGuide_",
+  stringliteral.json:65860:    "address": "0xB1E0BEC"
+> stringliteral.json:65863:    "value": "Key_ShowBRSpecialMissionTip",
+  stringliteral.json:65864:    "address": "0xB1E0BF0"
+> stringliteral.json:65867:    "value": "Key_ShowCSSpecialMissionTip",
+  stringliteral.json:65868:    "address": "0xB1E0BF4"
+> stringliteral.json:65871:    "value": "Keypair was disposed",
+  stringliteral.json:65872:    "address": "0xB1E0BF8"
+> stringliteral.json:65875:    "value": "Keyref \u0027{0}\u0027 has different cardinality as the referred key or unique element.",
+  stringliteral.json:65876:    "address": "0xB1E0BFC"
+> stringliteral.json:65879:    "value": "Keys",
+  stringliteral.json:65880:    "address": "0xB1E0C00"
+> stringliteral.json:65883:    "value": "Keyset does not exist",
+  stringliteral.json:65884:    "address": "0xB1E0C04"
+> stringliteral.json:66131:    "value": "LOADOUT_SHARE_CODE_KEY",
+  stringliteral.json:66132:    "address": "0xB1E0CFC"
+> stringliteral.json:66163:    "value": "LOBBY_CLAN_KEY_{0}",
+  stringliteral.json:66164:    "address": "0xB1E0D1C"
+> stringliteral.json:66231:    "value": "LRUCache.Add, Key already exists in cache: ",
+  stringliteral.json:66232:    "address": "0xB1E0D60"
+> stringliteral.json:66327:    "value": "LWRoundShopBuffKey",
+  stringliteral.json:66328:    "address": "0xB1E0DC0"
+> stringliteral.json:66399:    "value": "LabelCountDownDuringGameKey",
+  stringliteral.json:66400:    "address": "0xB1E0E08"
+> stringliteral.json:66583:    "value": "LastCFDataKey",
+  stringliteral.json:66584:    "address": "0xB1E0EC0"
+> stringliteral.json:66595:    "value": "LastDefaultMusicIdKey",
+  stringliteral.json:66596:    "address": "0xB1E0ECC"
+> stringliteral.json:66623:    "value": "LastSaveCFTimeStampKey",
+  stringliteral.json:66624:    "address": "0xB1E0EE8"
+> stringliteral.json:66963:    "value": "LeftKey",
+  stringliteral.json:66964:    "address": "0xB1E103C"
+> stringliteral.json:67839:    "value": "LimitedTimeRankSeasonKey_",
+  stringliteral.json:67840:    "address": "0xB1E13A8"
+> stringliteral.json:68379:    "value": "LoadParameters key=",
+  stringliteral.json:68380:    "address": "0xB1E15C4"
+> stringliteral.json:68479:    "value": "LoadoutPresetKey_",
+  stringliteral.json:68480:    "address": "0xB1E1628"
+> stringliteral.json:68719:    "value": "LobbySettingTipsKey",
+  stringliteral.json:68720:    "address": "0xB1E1718"
+> stringliteral.json:68827:    "value": "LocKey",
+  stringliteral.json:68828:    "address": "0xB1E1784"
+> stringliteral.json:68847:    "value": "LocText Error:{0}, key:{1}, param:{2}",
+  stringliteral.json:68848:    "address": "0xB1E1798"
+> stringliteral.json:69091:    "value": "LogicEntityAttributeUtil =\u003E ContainsAttributeMapIntIntKey data not found",
+  stringliteral.json:69092:    "address": "0xB1E188C"
+> stringliteral.json:69279:    "value": "LoginEventTimeKeyEachDay",
+  stringliteral.json:69280:    "address": "0xB1E1948"
+> stringliteral.json:69283:    "value": "LoginEventTimeKeyVeteranAndNewPlayer",
+  stringliteral.json:69284:    "address": "0xB1E194C"
+> stringliteral.json:70051:    "value": "MagicVoiceKey_Id",
+  stringliteral.json:70052:    "address": "0xB1E1C4C"
+> stringliteral.json:70055:    "value": "MagicVoiceKey_Open",
+  stringliteral.json:70056:    "address": "0xB1E1C50"
+> stringliteral.json:70571:    "value": "MarkNameKey",
+  stringliteral.json:70572:    "address": "0xB1E1E54"
+> stringliteral.json:70807:    "value": "MatchNpc_FirstInGameKey_{0}_{1}",
+  stringliteral.json:70808:    "address": "0xB1E1F40"
+> stringliteral.json:71003:    "value": "MaxGraphicABTestKey",
+  stringliteral.json:71004:    "address": "0xB1E2004"
+> stringliteral.json:71579:    "value": "MessageKey",
+  stringliteral.json:71580:    "address": "0xB1E2244"
+> stringliteral.json:71587:    "value": "Meta-key not found",
+  stringliteral.json:71588:    "address": "0xB1E224C"
+> stringliteral.json:71723:    "value": "Microsoft.CSharp.RuntimeBinder.Binder, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, 
+PublicKeyToken=b03f5f7f11d50a3a",
+  stringliteral.json:71724:    "address": "0xB1E22D4"
+> stringliteral.json:71727:    "value": "Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfo, Microsoft.CSharp, Version=4.0.0.0, 
+Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+  stringliteral.json:71728:    "address": "0xB1E22D8"
+> stringliteral.json:71731:    "value": "Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags, Microsoft.CSharp, Version=4.0.0.0, 
+Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+  stringliteral.json:71732:    "address": "0xB1E22DC"
+> stringliteral.json:71735:    "value": "Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags, Microsoft.CSharp, Version=4.0.0.0, 
+Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+  stringliteral.json:71736:    "address": "0xB1E22E0"
+> stringliteral.json:72115:    "value": "Mismatch columns in the PrimaryKey : \u003Ctarget\u003E.{0} versus \u003Csource\u003E.{1}.",
+  stringliteral.json:72116:    "address": "0xB1E245C"
+> stringliteral.json:72131:    "value": "Missing D parameter for the private key.",
+  stringliteral.json:72132:    "address": "0xB1E246C"
+> stringliteral.json:72167:    "value": "Missing both public (Y) and private (X) keys.",
+  stringliteral.json:72168:    "address": "0xB1E2490"
+> stringliteral.json:72179:    "value": "Missing key algorithm parameters.",
+  stringliteral.json:72180:    "address": "0xB1E249C"
+> stringliteral.json:72183:    "value": "Missing key: ",
+  stringliteral.json:72184:    "address": "0xB1E24A0"
+> stringliteral.json:72195:    "value": "Missing private key",
+  stringliteral.json:72196:    "address": "0xB1E24AC"
+> stringliteral.json:72199:    "value": "Missing some CRT parameters for the private key.",
+  stringliteral.json:72200:    "address": "0xB1E24B0"
+> stringliteral.json:72607:    "value": "More than one key matching \u0027{0}\u0027 was found in the ExpandoObject.",
+  stringliteral.json:72608:    "address": "0xB1E2648"
+> stringliteral.json:73059:    "value": "Mutating a key collection derived from a dictionary is not allowed.",
+  stringliteral.json:73060:    "address": "0xB1E280C"
+> stringliteral.json:73423:    "value": "NEWCHARACTERBUILDCHOOSEAVATARSKILLSIDEKEY",
+  stringliteral.json:73424:    "address": "0xB1E2978"
+> stringliteral.json:73427:    "value": "NEWCHARACTERBUILDKEY",
+  stringliteral.json:73428:    "address": "0xB1E297C"
+> stringliteral.json:73431:    "value": "NEWCHARACTERGUIDEKEY",
+  stringliteral.json:73432:    "address": "0xB1E2980"
+> stringliteral.json:73435:    "value": "NEWCHARACTERTIPSKEY",
+  stringliteral.json:73436:    "address": "0xB1E2984"
+> stringliteral.json:73439:    "value": "NEWCHARACTERTIPSLOBBYKEY",
+  stringliteral.json:73440:    "address": "0xB1E2988"
+> stringliteral.json:73547:    "value": "NOKEY;NOKEY",
+  stringliteral.json:73548:    "address": "0xB1E29F4"
+> stringliteral.json:73551:    "value": "NOKEY_CAN_NOT_EQUIP",
+  stringliteral.json:73552:    "address": "0xB1E29F8"
+> stringliteral.json:73555:    "value": "NOKEY_PLEASE_CHOOSE_THE_EQUIP",
+  stringliteral.json:73556:    "address": "0xB1E29FC"
+> stringliteral.json:73723:    "value": "Name=\u0022{0}\u0022 /\u003E{1}\t\u003C/Properties\u003E{1}\t\u003CKeyValue",
+  stringliteral.json:73724:    "address": "0xB1E2AA4"
+> stringliteral.json:73739:    "value": "NameKey",
+  stringliteral.json:73740:    "address": "0xB1E2AB4"
+> stringliteral.json:74027:    "value": "NeedKey",
+  stringliteral.json:74028:    "address": "0xB1E2BD4"
+> stringliteral.json:74331:    "value": "NewKeyboardFocus",
+  stringliteral.json:74332:    "address": "0xB1E2D04"
+> stringliteral.json:74387:    "value": "NewPlayerUnlockFeatureKey_",
+  stringliteral.json:74388:    "address": "0xB1E2D3C"
+> stringliteral.json:74435:    "value": "NewbieFillSkillsPresetIDKey",
+  stringliteral.json:74436:    "address": "0xB1E2D6C"
+> stringliteral.json:74455:    "value": "NewbieRecommendWeaponFirstIn(not key",
+  stringliteral.json:74456:    "address": "0xB1E2D80"
+> stringliteral.json:74459:    "value": "NewbieRecommendWeaponPageClose(not key",
+  stringliteral.json:74460:    "address": "0xB1E2D84"
+> stringliteral.json:74463:    "value": "NewbieRecommendWeaponTypeFirstRefresh(not key",
+  stringliteral.json:74464:    "address": "0xB1E2D88"
+> stringliteral.json:74679:    "value": "No asymmetric key object has been associated with this formatter object.",
+  stringliteral.json:74680:    "address": "0xB1E2E60"
+> stringliteral.json:74867:    "value": "No public key available.",
+  stringliteral.json:74868:    "address": "0xB1E2F1C"
+> stringliteral.json:74955:    "value": "No target set for key ",
+  stringliteral.json:74956:    "address": "0xB1E2F74"
+> stringliteral.json:75267:    "value": "Not all keys are covered by values",
+  stringliteral.json:75268:    "address": "0xB1E30AC"
+> stringliteral.json:75579:    "value": "Null key",
+  stringliteral.json:75580:    "address": "0xB1E31E4"
+> stringliteral.json:75951:    "value": "Object key in input stream, but reference-tracking was not expected",
+  stringliteral.json:75952:    "address": "0xB1E3358"
+> stringliteral.json:76091:    "value": "ObjectKey",
+  stringliteral.json:76092:    "address": "0xB1E33E4"
+> stringliteral.json:76111:    "value": "ObjectTypeKey",
+  stringliteral.json:76112:    "address": "0xB1E33F8"
+> stringliteral.json:76327:    "value": "OldChatKey",
+  stringliteral.json:76328:    "address": "0xB1E34D0"
+> stringliteral.json:76331:    "value": "OldChatKeyNotFriend",
+  stringliteral.json:76332:    "address": "0xB1E34D4"
+> stringliteral.json:77127:    "value": "OnFirstScoreValueKeyChanged:",
+  stringliteral.json:77128:    "address": "0xB1E37F0"
+> stringliteral.json:77403:    "value": "OnKey",
+  stringliteral.json:77404:    "address": "0xB1E3904"
+> stringliteral.json:78243:    "value": "OnSecondScoreValueKeyChanged:",
+  stringliteral.json:78244:    "address": "0xB1E3C4C"
+> stringliteral.json:78619:    "value": "One of the serialized keys is null.",
+  stringliteral.json:78620:    "address": "0xB1E3DC4"
+> stringliteral.json:79067:    "value": "Option_Key",
+  stringliteral.json:79068:    "address": "0xB1E3F84"
+> stringliteral.json:79299:    "value": "OutGameKey1",
+  stringliteral.json:79300:    "address": "0xB1E406C"
+> stringliteral.json:79303:    "value": "OutGameKey2",
+  stringliteral.json:79304:    "address": "0xB1E4070"
+> stringliteral.json:79691:    "value": "PRESTART(WAIT KEY)",
+  stringliteral.json:79692:    "address": "0xB1E41F4"
+> stringliteral.json:79735:    "value": "PROFILE_CUSTOM_NEW_MODULE_REMIND_KEY_{0}",
+  stringliteral.json:79736:    "address": "0xB1E4220"
+> stringliteral.json:80319:    "value": "Parent table key is missing in relation \u0027{0}\u0027.",
+  stringliteral.json:80320:    "address": "0xB1E4468"
+> stringliteral.json:80343:    "value": "ParentKey and ChildKey are identical.",
+  stringliteral.json:80344:    "address": "0xB1E4480"
+> stringliteral.json:81723:    "value": "PlayerPresKey_IsPlayUnlockDifficultyAnim_",
+  stringliteral.json:81724:    "address": "0xB1E49E4"
+> stringliteral.json:81727:    "value": "PlayerPresKey_PVEInfinite_HigherRankFriends_",
+  stringliteral.json:81728:    "address": "0xB1E49E8"
+> stringliteral.json:81731:    "value": "PlayerPresKey_PVEInfinite_MyRank_",
+  stringliteral.json:81732:    "address": "0xB1E49EC"
+> stringliteral.json:81735:    "value": "PlayerPresKey_PVENewbie",
+  stringliteral.json:81736:    "address": "0xB1E49F0"
+> stringliteral.json:82015:    "value": "Please check config, m_WeaponIDs should contains this key: {0}.",
+  stringliteral.json:82016:    "address": "0xB1E4B08"
+> stringliteral.json:82615:    "value": "PressedVoiceKey",
+  stringliteral.json:82616:    "address": "0xB1E4D60"
+> stringliteral.json:82619:    "value": "PressedVoiceKey_IsAll",
+  stringliteral.json:82620:    "address": "0xB1E4D64"
+> stringliteral.json:82831:    "value": "PrimaryKey",
+  stringliteral.json:82832:    "address": "0xB1E4E38"
+> stringliteral.json:82835:    "value": "PrimaryKey columns do not belong to this table.",
+  stringliteral.json:82836:    "address": "0xB1E4E3C"
+> stringliteral.json:82947:    "value": "Private/public key mismatch",
+  stringliteral.json:82948:    "address": "0xB1E4EAC"
+> stringliteral.json:83747:    "value": "QDENCRYPTKEY",
+  stringliteral.json:83748:    "address": "0xB1E51CC"
+> stringliteral.json:84163:    "value": "RELAY_MART_FIRST_SHOW_KEY_{0}",
+  stringliteral.json:84164:    "address": "0xB1E536C"
+> stringliteral.json:84179:    "value": "REPLAYKIT_MATCH_VERSION_KEY",
+  stringliteral.json:84180:    "address": "0xB1E537C"
+> stringliteral.json:84295:    "value": "RSA_KEYX",
+  stringliteral.json:84296:    "address": "0xB1E53F0"
+> stringliteral.json:84435:    "value": "RankCompetitionKey_",
+  stringliteral.json:84436:    "address": "0xB1E547C"
+> stringliteral.json:84919:    "value": "ReasonKey",
+  stringliteral.json:84920:    "address": "0xB1E5660"
+> stringliteral.json:84947:    "value": "RecPresetVersionKey",
+  stringliteral.json:84948:    "address": "0xB1E567C"
+> stringliteral.json:85683:    "value": "Registry key has subkeys and recursive removes are not supported by this method.",
+  stringliteral.json:85684:    "address": "0xB1E595C"
+> stringliteral.json:85687:    "value": "Registry key names should not be greater than 255 characters.",
+  stringliteral.json:85688:    "address": "0xB1E5960"
+> stringliteral.json:85695:    "value": "RegistryKey.SetValue does not allow a String[] that contains a null String reference.",
+  stringliteral.json:85696:    "address": "0xB1E5968"
+> stringliteral.json:85719:    "value": "RejectKey",
+  stringliteral.json:85720:    "address": "0xB1E5980"
+> stringliteral.json:85743:    "value": "Relation {0} cannot be merged, because keys have mismatch columns.",
+  stringliteral.json:85744:    "address": "0xB1E5998"
+> stringliteral.json:86307:    "value": "ReplayKitAudioCodecCombineKey",
+  stringliteral.json:86308:    "address": "0xB1E5BCC"
+> stringliteral.json:86311:    "value": "ReplayKitMicrophoneKey",
+  stringliteral.json:86312:    "address": "0xB1E5BD0"
+> stringliteral.json:86315:    "value": "ReplayKitVideoBitRateKey",
+  stringliteral.json:86316:    "address": "0xB1E5BD4"
+> stringliteral.json:86547:    "value": "RequestJoinCupTeamNotificationKey",
+  stringliteral.json:86548:    "address": "0xB1E5CBC"
+> stringliteral.json:86643:    "value": "RequestPresetGuideAvatarKey",
+  stringliteral.json:86644:    "address": "0xB1E5D1C"
+> stringliteral.json:87211:    "value": "ResponseKey",
+  stringliteral.json:87212:    "address": "0xB1E5F54"
+> stringliteral.json:87543:    "value": "RightKey",
+  stringliteral.json:87544:    "address": "0xB1E60A0"
+> stringliteral.json:88123:    "value": "SAVE_REPLAY_KEY_OB49",
+  stringliteral.json:88124:    "address": "0xB1E62E4"
+> stringliteral.json:89103:    "value": "SQUAD_TREASURE_GOTO_KEY_{0}_{1}",
+  stringliteral.json:89104:    "address": "0xB1E66B8"
+> stringliteral.json:90391:    "value": "SeasonReplayGuideKEY_BR",
+  stringliteral.json:90392:    "address": "0xB1E6BC0"
+> stringliteral.json:90395:    "value": "SeasonReplayGuideKEY_CS",
+  stringliteral.json:90396:    "address": "0xB1E6BC4"
+> stringliteral.json:90415:    "value": "SeasonReplayTakePhotoBubbleKey",
+  stringliteral.json:90416:    "address": "0xB1E6BD8"
+> stringliteral.json:90419:    "value": "SeasonReplayTakePhotoHudBubbleKey",
+  stringliteral.json:90420:    "address": "0xB1E6BDC"
+> stringliteral.json:90699:    "value": "Send Chat Message {0}, text in keyboard{1}",
+  stringliteral.json:90700:    "address": "0xB1E6CF4"
+> stringliteral.json:91107:    "value": "Set JArray values with invalid key value: {0}. Int32 array index expected.",
+  stringliteral.json:91108:    "address": "0xB1E6E8C"
+> stringliteral.json:91111:    "value": "Set JConstructor values with invalid key value: {0}. Argument position index expected.",
+  stringliteral.json:91112:    "address": "0xB1E6E90"
+> stringliteral.json:91115:    "value": "Set JObject values with invalid key value: {0}. Object property name expected.",
+  stringliteral.json:91116:    "address": "0xB1E6E94"
+> stringliteral.json:91203:    "value": "SetCustomKey",
+  stringliteral.json:91204:    "address": "0xB1E6EEC"
+> stringliteral.json:91827:    "value": "ShopKey_",
+  stringliteral.json:91828:    "address": "0xB1E715C"
+> stringliteral.json:92179:    "value": "ShowKey",
+  stringliteral.json:92180:    "address": "0xB1E72BC"
+> stringliteral.json:92183:    "value": "ShowKeyCodeOnHud",
+  stringliteral.json:92184:    "address": "0xB1E72C0"
+> stringliteral.json:92367:    "value": "ShowTitleKey",
+  stringliteral.json:92368:    "address": "0xB1E7378"
+> stringliteral.json:92619:    "value": "SizeKey",
+  stringliteral.json:92620:    "address": "0xB1E7474"
+> stringliteral.json:93123:    "value": "SmartIceWallChangeBackWeaponKey",
+  stringliteral.json:93124:    "address": "0xB1E766C"
+> stringliteral.json:93139:    "value": "SmartIceWallKey",
+  stringliteral.json:93140:    "address": "0xB1E767C"
+> stringliteral.json:93147:    "value": "SmartIceWallShowKey",
+  stringliteral.json:93148:    "address": "0xB1E7684"
+> stringliteral.json:93411:    "value": "SortKey - ",
+  stringliteral.json:93412:    "address": "0xB1E778C"
+> stringliteral.json:93447:    "value": "SoundKey",
+  stringliteral.json:93448:    "address": "0xB1E77B0"
+> stringliteral.json:93459:    "value": "SoundTypeKey",
+  stringliteral.json:93460:    "address": "0xB1E77BC"
+> stringliteral.json:93787:    "value": "SpecialCharacterVoiceKey",
+  stringliteral.json:93788:    "address": "0xB1E7904"
+> stringliteral.json:93891:    "value": "Specified key is a known semi-weak key for \u0027{0}\u0027 and cannot be used.",
+  stringliteral.json:93892:    "address": "0xB1E796C"
+> stringliteral.json:93895:    "value": "Specified key is a known weak key for \u0027{0}\u0027 and cannot be used.",
+  stringliteral.json:93896:    "address": "0xB1E7970"
+> stringliteral.json:93899:    "value": "Specified key is not a valid size for this algorithm.",
+  stringliteral.json:93900:    "address": "0xB1E7974"
+> stringliteral.json:95155:    "value": "Subject Key Identifier",
+  stringliteral.json:95156:    "address": "0xB1E7E5C"
+> stringliteral.json:95583:    "value": "Syntax error in Lookup expression: Expecting keyword \u0027Parent\u0027 followed by a single 
+column argument with possible relation qualifier: Parent[(\u003Crelation_name\u003E)].\u003Ccolumn_name\u003E.",
+  stringliteral.json:95584:    "address": "0xB1E8008"
+> stringliteral.json:95607:    "value": "Syntax error: The IN keyword must be followed by a non-empty list of expressions separated by 
+commas, and also must be enclosed in parentheses.",
+  stringliteral.json:95608:    "address": "0xB1E8020"
+> stringliteral.json:95611:    "value": "Syntax error: The items following the IN keyword must be separated by commas and be enclosed in 
+parentheses.",
+  stringliteral.json:95612:    "address": "0xB1E8024"
+> stringliteral.json:95811:    "value": "System.Data.EntityKeyMember",
+  stringliteral.json:95812:    "address": "0xB1E80EC"
+> stringliteral.json:95835:    "value": "System.Drawing.Design.ToolboxItem, System.Drawing, Version=4.0.0.0, Culture=neutral, 
+PublicKeyToken=b03f5f7f11d50a3a",
+  stringliteral.json:95836:    "address": "0xB1E8104"
+> stringliteral.json:96015:    "value": "System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension, System",
+  stringliteral.json:96016:    "address": "0xB1E81B8"
+> stringliteral.json:96019:    "value": "System.Security.Cryptography.X509Certificates.X509KeyUsageExtension, System",
+  stringliteral.json:96020:    "address": "0xB1E81BC"
+> stringliteral.json:96023:    "value": "System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension, System",
+  stringliteral.json:96024:    "address": "0xB1E81C0"
+> stringliteral.json:96079:    "value": "SystemGuideKey_",
+  stringliteral.json:96080:    "address": "0xB1E81F8"
+> stringliteral.json:96111:    "value": "TAKE_PHOTO_HIGHTLIGHT_KEY_{0}_{1}",
+  stringliteral.json:96112:    "address": "0xB1E8218"
+> stringliteral.json:96231:    "value": "TKey is a reference type and item.Key is null.",
+  stringliteral.json:96232:    "address": "0xB1E8290"
+> stringliteral.json:96263:    "value": "TOPUPEVENTKEY_{0}_{1}",
+  stringliteral.json:96264:    "address": "0xB1E82B0"
+> stringliteral.json:99383:    "value": "TXT_SETTING_LANGUAGE_TURKEY",
+  stringliteral.json:99384:    "address": "0xB1E8EE0"
+> stringliteral.json:103007:    "value": "T_24_T_CS_OPEN_NO_KEY1",
+  stringliteral.json:103008:    "address": "0xB1E9D08"
+> stringliteral.json:103011:    "value": "T_24_T_CS_OPEN_NO_KEY2",
+  stringliteral.json:103012:    "address": "0xB1E9D0C"
+> stringliteral.json:103015:    "value": "T_24_T_CS_OPEN_NO_KEY3",
+  stringliteral.json:103016:    "address": "0xB1E9D10"
+> stringliteral.json:103019:    "value": "T_24_T_CS_OPEN_NO_KEY4",
+  stringliteral.json:103020:    "address": "0xB1E9D14"
+> stringliteral.json:108099:    "value": "T_34_PD_FlagBattle_UIKEY",
+  stringliteral.json:108100:    "address": "0xB1EB0EC"
+> stringliteral.json:108655:    "value": "T_35_GAMEMISSION_NO_KEY",
+  stringliteral.json:108656:    "address": "0xB1EB318"
+> stringliteral.json:110951:    "value": "T_38_WB_TREASUREROOM_GETKEY",
+  stringliteral.json:110952:    "address": "0xB1EBC10"
+> stringliteral.json:110955:    "value": "T_38_WB_TREASUREROOM_GETKEY_TEAMMATE",
+  stringliteral.json:110956:    "address": "0xB1EBC14"
+> stringliteral.json:110959:    "value": "T_38_WB_TREASUREROOM_GETKEY_UNLOCKED",
+  stringliteral.json:110960:    "address": "0xB1EBC18"
+> stringliteral.json:110963:    "value": "T_38_WB_TREASUREROOM_LOCKED_NOKEY",
+  stringliteral.json:110964:    "address": "0xB1EBC1C"
+> stringliteral.json:113083:    "value": "T_40_XXJ_WS_APOSITION_NAMEKEY",
+  stringliteral.json:113084:    "address": "0xB1EC464"
+> stringliteral.json:113107:    "value": "T_40_XXJ_WS_TIPHUD_DESCKEY",
+  stringliteral.json:113108:    "address": "0xB1EC47C"
+> stringliteral.json:124199:    "value": "T_51_WH_VALUTROOM_UPGRADE_NOKEY",
+  stringliteral.json:124200:    "address": "0xB1EEFD0"
+> stringliteral.json:127311:    "value": "TabKey",
+  stringliteral.json:127312:    "address": "0xB1EFBF8"
+> stringliteral.json:127387:    "value": "TagDescKey",
+  stringliteral.json:127388:    "address": "0xB1EFC44"
+> stringliteral.json:127403:    "value": "TagKey",
+  stringliteral.json:127404:    "address": "0xB1EFC54"
+> stringliteral.json:127879:    "value": "TeamUpRecommendKey",
+  stringliteral.json:127880:    "address": "0xB1EFE30"
+> stringliteral.json:128283:    "value": "The \u0027{0}\u0027 Keyref can refer to key or unique only.",
+  stringliteral.json:128284:    "address": "0xB1EFFC4"
+> stringliteral.json:128547:    "value": "The Keyref \u0027{0}\u0027 cannot find the referred key or unique in scope.",
+  stringliteral.json:128548:    "address": "0xB1F00CC"
+> stringliteral.json:128551:    "value": "The Keys for this Hashtable are missing.",
+  stringliteral.json:128552:    "address": "0xB1F00D0"
+> stringliteral.json:129055:    "value": "The certificate key algorithm is not supported.",
+  stringliteral.json:129056:    "address": "0xB1F02C8"
+> stringliteral.json:129447:    "value": "The given key \u0027{0}\u0027 was not present in the dictionary.",
+  stringliteral.json:129448:    "address": "0xB1F0450"
+> stringliteral.json:129451:    "value": "The given key was not present in the dictionary.",
+  stringliteral.json:129452:    "address": "0xB1F0454"
+> stringliteral.json:129507:    "value": "The identity constraint \u0027{0}\u0027 validation has failed. Either a key is missing or the 
+existing key has an empty node.",
+  stringliteral.json:129508:    "address": "0xB1F048C"
+> stringliteral.json:129575:    "value": "The key \u0027{0}\u0027 was not found.",
+  stringliteral.json:129576:    "address": "0xB1F04D0"
+> stringliteral.json:129579:    "value": "The key already existed in the dictionary.",
+  stringliteral.json:129580:    "address": "0xB1F04D4"
+> stringliteral.json:129583:    "value": "The key has to be a string",
+  stringliteral.json:129584:    "address": "0xB1F04D8"
+> stringliteral.json:129587:    "value": "The key sequence \u0027{0}\u0027 in \u0027{1}\u0027 Keyref fails to refer to some key.",
+  stringliteral.json:129588:    "address": "0xB1F04DC"
+> stringliteral.json:129591:    "value": "The key was of an incorrect type for this dictionary.",
+  stringliteral.json:129592:    "address": "0xB1F04E0"
+> stringliteral.json:129595:    "value": "The keys and values arrays have different sizes.",
+  stringliteral.json:129596:    "address": "0xB1F04E4"
+> stringliteral.json:129599:    "value": "The keys for this dictionary are missing.",
+  stringliteral.json:129600:    "address": "0xB1F04E8"
+> stringliteral.json:129935:    "value": "The public key is not valid.",
+  stringliteral.json:129936:    "address": "0xB1F0638"
+> stringliteral.json:130215:    "value": "The source argument contains duplicate keys.",
+  stringliteral.json:130216:    "address": "0xB1F0750"
+> stringliteral.json:130223:    "value": "The specified RegistryKeyPermissionCheck value is invalid.",
+  stringliteral.json:130224:    "address": "0xB1F0758"
+> stringliteral.json:130251:    "value": "The specified item does not exist in this KeyedCollection.",
+  stringliteral.json:130252:    "address": "0xB1F0774"
+> stringliteral.json:130255:    "value": "The specified key \u0027{0}\u0027 does not exist in the ExpandoObject.",
+  stringliteral.json:130256:    "address": "0xB1F0778"
+> stringliteral.json:130811:    "value": "The {0} key is reserved by the system",
+  stringliteral.json:130812:    "address": "0xB1F09A4"
+> stringliteral.json:130867:    "value": "There is a duplicate key sequence \u0027{0}\u0027 for the \u0027{1}\u0027 key or unique identity 
+constraint.",
+  stringliteral.json:130868:    "address": "0xB1F09DC"
+> stringliteral.json:131003:    "value": "This constraint cannot be added since ForeignKey doesn\u0027t belong to table {0}.",
+  stringliteral.json:131004:    "address": "0xB1F0A64"
+> stringliteral.json:131079:    "value": "This is a known weak key.",
+  stringliteral.json:131080:    "address": "0xB1F0AB0"
+> stringliteral.json:131083:    "value": "This is a known weak, or semi-weak, key.",
+  stringliteral.json:131084:    "address": "0xB1F0AB4"
+> stringliteral.json:131559:    "value": "TipKey",
+  stringliteral.json:131560:    "address": "0xB1F0C90"
+> stringliteral.json:131611:    "value": "TipsKey",
+  stringliteral.json:131612:    "address": "0xB1F0CC4"
+> stringliteral.json:131651:    "value": "TitleKey",
+  stringliteral.json:131652:    "address": "0xB1F0CEC"
+> stringliteral.json:132147:    "value": "TouchScreenKeyboard is not supported",
+  stringliteral.json:132148:    "address": "0xB1F0EDC"
+> stringliteral.json:132275:    "value": "TrainingSkillCDFactorKey",
+  stringliteral.json:132276:    "address": "0xB1F0F5C"
+> stringliteral.json:132955:    "value": "Turkish (Turkey)",
+  stringliteral.json:132956:    "address": "0xB1F1204"
+> stringliteral.json:133131:    "value": "TxtKey",
+  stringliteral.json:133132:    "address": "0xB1F12B4"
+> stringliteral.json:133443:    "value": "TypeKey",
+  stringliteral.json:133444:    "address": "0xB1F13EC"
+> stringliteral.json:133471:    "value": "TypeNameKey",
+  stringliteral.json:133472:    "address": "0xB1F1408"
+> stringliteral.json:133631:    "value": "UGC Map Incremental Sync: Invalid map removing required key!",
+  stringliteral.json:133632:    "address": "0xB1F14A8"
+> stringliteral.json:133635:    "value": "UGC Map Incremental Sync: Invalid map setting required key!",
+  stringliteral.json:133636:    "address": "0xB1F14AC"
+> stringliteral.json:134739:    "value": "UGCAPIMapContainKey param count is less than 2",
+  stringliteral.json:134740:    "address": "0xB1F18FC"
+> stringliteral.json:134743:    "value": "UGCAPIMapGetAllKeys param count is less than 1",
+  stringliteral.json:134744:    "address": "0xB1F1900"
+> stringliteral.json:134991:    "value": "UGCAPIReadCSVDataRowByKey param count is less than 3",
+  stringliteral.json:134992:    "address": "0xB1F19F8"
+> stringliteral.json:135871:    "value": "UGCCustomLevelObjectEditorManifest: Failed to build apply target for one property, entity 
+property name is empty, Key: {0}",
+  stringliteral.json:135872:    "address": "0xB1F1D68"
+> stringliteral.json:135875:    "value": "UGCCustomLevelObjectEditorManifest: Failed to build apply target for one property, entity type 
+is empty, Key: {0}",
+  stringliteral.json:135876:    "address": "0xB1F1D6C"
+> stringliteral.json:135879:    "value": "UGCCustomLevelObjectEditorManifest: Failed to build apply target for one property, key is 
+corrupted, Key: {0}",
+  stringliteral.json:135880:    "address": "0xB1F1D70"
+> stringliteral.json:136319:    "value": "UGCDownloadResourceManager: Failed to get file info from Cache, Key: {0}",
+  stringliteral.json:136320:    "address": "0xB1F1F28"
+> stringliteral.json:137171:    "value": "UGCResourceForGameData.AutoMappingAssetBundleLocalPath miss ABInfo2Sha1.ContainsKey:",
+  stringliteral.json:137172:    "address": "0xB1F227C"
+> stringliteral.json:137587:    "value": "UGCTypeName_NoKey",
+  stringliteral.json:137588:    "address": "0xB1F241C"
+> stringliteral.json:138003:    "value": "UGC_WORKSHOP_NEW_PLAYER_RECOMMENDATION_KEY_",
+  stringliteral.json:138004:    "address": "0xB1F25BC"
+> stringliteral.json:141003:    "value": "UIInput.ClearKeyboard: has mKeybaord? {0}",
+  stringliteral.json:141004:    "address": "0xB1F3174"
+> stringliteral.json:141035:    "value": "UILOBBYICEWALLAutoRotateGUIDEKEY_",
+  stringliteral.json:141036:    "address": "0xB1F3194"
+> stringliteral.json:141039:    "value": "UILOBBYICEWALLDISPLAYGUIDEKEY_",
+  stringliteral.json:141040:    "address": "0xB1F3198"
+> stringliteral.json:141043:    "value": "UILOBBYSKYBOARDAUTOROTATEGUIDEKEY_",
+  stringliteral.json:141044:    "address": "0xB1F319C"
+> stringliteral.json:141047:    "value": "UILOBBYSKYBOARDDISPLAYGUIDEKEY_",
+  stringliteral.json:141048:    "address": "0xB1F31A0"
+> stringliteral.json:141051:    "value": "UILOBBYVEHICLEDISPLAYGUIDEKEY_",
+  stringliteral.json:141052:    "address": "0xB1F31A4"
+> stringliteral.json:141055:    "value": "UILOBBYVEHICLE_AUTOROTATE_GUIDEKEY_",
+  stringliteral.json:141056:    "address": "0xB1F31A8"
+> stringliteral.json:141059:    "value": "UILOBBYWEAPONRACKNEWGUIDEKEY",
+  stringliteral.json:141060:    "address": "0xB1F31AC"
+> stringliteral.json:143963:    "value": "UI_Icon_key",
+  stringliteral.json:143964:    "address": "0xB1F3D04"
+> stringliteral.json:143967:    "value": "UI_Icon_keyopen",
+  stringliteral.json:143968:    "address": "0xB1F3D08"
+> stringliteral.json:146471:    "value": "Unable to convert dictionary keys to string",
+  stringliteral.json:146472:    "address": "0xB1F46D0"
+> stringliteral.json:146519:    "value": "Unable to find key name that matches \u0027{0}\u0027",
+  stringliteral.json:146520:    "address": "0xB1F4700"
+> stringliteral.json:146543:    "value": "Unable to find target behaviour: key ",
+  stringliteral.json:146544:    "address": "0xB1F4718"
+> stringliteral.json:146779:    "value": "Unexpected StyleKeyword \u0027",
+  stringliteral.json:146780:    "address": "0xB1F4804"
+> stringliteral.json:147379:    "value": "Unknown Key Usage (",
+  stringliteral.json:147380:    "address": "0xB1F4A5C"
+> stringliteral.json:147383:    "value": "Unknown Key Usage ({0})",
+  stringliteral.json:147384:    "address": "0xB1F4A60"
+> stringliteral.json:147395:    "value": "Unknown StyleValueKeyword",
+  stringliteral.json:147396:    "address": "0xB1F4A6C"
+> stringliteral.json:147491:    "value": "Unknown private key format",
+  stringliteral.json:147492:    "address": "0xB1F4ACC"
+> stringliteral.json:147519:    "value": "Unknown type found for key ",
+  stringliteral.json:147520:    "address": "0xB1F4AE8"
+> stringliteral.json:148603:    "value": "V2_AvatarKeyart_{0}",
+  stringliteral.json:148604:    "address": "0xB1F4F24"
+> stringliteral.json:148879:    "value": "V2_matchKey_",
+  stringliteral.json:148880:    "address": "0xB1F5038"
+> stringliteral.json:149231:    "value": "VFXKey",
+  stringliteral.json:149232:    "address": "0xB1F5198"
+> stringliteral.json:149275:    "value": "VFXTypeKey",
+  stringliteral.json:149276:    "address": "0xB1F51C4"
+> stringliteral.json:149679:    "value": "VIRTUAL_BRAND_KEY_BRAND_TAB_ITEM_CNT_{0}_{1}_{2}",
+  stringliteral.json:149680:    "address": "0xB1F5358"
+> stringliteral.json:149683:    "value": "VIRTUAL_BRAND_KEY_CLOTH_CNT_IN_SINGLE_BRAND_{0}_{1}",
+  stringliteral.json:149684:    "address": "0xB1F535C"
+> stringliteral.json:149823:    "value": "Value for key ",
+  stringliteral.json:149824:    "address": "0xB1F53E8"
+> stringliteral.json:150367:    "value": "VibRateSet_key_0",
+  stringliteral.json:150368:    "address": "0xB1F5608"
+> stringliteral.json:150371:    "value": "VibRateSet_key_100",
+  stringliteral.json:150372:    "address": "0xB1F560C"
+> stringliteral.json:150375:    "value": "VibRateSet_key_101",
+  stringliteral.json:150376:    "address": "0xB1F5610"
+> stringliteral.json:150379:    "value": "VibRateSet_key_2",
+  stringliteral.json:150380:    "address": "0xB1F5614"
+> stringliteral.json:150383:    "value": "VibRateSet_key_200",
+  stringliteral.json:150384:    "address": "0xB1F5618"
+> stringliteral.json:150387:    "value": "VibRateSet_key_3",
+  stringliteral.json:150388:    "address": "0xB1F561C"
+> stringliteral.json:150391:    "value": "VibRateSet_key_300",
+  stringliteral.json:150392:    "address": "0xB1F5620"
+> stringliteral.json:150395:    "value": "VibRateSet_key_301",
+  stringliteral.json:150396:    "address": "0xB1F5624"
+> stringliteral.json:150399:    "value": "VibRateSet_key_302",
+  stringliteral.json:150400:    "address": "0xB1F5628"
+> stringliteral.json:150403:    "value": "VibRateSet_key_304",
+  stringliteral.json:150404:    "address": "0xB1F562C"
+> stringliteral.json:150407:    "value": "VibRateSet_key_400",
+  stringliteral.json:150408:    "address": "0xB1F5630"
+> stringliteral.json:150411:    "value": "VibRateSet_key_401",
+  stringliteral.json:150412:    "address": "0xB1F5634"
+> stringliteral.json:150415:    "value": "VibRateSet_key_402",
+  stringliteral.json:150416:    "address": "0xB1F5638"
+> stringliteral.json:150419:    "value": "VibRateSet_key_6",
+  stringliteral.json:150420:    "address": "0xB1F563C"
+> stringliteral.json:150423:    "value": "VibRateSet_key_600",
+  stringliteral.json:150424:    "address": "0xB1F5640"
+> stringliteral.json:150427:    "value": "VibRateSet_key_601",
+  stringliteral.json:150428:    "address": "0xB1F5644"
+> stringliteral.json:150431:    "value": "VibRateSet_key_{0}",
+  stringliteral.json:150432:    "address": "0xB1F5648"
+> stringliteral.json:151175:    "value": "Warning: multiple races found for key:",
+  stringliteral.json:151176:    "address": "0xB1F5930"
+> stringliteral.json:151523:    "value": "WeaponSkinCustomKey_",
+  stringliteral.json:151524:    "address": "0xB1F5A8C"
+> stringliteral.json:151791:    "value": "WebViewTutorialKeyDressUp",
+  stringliteral.json:151792:    "address": "0xB1F5B98"
+> stringliteral.json:151907:    "value": "When the ref attribute is present, the type attribute and complexType, simpleType, key, keyref, 
+and unique elements cannot be present.",
+  stringliteral.json:151908:    "address": "0xB1F5C0C"
+> stringliteral.json:152243:    "value": "Would set key-value if running on a physical device: {0}:{1}",
+  stringliteral.json:152244:    "address": "0xB1F5D5C"
+> stringliteral.json:152683:    "value": "X509KeyUsageFlags",
+  stringliteral.json:152684:    "address": "0xB1F5F14"
+> stringliteral.json:154371:    "value": "[AudioMixerGroup]Group Load Failed, key:{0}, value:{1}",
+  stringliteral.json:154372:    "address": "0xB1F65AC"
+> stringliteral.json:154407:    "value": "[AutoPickupConfigData.RefreshKeyState] AutoPickupSystem is off, this is not supported",
+  stringliteral.json:154408:    "address": "0xB1F65D0"
+> stringliteral.json:155387:    "value": "[DS] find mapping \u003CsyncID, entityID\u003E. old key=",
+  stringliteral.json:155388:    "address": "0xB1F69A4"
+> stringliteral.json:155415:    "value": "[Dan]UGCTimelineEditorEntityTrack::Deserialize Settings keys and values count mismatch",
+  stringliteral.json:155416:    "address": "0xB1F69C0"
+> stringliteral.json:155419:    "value": "[Dan]UGCTimelineEditorKeyClipTrack::Deserialize Settings keys and values count mismatch",
+  stringliteral.json:155420:    "address": "0xB1F69C4"
+> stringliteral.json:155423:    "value": "[Dan]UGCTimelineEditorKeyFrameTrack::Deserialize Settings keys and values count mismatch",
+  stringliteral.json:155424:    "address": "0xB1F69C8"
+> stringliteral.json:155427:    "value": "[Dan]UGCTimelineEditorPropTrack::Deserialize Settings keys and values count mismatch",
+  stringliteral.json:155428:    "address": "0xB1F69CC"
+> stringliteral.json:155899:    "value": "[FileInfoEncryptionHelper] Generated GGP key (length: {0})",
+  stringliteral.json:155900:    "address": "0xB1F6BA4"
+> stringliteral.json:157019:    "value": "[KEY]",
+  stringliteral.json:157020:    "address": "0xB1F7004"
+> stringliteral.json:157023:    "value": "[KeyActionSettingData.ParseData] value of \u0027KeyActionType\u0027:{0} not defined in 
+\u0027EKeyActionType\u0027",
+  stringliteral.json:157024:    "address": "0xB1F7008"
+> stringliteral.json:157027:    "value": "[KeyBase] GetComponentSafe: ",
+  stringliteral.json:157028:    "address": "0xB1F700C"
+> stringliteral.json:157031:    "value": "[KeyBase] GetComponentSafe: GameObject is null!",
+  stringliteral.json:157032:    "address": "0xB1F7010"
+> stringliteral.json:159131:    "value": "[Private Key]",
+  stringliteral.json:159132:    "address": "0xB1F7844"
+> stringliteral.json:159187:    "value": "[Public Key]",
+  stringliteral.json:159188:    "address": "0xB1F787C"
+> stringliteral.json:160599:    "value": "[UGC] Instantiate Entity failed, PrefabAssetKey:",
+  stringliteral.json:160600:    "address": "0xB1F7E00"
+> stringliteral.json:160843:    "value": "[UIBigMapController.OnMapLegendChange] change event with key \u0027{0}\u0027 value 
+\u0027{1}\u0027 shouldn\u0027t be received in BigMap, plz check!",
+  stringliteral.json:160844:    "address": "0xB1F7EF4"
+> stringliteral.json:161183:    "value": "[UIFlashStoreActivityGroupTitleController.GetActivityTypeTitleKey] param 
+\u0027activityType\u0027 {0} not supported!",
+  stringliteral.json:161184:    "address": "0xB1F8048"
+> stringliteral.json:163631:    "value": "[UIModelFlashStore.OnRequestFlashStoreInfoFinished] duplicate key \u0027{0}\u0027 in 
+account_flash_store_purchase",
+  stringliteral.json:163632:    "address": "0xB1F89D8"
+> stringliteral.json:163915:    "value": "[UIModelGameplayAffix.GetGameModeDropdownCollapseTitleKey_BR_Rank] style config for BR Rank not 
+found, plz check",
+  stringliteral.json:163916:    "address": "0xB1F8AF4"
+> stringliteral.json:163919:    "value": "[UIModelGameplayAffix.GetGameModeDropdownExpandTitleKey_BR_Rank] style config for BR Rank not 
+found, plz check",
+  stringliteral.json:163920:    "address": "0xB1F8AF8"
+> stringliteral.json:164123:    "value": "[UIModelHyperBook.OnRequestHyperBookInfoFinished] duplicate key {0} in \u0027book_infos\u0027, 
+exit",
+  stringliteral.json:164124:    "address": "0xB1F8BC4"
+> stringliteral.json:164135:    "value": "[UIModelHyperBook.OnRequestHyperBookSettingFinished] key {0} already exist, exit!",
+  stringliteral.json:164136:    "address": "0xB1F8BD0"
+> stringliteral.json:164523:    "value": "[UIModelSecretMessage.OnRequestSecretMessageKeyFinished] activityID{0} keygen:{1} 
+exchanged_num:{2}",
+  stringliteral.json:164524:    "address": "0xB1F8D54"
+> stringliteral.json:164527:    "value": "[UIModelSecretMessage.RequestExchangeSecretMessageKey] request with {0}",
+  stringliteral.json:164528:    "address": "0xB1F8D58"
+> stringliteral.json:164531:    "value": "[UIModelSecretMessage.RequestSecretMessageKey] activity desc with ID \u0027{0}\u0027 not found, 
+exit!",
+  stringliteral.json:164532:    "address": "0xB1F8D5C"
+> stringliteral.json:164535:    "value": "[UIModelSecretMessage.RequestSecretMessageKey] secretMessageDesc with ID\u0027{0}\u0027 not 
+found, exit!",
+  stringliteral.json:164536:    "address": "0xB1F8D60"
+> stringliteral.json:165587:    "value": "[UIVibrateNewSettingController] SettingKeyDict tryget fail",
+  stringliteral.json:165588:    "address": "0xB1F917C"
+> stringliteral.json:168547:    "value": "_PublicKey",
+  stringliteral.json:168548:    "address": "0xB1F9D0C"
+> stringliteral.json:168551:    "value": "_PublicKeyToken",
+  stringliteral.json:168552:    "address": "0xB1F9D10"
+> stringliteral.json:168875:    "value": "_StrongNameKeyPair",
+  stringliteral.json:168876:    "address": "0xB1F9E54"
+> stringliteral.json:169771:    "value": "_keyPairArray",
+  stringliteral.json:169772:    "address": "0xB1FA1D4"
+> stringliteral.json:169775:    "value": "_keyPairContainer",
+  stringliteral.json:169776:    "address": "0xB1FA1D8"
+> stringliteral.json:169779:    "value": "_keyPairExported",
+  stringliteral.json:169780:    "address": "0xB1FA1DC"
+> stringliteral.json:169819:    "value": "_publicKey",
+  stringliteral.json:169820:    "address": "0xB1FA204"
+> stringliteral.json:170247:    "value": "ad_cdn_url_key",
+  stringliteral.json:170248:    "address": "0xB1FA3B0"
+> stringliteral.json:170483:    "value": "ahievemtnDetailKey",
+  stringliteral.json:170484:    "address": "0xB1FA49C"
+> stringliteral.json:171215:    "value": "arrayMap add key duplicate ",
+  stringliteral.json:171216:    "address": "0xB1FA778"
+> stringliteral.json:171219:    "value": "arrayMap add key out of bounds ",
+  stringliteral.json:171220:    "address": "0xB1FA77C"
+> stringliteral.json:171223:    "value": "arrayMap get key out of bounds ",
+  stringliteral.json:171224:    "address": "0xB1FA780"
+> stringliteral.json:172087:    "value": "blockDescKey",
+  stringliteral.json:172088:    "address": "0xB1FAAE0"
+> stringliteral.json:172767:    "value": "buildDescKey",
+  stringliteral.json:172768:    "address": "0xB1FAD88"
+> stringliteral.json:173039:    "value": "can not request region and global leaderboard at the same 
+time,mainType:{0},subType:{1},mainKey:{2}",
+  stringliteral.json:173040:    "address": "0xB1FAE98"
+> stringliteral.json:173163:    "value": "cannot export private key",
+  stringliteral.json:173164:    "address": "0xB1FAF14"
+> stringliteral.json:173259:    "value": "catag_key",
+  stringliteral.json:173260:    "address": "0xB1FAF74"
+> stringliteral.json:173303:    "value": "cdn_url_key",
+  stringliteral.json:173304:    "address": "0xB1FAFA0"
+> stringliteral.json:173591:    "value": "childkey",
+  stringliteral.json:173592:    "address": "0xB1FB0C0"
+> stringliteral.json:174539:    "value": "console_key",
+  stringliteral.json:174540:    "address": "0xB1FB474"
+> stringliteral.json:175883:    "value": "data isn\u0027t a correctly encoded RSA public key",
+  stringliteral.json:175884:    "address": "0xB1FB9B4"
+> stringliteral.json:175891:    "value": "data.itemDic not CotainsKey ",
+  stringliteral.json:175892:    "address": "0xB1FB9BC"
+> stringliteral.json:175967:    "value": "dayTitleKey",
+  stringliteral.json:175968:    "address": "0xB1FBA08"
+> stringliteral.json:176255:    "value": "deletelocalkey",
+  stringliteral.json:176256:    "address": "0xB1FBB28"
+> stringliteral.json:176335:    "value": "descKey",
+  stringliteral.json:176336:    "address": "0xB1FBB78"
+> stringliteral.json:176339:    "value": "desc_hint_key",
+  stringliteral.json:176340:    "address": "0xB1FBB7C"
+> stringliteral.json:176343:    "value": "desc_key",
+  stringliteral.json:176344:    "address": "0xB1FBB80"
+> stringliteral.json:176719:    "value": "dont contains target key! ",
+  stringliteral.json:176720:    "address": "0xB1FBCF8"
+> stringliteral.json:177547:    "value": "enhancedKeyUsages",
+  stringliteral.json:177548:    "address": "0xB1FC034"
+> stringliteral.json:178967:    "value": "floatingkey",
+  stringliteral.json:178968:    "address": "0xB1FC5C0"
+> stringliteral.json:179487:    "value": "gainKey",
+  stringliteral.json:179488:    "address": "0xB1FC7C8"
+> stringliteral.json:180067:    "value": "getPublicKey",
+  stringliteral.json:180068:    "address": "0xB1FCA0C"
+> stringliteral.json:180623:    "value": "has mKeyboard? {0}",
+  stringliteral.json:180624:    "address": "0xB1FCC38"
+> stringliteral.json:180979:    "value": "hint_key",
+  stringliteral.json:180980:    "address": "0xB1FCD9C"
+> stringliteral.json:180991:    "value": "hint_percent_key",
+  stringliteral.json:180992:    "address": "0xB1FCDA8"
+> stringliteral.json:181547:    "value": "hudTipsKey",
+  stringliteral.json:181548:    "address": "0xB1FCFD4"
+> stringliteral.json:181647:    "value": "iap_cdn_url_key",
+  stringliteral.json:181648:    "address": "0xB1FD038"
+> stringliteral.json:182643:    "value": "invalid EncryptedPrivateKeyInfo",
+  stringliteral.json:182644:    "address": "0xB1FD41C"
+> stringliteral.json:182667:    "value": "invalid PrivateKeyInfo",
+  stringliteral.json:182668:    "address": "0xB1FD434"
+> stringliteral.json:182755:    "value": "invalid keypair",
+  stringliteral.json:182756:    "address": "0xB1FD48C"
+> stringliteral.json:182771:    "value": "invalid message header, msg key",
+  stringliteral.json:182772:    "address": "0xB1FD49C"
+> stringliteral.json:182791:    "value": "invalid private key format",
+  stringliteral.json:182792:    "address": "0xB1FD4B0"
+> stringliteral.json:182855:    "value": "invalid_key",
+  stringliteral.json:182856:    "address": "0xB1FD4F0"
+> stringliteral.json:184039:    "value": "key",
+  stringliteral.json:184040:    "address": "0xB1FD990"
+> stringliteral.json:184043:    "value": "key and value should not be null",
+  stringliteral.json:184044:    "address": "0xB1FD994"
+> stringliteral.json:184047:    "value": "key is null",
+  stringliteral.json:184048:    "address": "0xB1FD998"
+> stringliteral.json:184051:    "value": "key was invalid",
+  stringliteral.json:184052:    "address": "0xB1FD99C"
+> stringliteral.json:184055:    "value": "keyData",
+  stringliteral.json:184056:    "address": "0xB1FD9A0"
+> stringliteral.json:184059:    "value": "keyPairArray",
+  stringliteral.json:184060:    "address": "0xB1FD9A4"
+> stringliteral.json:184063:    "value": "keyPairContainer",
+  stringliteral.json:184064:    "address": "0xB1FD9A8"
+> stringliteral.json:184067:    "value": "keyPairFile",
+  stringliteral.json:184068:    "address": "0xB1FD9AC"
+> stringliteral.json:184071:    "value": "keySelector",
+  stringliteral.json:184072:    "address": "0xB1FD9B0"
+> stringliteral.json:184075:    "value": "keyValue",
+  stringliteral.json:184076:    "address": "0xB1FD9B4"
+> stringliteral.json:184079:    "value": "keyValuePair",
+  stringliteral.json:184080:    "address": "0xB1FD9B8"
+> stringliteral.json:184083:    "value": "key_name",
+  stringliteral.json:184084:    "address": "0xB1FD9BC"
+> stringliteral.json:184087:    "value": "keyboard-type",
+  stringliteral.json:184088:    "address": "0xB1FD9C0"
+> stringliteral.json:184091:    "value": "keypairs",
+  stringliteral.json:184092:    "address": "0xB1FD9C4"
+> stringliteral.json:184095:    "value": "keyref",
+  stringliteral.json:184096:    "address": "0xB1FD9C8"
+> stringliteral.json:184099:    "value": "keys",
+  stringliteral.json:184100:    "address": "0xB1FD9CC"
+> stringliteral.json:184299:    "value": "labelKey",
+  stringliteral.json:184300:    "address": "0xB1FDA94"
+> stringliteral.json:184303:    "value": "labelTipKey",
+  stringliteral.json:184304:    "address": "0xB1FDA98"
+> stringliteral.json:185211:    "value": "loc_key",
+  stringliteral.json:185212:    "address": "0xB1FDE24"
+> stringliteral.json:185323:    "value": "lockey",
+  stringliteral.json:185324:    "address": "0xB1FDE94"
+> stringliteral.json:185471:    "value": "mKeyboard.status: {0}, mKeyboard.active: {1}, mCached: {2}, mKeyboard.text: {3}, 
+inputShouldBeHidden: {4}, keyboardDone: {5}",
+  stringliteral.json:185472:    "address": "0xB1FDF28"
+> stringliteral.json:185475:    "value": "mKeyboard.status: {0}, mKeyboard.active: {1}, optimizeKeyborad: {2}",
+  stringliteral.json:185476:    "address": "0xB1FDF2C"
+> stringliteral.json:185483:    "value": "mWaitForKeyboard \u0026\u0026 !mKeyboard.active",
+  stringliteral.json:185484:    "address": "0xB1FDF34"
+> stringliteral.json:185487:    "value": "mWaitForKeyboard \u0026\u0026 mKeyboard.active",
+  stringliteral.json:185488:    "address": "0xB1FDF38"
+> stringliteral.json:185655:    "value": "m_MapConfigGroupDic\u0027s key:",
+  stringliteral.json:185656:    "address": "0xB1FDFE0"
+> stringliteral.json:185691:    "value": "m_OwnershipPool already contain key ",
+  stringliteral.json:185692:    "address": "0xB1FE004"
+> stringliteral.json:185695:    "value": "m_PlayerDic not CotainsKey ",
+  stringliteral.json:185696:    "address": "0xB1FE008"
+> stringliteral.json:186111:    "value": "matchKey",
+  stringliteral.json:186112:    "address": "0xB1FE1A8"
+> stringliteral.json:186515:    "value": "metaKey",
+  stringliteral.json:186516:    "address": "0xB1FE33C"
+> stringliteral.json:187279:    "value": "nameKey",
+  stringliteral.json:187280:    "address": "0xB1FE638"
+> stringliteral.json:187291:    "value": "name_key",
+  stringliteral.json:187292:    "address": "0xB1FE644"
+> stringliteral.json:187831:    "value": "no private key to export",
+  stringliteral.json:187832:    "address": "0xB1FE860"
+> stringliteral.json:188015:    "value": "not enough key parameters",
+  stringliteral.json:188016:    "address": "0xB1FE918"
+> stringliteral.json:189503:    "value": "paid_cdn_url_key",
+  stringliteral.json:189504:    "address": "0xB1FEEE8"
+> stringliteral.json:189631:    "value": "parentkey",
+  stringliteral.json:189632:    "address": "0xB1FEF68"
+> stringliteral.json:190699:    "value": "public key",
+  stringliteral.json:190700:    "address": "0xB1FF394"
+> stringliteral.json:190703:    "value": "public key encrypted",
+  stringliteral.json:190704:    "address": "0xB1FF398"
+> stringliteral.json:191795:    "value": "returnKey",
+  stringliteral.json:191796:    "address": "0xB1FF7DC"
+> stringliteral.json:191855:    "value": "rgbKey",
+  stringliteral.json:191856:    "address": "0xB1FF818"
+> stringliteral.json:192799:    "value": "setDataDomeSdkKey",
+  stringliteral.json:192800:    "address": "0xB1FFBC8"
+> stringliteral.json:194015:    "value": "sortkey1",
+  stringliteral.json:194016:    "address": "0xB200088"
+> stringliteral.json:194019:    "value": "sortkey2",
+  stringliteral.json:194020:    "address": "0xB20008C"
+> stringliteral.json:195039:    "value": "subLabelKey",
+  stringliteral.json:195040:    "address": "0xB200488"
+> stringliteral.json:195075:    "value": "subjectKeyIdentifier",
+  stringliteral.json:195076:    "address": "0xB2004AC"
+> stringliteral.json:195523:    "value": "system.security.cryptography.keyedhashalgorithm",
+  stringliteral.json:195524:    "address": "0xB20066C"
+> stringliteral.json:195743:    "value": "tag_key",
+  stringliteral.json:195744:    "address": "0xB200748"
+> stringliteral.json:196243:    "value": "timelineFirstEnterKey",
+  stringliteral.json:196244:    "address": "0xB20093C"
+> stringliteral.json:196275:    "value": "tipKey",
+  stringliteral.json:196276:    "address": "0xB20095C"
+> stringliteral.json:196719:    "value": "tripledeskeywrap",
+  stringliteral.json:196720:    "address": "0xB200B18"
+> stringliteral.json:197219:    "value": "unitKey",
+  stringliteral.json:197220:    "address": "0xB200D0C"
+> stringliteral.json:197703:    "value": "unpaid_cdn_url_key",
+  stringliteral.json:197704:    "address": "0xB200EF0"
+> stringliteral.json:197815:    "value": "update session key:",
+  stringliteral.json:197816:    "address": "0xB200F60"
+> stringliteral.json:198235:    "value": "value: {0}, isSelected: {1}, mKeyboard: {2}, mCached: {3}",
+  stringliteral.json:198236:    "address": "0xB201104"
+> stringliteral.json:198587:    "value": "view-data-key",
+  stringliteral.json:198588:    "address": "0xB201264"
+> stringliteral.json:200891:    "value": "{0} {1}: Key is missing at {2}",
+  stringliteral.json:200892:    "address": "0xB201B64"
+> stringliteral.json:201091:    "value": "{0}, Version={1}, Culture={2}, PublicKeyToken={3}",
+  stringliteral.json:201092:    "address": "0xB201C2C"
+> stringliteral.json:201683:    "value": "{0}Data.ScriptObjectDataToUIData({1}ConfigTitleNameKey, {2}Min, {3}Max, {4}, {5}Step);",
+  stringliteral.json:201684:    "address": "0xB201E7C"
+> stringliteral.json:201687:    "value": "{0}Data.ScriptObjectDataToUIData({1}ConfigTitleNameKey, {2}TxtKeyList, {3}List, {4});",
+  stringliteral.json:201688:    "address": "0xB201E80"
+> stringliteral.json:202143:    "value": "{{SpriteName:{0}, ContentLocKey:{1}, FontColor:{2}}}",
+  stringliteral.json:202144:    "address": "0xB202048"
+
+

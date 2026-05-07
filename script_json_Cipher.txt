@@ -1,0 +1,741 @@
+﻿
+  script.json:302950:      "Address": 49336518,
+> script.json:302951:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController.\u003CScrollProgress\u003Ed__35$$.ctor",
+> script.json:302952:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35___ctor 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35_o* __this, int32_t __1__state, const MethodInfo* method);",
+  script.json:302953:      "TypeSignature": "viii"
+  script.json:302954:    },
+  script.json:302955:    {
+  script.json:302956:      "Address": 49342735,
+> script.json:302957:      "Name": 
+"COW.UIBigEvent_CustomTC_DecipherPopupWndController.\u003CScrollProgress\u003Ed__35$$System.IDisposable.Dispose",
+> script.json:302958:      "Signature": "void 
+COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35__System_IDisposable_Dispose 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35_o* __this, const MethodInfo* method);",
+  script.json:302959:      "TypeSignature": "vii"
+  script.json:302960:    },
+  script.json:302961:    {
+  script.json:302962:      "Address": 49342745,
+> script.json:302963:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController.\u003CScrollProgress\u003Ed__35$$MoveNext",
+> script.json:302964:      "Signature": "bool COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35__MoveNext 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35_o* __this, const MethodInfo* method);",
+  script.json:302965:      "TypeSignature": "iii"
+  script.json:302966:    },
+  script.json:302967:    {
+  script.json:302968:      "Address": 49343558,
+> script.json:302969:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController.\u003CScrollProgress\u003Ed__35$$System.Collections.
+Generic.IEnumerator\u003CSystem.Object\u003E.get_Current",
+> script.json:302970:      "Signature": "Il2CppObject* COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35__System_Col
+lections_Generic_IEnumerator_System_Object__get_Current (COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35_o* 
+__this, const MethodInfo* method);",
+  script.json:302971:      "TypeSignature": "iii"
+  script.json:302972:    },
+  script.json:302973:    {
+  script.json:302974:      "Address": 49343575,
+> script.json:302975:      "Name": 
+"COW.UIBigEvent_CustomTC_DecipherPopupWndController.\u003CScrollProgress\u003Ed__35$$System.Collections.IEnumerator.Reset",
+> script.json:302976:      "Signature": "void 
+COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35__System_Collections_IEnumerator_Reset 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35_o* __this, const MethodInfo* method);",
+  script.json:302977:      "TypeSignature": "vii"
+  script.json:302978:    },
+  script.json:302979:    {
+  script.json:302980:      "Address": 49343665,
+> script.json:302981:      "Name": 
+"COW.UIBigEvent_CustomTC_DecipherPopupWndController.\u003CScrollProgress\u003Ed__35$$System.Collections.IEnumerator.get_Current",
+> script.json:302982:      "Signature": "Il2CppObject* 
+COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35__System_Collections_IEnumerator_get_Current 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35_o* __this, const MethodInfo* method);",
+  script.json:302983:      "TypeSignature": "iii"
+  script.json:302984:    },
+  script.json:302985:    {
+  script.json:302986:      "Address": 49336460,
+> script.json:302987:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController.\u003CWaitOpenAnimation\u003Ed__34$$.ctor",
+> script.json:302988:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34___ctor 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34_o* __this, int32_t __1__state, const MethodInfo* method);",
+  script.json:302989:      "TypeSignature": "viii"
+  script.json:302990:    },
+  script.json:302991:    {
+  script.json:302992:      "Address": 49343682,
+> script.json:302993:      "Name": 
+"COW.UIBigEvent_CustomTC_DecipherPopupWndController.\u003CWaitOpenAnimation\u003Ed__34$$System.IDisposable.Dispose",
+> script.json:302994:      "Signature": "void 
+COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34__System_IDisposable_Dispose 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34_o* __this, const MethodInfo* method);",
+  script.json:302995:      "TypeSignature": "vii"
+  script.json:302996:    },
+  script.json:302997:    {
+  script.json:302998:      "Address": 49343692,
+> script.json:302999:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController.\u003CWaitOpenAnimation\u003Ed__34$$MoveNext",
+> script.json:303000:      "Signature": "bool COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34__MoveNext 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34_o* __this, const MethodInfo* method);",
+  script.json:303001:      "TypeSignature": "iii"
+  script.json:303002:    },
+  script.json:303003:    {
+  script.json:303004:      "Address": 49343989,
+> script.json:303005:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController.\u003CWaitOpenAnimation\u003Ed__34$$System.Collectio
+ns.Generic.IEnumerator\u003CSystem.Object\u003E.get_Current",
+> script.json:303006:      "Signature": "Il2CppObject* COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34__System_
+Collections_Generic_IEnumerator_System_Object__get_Current (COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34_o* 
+__this, const MethodInfo* method);",
+  script.json:303007:      "TypeSignature": "iii"
+  script.json:303008:    },
+  script.json:303009:    {
+  script.json:303010:      "Address": 49344006,
+> script.json:303011:      "Name": 
+"COW.UIBigEvent_CustomTC_DecipherPopupWndController.\u003CWaitOpenAnimation\u003Ed__34$$System.Collections.IEnumerator.Reset",
+> script.json:303012:      "Signature": "void 
+COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34__System_Collections_IEnumerator_Reset 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34_o* __this, const MethodInfo* method);",
+  script.json:303013:      "TypeSignature": "vii"
+  script.json:303014:    },
+  script.json:303015:    {
+  script.json:303016:      "Address": 49344096,
+> script.json:303017:      "Name": 
+"COW.UIBigEvent_CustomTC_DecipherPopupWndController.\u003CWaitOpenAnimation\u003Ed__34$$System.Collections.IEnumerator.get_Current",
+> script.json:303018:      "Signature": "Il2CppObject* 
+COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34__System_Collections_IEnumerator_get_Current 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34_o* __this, const MethodInfo* method);",
+  script.json:303019:      "TypeSignature": "iii"
+  script.json:303020:    },
+  script.json:303021:    {
+  script.json:303022:      "Address": 49330093,
+> script.json:303023:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$GetResourceID",
+> script.json:303024:      "Signature": "GCommon_ResourceID_o COW_UIBigEvent_CustomTC_DecipherPopupWndController__GetResourceID (const 
+MethodInfo* method);",
+  script.json:303025:      "TypeSignature": "ii"
+  script.json:303026:    },
+  script.json:303027:    {
+  script.json:303028:      "Address": 49330283,
+> script.json:303029:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$OnUIInit",
+> script.json:303030:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__OnUIInit 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303031:      "TypeSignature": "vii"
+  script.json:303032:    },
+  script.json:303033:    {
+  script.json:303034:      "Address": 49331240,
+> script.json:303035:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$OnUIDestory",
+> script.json:303036:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__OnUIDestory 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303037:      "TypeSignature": "vii"
+  script.json:303038:    },
+  script.json:303039:    {
+  script.json:303040:      "Address": 49332365,
+> script.json:303041:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$SetPieceInfo",
+> script.json:303042:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__SetPieceInfo 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, uint32_t pieceId, uint32_t oldProgress, uint32_t targetProgress, uint32_t 
+multiple, const MethodInfo* method);",
+  script.json:303043:      "TypeSignature": "viiiiii"
+  script.json:303044:    },
+  script.json:303045:    {
+  script.json:303046:      "Address": 49333102,
+> script.json:303047:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$SetProgressInfo",
+> script.json:303048:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__SetProgressInfo 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, uint32_t oldProgress, uint32_t targetProgress, uint32_t multiple, const 
+MethodInfo* method);",
+  script.json:303049:      "TypeSignature": "viiiii"
+  script.json:303050:    },
+  script.json:303051:    {
+  script.json:303052:      "Address": 49334875,
+> script.json:303053:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$PlayProgressInfo",
+> script.json:303054:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__PlayProgressInfo 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, uint32_t oldProgress, uint32_t targetProgress, uint32_t multiple, const 
+MethodInfo* method);",
+  script.json:303055:      "TypeSignature": "viiiii"
+  script.json:303056:    },
+  script.json:303057:    {
+  script.json:303058:      "Address": 49335037,
+> script.json:303059:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$PlayProgressInfo",
+> script.json:303060:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__PlayProgressInfo 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303061:      "TypeSignature": "vii"
+  script.json:303062:    },
+  script.json:303063:    {
+  script.json:303064:      "Address": 49333624,
+> script.json:303065:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$WaitOpenAnimation",
+> script.json:303066:      "Signature": "System_Collections_IEnumerator_o* 
+COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation (COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const 
+MethodInfo* method);",
+  script.json:303067:      "TypeSignature": "iii"
+  script.json:303068:    },
+  script.json:303069:    {
+  script.json:303070:      "Address": 49333823,
+> script.json:303071:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$ScrollProgress",
+> script.json:303072:      "Signature": "System_Collections_IEnumerator_o* 
+COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress (COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const 
+MethodInfo* method);",
+  script.json:303073:      "TypeSignature": "iii"
+  script.json:303074:    },
+  script.json:303075:    {
+  script.json:303076:      "Address": 49334022,
+> script.json:303077:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$RefreshViewBeforeAnim",
+> script.json:303078:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__RefreshViewBeforeAnim 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303079:      "TypeSignature": "vii"
+  script.json:303080:    },
+  script.json:303081:    {
+  script.json:303082:      "Address": 49336576,
+> script.json:303083:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$RefreshViewEndAnim",
+> script.json:303084:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__RefreshViewEndAnim 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303085:      "TypeSignature": "vii"
+  script.json:303086:    },
+  script.json:303087:    {
+  script.json:303088:      "Address": 49338474,
+> script.json:303089:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$MakeItemPixelPerfect",
+> script.json:303090:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__MakeItemPixelPerfect 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303091:      "TypeSignature": "vii"
+  script.json:303092:    },
+  script.json:303093:    {
+  script.json:303094:      "Address": 49338740,
+> script.json:303095:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$InitEffectVFX",
+> script.json:303096:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__InitEffectVFX 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303097:      "TypeSignature": "vii"
+  script.json:303098:    },
+  script.json:303099:    {
+  script.json:303100:      "Address": 49331754,
+> script.json:303101:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$DestoryEffectVFX",
+> script.json:303102:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__DestoryEffectVFX 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303103:      "TypeSignature": "vii"
+  script.json:303104:    },
+  script.json:303105:    {
+  script.json:303106:      "Address": 49340485,
+> script.json:303107:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$OnClickDecipherBtn",
+> script.json:303108:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__OnClickDecipherBtn 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303109:      "TypeSignature": "vii"
+  script.json:303110:    },
+  script.json:303111:    {
+  script.json:303112:      "Address": 49340626,
+> script.json:303113:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$OnSetNavigationController",
+> script.json:303114:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__OnSetNavigationController 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303115:      "TypeSignature": "vii"
+  script.json:303116:    },
+  script.json:303117:    {
+  script.json:303118:      "Address": 49341886,
+> script.json:303119:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$OnCloseBtnClick",
+> script.json:303120:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__OnCloseBtnClick 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303121:      "TypeSignature": "vii"
+  script.json:303122:    },
+  script.json:303123:    {
+  script.json:303124:      "Address": 49341997,
+> script.json:303125:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$OnMaskCloseBtnClick",
+> script.json:303126:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__OnMaskCloseBtnClick 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303127:      "TypeSignature": "vii"
+  script.json:303128:    },
+  script.json:303129:    {
+  script.json:303130:      "Address": 49342143,
+> script.json:303131:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$UseCustomizedAnimation",
+> script.json:303132:      "Signature": "bool COW_UIBigEvent_CustomTC_DecipherPopupWndController__UseCustomizedAnimation 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303133:      "TypeSignature": "iii"
+  script.json:303134:    },
+  script.json:303135:    {
+  script.json:303136:      "Address": 49333325,
+> script.json:303137:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$PlayAnimationSafe",
+> script.json:303138:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__PlayAnimationSafe 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, UnityEngine_Animation_o* animation, System_String_o* clipName, const 
+MethodInfo* method);",
+  script.json:303139:      "TypeSignature": "viiii"
+  script.json:303140:    },
+  script.json:303141:    {
+  script.json:303142:      "Address": 49342249,
+> script.json:303143:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$GetTemplateType",
+> script.json:303144:      "Signature": "int32_t COW_UIBigEvent_CustomTC_DecipherPopupWndController__GetTemplateType 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303145:      "TypeSignature": "iii"
+  script.json:303146:    },
+  script.json:303147:    {
+  script.json:303148:      "Address": 49342358,
+> script.json:303149:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$get_TemplateUseType",
+> script.json:303150:      "Signature": "int32_t COW_UIBigEvent_CustomTC_DecipherPopupWndController__get_TemplateUseType 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303151:      "TypeSignature": "iii"
+  script.json:303152:    },
+  script.json:303153:    {
+  script.json:303154:      "Address": 49342378,
+> script.json:303155:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$set_TemplateUseType",
+> script.json:303156:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__set_TemplateUseType 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, int32_t value, const MethodInfo* method);",
+  script.json:303157:      "TypeSignature": "viii"
+  script.json:303158:    },
+  script.json:303159:    {
+  script.json:303160:      "Address": 49340915,
+> script.json:303161:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$OnTemplateUIInit",
+> script.json:303162:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController__OnTemplateUIInit 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303163:      "TypeSignature": "vii"
+  script.json:303164:    },
+  script.json:303165:    {
+  script.json:303166:      "Address": 49342401,
+> script.json:303167:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$.ctor",
+> script.json:303168:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController___ctor 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303169:      "TypeSignature": "vii"
+  script.json:303170:    },
+  script.json:303171:    {
+  script.json:303172:      "Address": 49342539,
+> script.json:303173:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$\u003C\u003EiFixBaseProxy_OnUIInit",
+> script.json:303174:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController____iFixBaseProxy_OnUIInit 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303175:      "TypeSignature": "vii"
+  script.json:303176:    },
+  script.json:303177:    {
+  script.json:303178:      "Address": 49342588,
+> script.json:303179:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$\u003C\u003EiFixBaseProxy_OnUIDestory",
+> script.json:303180:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndController____iFixBaseProxy_OnUIDestory 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303181:      "TypeSignature": "vii"
+  script.json:303182:    },
+  script.json:303183:    {
+  script.json:303184:      "Address": 49342637,
+> script.json:303185:      "Name": 
+"COW.UIBigEvent_CustomTC_DecipherPopupWndController$$\u003C\u003EiFixBaseProxy_OnSetNavigationController",
+> script.json:303186:      "Signature": "void 
+COW_UIBigEvent_CustomTC_DecipherPopupWndController____iFixBaseProxy_OnSetNavigationController 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303187:      "TypeSignature": "vii"
+  script.json:303188:    },
+  script.json:303189:    {
+  script.json:303190:      "Address": 49342686,
+> script.json:303191:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController$$\u003C\u003EiFixBaseProxy_UseCustomizedAnimation",
+> script.json:303192:      "Signature": "bool COW_UIBigEvent_CustomTC_DecipherPopupWndController____iFixBaseProxy_UseCustomizedAnimation 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndController_o* __this, const MethodInfo* method);",
+  script.json:303193:      "TypeSignature": "iii"
+  script.json:303194:    },
+  script.json:303195:    {
+  script.json:303310:      "Address": 49350566,
+> script.json:303311:      "Name": "COW.UIBigEvent_CustomTC_MainController$$OnClickDecipherBtn",
+> script.json:303312:      "Signature": "void COW_UIBigEvent_CustomTC_MainController__OnClickDecipherBtn 
+(COW_UIBigEvent_CustomTC_MainController_o* __this, const MethodInfo* method);",
+  script.json:303313:      "TypeSignature": "vii"
+  script.json:303314:    },
+  script.json:303315:    {
+  script.json:303346:      "Address": 49321835,
+> script.json:303347:      "Name": "COW.UIBigEvent_CustomTC_MainController$$GetDecipherGuide",
+> script.json:303348:      "Signature": "bool COW_UIBigEvent_CustomTC_MainController__GetDecipherGuide 
+(COW_UIBigEvent_CustomTC_MainController_o* __this, UIWidget_o** targetWidget, UIButton_o** finishButton, const MethodInfo* method);",
+  script.json:303349:      "TypeSignature": "iiiii"
+  script.json:303350:    },
+  script.json:303351:    {
+  script.json:303364:      "Address": 49363241,
+> script.json:303365:      "Name": "COW.UIBigEvent_CustomTC_MainController$$OnDecipherClose",
+> script.json:303366:      "Signature": "void COW_UIBigEvent_CustomTC_MainController__OnDecipherClose 
+(COW_UIBigEvent_CustomTC_MainController_o* __this, System_Object_array* data, const MethodInfo* method);",
+  script.json:303367:      "TypeSignature": "viii"
+  script.json:303368:    },
+  script.json:303369:    {
+  script.json:853588:      "Address": 93357969,
+> script.json:853589:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCDecipherBtnCdnUrl",
+> script.json:853590:      "Signature": "System_String_o* COW_UIModelBigEvent_CustomTC__GetTCDecipherBtnCdnUrl 
+(COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const MethodInfo* method);",
+  script.json:853591:      "TypeSignature": "iiii"
+  script.json:853592:    },
+  script.json:853593:    {
+  script.json:853678:      "Address": 93359904,
+> script.json:853679:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCDecipheringAnimationBgUrl",
+> script.json:853680:      "Signature": "System_String_o* COW_UIModelBigEvent_CustomTC__GetTCDecipheringAnimationBgUrl 
+(COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const MethodInfo* method);",
+  script.json:853681:      "TypeSignature": "iiii"
+  script.json:853682:    },
+  script.json:853683:    {
+  script.json:853684:      "Address": 93360033,
+> script.json:853685:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCDecipheringAnimationTipsBgUrl",
+> script.json:853686:      "Signature": "System_String_o* COW_UIModelBigEvent_CustomTC__GetTCDecipheringAnimationTipsBgUrl 
+(COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const MethodInfo* method);",
+  script.json:853687:      "TypeSignature": "iiii"
+  script.json:853688:    },
+  script.json:853689:    {
+  script.json:853690:      "Address": 93360162,
+> script.json:853691:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCDecipheringAnimationCancelBtnUrl",
+> script.json:853692:      "Signature": "System_String_o* COW_UIModelBigEvent_CustomTC__GetTCDecipheringAnimationCancelBtnUrl 
+(COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const MethodInfo* method);",
+  script.json:853693:      "TypeSignature": "iiii"
+  script.json:853694:    },
+  script.json:853695:    {
+  script.json:853696:      "Address": 93360291,
+> script.json:853697:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCPerfectDecipheringBgUrl",
+> script.json:853698:      "Signature": "System_String_o* COW_UIModelBigEvent_CustomTC__GetTCPerfectDecipheringBgUrl 
+(COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const MethodInfo* method);",
+  script.json:853699:      "TypeSignature": "iiii"
+  script.json:853700:    },
+  script.json:853701:    {
+  script.json:853762:      "Address": 93362139,
+> script.json:853763:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCDecipheringAnimationNumColor",
+> script.json:853764:      "Signature": "UnityEngine_Color_o COW_UIModelBigEvent_CustomTC__GetTCDecipheringAnimationNumColor 
+(COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const MethodInfo* method);",
+  script.json:853765:      "TypeSignature": "iiii"
+  script.json:853766:    },
+  script.json:853767:    {
+  script.json:853798:      "Address": 93363433,
+> script.json:853799:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCDecipherBtnLoc",
+> script.json:853800:      "Signature": "COW_UIModelBigEventTemplate_LocStrWithColor_o* COW_UIModelBigEvent_CustomTC__GetTCDecipherBtnLoc 
+(COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const MethodInfo* method);",
+  script.json:853801:      "TypeSignature": "iiii"
+  script.json:853802:    },
+  script.json:853803:    {
+  script.json:853804:      "Address": 93363637,
+> script.json:853805:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCDecipherBtnFreeLoc",
+> script.json:853806:      "Signature": "COW_UIModelBigEventTemplate_LocStrWithColor_o* 
+COW_UIModelBigEvent_CustomTC__GetTCDecipherBtnFreeLoc (COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const MethodInfo* 
+method);",
+  script.json:853807:      "TypeSignature": "iiii"
+  script.json:853808:    },
+  script.json:853809:    {
+  script.json:853840:      "Address": 93364861,
+> script.json:853841:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCDecipheringAnimationTipsTitleLoc",
+> script.json:853842:      "Signature": "COW_UIModelBigEventTemplate_LocStrWithColor_o* 
+COW_UIModelBigEvent_CustomTC__GetTCDecipheringAnimationTipsTitleLoc (COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const 
+MethodInfo* method);",
+  script.json:853843:      "TypeSignature": "iiii"
+  script.json:853844:    },
+  script.json:853845:    {
+  script.json:853846:      "Address": 93365065,
+> script.json:853847:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCDecipheringAnimationCancelLoc",
+> script.json:853848:      "Signature": "COW_UIModelBigEventTemplate_LocStrWithColor_o* 
+COW_UIModelBigEvent_CustomTC__GetTCDecipheringAnimationCancelLoc (COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const 
+MethodInfo* method);",
+  script.json:853849:      "TypeSignature": "iiii"
+  script.json:853850:    },
+  script.json:853851:    {
+  script.json:853852:      "Address": 93365269,
+> script.json:853853:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCPerfectDecipheringLoc",
+> script.json:853854:      "Signature": "COW_UIModelBigEventTemplate_LocStrWithColor_o* 
+COW_UIModelBigEvent_CustomTC__GetTCPerfectDecipheringLoc (COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const MethodInfo* 
+method);",
+  script.json:853855:      "TypeSignature": "iiii"
+  script.json:853856:    },
+  script.json:853857:    {
+  script.json:853906:      "Address": 93367861,
+> script.json:853907:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCDecipheringAnimationSuccessUIFX",
+> script.json:853908:      "Signature": "GCommon_ResourceID_o COW_UIModelBigEvent_CustomTC__GetTCDecipheringAnimationSuccessUIFX 
+(COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const MethodInfo* method);",
+  script.json:853909:      "TypeSignature": "iiii"
+  script.json:853910:    },
+  script.json:853911:    {
+  script.json:853912:      "Address": 93368295,
+> script.json:853913:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCDecipheringAnimationUIFX",
+> script.json:853914:      "Signature": "GCommon_ResourceID_o COW_UIModelBigEvent_CustomTC__GetTCDecipheringAnimationUIFX 
+(COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const MethodInfo* method);",
+  script.json:853915:      "TypeSignature": "iiii"
+  script.json:853916:    },
+  script.json:853917:    {
+  script.json:853972:      "Address": 93372664,
+> script.json:853973:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCDecipherInSound",
+> script.json:853974:      "Signature": "GCommon_ResourceID_o COW_UIModelBigEvent_CustomTC__GetTCDecipherInSound 
+(COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const MethodInfo* method);",
+  script.json:853975:      "TypeSignature": "iiii"
+  script.json:853976:    },
+  script.json:853977:    {
+  script.json:853978:      "Address": 93373098,
+> script.json:853979:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCDecipherPerfectSound",
+> script.json:853980:      "Signature": "GCommon_ResourceID_o COW_UIModelBigEvent_CustomTC__GetTCDecipherPerfectSound 
+(COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const MethodInfo* method);",
+  script.json:853981:      "TypeSignature": "iiii"
+  script.json:853982:    },
+  script.json:853983:    {
+  script.json:853984:      "Address": 93373532,
+> script.json:853985:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCDecipherSound",
+> script.json:853986:      "Signature": "GCommon_ResourceID_o COW_UIModelBigEvent_CustomTC__GetTCDecipherSound 
+(COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const MethodInfo* method);",
+  script.json:853987:      "TypeSignature": "iiii"
+  script.json:853988:    },
+  script.json:853989:    {
+  script.json:853990:      "Address": 93373966,
+> script.json:853991:      "Name": "COW.UIModelBigEvent_CustomTC$$GetTCDecipherSuccessSound",
+> script.json:853992:      "Signature": "GCommon_ResourceID_o COW_UIModelBigEvent_CustomTC__GetTCDecipherSuccessSound 
+(COW_UIModelBigEvent_CustomTC_o* __this, uint32_t useType, const MethodInfo* method);",
+  script.json:853993:      "TypeSignature": "iiii"
+  script.json:853994:    },
+  script.json:853995:    {
+  script.json:994738:      "Address": 105129525,
+> script.json:994739:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndView$$OnInit",
+> script.json:994740:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndView__OnInit 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndView_o* __this, UnityEngine_Transform_o* holder, const MethodInfo* method);",
+  script.json:994741:      "TypeSignature": "viii"
+  script.json:994742:    },
+  script.json:994743:    {
+  script.json:994744:      "Address": 105131881,
+> script.json:994745:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndView$$.ctor",
+> script.json:994746:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndView___ctor 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndView_o* __this, const MethodInfo* method);",
+  script.json:994747:      "TypeSignature": "vii"
+  script.json:994748:    },
+  script.json:994749:    {
+  script.json:994750:      "Address": 105131930,
+> script.json:994751:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndView$$\u003C\u003EiFixBaseProxy_OnInit",
+> script.json:994752:      "Signature": "void COW_UIBigEvent_CustomTC_DecipherPopupWndView____iFixBaseProxy_OnInit 
+(COW_UIBigEvent_CustomTC_DecipherPopupWndView_o* __this, UnityEngine_Transform_o* P0, const MethodInfo* method);",
+  script.json:994753:      "TypeSignature": "viii"
+  script.json:994754:    },
+  script.json:994755:    {
+  script.json:1425143:      "Name": "GCommon.AES$$Decrypt",
+> script.json:1425144:      "Signature": "System_String_o* GCommon_AES__Decrypt (System_Byte_array* cipherText, GCommon_AES_AESOption_o* 
+option, const MethodInfo* method);",
+  script.json:1425145:      "TypeSignature": "iiii"
+  script.json:1425146:    },
+  script.json:1425147:    {
+  script.json:1725964:      "Address": 167743998,
+> script.json:1725965:      "Name": "System.Security.Cryptography.DESTransform$$CipherFunct",
+> script.json:1725966:      "Signature": "uint32_t System_Security_Cryptography_DESTransform__CipherFunct 
+(System_Security_Cryptography_DESTransform_o* __this, uint32_t r, int32_t n, const MethodInfo* method);",
+  script.json:1725967:      "TypeSignature": "iiiii"
+  script.json:1725968:    },
+  script.json:1725969:    {
+  script.json:2132182:      "Address": 172303529,
+> script.json:2132183:      "Name": "Mono.Unity.UnityTls.unitytls_interface_struct.unitytls_tlsctx_set_supported_ciphersuites_t$$.ctor",
+> script.json:2132184:      "Signature": "void 
+Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t___ctor 
+(Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t_o* __this, Il2CppObject* object, intptr_t 
+method, const MethodInfo* method);",
+  script.json:2132185:      "TypeSignature": "viiii"
+  script.json:2132186:    },
+  script.json:2132187:    {
+  script.json:2132188:      "Address": 172303712,
+> script.json:2132189:      "Name": "Mono.Unity.UnityTls.unitytls_interface_struct.unitytls_tlsctx_set_supported_ciphersuites_t$$Invoke",
+> script.json:2132190:      "Signature": "void 
+Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t__Invoke 
+(Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t_o* __this, 
+Mono_Unity_UnityTls_unitytls_tlsctx_o* ctx, uint32_t* supportedCiphersuites, intptr_t supportedCiphersuitesLen, 
+Mono_Unity_UnityTls_unitytls_errorstate_o* errorState, const MethodInfo* method);",
+  script.json:2132191:      "TypeSignature": "viiiiii"
+  script.json:2132192:    },
+  script.json:2132193:    {
+  script.json:2132194:      "Address": 172303785,
+> script.json:2132195:      "Name": "Mono.Unity.UnityTls.unitytls_interface_struct.unitytls_tlsctx_get_ciphersuite_t$$.ctor",
+> script.json:2132196:      "Signature": "void Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t___ctor 
+(Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t_o* __this, Il2CppObject* object, intptr_t method, const 
+MethodInfo* method);",
+  script.json:2132197:      "TypeSignature": "viiii"
+  script.json:2132198:    },
+  script.json:2132199:    {
+  script.json:2132200:      "Address": 172303968,
+> script.json:2132201:      "Name": "Mono.Unity.UnityTls.unitytls_interface_struct.unitytls_tlsctx_get_ciphersuite_t$$Invoke",
+> script.json:2132202:      "Signature": "uint32_t Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t__Invoke 
+(Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t_o* __this, Mono_Unity_UnityTls_unitytls_tlsctx_o* ctx, 
+Mono_Unity_UnityTls_unitytls_errorstate_o* errorState, const MethodInfo* method);",
+  script.json:2132203:      "TypeSignature": "iiiii"
+  script.json:2132204:    },
+  script.json:2132205:    {
+  script.json:2340778:      "Address": 167184574,
+> script.json:2340779:      "Name": "Mono.Security.Interface.MonoTlsConnectionInfo$$get_CipherSuiteCode",
+> script.json:2340780:      "Signature": "uint16_t Mono_Security_Interface_MonoTlsConnectionInfo__get_CipherSuiteCode 
+(Mono_Security_Interface_MonoTlsConnectionInfo_o* __this, const MethodInfo* method);",
+  script.json:2340781:      "TypeSignature": "iii"
+  script.json:2340782:    },
+  script.json:2340783:    {
+  script.json:2340784:      "Address": 167184592,
+> script.json:2340785:      "Name": "Mono.Security.Interface.MonoTlsConnectionInfo$$set_CipherSuiteCode",
+> script.json:2340786:      "Signature": "void Mono_Security_Interface_MonoTlsConnectionInfo__set_CipherSuiteCode 
+(Mono_Security_Interface_MonoTlsConnectionInfo_o* __this, uint16_t value, const MethodInfo* method);",
+  script.json:2340787:      "TypeSignature": "viii"
+  script.json:2340788:    },
+  script.json:2340789:    {
+  script.json:2340994:      "Address": 167186334,
+> script.json:2340995:      "Name": "Mono.Security.Interface.MonoTlsSettings$$get_EnabledCiphers",
+> script.json:2340996:      "Signature": "Mono_Security_Interface_CipherSuiteCode_array* 
+Mono_Security_Interface_MonoTlsSettings__get_EnabledCiphers (Mono_Security_Interface_MonoTlsSettings_o* __this, const MethodInfo* 
+method);",
+  script.json:2340997:      "TypeSignature": "iii"
+  script.json:2340998:    },
+  script.json:2340999:    {
+  script.json:2341000:      "Address": 167186351,
+> script.json:2341001:      "Name": "Mono.Security.Interface.MonoTlsSettings$$set_EnabledCiphers",
+> script.json:2341002:      "Signature": "void Mono_Security_Interface_MonoTlsSettings__set_EnabledCiphers 
+(Mono_Security_Interface_MonoTlsSettings_o* __this, Mono_Security_Interface_CipherSuiteCode_array* value, const MethodInfo* method);",
+  script.json:2341003:      "TypeSignature": "viii"
+  script.json:2341004:    },
+  script.json:2341005:    {
+  script.json:2437824:      "Address": 186492480,
+> script.json:2437825:      "Value": "CustomTC_Guide_Decipher"
+  script.json:2437826:    },
+  script.json:2437827:    {
+  script.json:2437828:      "Address": 186492484,
+  script.json:2438396:      "Address": 186493052,
+> script.json:2438397:      "Value": "Data Encipherment"
+  script.json:2438398:    },
+  script.json:2438399:    {
+  script.json:2438400:      "Address": 186493056,
+  script.json:2439104:      "Address": 186493760,
+> script.json:2439105:      "Value": "Decipher"
+  script.json:2439106:    },
+  script.json:2439107:    {
+  script.json:2439108:      "Address": 186493764,
+> script.json:2439109:      "Value": "Decipher Only"
+  script.json:2439110:    },
+  script.json:2439111:    {
+  script.json:2439112:      "Address": 186493768,
+  script.json:2442216:      "Address": 186496872,
+> script.json:2442217:      "Value": "Encipher Only"
+  script.json:2442218:    },
+  script.json:2442219:    {
+  script.json:2442220:      "Address": 186496876,
+  script.json:2449680:      "Address": 186504336,
+> script.json:2449681:      "Value": "Failed to set list of supported ciphers"
+  script.json:2449682:    },
+  script.json:2449683:    {
+  script.json:2449684:      "Address": 186504340,
+  script.json:2463724:      "Address": 186518380,
+> script.json:2463725:      "Value": "Key Encipherment"
+  script.json:2463726:    },
+  script.json:2463727:    {
+  script.json:2463728:      "Address": 186518384,
+  script.json:2491864:      "Address": 186546520,
+> script.json:2491865:      "Value": "Specified cipher mode is not valid for this algorithm."
+  script.json:2491866:    },
+  script.json:2491867:    {
+  script.json:2491868:      "Address": 186546524,
+  script.json:2518496:      "Address": 186573152,
+> script.json:2518497:      "Value": "T_48_T_HC_MISSION_DECIPHER_HACK"
+  script.json:2518498:    },
+  script.json:2518499:    {
+  script.json:2518500:      "Address": 186573156,
+  script.json:2536772:      "Address": 186591428,
+> script.json:2536773:      "Value": "UIFX_Jumpsuit23B_DecipherPopupWnd_Explode"
+  script.json:2536774:    },
+  script.json:2536775:    {
+  script.json:2536776:      "Address": 186591432,
+> script.json:2536777:      "Value": "UIFX_Jumpsuit23B_DecipherPopupWnd_Noise"
+  script.json:2536778:    },
+  script.json:2536779:    {
+  script.json:2536780:      "Address": 186591436,
+> script.json:2536781:      "Value": "UIFX_Jumpsuit23B_DecipherPopupWnd_Open"
+  script.json:2536782:    },
+  script.json:2536783:    {
+  script.json:2536784:      "Address": 186591440,
+> script.json:2536785:      "Value": "UIFX_Jumpsuit23B_DecipherPopupWnd_Stand"
+  script.json:2536786:    },
+  script.json:2536787:    {
+  script.json:2536788:      "Address": 186591444,
+> script.json:2536789:      "Value": "UIFX_Jumpsuit23B_DecipherPopupWnd_UiExplode"
+  script.json:2536790:    },
+  script.json:2536791:    {
+  script.json:2536792:      "Address": 186591448,
+> script.json:2536793:      "Value": "UIFX_Jumpsuit23B_DecipherPopupWnd_UiOpen"
+  script.json:2536794:    },
+  script.json:2536795:    {
+  script.json:2536796:      "Address": 186591452,
+> script.json:2536797:      "Value": "UIFX_Jumpsuit23B_DecipherPopupWnd_UiSuccesslabel"
+  script.json:2536798:    },
+  script.json:2536799:    {
+  script.json:2536800:      "Address": 186591456,
+  script.json:2545532:      "Address": 186600188,
+> script.json:2545533:      "Value": "Unkown CipherMode"
+  script.json:2545534:    },
+  script.json:2545535:    {
+  script.json:2545536:      "Address": 186600192,
+  script.json:2571624:      "Address": 186626280,
+> script.json:2571625:      "Value": "cipherText"
+  script.json:2571626:    },
+  script.json:2571627:    {
+  script.json:2571628:      "Address": 186626284,
+  script.json:2613991:      "Address": 185862380,
+> script.json:2613992:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController_var",
+  script.json:2613993:      "Signature": "Il2CppType*"
+  script.json:2613994:    },
+  script.json:2613995:    {
+  script.json:2613996:      "Address": 185862384,
+> script.json:2613997:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndView_var",
+  script.json:2613998:      "Signature": "Il2CppType*"
+  script.json:2613999:    },
+  script.json:2614000:    {
+  script.json:2703046:      "Address": 185933624,
+> script.json:2703047:      "Name": "Mono.Unity.UnityTls.unitytls_ciphersuite[]_TypeInfo",
+  script.json:2703048:      "Signature": "Il2CppClass*"
+  script.json:2703049:    },
+  script.json:2703050:    {
+  script.json:2717596:      "Address": 185945264,
+> script.json:2717597:      "Name": "System.Security.Cryptography.CipherMode_TypeInfo",
+> script.json:2717598:      "Signature": "System_Security_Cryptography_CipherMode_c*"
+  script.json:2717599:    },
+  script.json:2717600:    {
+  script.json:2717601:      "Address": 185945268,
+> script.json:2717602:      "Name": "Mono.Security.Interface.CipherSuiteCode_TypeInfo",
+> script.json:2717603:      "Signature": "Mono_Security_Interface_CipherSuiteCode_c*"
+  script.json:2717604:    },
+  script.json:2717605:    {
+  script.json:2717606:      "Address": 185945272,
+  script.json:2758796:      "Address": 185978224,
+> script.json:2758797:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController_TypeInfo",
+> script.json:2758798:      "Signature": "COW_UIBigEvent_CustomTC_DecipherPopupWndController_c*"
+  script.json:2758799:    },
+  script.json:2758800:    {
+  script.json:2758801:      "Address": 185978228,
+> script.json:2758802:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndView_TypeInfo",
+> script.json:2758803:      "Signature": "COW_UIBigEvent_CustomTC_DecipherPopupWndView_c*"
+  script.json:2758804:    },
+  script.json:2758805:    {
+  script.json:2758806:      "Address": 185978232,
+  script.json:2809726:      "Address": 186018968,
+> script.json:2809727:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController.\u003CScrollProgress\u003Ed__35_TypeInfo",
+> script.json:2809728:      "Signature": "COW_UIBigEvent_CustomTC_DecipherPopupWndController__ScrollProgress_d__35_c*"
+  script.json:2809729:    },
+  script.json:2809730:    {
+  script.json:2809731:      "Address": 186018972,
+> script.json:2809732:      "Name": "COW.UIBigEvent_CustomTC_DecipherPopupWndController.\u003CWaitOpenAnimation\u003Ed__34_TypeInfo",
+> script.json:2809733:      "Signature": "COW_UIBigEvent_CustomTC_DecipherPopupWndController__WaitOpenAnimation_d__34_c*"
+  script.json:2809734:    },
+  script.json:2809735:    {
+  script.json:2809736:      "Address": 186018976,
+  script.json:2831236:      "Address": 186036176,
+> script.json:2831237:      "Name": "Mono.Unity.UnityTls.unitytls_interface_struct.unitytls_tlsctx_get_ciphersuite_t_TypeInfo",
+> script.json:2831238:      "Signature": "Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_get_ciphersuite_t_c*"
+  script.json:2831239:    },
+  script.json:2831240:    {
+  script.json:2831241:      "Address": 186036180,
+  script.json:2831271:      "Address": 186036204,
+> script.json:2831272:      "Name": "Mono.Unity.UnityTls.unitytls_interface_struct.unitytls_tlsctx_set_supported_ciphersuites_t_TypeInfo",
+> script.json:2831273:      "Signature": "Mono_Unity_UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t_c*"
+  script.json:2831274:    },
+  script.json:2831275:    {
+  script.json:2831276:      "Address": 186036208,
+  script.json:3230143:      "Address": 186340032,
+> script.json:3230144:      "Name": "Method$COW.UIBigEvent_CustomTC_DecipherPopupWndController.MakeItemPixelPerfect()",
+  script.json:3230145:      "MethodAddress": 49338474
+  script.json:3230146:    },
+  script.json:3230147:    {
+  script.json:3230148:      "Address": 186340036,
+> script.json:3230149:      "Name": "Method$COW.UIBigEvent_CustomTC_DecipherPopupWndController.OnClickDecipherBtn()",
+  script.json:3230150:      "MethodAddress": 49340485
+  script.json:3230151:    },
+  script.json:3230152:    {
+  script.json:3230153:      "Address": 186340040,
+> script.json:3230154:      "Name": "Method$COW.UIBigEvent_CustomTC_DecipherPopupWndController.OnCloseBtnClick()",
+  script.json:3230155:      "MethodAddress": 49341886
+  script.json:3230156:    },
+  script.json:3230157:    {
+  script.json:3230158:      "Address": 186340044,
+> script.json:3230159:      "Name": "Method$COW.UIBigEvent_CustomTC_DecipherPopupWndController.OnMaskCloseBtnClick()",
+  script.json:3230160:      "MethodAddress": 49341997
+  script.json:3230161:    },
+  script.json:3230162:    {
+  script.json:3230178:      "Address": 186340060,
+> script.json:3230179:      "Name": "Method$COW.UIBigEvent_CustomTC_MainController.OnClickDecipherBtn()",
+  script.json:3230180:      "MethodAddress": 49350566
+  script.json:3230181:    },
+  script.json:3230182:    {
+  script.json:3230193:      "Address": 186340072,
+> script.json:3230194:      "Name": "Method$COW.UIBigEvent_CustomTC_MainController.OnDecipherClose()",
+  script.json:3230195:      "MethodAddress": 49363241
+  script.json:3230196:    },
+  script.json:3230197:    {
+  script.json:3341053:      "Address": 186428760,
+> script.json:3341054:      "Name": 
+"Method$COW.UIBigEvent_CustomTC_DecipherPopupWndController.\u003CScrollProgress\u003Ed__35.System.Collections.IEnumerator.Reset()",
+  script.json:3341055:      "MethodAddress": 49343575
+  script.json:3341056:    },
+  script.json:3341057:    {
+  script.json:3341058:      "Address": 186428764,
+> script.json:3341059:      "Name": 
+"Method$COW.UIBigEvent_CustomTC_DecipherPopupWndController.\u003CWaitOpenAnimation\u003Ed__34.System.Collections.IEnumerator.Reset()",
+  script.json:3341060:      "MethodAddress": 49344006
+  script.json:3341061:    },
+  script.json:3341062:    {
+
+

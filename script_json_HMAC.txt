@@ -1,0 +1,547 @@
+﻿
+  script.json:136624:      "Address": 87371550,
+> script.json:136625:      "Name": "message.ELCLNJCHMAC$$Serialize",
+> script.json:136626:      "Signature": "void message_ELCLNJCHMAC__Serialize (message_ELCLNJCHMAC_o* __this, GCommon_FastBinaryWriter_o* 
+NNPGNFBKEMM, const MethodInfo* method);",
+  script.json:136627:      "TypeSignature": "viii"
+  script.json:136628:    },
+  script.json:136629:    {
+  script.json:136630:      "Address": 87371999,
+> script.json:136631:      "Name": "message.ELCLNJCHMAC$$UnSerialize",
+> script.json:136632:      "Signature": "void message_ELCLNJCHMAC__UnSerialize (message_ELCLNJCHMAC_o* __this, GCommon_FastBinaryReader_o* 
+JBJHPGPCKFA, const MethodInfo* method);",
+  script.json:136633:      "TypeSignature": "viii"
+  script.json:136634:    },
+  script.json:136635:    {
+  script.json:136636:      "Address": 87372401,
+> script.json:136637:      "Name": "message.ELCLNJCHMAC$$Recycle",
+> script.json:136638:      "Signature": "void message_ELCLNJCHMAC__Recycle (message_ELCLNJCHMAC_o* __this, const MethodInfo* method);",
+  script.json:136639:      "TypeSignature": "vii"
+  script.json:136640:    },
+  script.json:136641:    {
+  script.json:136642:      "Address": 87372600,
+> script.json:136643:      "Name": "message.ELCLNJCHMAC$$.ctor",
+> script.json:136644:      "Signature": "void message_ELCLNJCHMAC___ctor (message_ELCLNJCHMAC_o* __this, const MethodInfo* method);",
+  script.json:136645:      "TypeSignature": "vii"
+  script.json:136646:    },
+  script.json:136647:    {
+  script.json:1152220:      "Address": 118699998,
+> script.json:1152221:      "Name": "COW.GamePlay.Player$$GEHMACMODML",
+> script.json:1152222:      "Signature": "void COW_GamePlay_Player__GEHMACMODML (COW_GamePlay_Player_o* __this, uint32_t IDNEFEOPGIF, 
+const MethodInfo* method);",
+  script.json:1152223:      "TypeSignature": "viii"
+  script.json:1152224:    },
+  script.json:1152225:    {
+  script.json:1158466:      "Address": 119176771,
+> script.json:1158467:      "Name": "COW.GamePlay.Player$$AFFMPHMACMO",
+> script.json:1158468:      "Signature": "void COW_GamePlay_Player__AFFMPHMACMO (COW_GamePlay_Player_o* __this, const MethodInfo* 
+method);",
+  script.json:1158469:      "TypeSignature": "vii"
+  script.json:1158470:    },
+  script.json:1158471:    {
+  script.json:1274230:      "Address": 127457187,
+> script.json:1274231:      "Name": "COW.GamePlay.NGDMFPNOIOF$$AHMHMACDFKK",
+> script.json:1274232:      "Signature": "System_String_o* COW_GamePlay_NGDMFPNOIOF__AHMHMACDFKK (COW_GamePlay_NGDMFPNOIOF_o* __this, 
+const MethodInfo* method);",
+  script.json:1274233:      "TypeSignature": "iii"
+  script.json:1274234:    },
+  script.json:1274235:    {
+  script.json:1286807:      "Name": "COW.GamePlay.KEPDHPAAHGP$$HLEECDJBHLE",
+> script.json:1286808:      "Signature": "System_Security_Cryptography_HMACSHA256_o* COW_GamePlay_KEPDHPAAHGP__HLEECDJBHLE (const 
+MethodInfo* method);",
+  script.json:1286809:      "TypeSignature": "ii"
+  script.json:1286810:    },
+  script.json:1286811:    {
+  script.json:1286813:      "Name": "COW.GamePlay.KEPDHPAAHGP$$EDFAHPEDOPB",
+> script.json:1286814:      "Signature": "void COW_GamePlay_KEPDHPAAHGP__EDFAHPEDOPB (System_Security_Cryptography_HMACSHA256_o* 
+IMGNBGJDAHG, const MethodInfo* method);",
+  script.json:1286815:      "TypeSignature": "vii"
+  script.json:1286816:    },
+  script.json:1286817:    {
+  script.json:1294169:      "Name": "COW.GamePlay.KPDMJKOEHEE$$DLBDOOKDCKG",
+> script.json:1294170:      "Signature": "void COW_GamePlay_KPDMJKOEHEE__DLBDOOKDCKG (COW_GamePlay_KPDMJKOEHEE_o* __this, 
+message_ELCLNJCHMAC_o* LHCHNFGKLHD, const MethodInfo* method);",
+  script.json:1294171:      "TypeSignature": "viii"
+  script.json:1294172:    },
+  script.json:1294173:    {
+  script.json:1330648:      "Address": 131946817,
+> script.json:1330649:      "Name": "COW.GamePlay.DFHMACEOJNC$$GBBGALIFFND",
+> script.json:1330650:      "Signature": "bool COW_GamePlay_DFHMACEOJNC__GBBGALIFFND (COW_GamePlay_DFHMACEOJNC_o* __this, const 
+MethodInfo* method);",
+  script.json:1330651:      "TypeSignature": "iii"
+  script.json:1330652:    },
+  script.json:1330653:    {
+  script.json:1330654:      "Address": 131946923,
+> script.json:1330655:      "Name": "COW.GamePlay.DFHMACEOJNC$$BBFINNCAEGG",
+> script.json:1330656:      "Signature": "bool COW_GamePlay_DFHMACEOJNC__BBFINNCAEGG (COW_GamePlay_DFHMACEOJNC_o* __this, const 
+MethodInfo* method);",
+  script.json:1330657:      "TypeSignature": "iii"
+  script.json:1330658:    },
+  script.json:1330659:    {
+  script.json:1330660:      "Address": 131947029,
+> script.json:1330661:      "Name": "COW.GamePlay.DFHMACEOJNC$$PBELFCLACAD",
+> script.json:1330662:      "Signature": "bool COW_GamePlay_DFHMACEOJNC__PBELFCLACAD (COW_GamePlay_DFHMACEOJNC_o* __this, const 
+MethodInfo* method);",
+  script.json:1330663:      "TypeSignature": "iii"
+  script.json:1330664:    },
+  script.json:1330665:    {
+  script.json:1330666:      "Address": 131947135,
+> script.json:1330667:      "Name": "COW.GamePlay.DFHMACEOJNC$$AALCLODGFFP",
+> script.json:1330668:      "Signature": "bool COW_GamePlay_DFHMACEOJNC__AALCLODGFFP (COW_GamePlay_DFHMACEOJNC_o* __this, const 
+MethodInfo* method);",
+  script.json:1330669:      "TypeSignature": "iii"
+  script.json:1330670:    },
+  script.json:1330671:    {
+  script.json:1330672:      "Address": 131947241,
+> script.json:1330673:      "Name": "COW.GamePlay.DFHMACEOJNC$$PAMNHOLMFPG",
+> script.json:1330674:      "Signature": "float COW_GamePlay_DFHMACEOJNC__PAMNHOLMFPG (COW_GamePlay_DFHMACEOJNC_o* __this, const 
+MethodInfo* method);",
+  script.json:1330675:      "TypeSignature": "fii"
+  script.json:1330676:    },
+  script.json:1330677:    {
+  script.json:1330678:      "Address": 131947350,
+> script.json:1330679:      "Name": "COW.GamePlay.DFHMACEOJNC$$LFEAJHBIDPB",
+> script.json:1330680:      "Signature": "float COW_GamePlay_DFHMACEOJNC__LFEAJHBIDPB (COW_GamePlay_DFHMACEOJNC_o* __this, const 
+MethodInfo* method);",
+  script.json:1330681:      "TypeSignature": "fii"
+  script.json:1330682:    },
+  script.json:1330683:    {
+  script.json:1330684:      "Address": 131947459,
+> script.json:1330685:      "Name": "COW.GamePlay.DFHMACEOJNC$$KIJGIEPCPFL",
+> script.json:1330686:      "Signature": "bool COW_GamePlay_DFHMACEOJNC__KIJGIEPCPFL (COW_GamePlay_DFHMACEOJNC_o* __this, 
+System_String_o** GACDBEHFLOG, const MethodInfo* method);",
+  script.json:1330687:      "TypeSignature": "iiii"
+  script.json:1330688:    },
+  script.json:1330689:    {
+  script.json:1330690:      "Address": 131947883,
+> script.json:1330691:      "Name": "COW.GamePlay.DFHMACEOJNC$$MKMMPAEBLFC",
+> script.json:1330692:      "Signature": "bool COW_GamePlay_DFHMACEOJNC__MKMMPAEBLFC (COW_GamePlay_DFHMACEOJNC_o* __this, 
+System_String_o** GACDBEHFLOG, const MethodInfo* method);",
+  script.json:1330693:      "TypeSignature": "iiii"
+  script.json:1330694:    },
+  script.json:1330695:    {
+  script.json:1330696:      "Address": 131948205,
+> script.json:1330697:      "Name": "COW.GamePlay.DFHMACEOJNC$$ENEKCGGEHOC",
+> script.json:1330698:      "Signature": "bool COW_GamePlay_DFHMACEOJNC__ENEKCGGEHOC (COW_GamePlay_DFHMACEOJNC_o* __this, const 
+MethodInfo* method);",
+  script.json:1330699:      "TypeSignature": "iii"
+  script.json:1330700:    },
+  script.json:1330701:    {
+  script.json:1330702:      "Address": 131948474,
+> script.json:1330703:      "Name": "COW.GamePlay.DFHMACEOJNC$$.ctor",
+> script.json:1330704:      "Signature": "void COW_GamePlay_DFHMACEOJNC___ctor (COW_GamePlay_DFHMACEOJNC_o* __this, const MethodInfo* 
+method);",
+  script.json:1330705:      "TypeSignature": "vii"
+  script.json:1330706:    },
+  script.json:1330707:    {
+  script.json:1330708:      "Address": 131948533,
+> script.json:1330709:      "Name": "COW.GamePlay.DFHMACEOJNC$$\u003C\u003EiFixBaseProxy_GBBGALIFFND",
+> script.json:1330710:      "Signature": "bool COW_GamePlay_DFHMACEOJNC____iFixBaseProxy_GBBGALIFFND (COW_GamePlay_DFHMACEOJNC_o* __this, 
+const MethodInfo* method);",
+  script.json:1330711:      "TypeSignature": "iii"
+  script.json:1330712:    },
+  script.json:1330713:    {
+  script.json:1330714:      "Address": 131948582,
+> script.json:1330715:      "Name": "COW.GamePlay.DFHMACEOJNC$$\u003C\u003EiFixBaseProxy_BBFINNCAEGG",
+> script.json:1330716:      "Signature": "bool COW_GamePlay_DFHMACEOJNC____iFixBaseProxy_BBFINNCAEGG (COW_GamePlay_DFHMACEOJNC_o* __this, 
+const MethodInfo* method);",
+  script.json:1330717:      "TypeSignature": "iii"
+  script.json:1330718:    },
+  script.json:1330719:    {
+  script.json:1330720:      "Address": 131948631,
+> script.json:1330721:      "Name": "COW.GamePlay.DFHMACEOJNC$$\u003C\u003EiFixBaseProxy_PBELFCLACAD",
+> script.json:1330722:      "Signature": "bool COW_GamePlay_DFHMACEOJNC____iFixBaseProxy_PBELFCLACAD (COW_GamePlay_DFHMACEOJNC_o* __this, 
+const MethodInfo* method);",
+  script.json:1330723:      "TypeSignature": "iii"
+  script.json:1330724:    },
+  script.json:1330725:    {
+  script.json:1330726:      "Address": 131948680,
+> script.json:1330727:      "Name": "COW.GamePlay.DFHMACEOJNC$$\u003C\u003EiFixBaseProxy_AALCLODGFFP",
+> script.json:1330728:      "Signature": "bool COW_GamePlay_DFHMACEOJNC____iFixBaseProxy_AALCLODGFFP (COW_GamePlay_DFHMACEOJNC_o* __this, 
+const MethodInfo* method);",
+  script.json:1330729:      "TypeSignature": "iii"
+  script.json:1330730:    },
+  script.json:1330731:    {
+  script.json:1330732:      "Address": 131948729,
+> script.json:1330733:      "Name": "COW.GamePlay.DFHMACEOJNC$$\u003C\u003EiFixBaseProxy_PAMNHOLMFPG",
+> script.json:1330734:      "Signature": "float COW_GamePlay_DFHMACEOJNC____iFixBaseProxy_PAMNHOLMFPG (COW_GamePlay_DFHMACEOJNC_o* __this, 
+const MethodInfo* method);",
+  script.json:1330735:      "TypeSignature": "fii"
+  script.json:1330736:    },
+  script.json:1330737:    {
+  script.json:1330738:      "Address": 131948778,
+> script.json:1330739:      "Name": "COW.GamePlay.DFHMACEOJNC$$\u003C\u003EiFixBaseProxy_LFEAJHBIDPB",
+> script.json:1330740:      "Signature": "float COW_GamePlay_DFHMACEOJNC____iFixBaseProxy_LFEAJHBIDPB (COW_GamePlay_DFHMACEOJNC_o* __this, 
+const MethodInfo* method);",
+  script.json:1330741:      "TypeSignature": "fii"
+  script.json:1330742:    },
+  script.json:1330743:    {
+  script.json:1330744:      "Address": 131948827,
+> script.json:1330745:      "Name": "COW.GamePlay.DFHMACEOJNC$$\u003C\u003EiFixBaseProxy_KIJGIEPCPFL",
+> script.json:1330746:      "Signature": "bool COW_GamePlay_DFHMACEOJNC____iFixBaseProxy_KIJGIEPCPFL (COW_GamePlay_DFHMACEOJNC_o* __this, 
+System_String_o** P0, const MethodInfo* method);",
+  script.json:1330747:      "TypeSignature": "iiii"
+  script.json:1330748:    },
+  script.json:1330749:    {
+  script.json:1330750:      "Address": 131948880,
+> script.json:1330751:      "Name": "COW.GamePlay.DFHMACEOJNC$$\u003C\u003EiFixBaseProxy_MKMMPAEBLFC",
+> script.json:1330752:      "Signature": "bool COW_GamePlay_DFHMACEOJNC____iFixBaseProxy_MKMMPAEBLFC (COW_GamePlay_DFHMACEOJNC_o* __this, 
+System_String_o** P0, const MethodInfo* method);",
+  script.json:1330753:      "TypeSignature": "iiii"
+  script.json:1330754:    },
+  script.json:1330755:    {
+  script.json:1330756:      "Address": 131948933,
+> script.json:1330757:      "Name": "COW.GamePlay.DFHMACEOJNC$$\u003C\u003EiFixBaseProxy_ENEKCGGEHOC",
+> script.json:1330758:      "Signature": "bool COW_GamePlay_DFHMACEOJNC____iFixBaseProxy_ENEKCGGEHOC (COW_GamePlay_DFHMACEOJNC_o* __this, 
+const MethodInfo* method);",
+  script.json:1330759:      "TypeSignature": "iii"
+  script.json:1330760:    },
+  script.json:1330761:    {
+  script.json:1723480:      "Address": 167618110,
+> script.json:1723481:      "Name": "System.Security.Cryptography.Rfc2898DeriveBytes$$OpenHmac",
+> script.json:1723482:      "Signature": "System_Security_Cryptography_HMAC_o* System_Security_Cryptography_Rfc2898DeriveBytes__OpenHmac 
+(System_Security_Cryptography_Rfc2898DeriveBytes_o* __this, const MethodInfo* method);",
+  script.json:1723483:      "TypeSignature": "iii"
+  script.json:1723484:    },
+  script.json:1723485:    {
+  script.json:1724320:      "Address": 167660233,
+> script.json:1724321:      "Name": "System.Security.Cryptography.HMAC$$get_BlockSizeValue",
+> script.json:1724322:      "Signature": "int32_t System_Security_Cryptography_HMAC__get_BlockSizeValue 
+(System_Security_Cryptography_HMAC_o* __this, const MethodInfo* method);",
+  script.json:1724323:      "TypeSignature": "iii"
+  script.json:1724324:    },
+  script.json:1724325:    {
+  script.json:1724326:      "Address": 167660250,
+> script.json:1724327:      "Name": "System.Security.Cryptography.HMAC$$set_BlockSizeValue",
+> script.json:1724328:      "Signature": "void System_Security_Cryptography_HMAC__set_BlockSizeValue (System_Security_Cryptography_HMAC_o* 
+__this, int32_t value, const MethodInfo* method);",
+  script.json:1724329:      "TypeSignature": "viii"
+  script.json:1724330:    },
+  script.json:1724331:    {
+  script.json:1724332:      "Address": 167660270,
+> script.json:1724333:      "Name": "System.Security.Cryptography.HMAC$$UpdateIOPadBuffers",
+> script.json:1724334:      "Signature": "void System_Security_Cryptography_HMAC__UpdateIOPadBuffers (System_Security_Cryptography_HMAC_o* 
+__this, const MethodInfo* method);",
+  script.json:1724335:      "TypeSignature": "vii"
+  script.json:1724336:    },
+  script.json:1724337:    {
+  script.json:1724338:      "Address": 167660610,
+> script.json:1724339:      "Name": "System.Security.Cryptography.HMAC$$InitializeKey",
+> script.json:1724340:      "Signature": "void System_Security_Cryptography_HMAC__InitializeKey (System_Security_Cryptography_HMAC_o* 
+__this, System_Byte_array* key, const MethodInfo* method);",
+  script.json:1724341:      "TypeSignature": "viii"
+  script.json:1724342:    },
+  script.json:1724343:    {
+  script.json:1724344:      "Address": 167660911,
+> script.json:1724345:      "Name": "System.Security.Cryptography.HMAC$$get_Key",
+> script.json:1724346:      "Signature": "System_Byte_array* System_Security_Cryptography_HMAC__get_Key 
+(System_Security_Cryptography_HMAC_o* __this, const MethodInfo* method);",
+  script.json:1724347:      "TypeSignature": "iii"
+  script.json:1724348:    },
+  script.json:1724349:    {
+  script.json:1724350:      "Address": 167661049,
+> script.json:1724351:      "Name": "System.Security.Cryptography.HMAC$$set_Key",
+> script.json:1724352:      "Signature": "void System_Security_Cryptography_HMAC__set_Key (System_Security_Cryptography_HMAC_o* __this, 
+System_Byte_array* value, const MethodInfo* method);",
+  script.json:1724353:      "TypeSignature": "viii"
+  script.json:1724354:    },
+  script.json:1724355:    {
+  script.json:1724356:      "Address": 167661200,
+> script.json:1724357:      "Name": "System.Security.Cryptography.HMAC$$Create",
+> script.json:1724358:      "Signature": "System_Security_Cryptography_HMAC_o* System_Security_Cryptography_HMAC__Create (const 
+MethodInfo* method);",
+  script.json:1724359:      "TypeSignature": "ii"
+  script.json:1724360:    },
+  script.json:1724361:    {
+  script.json:1724362:      "Address": 167661383,
+> script.json:1724363:      "Name": "System.Security.Cryptography.HMAC$$Initialize",
+> script.json:1724364:      "Signature": "void System_Security_Cryptography_HMAC__Initialize (System_Security_Cryptography_HMAC_o* __this, 
+const MethodInfo* method);",
+  script.json:1724365:      "TypeSignature": "vii"
+  script.json:1724366:    },
+  script.json:1724367:    {
+  script.json:1724368:      "Address": 167661508,
+> script.json:1724369:      "Name": "System.Security.Cryptography.HMAC$$HashCore",
+> script.json:1724370:      "Signature": "void System_Security_Cryptography_HMAC__HashCore (System_Security_Cryptography_HMAC_o* __this, 
+System_Byte_array* rgb, int32_t ib, int32_t cb, const MethodInfo* method);",
+  script.json:1724371:      "TypeSignature": "viiiii"
+  script.json:1724372:    },
+  script.json:1724373:    {
+  script.json:1724374:      "Address": 167661632,
+> script.json:1724375:      "Name": "System.Security.Cryptography.HMAC$$HashFinal",
+> script.json:1724376:      "Signature": "System_Byte_array* System_Security_Cryptography_HMAC__HashFinal 
+(System_Security_Cryptography_HMAC_o* __this, const MethodInfo* method);",
+  script.json:1724377:      "TypeSignature": "iii"
+  script.json:1724378:    },
+  script.json:1724379:    {
+  script.json:1724380:      "Address": 167661984,
+> script.json:1724381:      "Name": "System.Security.Cryptography.HMAC$$Dispose",
+> script.json:1724382:      "Signature": "void System_Security_Cryptography_HMAC__Dispose (System_Security_Cryptography_HMAC_o* __this, 
+bool disposing, const MethodInfo* method);",
+  script.json:1724383:      "TypeSignature": "viii"
+  script.json:1724384:    },
+  script.json:1724385:    {
+  script.json:1724386:      "Address": 167662471,
+> script.json:1724387:      "Name": "System.Security.Cryptography.HMAC$$.ctor",
+> script.json:1724388:      "Signature": "void System_Security_Cryptography_HMAC___ctor (System_Security_Cryptography_HMAC_o* __this, 
+const MethodInfo* method);",
+  script.json:1724389:      "TypeSignature": "vii"
+  script.json:1724390:    },
+  script.json:1724391:    {
+  script.json:1724392:      "Address": 167662576,
+> script.json:1724393:      "Name": "System.Security.Cryptography.HMACMD5$$.ctor",
+> script.json:1724394:      "Signature": "void System_Security_Cryptography_HMACMD5___ctor (System_Security_Cryptography_HMACMD5_o* 
+__this, const MethodInfo* method);",
+  script.json:1724395:      "TypeSignature": "vii"
+  script.json:1724396:    },
+  script.json:1724397:    {
+  script.json:1724398:      "Address": 167662635,
+> script.json:1724399:      "Name": "System.Security.Cryptography.HMACMD5$$.ctor",
+> script.json:1724400:      "Signature": "void System_Security_Cryptography_HMACMD5___ctor (System_Security_Cryptography_HMACMD5_o* 
+__this, System_Byte_array* key, const MethodInfo* method);",
+  script.json:1724401:      "TypeSignature": "viii"
+  script.json:1724402:    },
+  script.json:1724403:    {
+  script.json:1724404:      "Address": 167662886,
+> script.json:1724405:      "Name": "System.Security.Cryptography.HMACRIPEMD160$$.ctor",
+> script.json:1724406:      "Signature": "void System_Security_Cryptography_HMACRIPEMD160___ctor 
+(System_Security_Cryptography_HMACRIPEMD160_o* __this, const MethodInfo* method);",
+  script.json:1724407:      "TypeSignature": "vii"
+  script.json:1724408:    },
+  script.json:1724409:    {
+  script.json:1724410:      "Address": 167662945,
+> script.json:1724411:      "Name": "System.Security.Cryptography.HMACRIPEMD160$$.ctor",
+> script.json:1724412:      "Signature": "void System_Security_Cryptography_HMACRIPEMD160___ctor 
+(System_Security_Cryptography_HMACRIPEMD160_o* __this, System_Byte_array* key, const MethodInfo* method);",
+  script.json:1724413:      "TypeSignature": "viii"
+  script.json:1724414:    },
+  script.json:1724415:    {
+  script.json:1724416:      "Address": 167661317,
+> script.json:1724417:      "Name": "System.Security.Cryptography.HMACSHA1$$.ctor",
+> script.json:1724418:      "Signature": "void System_Security_Cryptography_HMACSHA1___ctor (System_Security_Cryptography_HMACSHA1_o* 
+__this, const MethodInfo* method);",
+  script.json:1724419:      "TypeSignature": "vii"
+  script.json:1724420:    },
+  script.json:1724421:    {
+  script.json:1724422:      "Address": 167663571,
+> script.json:1724423:      "Name": "System.Security.Cryptography.HMACSHA1$$.ctor",
+> script.json:1724424:      "Signature": "void System_Security_Cryptography_HMACSHA1___ctor (System_Security_Cryptography_HMACSHA1_o* 
+__this, System_Byte_array* key, const MethodInfo* method);",
+  script.json:1724425:      "TypeSignature": "viii"
+  script.json:1724426:    },
+  script.json:1724427:    {
+  script.json:1724428:      "Address": 167663624,
+> script.json:1724429:      "Name": "System.Security.Cryptography.HMACSHA1$$.ctor",
+> script.json:1724430:      "Signature": "void System_Security_Cryptography_HMACSHA1___ctor (System_Security_Cryptography_HMACSHA1_o* 
+__this, System_Byte_array* key, bool useManagedSha1, const MethodInfo* method);",
+  script.json:1724431:      "TypeSignature": "viiii"
+  script.json:1724432:    },
+  script.json:1724433:    {
+  script.json:1724434:      "Address": 167663875,
+> script.json:1724435:      "Name": "System.Security.Cryptography.HMACSHA256$$.ctor",
+> script.json:1724436:      "Signature": "void System_Security_Cryptography_HMACSHA256___ctor (System_Security_Cryptography_HMACSHA256_o* 
+__this, const MethodInfo* method);",
+  script.json:1724437:      "TypeSignature": "vii"
+  script.json:1724438:    },
+  script.json:1724439:    {
+  script.json:1724440:      "Address": 167663934,
+> script.json:1724441:      "Name": "System.Security.Cryptography.HMACSHA256$$.ctor",
+> script.json:1724442:      "Signature": "void System_Security_Cryptography_HMACSHA256___ctor (System_Security_Cryptography_HMACSHA256_o* 
+__this, System_Byte_array* key, const MethodInfo* method);",
+  script.json:1724443:      "TypeSignature": "viii"
+  script.json:1724444:    },
+  script.json:1724445:    {
+  script.json:1724446:      "Address": 167664185,
+> script.json:1724447:      "Name": "System.Security.Cryptography.HMACSHA384$$.ctor",
+> script.json:1724448:      "Signature": "void System_Security_Cryptography_HMACSHA384___ctor (System_Security_Cryptography_HMACSHA384_o* 
+__this, const MethodInfo* method);",
+  script.json:1724449:      "TypeSignature": "vii"
+  script.json:1724450:    },
+  script.json:1724451:    {
+  script.json:1724452:      "Address": 167664247,
+> script.json:1724453:      "Name": "System.Security.Cryptography.HMACSHA384$$.ctor",
+> script.json:1724454:      "Signature": "void System_Security_Cryptography_HMACSHA384___ctor (System_Security_Cryptography_HMACSHA384_o* 
+__this, System_Byte_array* key, const MethodInfo* method);",
+  script.json:1724455:      "TypeSignature": "viii"
+  script.json:1724456:    },
+  script.json:1724457:    {
+  script.json:1724458:      "Address": 167664527,
+> script.json:1724459:      "Name": "System.Security.Cryptography.HMACSHA384$$get_BlockSize",
+> script.json:1724460:      "Signature": "int32_t System_Security_Cryptography_HMACSHA384__get_BlockSize 
+(System_Security_Cryptography_HMACSHA384_o* __this, const MethodInfo* method);",
+  script.json:1724461:      "TypeSignature": "iii"
+  script.json:1724462:    },
+  script.json:1724463:    {
+  script.json:1724464:      "Address": 167664556,
+> script.json:1724465:      "Name": "System.Security.Cryptography.HMACSHA512$$.ctor",
+> script.json:1724466:      "Signature": "void System_Security_Cryptography_HMACSHA512___ctor (System_Security_Cryptography_HMACSHA512_o* 
+__this, const MethodInfo* method);",
+  script.json:1724467:      "TypeSignature": "vii"
+  script.json:1724468:    },
+  script.json:1724469:    {
+  script.json:1724470:      "Address": 167664618,
+> script.json:1724471:      "Name": "System.Security.Cryptography.HMACSHA512$$.ctor",
+> script.json:1724472:      "Signature": "void System_Security_Cryptography_HMACSHA512___ctor (System_Security_Cryptography_HMACSHA512_o* 
+__this, System_Byte_array* key, const MethodInfo* method);",
+  script.json:1724473:      "TypeSignature": "viii"
+  script.json:1724474:    },
+  script.json:1724475:    {
+  script.json:1724476:      "Address": 167664898,
+> script.json:1724477:      "Name": "System.Security.Cryptography.HMACSHA512$$get_BlockSize",
+> script.json:1724478:      "Signature": "int32_t System_Security_Cryptography_HMACSHA512__get_BlockSize 
+(System_Security_Cryptography_HMACSHA512_o* __this, const MethodInfo* method);",
+  script.json:1724479:      "TypeSignature": "iii"
+  script.json:1724480:    },
+  script.json:1724481:    {
+  script.json:1725910:      "Address": 167730352,
+> script.json:1725911:      "Name": "System.Security.Cryptography.Utils$$_ProduceLegacyHmacValues",
+> script.json:1725912:      "Signature": "bool System_Security_Cryptography_Utils___ProduceLegacyHmacValues (const MethodInfo* method);",
+  script.json:1725913:      "TypeSignature": "ii"
+  script.json:1725914:    },
+  script.json:1725915:    {
+  script.json:2579024:      "Address": 186633680,
+> script.json:2579025:      "Value": "hmacmd5"
+  script.json:2579026:    },
+  script.json:2579027:    {
+  script.json:2579028:      "Address": 186633684,
+> script.json:2579029:      "Value": "hmacripemd160"
+  script.json:2579030:    },
+  script.json:2579031:    {
+  script.json:2579032:      "Address": 186633688,
+> script.json:2579033:      "Value": "hmacsha1"
+  script.json:2579034:    },
+  script.json:2579035:    {
+  script.json:2579036:      "Address": 186633692,
+> script.json:2579037:      "Value": "hmacsha256"
+  script.json:2579038:    },
+  script.json:2579039:    {
+  script.json:2579040:      "Address": 186633696,
+> script.json:2579041:      "Value": "hmacsha384"
+  script.json:2579042:    },
+  script.json:2579043:    {
+  script.json:2579044:      "Address": 186633700,
+> script.json:2579045:      "Value": "hmacsha512"
+  script.json:2579046:    },
+  script.json:2579047:    {
+  script.json:2579048:      "Address": 186633704,
+  script.json:2579272:      "Address": 186633928,
+> script.json:2579273:      "Value": "http://www.w3.org/2000/09/xmldsig#hmac-sha1"
+  script.json:2579274:    },
+  script.json:2579275:    {
+  script.json:2579276:      "Address": 186633932,
+  script.json:2579292:      "Address": 186633948,
+> script.json:2579293:      "Value": "http://www.w3.org/2001/04/xmldsig-more#hmac-ripemd160"
+  script.json:2579294:    },
+  script.json:2579295:    {
+  script.json:2579296:      "Address": 186633952,
+> script.json:2579297:      "Value": "http://www.w3.org/2001/04/xmldsig-more#hmac-sha256"
+  script.json:2579298:    },
+  script.json:2579299:    {
+  script.json:2579300:      "Address": 186633956,
+> script.json:2579301:      "Value": "http://www.w3.org/2001/04/xmldsig-more#hmac-sha384"
+  script.json:2579302:    },
+  script.json:2579303:    {
+  script.json:2579304:      "Address": 186633960,
+> script.json:2579305:      "Value": "http://www.w3.org/2001/04/xmldsig-more#hmac-sha512"
+  script.json:2579306:    },
+  script.json:2579307:    {
+  script.json:2579308:      "Address": 186633964,
+  script.json:2593488:      "Address": 186648144,
+> script.json:2593489:      "Value": "system.security.cryptography.hmac"
+  script.json:2593490:    },
+  script.json:2593491:    {
+  script.json:2593492:      "Address": 186648148,
+> script.json:2593493:      "Value": "system.security.cryptography.hmacmd5"
+  script.json:2593494:    },
+  script.json:2593495:    {
+  script.json:2593496:      "Address": 186648152,
+> script.json:2593497:      "Value": "system.security.cryptography.hmacripemd160"
+  script.json:2593498:    },
+  script.json:2593499:    {
+  script.json:2593500:      "Address": 186648156,
+> script.json:2593501:      "Value": "system.security.cryptography.hmacsha1"
+  script.json:2593502:    },
+  script.json:2593503:    {
+  script.json:2593504:      "Address": 186648160,
+> script.json:2593505:      "Value": "system.security.cryptography.hmacsha256"
+  script.json:2593506:    },
+  script.json:2593507:    {
+  script.json:2593508:      "Address": 186648164,
+> script.json:2593509:      "Value": "system.security.cryptography.hmacsha384"
+  script.json:2593510:    },
+  script.json:2593511:    {
+  script.json:2593512:      "Address": 186648168,
+> script.json:2593513:      "Value": "system.security.cryptography.hmacsha512"
+  script.json:2593514:    },
+  script.json:2593515:    {
+  script.json:2593516:      "Address": 186648172,
+  script.json:2595756:      "Address": 186650412,
+> script.json:2595757:      "Value": "unsupported HMAC"
+  script.json:2595758:    },
+  script.json:2595759:    {
+  script.json:2595760:      "Address": 186650416,
+  script.json:2688326:      "Address": 185921848,
+> script.json:2688327:      "Name": "GCommon.NetworkMessageDispatcher.NetworkMessageHandler\u003CELCLNJCHMAC\u003E_TypeInfo",
+> script.json:2688328:      "Signature": "GCommon_NetworkMessageDispatcher_NetworkMessageHandler_ELCLNJCHMAC__c*"
+  script.json:2688329:    },
+  script.json:2688330:    {
+  script.json:2688331:      "Address": 185921852,
+  script.json:2697956:      "Address": 185929552,
+> script.json:2697957:      "Name": "GCommon.UDPMessagePool\u003CELCLNJCHMAC\u003E_TypeInfo",
+> script.json:2697958:      "Signature": "GCommon_UDPMessagePool_ELCLNJCHMAC__c*"
+  script.json:2697959:    },
+  script.json:2697960:    {
+  script.json:2697961:      "Address": 185929556,
+  script.json:2729401:      "Address": 185954708,
+> script.json:2729402:      "Name": "System.Security.Cryptography.HMACMD5_TypeInfo",
+> script.json:2729403:      "Signature": "System_Security_Cryptography_HMACMD5_c*"
+  script.json:2729404:    },
+  script.json:2729405:    {
+  script.json:2729406:      "Address": 185954712,
+> script.json:2729407:      "Name": "System.Security.Cryptography.HMACRIPEMD160_TypeInfo",
+> script.json:2729408:      "Signature": "System_Security_Cryptography_HMACRIPEMD160_c*"
+  script.json:2729409:    },
+  script.json:2729410:    {
+  script.json:2729411:      "Address": 185954716,
+> script.json:2729412:      "Name": "System.Security.Cryptography.HMACSHA1_TypeInfo",
+> script.json:2729413:      "Signature": "System_Security_Cryptography_HMACSHA1_c*"
+  script.json:2729414:    },
+  script.json:2729415:    {
+  script.json:2729416:      "Address": 185954720,
+> script.json:2729417:      "Name": "System.Security.Cryptography.HMACSHA256_TypeInfo",
+> script.json:2729418:      "Signature": "System_Security_Cryptography_HMACSHA256_c*"
+  script.json:2729419:    },
+  script.json:2729420:    {
+  script.json:2729421:      "Address": 185954724,
+> script.json:2729422:      "Name": "System.Security.Cryptography.HMACSHA384_TypeInfo",
+> script.json:2729423:      "Signature": "System_Security_Cryptography_HMACSHA384_c*"
+  script.json:2729424:    },
+  script.json:2729425:    {
+  script.json:2729426:      "Address": 185954728,
+> script.json:2729427:      "Name": "System.Security.Cryptography.HMACSHA512_TypeInfo",
+> script.json:2729428:      "Signature": "System_Security_Cryptography_HMACSHA512_c*"
+  script.json:2729429:    },
+  script.json:2729430:    {
+  script.json:2729431:      "Address": 185954732,
+  script.json:3101268:      "Address": 186236932,
+> script.json:3101269:      "Name": "Method$GCommon.UDPMessagePool\u003CELCLNJCHMAC\u003E..ctor()",
+  script.json:3101270:      "MethodAddress": 0
+  script.json:3101271:    },
+  script.json:3101272:    {
+  script.json:3171243:      "Address": 186292912,
+> script.json:3171244:      "Name": "Method$System.Security.Cryptography.HMAC.set_Key()",
+  script.json:3171245:      "MethodAddress": 167661049
+  script.json:3171246:    },
+  script.json:3171247:    {
+  script.json:3192493:      "Address": 186309912,
+> script.json:3192494:      "Name": "Method$GCommon.NetworkClient.RegisterHandler\u003CELCLNJCHMAC\u003E()",
+  script.json:3192495:      "MethodAddress": 0
+  script.json:3192496:    },
+  script.json:3192497:    {
+  script.json:3204773:      "Address": 186319736,
+> script.json:3204774:      "Name": "Method$System.Security.Cryptography.Rfc2898DeriveBytes.OpenHmac()",
+  script.json:3204775:      "MethodAddress": 167618110
+  script.json:3204776:    },
+  script.json:3204777:    {
+
+

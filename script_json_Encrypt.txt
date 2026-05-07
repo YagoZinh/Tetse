@@ -1,0 +1,1384 @@
+﻿
+  script.json:57838:      "Address": 59051106,
+> script.json:57839:      "Name": "ICSharpCode.SharpZipLib.Zip.ZipEntry$$get_AESEncryptionStrength",
+> script.json:57840:      "Signature": "uint8_t ICSharpCode_SharpZipLib_Zip_ZipEntry__get_AESEncryptionStrength 
+(ICSharpCode_SharpZipLib_Zip_ZipEntry_o* __this, const MethodInfo* method);",
+  script.json:57841:      "TypeSignature": "iii"
+  script.json:57842:    },
+  script.json:57843:    {
+  script.json:58660:      "Address": 60179616,
+> script.json:58661:      "Name": "ICSharpCode.SharpZipLib.Zip.ZipOutputStream$$WriteEncryptionHeader",
+> script.json:58662:      "Signature": "void ICSharpCode_SharpZipLib_Zip_ZipOutputStream__WriteEncryptionHeader 
+(ICSharpCode_SharpZipLib_Zip_ZipOutputStream_o* __this, int64_t crcValue, const MethodInfo* method);",
+  script.json:58663:      "TypeSignature": "viji"
+  script.json:58664:    },
+  script.json:58665:    {
+  script.json:58684:      "Address": 60182806,
+> script.json:58685:      "Name": "ICSharpCode.SharpZipLib.Zip.ZipOutputStream$$CopyAndEncrypt",
+> script.json:58686:      "Signature": "void ICSharpCode_SharpZipLib_Zip_ZipOutputStream__CopyAndEncrypt 
+(ICSharpCode_SharpZipLib_Zip_ZipOutputStream_o* __this, System_Byte_array* buffer, int32_t offset, int32_t count, const MethodInfo* 
+method);",
+  script.json:58687:      "TypeSignature": "viiiii"
+  script.json:58688:    },
+  script.json:58689:    {
+  script.json:59458:      "Address": 60180897,
+> script.json:59459:      "Name": "ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream$$EncryptBlock",
+> script.json:59460:      "Signature": "void ICSharpCode_SharpZipLib_Zip_Compression_Streams_DeflaterOutputStream__EncryptBlock 
+(ICSharpCode_SharpZipLib_Zip_Compression_Streams_DeflaterOutputStream_o* __this, System_Byte_array* buffer, int32_t offset, int32_t 
+length, const MethodInfo* method);",
+  script.json:59461:      "TypeSignature": "viiiii"
+  script.json:59462:    },
+  script.json:59463:    {
+  script.json:60100:      "Address": 60222268,
+> script.json:60101:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassic$$GenerateKeys",
+> script.json:60102:      "Signature": "System_Byte_array* ICSharpCode_SharpZipLib_Encryption_PkzipClassic__GenerateKeys 
+(System_Byte_array* seed, const MethodInfo* method);",
+  script.json:60103:      "TypeSignature": "iii"
+  script.json:60104:    },
+  script.json:60105:    {
+  script.json:60106:      "Address": 60237672,
+> script.json:60107:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassic$$.ctor",
+> script.json:60108:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_PkzipClassic___ctor 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassic_o* __this, const MethodInfo* method);",
+  script.json:60109:      "TypeSignature": "vii"
+  script.json:60110:    },
+  script.json:60111:    {
+  script.json:60112:      "Address": 60237721,
+> script.json:60113:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicCryptoBase$$TransformByte",
+> script.json:60114:      "Signature": "uint8_t ICSharpCode_SharpZipLib_Encryption_PkzipClassicCryptoBase__TransformByte 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicCryptoBase_o* __this, const MethodInfo* method);",
+  script.json:60115:      "TypeSignature": "iii"
+  script.json:60116:    },
+  script.json:60117:    {
+  script.json:60118:      "Address": 60237796,
+> script.json:60119:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicCryptoBase$$SetKeys",
+> script.json:60120:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_PkzipClassicCryptoBase__SetKeys 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicCryptoBase_o* __this, System_Byte_array* keyData, const MethodInfo* method);",
+  script.json:60121:      "TypeSignature": "viii"
+  script.json:60122:    },
+  script.json:60123:    {
+  script.json:60124:      "Address": 60238143,
+> script.json:60125:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicCryptoBase$$UpdateKeys",
+> script.json:60126:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_PkzipClassicCryptoBase__UpdateKeys 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicCryptoBase_o* __this, uint8_t ch, const MethodInfo* method);",
+  script.json:60127:      "TypeSignature": "viii"
+  script.json:60128:    },
+  script.json:60129:    {
+  script.json:60130:      "Address": 60238362,
+> script.json:60131:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicCryptoBase$$Reset",
+> script.json:60132:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_PkzipClassicCryptoBase__Reset 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicCryptoBase_o* __this, const MethodInfo* method);",
+  script.json:60133:      "TypeSignature": "vii"
+  script.json:60134:    },
+  script.json:60135:    {
+  script.json:60136:      "Address": 60238450,
+> script.json:60137:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicCryptoBase$$.ctor",
+> script.json:60138:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_PkzipClassicCryptoBase___ctor 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicCryptoBase_o* __this, const MethodInfo* method);",
+  script.json:60139:      "TypeSignature": "vii"
+  script.json:60140:    },
+  script.json:60141:    {
+  script.json:60142:      "Address": 60238499,
+> script.json:60143:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicEncryptCryptoTransform$$.ctor",
+> script.json:60144:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform___ctor 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform_o* __this, System_Byte_array* keyBlock, const MethodInfo* method);",
+  script.json:60145:      "TypeSignature": "viii"
+  script.json:60146:    },
+  script.json:60147:    {
+  script.json:60148:      "Address": 60238565,
+> script.json:60149:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicEncryptCryptoTransform$$TransformFinalBlock",
+> script.json:60150:      "Signature": "System_Byte_array* 
+ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform__TransformFinalBlock 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform_o* __this, System_Byte_array* inputBuffer, int32_t inputOffset, 
+int32_t inputCount, const MethodInfo* method);",
+  script.json:60151:      "TypeSignature": "iiiiii"
+  script.json:60152:    },
+  script.json:60153:    {
+  script.json:60154:      "Address": 60238693,
+> script.json:60155:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicEncryptCryptoTransform$$TransformBlock",
+> script.json:60156:      "Signature": "int32_t ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform__TransformBlock 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform_o* __this, System_Byte_array* inputBuffer, int32_t inputOffset, 
+int32_t inputCount, System_Byte_array* outputBuffer, int32_t outputOffset, const MethodInfo* method);",
+  script.json:60157:      "TypeSignature": "iiiiiiii"
+  script.json:60158:    },
+  script.json:60159:    {
+  script.json:60160:      "Address": 60238844,
+> script.json:60161:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicEncryptCryptoTransform$$get_CanReuseTransform",
+> script.json:60162:      "Signature": "bool ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform__get_CanReuseTransform 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform_o* __this, const MethodInfo* method);",
+  script.json:60163:      "TypeSignature": "iii"
+  script.json:60164:    },
+  script.json:60165:    {
+  script.json:60166:      "Address": 60238856,
+> script.json:60167:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicEncryptCryptoTransform$$get_InputBlockSize",
+> script.json:60168:      "Signature": "int32_t ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform__get_InputBlockSize 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform_o* __this, const MethodInfo* method);",
+  script.json:60169:      "TypeSignature": "iii"
+  script.json:60170:    },
+  script.json:60171:    {
+  script.json:60172:      "Address": 60238869,
+> script.json:60173:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicEncryptCryptoTransform$$get_OutputBlockSize",
+> script.json:60174:      "Signature": "int32_t ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform__get_OutputBlockSize 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform_o* __this, const MethodInfo* method);",
+  script.json:60175:      "TypeSignature": "iii"
+  script.json:60176:    },
+  script.json:60177:    {
+  script.json:60178:      "Address": 60238882,
+> script.json:60179:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicEncryptCryptoTransform$$get_CanTransformMultipleBlocks",
+> script.json:60180:      "Signature": "bool 
+ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform__get_CanTransformMultipleBlocks 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform_o* __this, const MethodInfo* method);",
+  script.json:60181:      "TypeSignature": "iii"
+  script.json:60182:    },
+  script.json:60183:    {
+  script.json:60184:      "Address": 60238894,
+> script.json:60185:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicEncryptCryptoTransform$$Dispose",
+> script.json:60186:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform__Dispose 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform_o* __this, const MethodInfo* method);",
+  script.json:60187:      "TypeSignature": "vii"
+  script.json:60188:    },
+  script.json:60189:    {
+  script.json:60190:      "Address": 60238935,
+> script.json:60191:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicDecryptCryptoTransform$$.ctor",
+> script.json:60192:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform___ctor 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform_o* __this, System_Byte_array* keyBlock, const MethodInfo* method);",
+  script.json:60193:      "TypeSignature": "viii"
+  script.json:60194:    },
+  script.json:60195:    {
+  script.json:60196:      "Address": 60239001,
+> script.json:60197:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicDecryptCryptoTransform$$TransformFinalBlock",
+> script.json:60198:      "Signature": "System_Byte_array* 
+ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform__TransformFinalBlock 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform_o* __this, System_Byte_array* inputBuffer, int32_t inputOffset, 
+int32_t inputCount, const MethodInfo* method);",
+  script.json:60199:      "TypeSignature": "iiiiii"
+  script.json:60200:    },
+  script.json:60201:    {
+  script.json:60202:      "Address": 60239129,
+> script.json:60203:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicDecryptCryptoTransform$$TransformBlock",
+> script.json:60204:      "Signature": "int32_t ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform__TransformBlock 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform_o* __this, System_Byte_array* inputBuffer, int32_t inputOffset, 
+int32_t inputCount, System_Byte_array* outputBuffer, int32_t outputOffset, const MethodInfo* method);",
+  script.json:60205:      "TypeSignature": "iiiiiiii"
+  script.json:60206:    },
+  script.json:60207:    {
+  script.json:60208:      "Address": 60239278,
+> script.json:60209:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicDecryptCryptoTransform$$get_CanReuseTransform",
+> script.json:60210:      "Signature": "bool ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform__get_CanReuseTransform 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform_o* __this, const MethodInfo* method);",
+  script.json:60211:      "TypeSignature": "iii"
+  script.json:60212:    },
+  script.json:60213:    {
+  script.json:60214:      "Address": 60239290,
+> script.json:60215:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicDecryptCryptoTransform$$get_InputBlockSize",
+> script.json:60216:      "Signature": "int32_t ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform__get_InputBlockSize 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform_o* __this, const MethodInfo* method);",
+  script.json:60217:      "TypeSignature": "iii"
+  script.json:60218:    },
+  script.json:60219:    {
+  script.json:60220:      "Address": 60239303,
+> script.json:60221:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicDecryptCryptoTransform$$get_OutputBlockSize",
+> script.json:60222:      "Signature": "int32_t ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform__get_OutputBlockSize 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform_o* __this, const MethodInfo* method);",
+  script.json:60223:      "TypeSignature": "iii"
+  script.json:60224:    },
+  script.json:60225:    {
+  script.json:60226:      "Address": 60239316,
+> script.json:60227:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicDecryptCryptoTransform$$get_CanTransformMultipleBlocks",
+> script.json:60228:      "Signature": "bool 
+ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform__get_CanTransformMultipleBlocks 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform_o* __this, const MethodInfo* method);",
+  script.json:60229:      "TypeSignature": "iii"
+  script.json:60230:    },
+  script.json:60231:    {
+  script.json:60232:      "Address": 60239328,
+> script.json:60233:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicDecryptCryptoTransform$$Dispose",
+> script.json:60234:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform__Dispose 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform_o* __this, const MethodInfo* method);",
+  script.json:60235:      "TypeSignature": "vii"
+  script.json:60236:    },
+  script.json:60237:    {
+  script.json:60238:      "Address": 60239369,
+> script.json:60239:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicManaged$$get_BlockSize",
+> script.json:60240:      "Signature": "int32_t ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged__get_BlockSize 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged_o* __this, const MethodInfo* method);",
+  script.json:60241:      "TypeSignature": "iii"
+  script.json:60242:    },
+  script.json:60243:    {
+  script.json:60244:      "Address": 60239384,
+> script.json:60245:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicManaged$$set_BlockSize",
+> script.json:60246:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged__set_BlockSize 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged_o* __this, int32_t value, const MethodInfo* method);",
+  script.json:60247:      "TypeSignature": "viii"
+  script.json:60248:    },
+  script.json:60249:    {
+  script.json:60250:      "Address": 60239505,
+> script.json:60251:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicManaged$$get_LegalKeySizes",
+> script.json:60252:      "Signature": "System_Security_Cryptography_KeySizes_array* 
+ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged__get_LegalKeySizes (ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged_o* 
+__this, const MethodInfo* method);",
+  script.json:60253:      "TypeSignature": "iii"
+  script.json:60254:    },
+  script.json:60255:    {
+  script.json:60256:      "Address": 60239710,
+> script.json:60257:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicManaged$$GenerateIV",
+> script.json:60258:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged__GenerateIV 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged_o* __this, const MethodInfo* method);",
+  script.json:60259:      "TypeSignature": "vii"
+  script.json:60260:    },
+  script.json:60261:    {
+  script.json:60262:      "Address": 60239720,
+> script.json:60263:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicManaged$$get_LegalBlockSizes",
+> script.json:60264:      "Signature": "System_Security_Cryptography_KeySizes_array* 
+ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged__get_LegalBlockSizes (ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged_o* 
+__this, const MethodInfo* method);",
+  script.json:60265:      "TypeSignature": "iii"
+  script.json:60266:    },
+  script.json:60267:    {
+  script.json:60268:      "Address": 60239925,
+> script.json:60269:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicManaged$$get_Key",
+> script.json:60270:      "Signature": "System_Byte_array* ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged__get_Key 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged_o* __this, const MethodInfo* method);",
+  script.json:60271:      "TypeSignature": "iii"
+  script.json:60272:    },
+  script.json:60273:    {
+  script.json:60274:      "Address": 60240103,
+> script.json:60275:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicManaged$$set_Key",
+> script.json:60276:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged__set_Key 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged_o* __this, System_Byte_array* value, const MethodInfo* method);",
+  script.json:60277:      "TypeSignature": "viii"
+  script.json:60278:    },
+  script.json:60279:    {
+  script.json:60280:      "Address": 60240476,
+> script.json:60281:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicManaged$$GenerateKey",
+> script.json:60282:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged__GenerateKey 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged_o* __this, const MethodInfo* method);",
+  script.json:60283:      "TypeSignature": "vii"
+  script.json:60284:    },
+  script.json:60285:    {
+  script.json:60286:      "Address": 60240680,
+> script.json:60287:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicManaged$$CreateEncryptor",
+> script.json:60288:      "Signature": "System_Security_Cryptography_ICryptoTransform_o* 
+ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged__CreateEncryptor (ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged_o* __this, 
+System_Byte_array* rgbKey, System_Byte_array* rgbIV, const MethodInfo* method);",
+  script.json:60289:      "TypeSignature": "iiiii"
+  script.json:60290:    },
+  script.json:60291:    {
+  script.json:60292:      "Address": 60240850,
+> script.json:60293:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicManaged$$CreateDecryptor",
+> script.json:60294:      "Signature": "System_Security_Cryptography_ICryptoTransform_o* 
+ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged__CreateDecryptor (ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged_o* __this, 
+System_Byte_array* rgbKey, System_Byte_array* rgbIV, const MethodInfo* method);",
+  script.json:60295:      "TypeSignature": "iiiii"
+  script.json:60296:    },
+  script.json:60297:    {
+  script.json:60298:      "Address": 60222219,
+> script.json:60299:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicManaged$$.ctor",
+> script.json:60300:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged___ctor 
+(ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged_o* __this, const MethodInfo* method);",
+  script.json:60301:      "TypeSignature": "vii"
+  script.json:60302:    },
+  script.json:60303:    {
+  script.json:60304:      "Address": 60223153,
+> script.json:60305:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$.ctor",
+> script.json:60306:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_ZipAESTransform___ctor 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, System_String_o* key, System_Byte_array* saltBytes, int32_t blockSize, bool 
+writeMode, const MethodInfo* method);",
+  script.json:60307:      "TypeSignature": "viiiiii"
+  script.json:60308:    },
+  script.json:60309:    {
+  script.json:60310:      "Address": 60241020,
+> script.json:60311:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$TransformBlock",
+> script.json:60312:      "Signature": "int32_t ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__TransformBlock 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, System_Byte_array* inputBuffer, int32_t inputOffset, int32_t inputCount, 
+System_Byte_array* outputBuffer, int32_t outputOffset, const MethodInfo* method);",
+  script.json:60313:      "TypeSignature": "iiiiiiii"
+  script.json:60314:    },
+  script.json:60315:    {
+  script.json:60316:      "Address": 60241577,
+> script.json:60317:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$get_PwdVerifier",
+> script.json:60318:      "Signature": "System_Byte_array* ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__get_PwdVerifier 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, const MethodInfo* method);",
+  script.json:60319:      "TypeSignature": "iii"
+  script.json:60320:    },
+  script.json:60321:    {
+  script.json:60322:      "Address": 60221914,
+> script.json:60323:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$GetAuthCode",
+> script.json:60324:      "Signature": "System_Byte_array* ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__GetAuthCode 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, const MethodInfo* method);",
+  script.json:60325:      "TypeSignature": "iii"
+  script.json:60326:    },
+  script.json:60327:    {
+  script.json:60328:      "Address": 60241594,
+> script.json:60329:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$TransformFinalBlock",
+> script.json:60330:      "Signature": "System_Byte_array* ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__TransformFinalBlock 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, System_Byte_array* inputBuffer, int32_t inputOffset, int32_t inputCount, 
+const MethodInfo* method);",
+  script.json:60331:      "TypeSignature": "iiiiii"
+  script.json:60332:    },
+  script.json:60333:    {
+  script.json:60334:      "Address": 60241702,
+> script.json:60335:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$get_InputBlockSize",
+> script.json:60336:      "Signature": "int32_t ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__get_InputBlockSize 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, const MethodInfo* method);",
+  script.json:60337:      "TypeSignature": "iii"
+  script.json:60338:    },
+  script.json:60339:    {
+  script.json:60340:      "Address": 60241719,
+> script.json:60341:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$get_OutputBlockSize",
+> script.json:60342:      "Signature": "int32_t ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__get_OutputBlockSize 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, const MethodInfo* method);",
+  script.json:60343:      "TypeSignature": "iii"
+  script.json:60344:    },
+  script.json:60345:    {
+  script.json:60346:      "Address": 60241736,
+> script.json:60347:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$get_CanTransformMultipleBlocks",
+> script.json:60348:      "Signature": "bool ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__get_CanTransformMultipleBlocks 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, const MethodInfo* method);",
+  script.json:60349:      "TypeSignature": "iii"
+  script.json:60350:    },
+  script.json:60351:    {
+  script.json:60352:      "Address": 60241748,
+> script.json:60353:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$get_CanReuseTransform",
+> script.json:60354:      "Signature": "bool ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__get_CanReuseTransform 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, const MethodInfo* method);",
+  script.json:60355:      "TypeSignature": "iii"
+  script.json:60356:    },
+  script.json:60357:    {
+  script.json:60358:      "Address": 60241760,
+> script.json:60359:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$Dispose",
+> script.json:60360:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__Dispose 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, const MethodInfo* method);",
+  script.json:60361:      "TypeSignature": "vii"
+  script.json:60362:    },
+  script.json:60363:    {
+  script.json:210376:      "Address": 124754310,
+> script.json:210377:      "Name": "COW.EventLogger.EventTypeFileInfoEncrypt$$.ctor",
+> script.json:210378:      "Signature": "void COW_EventLogger_EventTypeFileInfoEncrypt___ctor (COW_EventLogger_EventTypeFileInfoEncrypt_o* 
+__this, const MethodInfo* method);",
+  script.json:210379:      "TypeSignature": "vii"
+  script.json:210380:    },
+  script.json:210381:    {
+  script.json:210382:      "Address": 124754359,
+> script.json:210383:      "Name": "COW.EventLogger.FileInfoEncryptResult$$.ctor",
+> script.json:210384:      "Signature": "void COW_EventLogger_FileInfoEncryptResult___ctor (COW_EventLogger_FileInfoEncryptResult_o* 
+__this, const MethodInfo* method);",
+  script.json:210385:      "TypeSignature": "vii"
+  script.json:210386:    },
+  script.json:210387:    {
+  script.json:213442:      "Address": 123458503,
+> script.json:213443:      "Name": "COW.EventLogger$$SendTriggerFileInfoEncrypt",
+> script.json:213444:      "Signature": "void COW_EventLogger__SendTriggerFileInfoEncrypt 
+(System_Collections_Generic_List_EventLogger_FileInfoEncryptResult__o* decryptResults, 
+System_Collections_Generic_List_EventLogger_FileInfoEncryptResult__o* encryptResults, const MethodInfo* method);",
+  script.json:213445:      "TypeSignature": "viii"
+  script.json:213446:    },
+  script.json:213447:    {
+  script.json:216047:      "Name": "COW.GameFacade$$SendServerRequest\u003Cobject\u003E",
+> script.json:216048:      "Signature": "GCommon_HttpRequest_o* COW_GameFacade__SendServerRequest_object_ (System_String_o* url, 
+System_String_o* cmd, Il2CppObject* data, System_Action_HttpErrorCode__object__o* onFinished, float timeout, uint32_t http_option, bool 
+encrypt, int32_t loadingType, int32_t priority, int32_t urgentAfterIndex, bool sendImmediately, int32_t channel, System_Action_o* 
+OnDeserialize, const MethodInfo_8F5EE4F* method);",
+  script.json:216049:      "TypeSignature": "iiiiifiiiiiiiii"
+  script.json:216050:    },
+  script.json:216051:    {
+  script.json:216053:      "Name": "COW.GameFacade$$SendServerRequest\u003C__Il2CppFullySharedGenericType\u003E",
+> script.json:216054:      "Signature": "GCommon_HttpRequest_o* COW_GameFacade__SendServerRequest___Il2CppFullySharedGenericType_ 
+(System_String_o* url, System_String_o* cmd, Il2CppObject* data, System_Action_HttpErrorCode__object__o* onFinished, float timeout, 
+uint32_t http_option, bool encrypt, int32_t loadingType, int32_t priority, int32_t urgentAfterIndex, bool sendImmediately, int32_t 
+channel, System_Action_o* OnDeserialize, const MethodInfo_8F5EFBF* method);",
+  script.json:216055:      "TypeSignature": "iiiiifiiiiiiiii"
+  script.json:216056:    },
+  script.json:216057:    {
+  script.json:966688:      "Address": 102746020,
+> script.json:966689:      "Name": "COW.UIModelUser$$ULongEncryption",
+> script.json:966690:      "Signature": "System_String_o* COW_UIModelUser__ULongEncryption (COW_UIModelUser_o* __this, uint64_t ori, const 
+MethodInfo* method);",
+  script.json:966691:      "TypeSignature": "iiji"
+  script.json:966692:    },
+  script.json:966693:    {
+  script.json:974878:      "Address": 103324794,
+> script.json:974879:      "Name": "COW.OpenUrl$$GetEncryptedToken",
+> script.json:974880:      "Signature": "System_String_o* COW_OpenUrl__GetEncryptedToken (const MethodInfo* method);",
+  script.json:974881:      "TypeSignature": "ii"
+  script.json:974882:    },
+  script.json:974883:    {
+  script.json:1060738:      "Address": 111376703,
+> script.json:1060739:      "Name": "COW.TCPSession2$$Encrypt",
+> script.json:1060740:      "Signature": "System_Byte_array* COW_TCPSession2__Encrypt (COW_TCPSession2_o* __this, 
+System_Security_Cryptography_AesManaged_o* aes, System_Byte_array* data, const MethodInfo* method);",
+  script.json:1060741:      "TypeSignature": "iiiii"
+  script.json:1060742:    },
+  script.json:1060743:    {
+  script.json:1425124:      "Address": 139400410,
+> script.json:1425125:      "Name": "GCommon.AES$$EncryptText",
+> script.json:1425126:      "Signature": "System_String_o* GCommon_AES__EncryptText (System_String_o* decoded, GCommon_AES_AESOption_o* 
+option, const MethodInfo* method);",
+  script.json:1425127:      "TypeSignature": "iiii"
+  script.json:1425128:    },
+  script.json:1425129:    {
+  script.json:1425136:      "Address": 139400567,
+> script.json:1425137:      "Name": "GCommon.AES$$Encrypt",
+> script.json:1425138:      "Signature": "System_Byte_array* GCommon_AES__Encrypt (System_String_o* plainText, GCommon_AES_AESOption_o* 
+option, const MethodInfo* method);",
+  script.json:1425139:      "TypeSignature": "iiii"
+  script.json:1425140:    },
+  script.json:1425141:    {
+  script.json:1426186:      "Address": 139429769,
+> script.json:1426187:      "Name": "GCommon.ConfigDataManager$$AddEncryptionConfigResID",
+> script.json:1426188:      "Signature": "void GCommon_ConfigDataManager__AddEncryptionConfigResID (GCommon_ConfigDataManager_o* __this, 
+GCommon_ResourceID_o resID, const MethodInfo* method);",
+  script.json:1426189:      "TypeSignature": "viii"
+  script.json:1426190:    },
+  script.json:1426191:    {
+  script.json:1436183:      "Name": "GCommon.HttpManager$$RequestPost\u003Cobject\u003E",
+> script.json:1436184:      "Signature": "GCommon_HttpRequest_o* GCommon_HttpManager__RequestPost_object_ (GCommon_HttpManager_o* __this, 
+System_String_o* url, System_String_o* cmd, Il2CppObject* data, System_Action_HttpErrorCode__object__o* onFinished, float timeout, 
+uint32_t http_option, int32_t reqDataType, int32_t resDataType, int32_t channel, bool encrypt, int32_t loadingType, int32_t priority, 
+int32_t urgentAfterIndex, bool sendImmediately, System_Collections_Generic_Dictionary_string__string__o* customHeaders, System_Action_o* 
+OnDeserialize, const MethodInfo_8F696BF* method);",
+  script.json:1436185:      "TypeSignature": "iiiiiifiiiiiiiiiiii"
+  script.json:1436186:    },
+  script.json:1436187:    {
+  script.json:1436189:      "Name": "GCommon.HttpManager$$RequestPost\u003C__Il2CppFullySharedGenericType\u003E",
+> script.json:1436190:      "Signature": "GCommon_HttpRequest_o* GCommon_HttpManager__RequestPost___Il2CppFullySharedGenericType_ 
+(GCommon_HttpManager_o* __this, System_String_o* url, System_String_o* cmd, Il2CppObject* data, System_Action_HttpErrorCode__object__o* 
+onFinished, float timeout, uint32_t http_option, int32_t reqDataType, int32_t resDataType, int32_t channel, bool encrypt, int32_t 
+loadingType, int32_t priority, int32_t urgentAfterIndex, bool sendImmediately, System_Collections_Generic_Dictionary_string__string__o* 
+customHeaders, System_Action_o* OnDeserialize, const MethodInfo_8F69941* method);",
+  script.json:1436191:      "TypeSignature": "iiiiiifiiiiiiiiiiii"
+  script.json:1436192:    },
+  script.json:1436193:    {
+  script.json:1436213:      "Name": "GCommon.HttpManager$$CreatePostReq\u003Cobject\u003E",
+> script.json:1436214:      "Signature": "GCommon_HttpRequest_o* GCommon_HttpManager__CreatePostReq_object_ (GCommon_HttpManager_o* 
+__this, System_String_o* url, System_String_o* cmd, Il2CppObject* data, System_Action_HttpErrorCode__object__o* onFinished, float timeout, 
+uint32_t http_option, int32_t reqDataType, int32_t resDataType, bool encrypt, int32_t loadingType, int32_t priority, 
+System_Collections_Generic_Dictionary_string__string__o* customHeaders, System_Action_o* OnDeserialize, const MethodInfo_8F68362* 
+method);",
+  script.json:1436215:      "TypeSignature": "iiiiiifiiiiiiiii"
+  script.json:1436216:    },
+  script.json:1436217:    {
+  script.json:1436219:      "Name": "GCommon.HttpManager$$CreatePostReq\u003C__Il2CppFullySharedGenericType\u003E",
+> script.json:1436220:      "Signature": "GCommon_HttpRequest_o* GCommon_HttpManager__CreatePostReq___Il2CppFullySharedGenericType_ 
+(GCommon_HttpManager_o* __this, System_String_o* url, System_String_o* cmd, Il2CppObject* data, System_Action_HttpErrorCode__object__o* 
+onFinished, float timeout, uint32_t http_option, int32_t reqDataType, int32_t resDataType, bool encrypt, int32_t loadingType, int32_t 
+priority, System_Collections_Generic_Dictionary_string__string__o* customHeaders, System_Action_o* OnDeserialize, const 
+MethodInfo_8F688DE* method);",
+  script.json:1436221:      "TypeSignature": "iiiiiifiiiiiiiii"
+  script.json:1436222:    },
+  script.json:1436223:    {
+  script.json:1436230:      "Address": 139756771,
+> script.json:1436231:      "Name": "GCommon.HttpManager$$Encrypt",
+> script.json:1436232:      "Signature": "System_Byte_array* GCommon_HttpManager__Encrypt (GCommon_HttpManager_o* __this, 
+System_Byte_array* data, const MethodInfo* method);",
+  script.json:1436233:      "TypeSignature": "iiii"
+  script.json:1436234:    },
+  script.json:1436235:    {
+  script.json:1436303:      "Name": "GCommon.HttpManager$$RequestPostStream",
+> script.json:1436304:      "Signature": "GCommon_UnityHttpRequest_o* GCommon_HttpManager__RequestPostStream (GCommon_HttpManager_o* 
+__this, System_String_o* url, System_String_o* cmd, Il2CppObject* requestData, System_Action_HttpErrorCode__byte____int__o* onFinished, 
+System_Action_byte____int__int__o* onUpdate, float timeout, int32_t reqDataType, int32_t channel, bool encrypt, bool sendImmediately, 
+System_Collections_Generic_Dictionary_string__string__o* customHeaders, const MethodInfo* method);",
+  script.json:1436305:      "TypeSignature": "iiiiiiifiiiiii"
+  script.json:1436306:    },
+  script.json:1436307:    {
+  script.json:1436309:      "Name": "GCommon.HttpManager$$CreateRequest",
+> script.json:1436310:      "Signature": "GCommon_UnityHttpRequest_o* GCommon_HttpManager__CreateRequest (GCommon_HttpManager_o* __this, 
+System_String_o* url, System_String_o* cmd, Il2CppObject* data, System_Action_HttpErrorCode__byte____int__o* onFinished, 
+System_Action_byte____int__int__o* onUpdate, float timeout, uint32_t http_option, int32_t reqDataType, bool encrypt, int32_t priority, 
+System_Collections_Generic_Dictionary_string__string__o* customHeaders, const MethodInfo* method);",
+  script.json:1436311:      "TypeSignature": "iiiiiiifiiiiii"
+  script.json:1436312:    },
+  script.json:1436313:    {
+  script.json:1437592:      "Address": 139877520,
+> script.json:1437593:      "Name": "GCommon.NetworkCryptologyUtil$$TeaEncrypt_Len",
+> script.json:1437594:      "Signature": "int32_t GCommon_NetworkCryptologyUtil__TeaEncrypt_Len (int32_t nInBufLen, const MethodInfo* 
+method);",
+  script.json:1437595:      "TypeSignature": "iii"
+  script.json:1437596:    },
+  script.json:1437597:    {
+  script.json:1437598:      "Address": 139877655,
+> script.json:1437599:      "Name": "GCommon.NetworkCryptologyUtil$$TeaEncrypt",
+> script.json:1437600:      "Signature": "void GCommon_NetworkCryptologyUtil__TeaEncrypt (GCommon_TeaEncTempBuffer_o* encTempBuffer, 
+System_Byte_array* pInBuf, int32_t nInBufLen, System_Byte_array* pKey, System_Byte_array* pOutBuf, int32_t* pOutBufLen, const MethodInfo* 
+method);",
+  script.json:1437601:      "TypeSignature": "viiiiiii"
+  script.json:1437602:    },
+  script.json:1437603:    {
+  script.json:1437610:      "Address": 139879263,
+> script.json:1437611:      "Name": "GCommon.NetworkCryptologyUtil$$TeaEncryptECB",
+> script.json:1437612:      "Signature": "void GCommon_NetworkCryptologyUtil__TeaEncryptECB (GCommon_TeaEncTempBuffer_o* encTempBuffer, 
+System_Byte_array* pInBuf, int32_t inBufPos, System_Byte_array* pKey, System_Byte_array* pOutBuf, int32_t outBufIndex, const MethodInfo* 
+method);",
+  script.json:1437613:      "TypeSignature": "viiiiiii"
+  script.json:1437614:    },
+  script.json:1437615:    {
+  script.json:1440556:      "Address": 140115450,
+> script.json:1440557:      "Name": "GCommon.DownloadVersionInfo$$TryReadEncryptedFileInfo",
+> script.json:1440558:      "Signature": "bool GCommon_DownloadVersionInfo__TryReadEncryptedFileInfo (GCommon_DownloadVersionInfo_o* 
+__this, System_String_o* cachedFileInfoFile, GCommon_ResUpdateDownloadContext_o* downloadContext, System_String_o** content, const 
+MethodInfo* method);",
+  script.json:1440559:      "TypeSignature": "iiiiii"
+  script.json:1440560:    },
+  script.json:1440561:    {
+  script.json:1440562:      "Address": 140122491,
+> script.json:1440563:      "Name": "GCommon.DownloadVersionInfo$$ShouldEncryptFileInfo",
+> script.json:1440564:      "Signature": "bool GCommon_DownloadVersionInfo__ShouldEncryptFileInfo (GCommon_DownloadVersionInfo_o* __this, 
+GCommon_ResUpdateDownloadContext_o* downloadContext, const MethodInfo* method);",
+  script.json:1440565:      "TypeSignature": "iiii"
+  script.json:1440566:    },
+  script.json:1440567:    {
+  script.json:1440568:      "Address": 140122905,
+> script.json:1440569:      "Name": "GCommon.DownloadVersionInfo$$TryWriteEncryptedFileInfo",
+> script.json:1440570:      "Signature": "bool GCommon_DownloadVersionInfo__TryWriteEncryptedFileInfo (GCommon_DownloadVersionInfo_o* 
+__this, System_String_o* cachedFileInfoFile, System_String_o* content, GCommon_ResUpdateDownloadContext_o* downloadContext, const 
+MethodInfo* method);",
+  script.json:1440571:      "TypeSignature": "iiiiii"
+  script.json:1440572:    },
+  script.json:1440573:    {
+  script.json:1440826:      "Address": 140166558,
+> script.json:1440827:      "Name": "GCommon.FileInfoEncryptionHelper$$IsFileInfoEncryptionEnabled",
+> script.json:1440828:      "Signature": "bool GCommon_FileInfoEncryptionHelper__IsFileInfoEncryptionEnabled (const MethodInfo* method);",
+  script.json:1440829:      "TypeSignature": "ii"
+  script.json:1440830:    },
+  script.json:1440831:    {
+  script.json:1440832:      "Address": 140122712,
+> script.json:1440833:      "Name": "GCommon.FileInfoEncryptionHelper$$IsGGPDecryptionFailed",
+> script.json:1440834:      "Signature": "bool GCommon_FileInfoEncryptionHelper__IsGGPDecryptionFailed (uint32_t downloadType, const 
+MethodInfo* method);",
+  script.json:1440835:      "TypeSignature": "iii"
+  script.json:1440836:    },
+  script.json:1440837:    {
+  script.json:1440838:      "Address": 140166652,
+> script.json:1440839:      "Name": "GCommon.FileInfoEncryptionHelper$$InitGGPDecryptionState",
+> script.json:1440840:      "Signature": "void GCommon_FileInfoEncryptionHelper__InitGGPDecryptionState (bool encryptionEnabled, const 
+MethodInfo* method);",
+  script.json:1440841:      "TypeSignature": "vii"
+  script.json:1440842:    },
+  script.json:1440843:    {
+  script.json:1440844:      "Address": 140167565,
+> script.json:1440845:      "Name": "GCommon.FileInfoEncryptionHelper$$ClearGGPDecryptionState",
+> script.json:1440846:      "Signature": "void GCommon_FileInfoEncryptionHelper__ClearGGPDecryptionState (const MethodInfo* method);",
+  script.json:1440847:      "TypeSignature": "vi"
+  script.json:1440848:    },
+  script.json:1440849:    {
+  script.json:1440850:      "Address": 140120054,
+> script.json:1440851:      "Name": "GCommon.FileInfoEncryptionHelper$$MarkGGPDecryptionFailed",
+> script.json:1440852:      "Signature": "void GCommon_FileInfoEncryptionHelper__MarkGGPDecryptionFailed (uint32_t downloadType, const 
+MethodInfo* method);",
+  script.json:1440853:      "TypeSignature": "vii"
+  script.json:1440854:    },
+  script.json:1440855:    {
+  script.json:1440856:      "Address": 140167950,
+> script.json:1440857:      "Name": "GCommon.FileInfoEncryptionHelper$$InitFileInfoEncryptedState",
+> script.json:1440858:      "Signature": "void GCommon_FileInfoEncryptionHelper__InitFileInfoEncryptedState (const MethodInfo* method);",
+  script.json:1440859:      "TypeSignature": "vi"
+  script.json:1440860:    },
+  script.json:1440861:    {
+  script.json:1440862:      "Address": 140124890,
+> script.json:1440863:      "Name": "GCommon.FileInfoEncryptionHelper$$MarkFileInfoEncrypted",
+> script.json:1440864:      "Signature": "void GCommon_FileInfoEncryptionHelper__MarkFileInfoEncrypted (uint32_t downloadType, const 
+MethodInfo* method);",
+  script.json:1440865:      "TypeSignature": "vii"
+  script.json:1440866:    },
+  script.json:1440867:    {
+  script.json:1440868:      "Address": 140168249,
+> script.json:1440869:      "Name": "GCommon.FileInfoEncryptionHelper$$ClearFileInfoEncrypted",
+> script.json:1440870:      "Signature": "void GCommon_FileInfoEncryptionHelper__ClearFileInfoEncrypted (uint32_t downloadType, const 
+MethodInfo* method);",
+  script.json:1440871:      "TypeSignature": "vii"
+  script.json:1440872:    },
+  script.json:1440873:    {
+  script.json:1440874:      "Address": 140122349,
+> script.json:1440875:      "Name": "GCommon.FileInfoEncryptionHelper$$WasFileInfoEncrypted",
+> script.json:1440876:      "Signature": "bool GCommon_FileInfoEncryptionHelper__WasFileInfoEncrypted (uint32_t downloadType, const 
+MethodInfo* method);",
+  script.json:1440877:      "TypeSignature": "iii"
+  script.json:1440878:    },
+  script.json:1440879:    {
+  script.json:1440880:      "Address": 140168574,
+> script.json:1440881:      "Name": "GCommon.FileInfoEncryptionHelper$$GetGGPKey",
+> script.json:1440882:      "Signature": "System_String_o* GCommon_FileInfoEncryptionHelper__GetGGPKey (const MethodInfo* method);",
+  script.json:1440883:      "TypeSignature": "ii"
+  script.json:1440884:    },
+  script.json:1440885:    {
+  script.json:1440886:      "Address": 140169142,
+> script.json:1440887:      "Name": "GCommon.FileInfoEncryptionHelper$$ComputeMD5Hash",
+> script.json:1440888:      "Signature": "System_String_o* GCommon_FileInfoEncryptionHelper__ComputeMD5Hash (System_String_o* input, const 
+MethodInfo* method);",
+  script.json:1440889:      "TypeSignature": "iii"
+  script.json:1440890:    },
+  script.json:1440891:    {
+  script.json:1440892:      "Address": 140170232,
+> script.json:1440893:      "Name": "GCommon.FileInfoEncryptionHelper$$ClearCachedKey",
+> script.json:1440894:      "Signature": "void GCommon_FileInfoEncryptionHelper__ClearCachedKey (const MethodInfo* method);",
+  script.json:1440895:      "TypeSignature": "vi"
+  script.json:1440896:    },
+  script.json:1440897:    {
+  script.json:1440898:      "Address": 140170340,
+> script.json:1440899:      "Name": "GCommon.FileInfoEncryptionHelper$$ValidateFileInfoContent",
+> script.json:1440900:      "Signature": "bool GCommon_FileInfoEncryptionHelper__ValidateFileInfoContent (System_String_o* content, const 
+MethodInfo* method);",
+  script.json:1440901:      "TypeSignature": "iii"
+  script.json:1440902:    },
+  script.json:1440903:    {
+  script.json:1440904:      "Address": 140123673,
+> script.json:1440905:      "Name": "GCommon.FileInfoEncryptionHelper$$WriteEncryptedFile",
+> script.json:1440906:      "Signature": "int32_t GCommon_FileInfoEncryptionHelper__WriteEncryptedFile (System_String_o* targetFile, 
+System_String_o* content, const MethodInfo* method);",
+  script.json:1440907:      "TypeSignature": "iiii"
+  script.json:1440908:    },
+  script.json:1440909:    {
+  script.json:1440910:      "Address": 140118081,
+> script.json:1440911:      "Name": "GCommon.FileInfoEncryptionHelper$$ReadDecryptedFile",
+> script.json:1440912:      "Signature": "System_String_o* GCommon_FileInfoEncryptionHelper__ReadDecryptedFile (System_String_o* 
+targetFile, bool* wasEncrypted, int32_t* resultCode, const MethodInfo* method);",
+  script.json:1440913:      "TypeSignature": "iiiii"
+  script.json:1440914:    },
+  script.json:1440915:    {
+  script.json:1440916:      "Address": 140120825,
+> script.json:1440917:      "Name": "GCommon.FileInfoEncryptionHelper$$HasGGPEncryptionMagic",
+> script.json:1440918:      "Signature": "bool GCommon_FileInfoEncryptionHelper__HasGGPEncryptionMagic (System_String_o* targetFile, const 
+MethodInfo* method);",
+  script.json:1440919:      "TypeSignature": "iii"
+  script.json:1440920:    },
+  script.json:1440921:    {
+  script.json:1440922:      "Address": 140170494,
+> script.json:1440923:      "Name": "GCommon.FileInfoEncryptionHelper$$.cctor",
+> script.json:1440924:      "Signature": "void GCommon_FileInfoEncryptionHelper___cctor (const MethodInfo* method);",
+  script.json:1440925:      "TypeSignature": "vi"
+  script.json:1440926:    },
+  script.json:1440927:    {
+  script.json:1443334:      "Address": 140331413,
+> script.json:1443335:      "Name": "GCommon.ResUpdateDownloadContext$$get_NeedRecoverFromEncryptionPerContext",
+> script.json:1443336:      "Signature": "bool GCommon_ResUpdateDownloadContext__get_NeedRecoverFromEncryptionPerContext 
+(GCommon_ResUpdateDownloadContext_o* __this, const MethodInfo* method);",
+  script.json:1443337:      "TypeSignature": "iii"
+  script.json:1443338:    },
+  script.json:1443339:    {
+  script.json:1443340:      "Address": 140331433,
+> script.json:1443341:      "Name": "GCommon.ResUpdateDownloadContext$$set_NeedRecoverFromEncryptionPerContext",
+> script.json:1443342:      "Signature": "void GCommon_ResUpdateDownloadContext__set_NeedRecoverFromEncryptionPerContext 
+(GCommon_ResUpdateDownloadContext_o* __this, bool value, const MethodInfo* method);",
+  script.json:1443343:      "TypeSignature": "viii"
+  script.json:1443344:    },
+  script.json:1443345:    {
+  script.json:1444018:      "Address": 140396006,
+> script.json:1444019:      "Name": "GCommon.ResUpdateDownloadEngine$$AddFileInfoEncryptResult",
+> script.json:1444020:      "Signature": "void GCommon_ResUpdateDownloadEngine__AddFileInfoEncryptResult 
+(GCommon_ResUpdateDownloadEngine_o* __this, bool isEncrypt, int32_t resDownloadType, int32_t errCode, int32_t version, const MethodInfo* 
+method);",
+  script.json:1444021:      "TypeSignature": "viiiiii"
+  script.json:1444022:    },
+  script.json:1444023:    {
+  script.json:1444024:      "Address": 140396499,
+> script.json:1444025:      "Name": "GCommon.ResUpdateDownloadEngine$$SendFileInfoEncryptLog",
+> script.json:1444026:      "Signature": "void GCommon_ResUpdateDownloadEngine__SendFileInfoEncryptLog (GCommon_ResUpdateDownloadEngine_o* 
+__this, const MethodInfo* method);",
+  script.json:1444027:      "TypeSignature": "vii"
+  script.json:1444028:    },
+  script.json:1444029:    {
+  script.json:1447295:      "Name": "GCommon.ResourceManager$$parseAndAddResourceMapping",
+> script.json:1447296:      "Signature": "GCommon_ResourceID_o GCommon_ResourceManager__parseAndAddResourceMapping 
+(GCommon_ResourceManager_o* __this, System_Type_o* ResID, System_String_o* strName, System_String_o* url, System_String_o* ab, 
+System_String_o* stream_ab, uint8_t isAB, uint8_t lowSetting, uint8_t highSetting, System_Reflection_MethodInfo_o* modifier, bool 
+needResIDToName, bool overwrite, bool nameHashCollided, bool forAtlas, int32_t abIdx, int16_t compressUrlIndex, bool isBinaryConfig, bool 
+encryption, bool isIngameCollectionRes, bool isLobbyShowHighQualityRes, const MethodInfo* method);",
+  script.json:1447297:      "TypeSignature": "iiiiiiiiiiiiiiiiiiiiii"
+  script.json:1447298:    },
+  script.json:1447299:    {
+  script.json:1550338:      "Address": 167356675,
+> script.json:1550339:      "Name": "Mono.Security.Cryptography.RSAManaged$$EncryptValue",
+> script.json:1550340:      "Signature": "System_Byte_array* Mono_Security_Cryptography_RSAManaged__EncryptValue 
+(Mono_Security_Cryptography_RSAManaged_o* __this, System_Byte_array* rgb, const MethodInfo* method);",
+  script.json:1550341:      "TypeSignature": "iiii"
+  script.json:1550342:    },
+  script.json:1550343:    {
+  script.json:1550387:      "Name": "Mono.Security.Cryptography.SymmetricTransform$$.ctor",
+> script.json:1550388:      "Signature": "void Mono_Security_Cryptography_SymmetricTransform___ctor 
+(Mono_Security_Cryptography_SymmetricTransform_o* __this, System_Security_Cryptography_SymmetricAlgorithm_o* symmAlgo, bool encryption, 
+System_Byte_array* rgbIV, const MethodInfo* method);",
+  script.json:1550389:      "TypeSignature": "viiiii"
+  script.json:1550390:    },
+  script.json:1550391:    {
+  script.json:1550500:      "Address": 167369651,
+> script.json:1550501:      "Name": "Mono.Security.Cryptography.SymmetricTransform$$FinalEncrypt",
+> script.json:1550502:      "Signature": "System_Byte_array* Mono_Security_Cryptography_SymmetricTransform__FinalEncrypt 
+(Mono_Security_Cryptography_SymmetricTransform_o* __this, System_Byte_array* inputBuffer, int32_t inputOffset, int32_t inputCount, const 
+MethodInfo* method);",
+  script.json:1550503:      "TypeSignature": "iiiiii"
+  script.json:1550504:    },
+  script.json:1550505:    {
+  script.json:1722970:      "Address": 167598206,
+> script.json:1722971:      "Name": "System.Security.SecureString$$Encrypt",
+> script.json:1722972:      "Signature": "void System_Security_SecureString__Encrypt (System_Security_SecureString_o* __this, const 
+MethodInfo* method);",
+  script.json:1722973:      "TypeSignature": "vii"
+  script.json:1722974:    },
+  script.json:1722975:    {
+  script.json:1724236:      "Address": 167654478,
+> script.json:1724237:      "Name": "System.Security.Cryptography.DESCryptoServiceProvider$$CreateEncryptor",
+> script.json:1724238:      "Signature": "System_Security_Cryptography_ICryptoTransform_o* 
+System_Security_Cryptography_DESCryptoServiceProvider__CreateEncryptor (System_Security_Cryptography_DESCryptoServiceProvider_o* __this, 
+System_Byte_array* rgbKey, System_Byte_array* rgbIV, const MethodInfo* method);",
+  script.json:1724239:      "TypeSignature": "iiiii"
+  script.json:1724240:    },
+  script.json:1724241:    {
+  script.json:1724704:      "Address": 167670711,
+> script.json:1724705:      "Name": "System.Security.Cryptography.RC2CryptoServiceProvider$$CreateEncryptor",
+> script.json:1724706:      "Signature": "System_Security_Cryptography_ICryptoTransform_o* 
+System_Security_Cryptography_RC2CryptoServiceProvider__CreateEncryptor (System_Security_Cryptography_RC2CryptoServiceProvider_o* __this, 
+System_Byte_array* rgbKey, System_Byte_array* rgbIV, const MethodInfo* method);",
+  script.json:1724707:      "TypeSignature": "iiiii"
+  script.json:1724708:    },
+  script.json:1724709:    {
+  script.json:1724752:      "Address": 167672554,
+> script.json:1724753:      "Name": "System.Security.Cryptography.RijndaelManaged$$CreateEncryptor",
+> script.json:1724754:      "Signature": "System_Security_Cryptography_ICryptoTransform_o* 
+System_Security_Cryptography_RijndaelManaged__CreateEncryptor (System_Security_Cryptography_RijndaelManaged_o* __this, System_Byte_array* 
+rgbKey, System_Byte_array* rgbIV, const MethodInfo* method);",
+  script.json:1724755:      "TypeSignature": "iiiii"
+  script.json:1724756:    },
+  script.json:1724757:    {
+  script.json:1724776:      "Address": 167672622,
+> script.json:1724777:      "Name": "System.Security.Cryptography.RijndaelManaged$$NewEncryptor",
+> script.json:1724778:      "Signature": "System_Security_Cryptography_ICryptoTransform_o* 
+System_Security_Cryptography_RijndaelManaged__NewEncryptor (System_Security_Cryptography_RijndaelManaged_o* __this, System_Byte_array* 
+rgbKey, int32_t mode, System_Byte_array* rgbIV, int32_t feedbackSize, int32_t encryptMode, const MethodInfo* method);",
+  script.json:1724779:      "TypeSignature": "iiiiiiii"
+  script.json:1724780:    },
+  script.json:1724781:    {
+  script.json:1724842:      "Address": 167677683,
+> script.json:1724843:      "Name": "System.Security.Cryptography.RijndaelManagedTransform$$EncryptData",
+> script.json:1724844:      "Signature": "int32_t System_Security_Cryptography_RijndaelManagedTransform__EncryptData 
+(System_Security_Cryptography_RijndaelManagedTransform_o* __this, System_Byte_array* inputBuffer, int32_t inputOffset, int32_t inputCount, 
+System_Byte_array** outputBuffer, int32_t outputOffset, int32_t paddingMode, bool fLast, const MethodInfo* method);",
+  script.json:1724845:      "TypeSignature": "iiiiiiiiii"
+  script.json:1724846:    },
+  script.json:1724847:    {
+  script.json:1724855:      "Name": "System.Security.Cryptography.RijndaelManagedTransform$$Enc",
+> script.json:1724856:      "Signature": "void System_Security_Cryptography_RijndaelManagedTransform__Enc 
+(System_Security_Cryptography_RijndaelManagedTransform_o* __this, int32_t* encryptindex, int32_t* encryptKeyExpansion, int32_t* T, 
+int32_t* TF, int32_t* work, int32_t* temp, const MethodInfo* method);",
+  script.json:1724857:      "TypeSignature": "viiiiiiii"
+  script.json:1724858:    },
+  script.json:1724859:    {
+  script.json:1725010:      "Address": 167695905,
+> script.json:1725011:      "Name": "System.Security.Cryptography.RSA$$EncryptValue",
+> script.json:1725012:      "Signature": "System_Byte_array* System_Security_Cryptography_RSA__EncryptValue 
+(System_Security_Cryptography_RSA_o* __this, System_Byte_array* rgb, const MethodInfo* method);",
+  script.json:1725013:      "TypeSignature": "iiii"
+  script.json:1725014:    },
+  script.json:1725015:    {
+  script.json:1725088:      "Address": 167700422,
+> script.json:1725089:      "Name": "System.Security.Cryptography.RSACryptoServiceProvider$$EncryptValue",
+> script.json:1725090:      "Signature": "System_Byte_array* System_Security_Cryptography_RSACryptoServiceProvider__EncryptValue 
+(System_Security_Cryptography_RSACryptoServiceProvider_o* __this, System_Byte_array* rgb, const MethodInfo* method);",
+  script.json:1725091:      "TypeSignature": "iiii"
+  script.json:1725092:    },
+  script.json:1725093:    {
+  script.json:1725736:      "Address": 167724971,
+> script.json:1725737:      "Name": "System.Security.Cryptography.SymmetricAlgorithm$$CreateEncryptor",
+> script.json:1725738:      "Signature": "System_Security_Cryptography_ICryptoTransform_o* 
+System_Security_Cryptography_SymmetricAlgorithm__CreateEncryptor (System_Security_Cryptography_SymmetricAlgorithm_o* __this, const 
+MethodInfo* method);",
+  script.json:1725739:      "TypeSignature": "iii"
+  script.json:1725740:    },
+  script.json:1725741:    {
+  script.json:1725802:      "Address": 167727948,
+> script.json:1725803:      "Name": "System.Security.Cryptography.TripleDESCryptoServiceProvider$$CreateEncryptor",
+> script.json:1725804:      "Signature": "System_Security_Cryptography_ICryptoTransform_o* 
+System_Security_Cryptography_TripleDESCryptoServiceProvider__CreateEncryptor 
+(System_Security_Cryptography_TripleDESCryptoServiceProvider_o* __this, System_Byte_array* rgbKey, System_Byte_array* rgbIV, const 
+MethodInfo* method);",
+  script.json:1725805:      "TypeSignature": "iiiii"
+  script.json:1725806:    },
+  script.json:1725807:    {
+  script.json:1725959:      "Name": "System.Security.Cryptography.DESTransform$$.ctor",
+> script.json:1725960:      "Signature": "void System_Security_Cryptography_DESTransform___ctor 
+(System_Security_Cryptography_DESTransform_o* __this, System_Security_Cryptography_SymmetricAlgorithm_o* symmAlgo, bool encryption, 
+System_Byte_array* key, System_Byte_array* iv, const MethodInfo* method);",
+  script.json:1725961:      "TypeSignature": "viiiiii"
+  script.json:1725962:    },
+  script.json:1725963:    {
+  script.json:1726139:      "Name": "System.Security.Cryptography.RC2Transform$$.ctor",
+> script.json:1726140:      "Signature": "void System_Security_Cryptography_RC2Transform___ctor 
+(System_Security_Cryptography_RC2Transform_o* __this, System_Security_Cryptography_RC2_o* rc2Algo, bool encryption, System_Byte_array* 
+key, System_Byte_array* iv, const MethodInfo* method);",
+  script.json:1726141:      "TypeSignature": "viiiiii"
+  script.json:1726142:    },
+  script.json:1726143:    {
+  script.json:1726343:      "Name": "System.Security.Cryptography.TripleDESTransform$$.ctor",
+> script.json:1726344:      "Signature": "void System_Security_Cryptography_TripleDESTransform___ctor 
+(System_Security_Cryptography_TripleDESTransform_o* __this, System_Security_Cryptography_TripleDES_o* algo, bool encryption, 
+System_Byte_array* key, System_Byte_array* iv, const MethodInfo* method);",
+  script.json:1726345:      "TypeSignature": "viiiiii"
+  script.json:1726346:    },
+  script.json:1726347:    {
+  script.json:2133430:      "Address": 172358872,
+> script.json:2133431:      "Name": "Mono.Net.Security.MonoSslClientAuthenticationOptions$$set_EncryptionPolicy",
+> script.json:2133432:      "Signature": "void Mono_Net_Security_MonoSslClientAuthenticationOptions__set_EncryptionPolicy 
+(Mono_Net_Security_MonoSslClientAuthenticationOptions_o* __this, int32_t value, const MethodInfo* method);",
+  script.json:2133433:      "TypeSignature": "viii"
+  script.json:2133434:    },
+  script.json:2133435:    {
+  script.json:2167108:      "Address": 176001115,
+> script.json:2167109:      "Name": "System.Net.Security.SslClientAuthenticationOptions$$set_EncryptionPolicy",
+> script.json:2167110:      "Signature": "void System_Net_Security_SslClientAuthenticationOptions__set_EncryptionPolicy 
+(System_Net_Security_SslClientAuthenticationOptions_o* __this, int32_t value, const MethodInfo* method);",
+  script.json:2167111:      "TypeSignature": "viii"
+  script.json:2167112:    },
+  script.json:2167113:    {
+  script.json:2268599:      "Name": "ZXing.Client.Result.WifiParsedResult$$.ctor",
+> script.json:2268600:      "Signature": "void ZXing_Client_Result_WifiParsedResult___ctor (ZXing_Client_Result_WifiParsedResult_o* 
+__this, System_String_o* networkEncryption, System_String_o* ssid, System_String_o* password, const MethodInfo* method);",
+  script.json:2268601:      "TypeSignature": "viiiii"
+  script.json:2268602:    },
+  script.json:2268603:    {
+  script.json:2268605:      "Name": "ZXing.Client.Result.WifiParsedResult$$.ctor",
+> script.json:2268606:      "Signature": "void ZXing_Client_Result_WifiParsedResult___ctor (ZXing_Client_Result_WifiParsedResult_o* 
+__this, System_String_o* networkEncryption, System_String_o* ssid, System_String_o* password, bool hidden, const MethodInfo* method);",
+  script.json:2268607:      "TypeSignature": "viiiiii"
+  script.json:2268608:    },
+  script.json:2268609:    {
+  script.json:2268611:      "Name": "ZXing.Client.Result.WifiParsedResult$$.ctor",
+> script.json:2268612:      "Signature": "void ZXing_Client_Result_WifiParsedResult___ctor (ZXing_Client_Result_WifiParsedResult_o* 
+__this, System_String_o* networkEncryption, System_String_o* ssid, System_String_o* password, bool hidden, System_String_o* identity, 
+System_String_o* anonymousIdentity, System_String_o* eapMethod, System_String_o* phase2Method, const MethodInfo* method);",
+  script.json:2268613:      "TypeSignature": "viiiiiiiiii"
+  script.json:2268614:    },
+  script.json:2268615:    {
+  script.json:2268628:      "Address": 181742051,
+> script.json:2268629:      "Name": "ZXing.Client.Result.WifiParsedResult$$get_NetworkEncryption",
+> script.json:2268630:      "Signature": "System_String_o* ZXing_Client_Result_WifiParsedResult__get_NetworkEncryption 
+(ZXing_Client_Result_WifiParsedResult_o* __this, const MethodInfo* method);",
+  script.json:2268631:      "TypeSignature": "iii"
+  script.json:2268632:    },
+  script.json:2268633:    {
+  script.json:2268634:      "Address": 181742068,
+> script.json:2268635:      "Name": "ZXing.Client.Result.WifiParsedResult$$set_NetworkEncryption",
+> script.json:2268636:      "Signature": "void ZXing_Client_Result_WifiParsedResult__set_NetworkEncryption 
+(ZXing_Client_Result_WifiParsedResult_o* __this, System_String_o* value, const MethodInfo* method);",
+  script.json:2268637:      "TypeSignature": "viii"
+  script.json:2268638:    },
+  script.json:2268639:    {
+  script.json:2269924:      "Address": 171665470,
+> script.json:2269925:      "Name": "System.Security.Cryptography.AesManaged$$CreateEncryptor",
+> script.json:2269926:      "Signature": "System_Security_Cryptography_ICryptoTransform_o* 
+System_Security_Cryptography_AesManaged__CreateEncryptor (System_Security_Cryptography_AesManaged_o* __this, const MethodInfo* method);",
+  script.json:2269927:      "TypeSignature": "iii"
+  script.json:2269928:    },
+  script.json:2269929:    {
+  script.json:2269930:      "Address": 171665549,
+> script.json:2269931:      "Name": "System.Security.Cryptography.AesManaged$$CreateEncryptor",
+> script.json:2269932:      "Signature": "System_Security_Cryptography_ICryptoTransform_o* 
+System_Security_Cryptography_AesManaged__CreateEncryptor (System_Security_Cryptography_AesManaged_o* __this, System_Byte_array* key, 
+System_Byte_array* iv, const MethodInfo* method);",
+  script.json:2269933:      "TypeSignature": "iiiii"
+  script.json:2269934:    },
+  script.json:2269935:    {
+  script.json:2269978:      "Address": 171669058,
+> script.json:2269979:      "Name": "System.Security.Cryptography.AesCryptoServiceProvider$$CreateEncryptor",
+> script.json:2269980:      "Signature": "System_Security_Cryptography_ICryptoTransform_o* 
+System_Security_Cryptography_AesCryptoServiceProvider__CreateEncryptor (System_Security_Cryptography_AesCryptoServiceProvider_o* __this, 
+System_Byte_array* key, System_Byte_array* iv, const MethodInfo* method);",
+  script.json:2269981:      "TypeSignature": "iiiii"
+  script.json:2269982:    },
+  script.json:2269983:    {
+  script.json:2270062:      "Address": 171670085,
+> script.json:2270063:      "Name": "System.Security.Cryptography.AesCryptoServiceProvider$$CreateEncryptor",
+> script.json:2270064:      "Signature": "System_Security_Cryptography_ICryptoTransform_o* 
+System_Security_Cryptography_AesCryptoServiceProvider__CreateEncryptor (System_Security_Cryptography_AesCryptoServiceProvider_o* __this, 
+const MethodInfo* method);",
+  script.json:2270065:      "TypeSignature": "iii"
+  script.json:2270066:    },
+  script.json:2270067:    {
+  script.json:2270075:      "Name": "System.Security.Cryptography.AesTransform$$.ctor",
+> script.json:2270076:      "Signature": "void System_Security_Cryptography_AesTransform___ctor 
+(System_Security_Cryptography_AesTransform_o* __this, System_Security_Cryptography_Aes_o* algo, bool encryption, System_Byte_array* key, 
+System_Byte_array* iv, const MethodInfo* method);",
+  script.json:2270077:      "TypeSignature": "viiiiii"
+  script.json:2270078:    },
+  script.json:2270079:    {
+  script.json:2270092:      "Address": 171670572,
+> script.json:2270093:      "Name": "System.Security.Cryptography.AesTransform$$Encrypt128",
+> script.json:2270094:      "Signature": "void System_Security_Cryptography_AesTransform__Encrypt128 
+(System_Security_Cryptography_AesTransform_o* __this, System_Byte_array* indata, System_Byte_array* outdata, System_UInt32_array* ekey, 
+const MethodInfo* method);",
+  script.json:2270095:      "TypeSignature": "viiiii"
+  script.json:2270096:    },
+  script.json:2270097:    {
+  script.json:2339308:      "Address": 167085017,
+> script.json:2339309:      "Name": "Mono.Security.PKCS7.EncryptedData$$.ctor",
+> script.json:2339310:      "Signature": "void Mono_Security_PKCS7_EncryptedData___ctor (Mono_Security_PKCS7_EncryptedData_o* __this, 
+const MethodInfo* method);",
+  script.json:2339311:      "TypeSignature": "vii"
+  script.json:2339312:    },
+  script.json:2339313:    {
+  script.json:2339314:      "Address": 167085068,
+> script.json:2339315:      "Name": "Mono.Security.PKCS7.EncryptedData$$.ctor",
+> script.json:2339316:      "Signature": "void Mono_Security_PKCS7_EncryptedData___ctor (Mono_Security_PKCS7_EncryptedData_o* __this, 
+Mono_Security_ASN1_1_o* asn1, const MethodInfo* method);",
+  script.json:2339317:      "TypeSignature": "viii"
+  script.json:2339318:    },
+  script.json:2339319:    {
+  script.json:2339320:      "Address": 167086007,
+> script.json:2339321:      "Name": "Mono.Security.PKCS7.EncryptedData$$get_EncryptionAlgorithm",
+> script.json:2339322:      "Signature": "Mono_Security_PKCS7_ContentInfo_o* Mono_Security_PKCS7_EncryptedData__get_EncryptionAlgorithm 
+(Mono_Security_PKCS7_EncryptedData_o* __this, const MethodInfo* method);",
+  script.json:2339323:      "TypeSignature": "iii"
+  script.json:2339324:    },
+  script.json:2339325:    {
+  script.json:2339326:      "Address": 167086024,
+> script.json:2339327:      "Name": "Mono.Security.PKCS7.EncryptedData$$get_EncryptedContent",
+> script.json:2339328:      "Signature": "System_Byte_array* Mono_Security_PKCS7_EncryptedData__get_EncryptedContent 
+(Mono_Security_PKCS7_EncryptedData_o* __this, const MethodInfo* method);",
+  script.json:2339329:      "TypeSignature": "iii"
+  script.json:2339330:    },
+  script.json:2339331:    {
+  script.json:2339591:      "Name": "Mono.Security.X509.PKCS12$$Decrypt",
+> script.json:2339592:      "Signature": "System_Byte_array* Mono_Security_X509_PKCS12__Decrypt (Mono_Security_X509_PKCS12_o* __this, 
+System_String_o* algorithmOid, System_Byte_array* salt, int32_t iterationCount, System_Byte_array* encryptedData, const MethodInfo* 
+method);",
+  script.json:2339593:      "TypeSignature": "iiiiiii"
+  script.json:2339594:    },
+  script.json:2339595:    {
+  script.json:2339597:      "Name": "Mono.Security.X509.PKCS12$$Decrypt",
+> script.json:2339598:      "Signature": "System_Byte_array* Mono_Security_X509_PKCS12__Decrypt (Mono_Security_X509_PKCS12_o* __this, 
+Mono_Security_PKCS7_EncryptedData_o* ed, const MethodInfo* method);",
+  script.json:2339599:      "TypeSignature": "iiii"
+  script.json:2339600:    },
+  script.json:2339601:    {
+  script.json:2339602:      "Address": 167104252,
+> script.json:2339603:      "Name": "Mono.Security.X509.PKCS12$$Encrypt",
+> script.json:2339604:      "Signature": "System_Byte_array* Mono_Security_X509_PKCS12__Encrypt (Mono_Security_X509_PKCS12_o* __this, 
+System_String_o* algorithmOid, System_Byte_array* salt, int32_t iterationCount, System_Byte_array* data, const MethodInfo* method);",
+  script.json:2339605:      "TypeSignature": "iiiiiii"
+  script.json:2339606:    },
+  script.json:2339607:    {
+  script.json:2339644:      "Address": 167122852,
+> script.json:2339645:      "Name": "Mono.Security.X509.PKCS12$$EncryptedContentInfo",
+> script.json:2339646:      "Signature": "Mono_Security_PKCS7_ContentInfo_o* Mono_Security_X509_PKCS12__EncryptedContentInfo 
+(Mono_Security_X509_PKCS12_o* __this, Mono_Security_ASN1_1_o* safeBags, System_String_o* algorithmOid, const MethodInfo* method);",
+  script.json:2339647:      "TypeSignature": "iiiii"
+  script.json:2339648:    },
+  script.json:2339649:    {
+  script.json:2341354:      "Address": 167202982,
+> script.json:2341355:      "Name": "Mono.Security.Cryptography.PKCS8.EncryptedPrivateKeyInfo$$.ctor",
+> script.json:2341356:      "Signature": "void Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo___ctor 
+(Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_o* __this, const MethodInfo* method);",
+  script.json:2341357:      "TypeSignature": "vii"
+  script.json:2341358:    },
+  script.json:2341359:    {
+  script.json:2341360:      "Address": 167203031,
+> script.json:2341361:      "Name": "Mono.Security.Cryptography.PKCS8.EncryptedPrivateKeyInfo$$.ctor",
+> script.json:2341362:      "Signature": "void Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo___ctor 
+(Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_o* __this, System_Byte_array* data, const MethodInfo* method);",
+  script.json:2341363:      "TypeSignature": "viii"
+  script.json:2341364:    },
+  script.json:2341365:    {
+  script.json:2341366:      "Address": 167203950,
+> script.json:2341367:      "Name": "Mono.Security.Cryptography.PKCS8.EncryptedPrivateKeyInfo$$get_Algorithm",
+> script.json:2341368:      "Signature": "System_String_o* Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo__get_Algorithm 
+(Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_o* __this, const MethodInfo* method);",
+  script.json:2341369:      "TypeSignature": "iii"
+  script.json:2341370:    },
+  script.json:2341371:    {
+  script.json:2341372:      "Address": 167203967,
+> script.json:2341373:      "Name": "Mono.Security.Cryptography.PKCS8.EncryptedPrivateKeyInfo$$get_EncryptedData",
+> script.json:2341374:      "Signature": "System_Byte_array* Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo__get_EncryptedData 
+(Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_o* __this, const MethodInfo* method);",
+  script.json:2341375:      "TypeSignature": "iii"
+  script.json:2341376:    },
+  script.json:2341377:    {
+  script.json:2341378:      "Address": 167204100,
+> script.json:2341379:      "Name": "Mono.Security.Cryptography.PKCS8.EncryptedPrivateKeyInfo$$get_Salt",
+> script.json:2341380:      "Signature": "System_Byte_array* Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo__get_Salt 
+(Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_o* __this, const MethodInfo* method);",
+  script.json:2341381:      "TypeSignature": "iii"
+  script.json:2341382:    },
+  script.json:2341383:    {
+  script.json:2341384:      "Address": 167204350,
+> script.json:2341385:      "Name": "Mono.Security.Cryptography.PKCS8.EncryptedPrivateKeyInfo$$get_IterationCount",
+> script.json:2341386:      "Signature": "int32_t Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo__get_IterationCount 
+(Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_o* __this, const MethodInfo* method);",
+  script.json:2341387:      "TypeSignature": "iii"
+  script.json:2341388:    },
+  script.json:2341389:    {
+  script.json:2341390:      "Address": 167203097,
+> script.json:2341391:      "Name": "Mono.Security.Cryptography.PKCS8.EncryptedPrivateKeyInfo$$Decode",
+> script.json:2341392:      "Signature": "void Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo__Decode 
+(Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_o* __this, System_Byte_array* data, const MethodInfo* method);",
+  script.json:2341393:      "TypeSignature": "viii"
+  script.json:2341394:    },
+  script.json:2341395:    {
+  script.json:2341444:      "Address": 167208190,
+> script.json:2341445:      "Name": "Mono.Security.Cryptography.RSAManaged$$EncryptValue",
+> script.json:2341446:      "Signature": "System_Byte_array* Mono_Security_Cryptography_RSAManaged__EncryptValue 
+(Mono_Security_Cryptography_RSAManaged_1_o* __this, System_Byte_array* rgb, const MethodInfo* method);",
+  script.json:2341447:      "TypeSignature": "iiii"
+  script.json:2341448:    },
+  script.json:2341449:    {
+  script.json:2441320:      "Address": 186495976,
+> script.json:2441321:      "Value": "ENCRYPTED_TOKEN"
+  script.json:2441322:    },
+  script.json:2441323:    {
+  script.json:2441324:      "Address": 186495980,
+  script.json:2442244:      "Address": 186496900,
+> script.json:2442245:      "Value": "Encryption failed"
+  script.json:2442246:    },
+  script.json:2442247:    {
+  script.json:2442248:      "Address": 186496904,
+> script.json:2442249:      "Value": "EncryptionPolicy"
+  script.json:2442250:    },
+  script.json:2442251:    {
+  script.json:2442252:      "Address": 186496908,
+  script.json:2444140:      "Address": 186498796,
+> script.json:2444141:      "Value": "EventTypeFileInfoEncrypt"
+  script.json:2444142:    },
+  script.json:2444143:    {
+  script.json:2444144:      "Address": 186498800,
+  script.json:2450140:      "Address": 186504796,
+> script.json:2450141:      "Value": "FileInfoEncryption_EncryptedMask"
+  script.json:2450142:    },
+  script.json:2450143:    {
+  script.json:2450144:      "Address": 186504800,
+> script.json:2450145:      "Value": "FileInfoEncryption_GGPDecryptFailed"
+  script.json:2450146:    },
+  script.json:2450147:    {
+  script.json:2450148:      "Address": 186504804,
+> script.json:2450149:      "Value": "FileInfoEncryption_LastState"
+  script.json:2450150:    },
+  script.json:2450151:    {
+  script.json:2450152:      "Address": 186504808,
+  script.json:2460384:      "Address": 186515040,
+> script.json:2460385:      "Value": "Invalid AESEncryptionStrength "
+  script.json:2460386:    },
+  script.json:2460387:    {
+  script.json:2460388:      "Address": 186515044,
+  script.json:2460468:      "Address": 186515124,
+> script.json:2460469:      "Value": "Invalid EncryptedData"
+  script.json:2460470:    },
+  script.json:2460471:    {
+  script.json:2460472:      "Address": 186515128,
+  script.json:2465100:      "Address": 186519756,
+> script.json:2465101:      "Value": "Length of the data to encrypt is invalid."
+  script.json:2465102:    },
+  script.json:2465103:    {
+  script.json:2465104:      "Address": 186519760,
+  script.json:2481740:      "Address": 186536396,
+> script.json:2481741:      "Value": "QDENCRYPTKEY"
+  script.json:2481742:    },
+  script.json:2481743:    {
+  script.json:2481744:      "Address": 186536400,
+  script.json:2553556:      "Address": 186608212,
+> script.json:2553557:      "Value": "[DownloadVersionInfo] TryReadEncryptedFileInfo: GGP magic not detected but PlayerPrefs indicates 
+file was encrypted, entering repair: {0}"
+  script.json:2553558:    },
+  script.json:2553559:    {
+  script.json:2553560:      "Address": 186608216,
+> script.json:2553561:      "Value": "[DownloadVersionInfo] TryReadEncryptedFileInfo: file has GGP magic but encryption is OFF, entering 
+repair: {0}"
+  script.json:2553562:    },
+  script.json:2553563:    {
+  script.json:2553564:      "Address": 186608220,
+> script.json:2553565:      "Value": "[DownloadVersionInfo] TryWriteEncryptedFileInfo: WriteEncryptedFile failed (result: {0}), fallback 
+to plaintext"
+  script.json:2553566:    },
+  script.json:2553567:    {
+  script.json:2553568:      "Address": 186608224,
+  script.json:2553880:      "Address": 186608536,
+> script.json:2553881:      "Value": "[FileInfoEncryptionHelper] Cleared GGPDecryptFailedMask"
+  script.json:2553882:    },
+  script.json:2553883:    {
+  script.json:2553884:      "Address": 186608540,
+> script.json:2553885:      "Value": "[FileInfoEncryptionHelper] GGP decryption failed for DownloadType {0}, mask: {1}"
+  script.json:2553886:    },
+  script.json:2553887:    {
+  script.json:2553888:      "Address": 186608544,
+> script.json:2553889:      "Value": "[FileInfoEncryptionHelper] GGPDecryptFailedMask restored: {0}"
+  script.json:2553890:    },
+  script.json:2553891:    {
+  script.json:2553892:      "Address": 186608548,
+> script.json:2553893:      "Value": "[FileInfoEncryptionHelper] Generated GGP key (length: {0})"
+  script.json:2553894:    },
+  script.json:2553895:    {
+  script.json:2553896:      "Address": 186608552,
+> script.json:2553897:      "Value": "[FileInfoEncryptionHelper] HasGGPEncryptionMagic check failed: {0}, error: {1}"
+  script.json:2553898:    },
+  script.json:2553899:    {
+  script.json:2553900:      "Address": 186608556,
+> script.json:2553901:      "Value": "[FileInfoEncryptionHelper] ReadDecryptedFile failed: {0}, error: {1}"
+  script.json:2553902:    },
+  script.json:2553903:    {
+  script.json:2553904:      "Address": 186608560,
+> script.json:2553905:      "Value": "[FileInfoEncryptionHelper] ReadDecryptedFile plaintext (no GGP magic): {0}"
+  script.json:2553906:    },
+  script.json:2553907:    {
+  script.json:2553908:      "Address": 186608564,
+> script.json:2553909:      "Value": "[FileInfoEncryptionHelper] ReadDecryptedFile via GGP: {0}, length: {1}"
+  script.json:2553910:    },
+  script.json:2553911:    {
+  script.json:2553912:      "Address": 186608568,
+> script.json:2553913:      "Value": "[FileInfoEncryptionHelper] ReadDecryptedFile: GGP ReadBufFromFile returned null: {0}"
+  script.json:2553914:    },
+  script.json:2553915:    {
+  script.json:2553916:      "Address": 186608572,
+> script.json:2553917:      "Value": "[FileInfoEncryptionHelper] ReadDecryptedFile: GGP decrypted content failed validation: {0}, length: 
+{1}"
+  script.json:2553918:    },
+  script.json:2553919:    {
+  script.json:2553920:      "Address": 186608576,
+> script.json:2553921:      "Value": "[FileInfoEncryptionHelper] WriteEncryptedFile failed: {0}, error: {1}"
+  script.json:2553922:    },
+  script.json:2553923:    {
+  script.json:2553924:      "Address": 186608580,
+> script.json:2553925:      "Value": "[FileInfoEncryptionHelper] WriteEncryptedFile via GGP: {0}, result: {1}, size: {2}"
+  script.json:2553926:    },
+  script.json:2553927:    {
+  script.json:2553928:      "Address": 186608584,
+  script.json:2556656:      "Address": 186611312,
+> script.json:2556657:      "Value": "[OptioanalDownload] Encrypt plaintext FileInfo for {0}"
+  script.json:2556658:    },
+  script.json:2556659:    {
+  script.json:2556660:      "Address": 186611316,
+> script.json:2556661:      "Value": "[OptioanalDownload] Using repair flow for encryption recovery"
+  script.json:2556662:    },
+  script.json:2556663:    {
+  script.json:2556664:      "Address": 186611320,
+  script.json:2557416:      "Address": 186612072,
+> script.json:2557417:      "Value": "[ResUpdateDownloadEngine] FileInfo encryption switched ON-\u003EOFF, need recover"
+  script.json:2557418:    },
+  script.json:2557419:    {
+  script.json:2557420:      "Address": 186612076,
+  script.json:2557424:      "Address": 186612080,
+> script.json:2557425:      "Value": "[ResUpdateDownloadEngine] SendFileInfoEncryptLog: decrypt={0} encrypt={1}"
+  script.json:2557426:    },
+  script.json:2557427:    {
+  script.json:2557428:      "Address": 186612084,
+  script.json:2575460:      "Address": 186630116,
+> script.json:2575461:      "Value": "encryption"
+  script.json:2575462:    },
+  script.json:2575463:    {
+  script.json:2575464:      "Address": 186630120,
+  script.json:2580632:      "Address": 186635288,
+> script.json:2580633:      "Value": "invalid EncryptedData"
+  script.json:2580634:    },
+  script.json:2580635:    {
+  script.json:2580636:      "Address": 186635292,
+> script.json:2580637:      "Value": "invalid EncryptedPrivateKeyInfo"
+  script.json:2580638:    },
+  script.json:2580639:    {
+  script.json:2580640:      "Address": 186635296,
+  script.json:2580720:      "Address": 186635376,
+> script.json:2580721:      "Value": "invalid encryptionAlgorithm"
+  script.json:2580722:    },
+  script.json:2580723:    {
+  script.json:2580724:      "Address": 186635380,
+  script.json:2584776:      "Address": 186639432,
+> script.json:2584777:      "Value": "missing EncryptedContentInfo"
+  script.json:2584778:    },
+  script.json:2584779:    {
+  script.json:2584780:      "Address": 186639436,
+> script.json:2584781:      "Value": "missing EncryptedContentInfo.ContentEncryptionAlgorithmIdentifier"
+  script.json:2584782:    },
+  script.json:2584783:    {
+  script.json:2584784:      "Address": 186639440,
+> script.json:2584785:      "Value": "missing EncryptedContentInfo.ContentType"
+  script.json:2584786:    },
+  script.json:2584787:    {
+  script.json:2584788:      "Address": 186639444,
+> script.json:2584789:      "Value": "missing EncryptedContentInfo.EncryptedContent"
+  script.json:2584790:    },
+  script.json:2584791:    {
+  script.json:2584792:      "Address": 186639448,
+  script.json:2588696:      "Address": 186643352,
+> script.json:2588697:      "Value": "public key encrypted"
+  script.json:2588698:    },
+  script.json:2588699:    {
+  script.json:2588700:      "Address": 186643356,
+  script.json:2684401:      "Address": 185918708,
+> script.json:2684402:      "Name": "System.Collections.Generic.List\u003CEventLogger.FileInfoEncryptResult\u003E_TypeInfo",
+> script.json:2684403:      "Signature": "System_Collections_Generic_List_EventLogger_FileInfoEncryptResult__c*"
+  script.json:2684404:    },
+  script.json:2684405:    {
+  script.json:2684406:      "Address": 185918712,
+  script.json:2725911:      "Address": 185951916,
+> script.json:2725912:      "Name": "GCommon.FileInfoEncryptionHelper_TypeInfo",
+> script.json:2725913:      "Signature": "GCommon_FileInfoEncryptionHelper_c*"
+  script.json:2725914:    },
+  script.json:2725915:    {
+  script.json:2725916:      "Address": 185951920,
+  script.json:2746301:      "Address": 185968228,
+> script.json:2746302:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicDecryptCryptoTransform_TypeInfo",
+> script.json:2746303:      "Signature": "ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform_c*"
+  script.json:2746304:    },
+  script.json:2746305:    {
+  script.json:2746306:      "Address": 185968232,
+> script.json:2746307:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicEncryptCryptoTransform_TypeInfo",
+> script.json:2746308:      "Signature": "ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform_c*"
+  script.json:2746309:    },
+  script.json:2746310:    {
+  script.json:2746311:      "Address": 185968236,
+> script.json:2746312:      "Name": "ICSharpCode.SharpZipLib.Encryption.PkzipClassicManaged_TypeInfo",
+> script.json:2746313:      "Signature": "ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged_c*"
+  script.json:2746314:    },
+  script.json:2746315:    {
+  script.json:2746316:      "Address": 185968240,
+  script.json:2789986:      "Address": 186003176,
+> script.json:2789987:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform_TypeInfo",
+> script.json:2789988:      "Signature": "ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_c*"
+  script.json:2789989:    },
+  script.json:2789990:    {
+  script.json:2789991:      "Address": 186003180,
+  script.json:2795326:      "Address": 186007448,
+> script.json:2795327:      "Name": "COW.EventLogger.EventTypeFileInfoEncrypt_TypeInfo",
+> script.json:2795328:      "Signature": "COW_EventLogger_EventTypeFileInfoEncrypt_c*"
+  script.json:2795329:    },
+  script.json:2795330:    {
+  script.json:2795331:      "Address": 186007452,
+  script.json:2796311:      "Address": 186008236,
+> script.json:2796312:      "Name": "COW.EventLogger.FileInfoEncryptResult_TypeInfo",
+> script.json:2796313:      "Signature": "COW_EventLogger_FileInfoEncryptResult_c*"
+  script.json:2796314:    },
+  script.json:2796315:    {
+  script.json:2796316:      "Address": 186008240,
+  script.json:2802876:      "Address": 186013488,
+> script.json:2802877:      "Name": "Mono.Security.PKCS7.EncryptedData_TypeInfo",
+> script.json:2802878:      "Signature": "Mono_Security_PKCS7_EncryptedData_c*"
+  script.json:2802879:    },
+  script.json:2802880:    {
+  script.json:2802881:      "Address": 186013492,
+  script.json:2802891:      "Address": 186013500,
+> script.json:2802892:      "Name": "Mono.Security.Cryptography.PKCS8.EncryptedPrivateKeyInfo_TypeInfo",
+> script.json:2802893:      "Signature": "Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfo_c*"
+  script.json:2802894:    },
+  script.json:2802895:    {
+  script.json:2802896:      "Address": 186013504,
+  script.json:3073603:      "Address": 186214800,
+> script.json:3073604:      "Name": "Method$System.Collections.Generic.List\u003CEventLogger.FileInfoEncryptResult\u003E..ctor()",
+  script.json:3073605:      "MethodAddress": 0
+  script.json:3073606:    },
+  script.json:3073607:    {
+  script.json:3073608:      "Address": 186214804,
+> script.json:3073609:      "Name": "Method$System.Collections.Generic.List\u003CEventLogger.FileInfoEncryptResult\u003E.Add()",
+  script.json:3073610:      "MethodAddress": 0
+  script.json:3073611:    },
+  script.json:3073612:    {
+  script.json:3073613:      "Address": 186214808,
+> script.json:3073614:      "Name": "Method$System.Collections.Generic.List\u003CEventLogger.FileInfoEncryptResult\u003E.Clear()",
+  script.json:3073615:      "MethodAddress": 0
+  script.json:3073616:    },
+  script.json:3073617:    {
+  script.json:3073618:      "Address": 186214812,
+> script.json:3073619:      "Name": "Method$System.Collections.Generic.List\u003CEventLogger.FileInfoEncryptResult\u003E.get_Count()",
+  script.json:3073620:      "MethodAddress": 0
+  script.json:3073621:    },
+  script.json:3073622:    {
+  script.json:3073623:      "Address": 186214816,
+> script.json:3073624:      "Name": "Method$System.Collections.Generic.List\u003CEventLogger.FileInfoEncryptResult\u003E.get_Item()",
+  script.json:3073625:      "MethodAddress": 0
+  script.json:3073626:    },
+  script.json:3073627:    {
+  script.json:3110098:      "Address": 186243996,
+> script.json:3110099:      "Name": "Method$GCommon.AES.Encrypt()",
+  script.json:3110100:      "MethodAddress": 139400567
+  script.json:3110101:    },
+  script.json:3110102:    {
+  script.json:3110463:      "Address": 186244288,
+> script.json:3110464:      "Name": "Method$System.Security.Cryptography.AesCryptoServiceProvider.CreateEncryptor()",
+  script.json:3110465:      "MethodAddress": 171669058
+  script.json:3110466:    },
+  script.json:3110467:    {
+  script.json:3110483:      "Address": 186244304,
+> script.json:3110484:      "Name": "Method$System.Security.Cryptography.AesManaged.CreateEncryptor()",
+  script.json:3110485:      "MethodAddress": 171665549
+  script.json:3110486:    },
+  script.json:3110487:    {
+  script.json:3148948:      "Address": 186275076,
+> script.json:3148949:      "Name": "Method$System.Security.Cryptography.DESCryptoServiceProvider.CreateEncryptor()",
+  script.json:3148950:      "MethodAddress": 167654478
+  script.json:3148951:    },
+  script.json:3148952:    {
+  script.json:3199358:      "Address": 186315404,
+> script.json:3199359:      "Name": "Method$ICSharpCode.SharpZipLib.Encryption.PkzipClassic.GenerateKeys()",
+  script.json:3199360:      "MethodAddress": 60222268
+  script.json:3199361:    },
+  script.json:3199362:    {
+  script.json:3199363:      "Address": 186315408,
+> script.json:3199364:      "Name": "Method$ICSharpCode.SharpZipLib.Encryption.PkzipClassicCryptoBase.SetKeys()",
+  script.json:3199365:      "MethodAddress": 60237796
+  script.json:3199366:    },
+  script.json:3199367:    {
+  script.json:3199368:      "Address": 186315412,
+> script.json:3199369:      "Name": "Method$ICSharpCode.SharpZipLib.Encryption.PkzipClassicManaged.set_BlockSize()",
+  script.json:3199370:      "MethodAddress": 60239384
+  script.json:3199371:    },
+  script.json:3199372:    {
+  script.json:3199373:      "Address": 186315416,
+> script.json:3199374:      "Name": "Method$ICSharpCode.SharpZipLib.Encryption.PkzipClassicManaged.set_Key()",
+  script.json:3199375:      "MethodAddress": 60240103
+  script.json:3199376:    },
+  script.json:3199377:    {
+  script.json:3202993:      "Address": 186318312,
+> script.json:3202994:      "Name": "Method$System.Security.Cryptography.RC2CryptoServiceProvider.CreateEncryptor()",
+  script.json:3202995:      "MethodAddress": 167670711
+  script.json:3202996:    },
+  script.json:3202997:    {
+  script.json:3203028:      "Address": 186318340,
+> script.json:3203029:      "Name": "Method$System.Security.Cryptography.RSA.EncryptValue()",
+  script.json:3203030:      "MethodAddress": 167695905
+  script.json:3203031:    },
+  script.json:3203032:    {
+  script.json:3203068:      "Address": 186318372,
+> script.json:3203069:      "Name": "Method$Mono.Security.Cryptography.RSAManaged.EncryptValue()",
+  script.json:3203070:      "MethodAddress": 167208190
+  script.json:3203071:    },
+  script.json:3203072:    {
+  script.json:3203088:      "Address": 186318388,
+> script.json:3203089:      "Name": "Method$Mono.Security.Cryptography.RSAManaged.EncryptValue()",
+  script.json:3203090:      "MethodAddress": 167356675
+  script.json:3203091:    },
+  script.json:3203092:    {
+  script.json:3204798:      "Address": 186319756,
+> script.json:3204799:      "Name": "Method$System.Security.Cryptography.RijndaelManagedTransform.EncryptData()",
+  script.json:3204800:      "MethodAddress": 167677683
+  script.json:3204801:    },
+  script.json:3204802:    {
+  script.json:3208793:      "Address": 186322952,
+> script.json:3208794:      "Name": "Method$System.Net.Security.SslClientAuthenticationOptions.set_EncryptionPolicy()",
+  script.json:3208795:      "MethodAddress": 176001115
+  script.json:3208796:    },
+  script.json:3208797:    {
+  script.json:3210538:      "Address": 186324348,
+> script.json:3210539:      "Name": "Method$Mono.Security.Cryptography.SymmetricTransform.FinalEncrypt()",
+  script.json:3210540:      "MethodAddress": 167369651
+  script.json:3210541:    },
+  script.json:3210542:    {
+  script.json:3213128:      "Address": 186326420,
+> script.json:3213129:      "Name": "Method$System.Security.Cryptography.TripleDESCryptoServiceProvider.CreateEncryptor()",
+  script.json:3213130:      "MethodAddress": 167727948
+  script.json:3213131:    },
+  script.json:3213132:    {
+  script.json:3325413:      "Address": 186416248,
+> script.json:3325414:      "Name": "Method$ICSharpCode.SharpZipLib.Encryption.ZipAESTransform..ctor()",
+  script.json:3325415:      "MethodAddress": 60223153
+  script.json:3325416:    },
+  script.json:3325417:    {
+  script.json:3325418:      "Address": 186416252,
+> script.json:3325419:      "Name": "Method$ICSharpCode.SharpZipLib.Encryption.ZipAESTransform.TransformFinalBlock()",
+  script.json:3325420:      "MethodAddress": 60241594
+  script.json:3325421:    },
+  script.json:3325422:    {
+  script.json:3335013:      "Address": 186423928,
+> script.json:3335014:      "Name": "Method$Mono.Security.PKCS7.EncryptedData..ctor()",
+  script.json:3335015:      "MethodAddress": 167085068
+  script.json:3335016:    },
+  script.json:3335017:    {
+  script.json:3335028:      "Address": 186423940,
+> script.json:3335029:      "Name": "Method$Mono.Security.Cryptography.PKCS8.EncryptedPrivateKeyInfo.Decode()",
+  script.json:3335030:      "MethodAddress": 167203097
+  script.json:3335031:    },
+  script.json:3335032:    {
+
+

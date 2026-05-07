@@ -1,0 +1,356 @@
+﻿
+  il2cpp.h:47417:	VirtualInvokeData _22_CreateEncryptor;
+  il2cpp.h:47418:	VirtualInvokeData _23_unknown;
+> il2cpp.h:47419:	VirtualInvokeData _24_CreateDecryptor;
+  il2cpp.h:47420:};
+  il2cpp.h:47421:struct System_Security_Cryptography_SymmetricAlgorithm_c {
+  il2cpp.h:47422:	Il2CppClass_1 _1;
+  il2cpp.h:47423:	void* static_fields;
+  il2cpp.h:47424:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:47458:	VirtualInvokeData _22_CreateEncryptor;
+  il2cpp.h:47459:	VirtualInvokeData _23_unknown;
+> il2cpp.h:47460:	VirtualInvokeData _24_CreateDecryptor;
+  il2cpp.h:47461:};
+  il2cpp.h:47462:struct ICSharpCode_SharpZipLib_Encryption_PkzipClassic_c {
+  il2cpp.h:47463:	Il2CppClass_1 _1;
+  il2cpp.h:47464:	void* static_fields;
+  il2cpp.h:47465:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:47520:	ICSharpCode_SharpZipLib_Encryption_PkzipClassicEncryptCryptoTransform_Fields fields;
+  il2cpp.h:47521:};
+> il2cpp.h:47522:struct ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform_Fields : 
+ICSharpCode_SharpZipLib_Encryption_PkzipClassicCryptoBase_Fields {
+  il2cpp.h:47523:};
+> il2cpp.h:47524:struct ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform_VTable {
+  il2cpp.h:47525:	VirtualInvokeData _0_Equals;
+  il2cpp.h:47526:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:47527:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:47528:	VirtualInvokeData _3_ToString;
+  il2cpp.h:47529:	VirtualInvokeData _4_get_InputBlockSize;
+  il2cpp.h:47535:	VirtualInvokeData _10_Dispose;
+  il2cpp.h:47536:};
+> il2cpp.h:47537:struct ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform_c {
+  il2cpp.h:47538:	Il2CppClass_1 _1;
+  il2cpp.h:47539:	void* static_fields;
+  il2cpp.h:47540:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:47541:	Il2CppClass_2 _2;
+> il2cpp.h:47542:	ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform_VTable vtable;
+  il2cpp.h:47543:};
+> il2cpp.h:47544:struct ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform_o {
+> il2cpp.h:47545:	ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform_c *klass;
+  il2cpp.h:47546:	void *monitor;
+> il2cpp.h:47547:	ICSharpCode_SharpZipLib_Encryption_PkzipClassicDecryptCryptoTransform_Fields fields;
+  il2cpp.h:47548:};
+  il2cpp.h:47549:struct ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged_Fields : 
+ICSharpCode_SharpZipLib_Encryption_PkzipClassic_Fields {
+  il2cpp.h:47550:	struct System_Byte_array* key_;
+  il2cpp.h:47551:};
+  il2cpp.h:47552:struct ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged_VTable {
+  il2cpp.h:47575:	VirtualInvokeData _22_CreateEncryptor;
+  il2cpp.h:47576:	VirtualInvokeData _23_CreateEncryptor;
+> il2cpp.h:47577:	VirtualInvokeData _24_CreateDecryptor;
+> il2cpp.h:47578:	VirtualInvokeData _25_CreateDecryptor;
+  il2cpp.h:47579:	VirtualInvokeData _26_GenerateKey;
+  il2cpp.h:47580:	VirtualInvokeData _27_GenerateIV;
+  il2cpp.h:47581:};
+  il2cpp.h:47582:struct ICSharpCode_SharpZipLib_Encryption_PkzipClassicManaged_c {
+  il2cpp.h:47583:	Il2CppClass_1 _1;
+  il2cpp.h:287642:	bool enable_without_waiting_island;
+  il2cpp.h:287643:	bool teammate_offline_auto_cancel;
+> il2cpp.h:287644:	struct System_String_o* gin_emulator_decrypt_version;
+  il2cpp.h:287645:	bool gin_emulator_use_default;
+  il2cpp.h:287646:	bool in_ip_bind_ind_region;
+  il2cpp.h:287647:};
+  il2cpp.h:287648:struct proto_CommonSwitchDesc_VTable {
+  il2cpp.h:287649:	VirtualInvokeData _0_Equals;
+  il2cpp.h:332029:	bool EnableFileInfoEncryptionAndroid;
+  il2cpp.h:332030:	bool EnableFileInfoEncryptionIOS;
+> il2cpp.h:332031:	bool EnableGGPDecryptFailureProtection;
+  il2cpp.h:332032:	bool IOSTextureHDSupport;
+  il2cpp.h:332033:	bool IsRedEnvelopeEnable;
+  il2cpp.h:332034:	int32_t RedEnvelopeMaxPlantNumPerMatch;
+  il2cpp.h:332035:	bool EnableSparkEvent;
+  il2cpp.h:332036:	float SparkPetTopTipDisplayTime;
+  il2cpp.h:333605:	bool EnableFixWorkSyncRemoveData;
+  il2cpp.h:333606:	float SPHudNameDangerTime;
+> il2cpp.h:333607:	bool EnableDecryptionStaticBufferOpt;
+  il2cpp.h:333608:	bool EnableMedkitUseSound;
+  il2cpp.h:333609:	bool EnableCheckWaterWhileSwimming;
+  il2cpp.h:333610:	bool EsportsGotoInternalBrowser;
+  il2cpp.h:333611:	bool EnableRunNewGameWhenLoading;
+  il2cpp.h:333612:	struct System_String_o* DefaultMaleClothList;
+  il2cpp.h:335637:	bool PVSUseNativeArray;
+  il2cpp.h:335638:	bool InitCDMUnloadBeforPreload;
+> il2cpp.h:335639:	bool InitCsvDecryptionBeforPreload;
+  il2cpp.h:335640:	float RequestReviveEffectShowTime;
+  il2cpp.h:335641:	int32_t FFVoiceUploadLogTimeOut;
+  il2cpp.h:335642:	uint32_t RankNewSeasonTipsDay;
+  il2cpp.h:335643:	bool VehicleForceStopByHighYSpeed;
+  il2cpp.h:335644:	bool EnableBackPackOcclusion;
+  il2cpp.h:362109:};
+  il2cpp.h:362110:struct COW_EventLogger_EventTypeFileInfoEncrypt_Fields : COW_EventLogger_EventLoggerBase_Fields {
+> il2cpp.h:362111:	struct System_Collections_Generic_List_EventLogger_FileInfoEncryptResult__o* decrypt_results;
+  il2cpp.h:362112:	struct System_Collections_Generic_List_EventLogger_FileInfoEncryptResult__o* encrypt_results;
+  il2cpp.h:362113:};
+  il2cpp.h:362114:struct COW_EventLogger_EventTypeFileInfoEncrypt_VTable {
+  il2cpp.h:362115:	VirtualInvokeData _0_Equals;
+  il2cpp.h:362116:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1374961:	struct System_Collections_Generic_List_TextReader__o* m_WaitDisposeReaders;
+  il2cpp.h:1374962:	struct System_Collections_Generic_List_Object__o* m_WaitUnloadResources;
+> il2cpp.h:1374963:	struct System_Byte_array* m_DecryptionBuffer;
+> il2cpp.h:1374964:	int32_t m_DecryptorBlockSize;
+> il2cpp.h:1374965:	struct System_Security_Cryptography_ICryptoTransform_o* m_Decryptor;
+  il2cpp.h:1374966:	struct System_Threading_Thread_array* m_PreloadCSVThread;
+  il2cpp.h:1374967:};
+  il2cpp.h:1374968:struct GCommon_ConfigDataManager_VTable {
+  il2cpp.h:1374969:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1374970:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1384580:	GCommon_FiltDownloadVersionInfo_Fields fields;
+  il2cpp.h:1384581:};
+> il2cpp.h:1384582:struct GCommon_DecryptResultCode_Fields {
+  il2cpp.h:1384583:	int32_t value__;
+  il2cpp.h:1384584:};
+> il2cpp.h:1384585:struct GCommon_DecryptResultCode_VTable {
+  il2cpp.h:1384586:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1384587:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1384588:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1384589:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1384590:	VirtualInvokeData _4_CompareTo;
+  il2cpp.h:1384608:	VirtualInvokeData _22_System_IConvertible_ToType;
+  il2cpp.h:1384609:};
+> il2cpp.h:1384610:struct GCommon_DecryptResultCode_c {
+  il2cpp.h:1384611:	Il2CppClass_1 _1;
+  il2cpp.h:1384612:	void* static_fields;
+  il2cpp.h:1384613:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1384614:	Il2CppClass_2 _2;
+> il2cpp.h:1384615:	GCommon_DecryptResultCode_VTable vtable;
+  il2cpp.h:1384616:};
+> il2cpp.h:1384617:struct GCommon_DecryptResultCode_o {
+> il2cpp.h:1384618:	GCommon_DecryptResultCode_Fields fields;
+  il2cpp.h:1384619:};
+  il2cpp.h:1384620:struct GCommon_FileInfoEncryptionHelper_Fields {
+  il2cpp.h:1384621:};
+  il2cpp.h:1384622:struct GCommon_FileInfoEncryptionHelper_VTable {
+  il2cpp.h:1384623:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1384639:};
+  il2cpp.h:1384640:struct GCommon_FileInfoEncryptionHelper_StaticFields {
+> il2cpp.h:1384641:	int64_t s_GGPDecryptFailedMask;
+  il2cpp.h:1384642:	int64_t s_FileInfoEncryptedMask;
+  il2cpp.h:1384643:	struct System_String_o* s_CachedGGPKey;
+  il2cpp.h:1384644:	struct System_Char_array* s_HexChars;
+  il2cpp.h:1384645:};
+  il2cpp.h:1384646:struct GCommon_Key_Fields {
+  il2cpp.h:1384668:	struct System_String_o* m_Keys;
+  il2cpp.h:1384669:};
+> il2cpp.h:1384670:struct GCommon_ResDecryption_Fields {
+  il2cpp.h:1384671:};
+> il2cpp.h:1384672:struct GCommon_ResDecryption_VTable {
+  il2cpp.h:1384673:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1384674:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1384675:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1384676:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1384677:};
+> il2cpp.h:1384678:struct GCommon_ResDecryption_c {
+  il2cpp.h:1384679:	Il2CppClass_1 _1;
+> il2cpp.h:1384680:	struct GCommon_ResDecryption_StaticFields* static_fields;
+  il2cpp.h:1384681:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1384682:	Il2CppClass_2 _2;
+> il2cpp.h:1384683:	GCommon_ResDecryption_VTable vtable;
+  il2cpp.h:1384684:};
+> il2cpp.h:1384685:struct GCommon_ResDecryption_o {
+> il2cpp.h:1384686:	GCommon_ResDecryption_c *klass;
+  il2cpp.h:1384687:	void *monitor;
+> il2cpp.h:1384688:	GCommon_ResDecryption_Fields fields;
+  il2cpp.h:1384689:};
+> il2cpp.h:1384690:struct GCommon_ResDecryption_StaticFields {
+  il2cpp.h:1384691:	struct System_Security_Cryptography_SHA1CryptoServiceProvider_o* m_SHA1;
+  il2cpp.h:1384692:};
+  il2cpp.h:1384693:struct GCommon_ResErrorCode_Fields {
+  il2cpp.h:1384694:	int32_t value__;
+  il2cpp.h:1384695:};
+  il2cpp.h:1386465:	bool EtcButAstcAb;
+  il2cpp.h:1386466:	bool NeedRepairToETC;
+> il2cpp.h:1386467:	struct System_Collections_Generic_List_EventLogger_FileInfoEncryptResult__o* m_DecryptResults;
+  il2cpp.h:1386468:	struct System_Collections_Generic_List_EventLogger_FileInfoEncryptResult__o* m_EncryptResults;
+  il2cpp.h:1386469:	bool m_FileInfoEncryptLogReady;
+  il2cpp.h:1386470:	bool EnableVersionCheckRowUpdate;
+  il2cpp.h:1386471:	struct System_String_o* PersistentDataPath;
+  il2cpp.h:1386472:	bool EnableReuseMemUseMap;
+  il2cpp.h:1401798:	struct _PrivateImplementationDetails____StaticArrayInitTypeSize_20_o 
+FEE8F01730A6DB3B773B161E9291042D150BE5A8D0A7BB7AFF245CB0C996B6E9;
+  il2cpp.h:1401799:};
+> il2cpp.h:1401800:struct _PrivateImplementationDetails__9BC04500_127B_43EC_A174_453B5A32129F_LOkWPANW_Decrypt_Fields {
+  il2cpp.h:1401801:};
+> il2cpp.h:1401802:struct _PrivateImplementationDetails__9BC04500_127B_43EC_A174_453B5A32129F_LOkWPANW_Decrypt_VTable {
+  il2cpp.h:1401803:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1401804:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1401805:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1401806:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1401807:};
+> il2cpp.h:1401808:struct _PrivateImplementationDetails__9BC04500_127B_43EC_A174_453B5A32129F_LOkWPANW_Decrypt_c {
+  il2cpp.h:1401809:	Il2CppClass_1 _1;
+> il2cpp.h:1401810:	struct _PrivateImplementationDetails__9BC04500_127B_43EC_A174_453B5A32129F_LOkWPANW_Decrypt_StaticFields* 
+static_fields;
+  il2cpp.h:1401811:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1401812:	Il2CppClass_2 _2;
+> il2cpp.h:1401813:	_PrivateImplementationDetails__9BC04500_127B_43EC_A174_453B5A32129F_LOkWPANW_Decrypt_VTable vtable;
+  il2cpp.h:1401814:};
+> il2cpp.h:1401815:struct _PrivateImplementationDetails__9BC04500_127B_43EC_A174_453B5A32129F_LOkWPANW_Decrypt_o {
+> il2cpp.h:1401816:	_PrivateImplementationDetails__9BC04500_127B_43EC_A174_453B5A32129F_LOkWPANW_Decrypt_c *klass;
+  il2cpp.h:1401817:	void *monitor;
+> il2cpp.h:1401818:	_PrivateImplementationDetails__9BC04500_127B_43EC_A174_453B5A32129F_LOkWPANW_Decrypt_Fields fields;
+  il2cpp.h:1401819:};
+> il2cpp.h:1401820:struct _PrivateImplementationDetails__9BC04500_127B_43EC_A174_453B5A32129F_LOkWPANW_Decrypt_StaticFields {
+  il2cpp.h:1401821:	struct System_Byte_array* publicKey;
+  il2cpp.h:1401822:	int32_t blockLengthField;
+  il2cpp.h:1401823:	int32_t exponentField;
+  il2cpp.h:1401824:	struct Mono_Math_BigInteger_1_o* nField;
+  il2cpp.h:1401825:};
+  il2cpp.h:1404414:	VirtualInvokeData _22_TransformBlock;
+  il2cpp.h:1404415:	VirtualInvokeData _23_FinalEncrypt;
+> il2cpp.h:1404416:	VirtualInvokeData _24_FinalDecrypt;
+  il2cpp.h:1404417:	VirtualInvokeData _25_TransformFinalBlock;
+  il2cpp.h:1404418:};
+  il2cpp.h:1404419:struct Mono_Security_Cryptography_SymmetricTransform_c {
+  il2cpp.h:1404420:	Il2CppClass_1 _1;
+  il2cpp.h:1404421:	void* static_fields;
+  il2cpp.h:1424402:	VirtualInvokeData _22_CreateEncryptor;
+  il2cpp.h:1424403:	VirtualInvokeData _23_unknown;
+> il2cpp.h:1424404:	VirtualInvokeData _24_CreateDecryptor;
+  il2cpp.h:1424405:};
+  il2cpp.h:1424406:struct System_Security_Cryptography_Aes_c {
+  il2cpp.h:1424407:	Il2CppClass_1 _1;
+  il2cpp.h:1424408:	struct System_Security_Cryptography_Aes_StaticFields* static_fields;
+  il2cpp.h:1424409:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1424711:	VirtualInvokeData _22_CreateEncryptor;
+  il2cpp.h:1424712:	VirtualInvokeData _23_unknown;
+> il2cpp.h:1424713:	VirtualInvokeData _24_CreateDecryptor;
+  il2cpp.h:1424714:};
+  il2cpp.h:1424715:struct System_Security_Cryptography_DES_c {
+  il2cpp.h:1424716:	Il2CppClass_1 _1;
+  il2cpp.h:1424717:	struct System_Security_Cryptography_DES_StaticFields* static_fields;
+  il2cpp.h:1424718:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1424756:	VirtualInvokeData _22_CreateEncryptor;
+  il2cpp.h:1424757:	VirtualInvokeData _23_CreateEncryptor;
+> il2cpp.h:1424758:	VirtualInvokeData _24_CreateDecryptor;
+> il2cpp.h:1424759:	VirtualInvokeData _25_CreateDecryptor;
+  il2cpp.h:1424760:	VirtualInvokeData _26_GenerateKey;
+  il2cpp.h:1424761:	VirtualInvokeData _27_GenerateIV;
+  il2cpp.h:1424762:};
+  il2cpp.h:1424763:struct System_Security_Cryptography_DESCryptoServiceProvider_c {
+  il2cpp.h:1424764:	Il2CppClass_1 _1;
+  il2cpp.h:1425391:	VirtualInvokeData _22_CreateEncryptor;
+  il2cpp.h:1425392:	VirtualInvokeData _23_unknown;
+> il2cpp.h:1425393:	VirtualInvokeData _24_CreateDecryptor;
+  il2cpp.h:1425394:	VirtualInvokeData _25_unknown;
+  il2cpp.h:1425395:	VirtualInvokeData _26_unknown;
+  il2cpp.h:1425396:	VirtualInvokeData _27_unknown;
+  il2cpp.h:1425397:	VirtualInvokeData _28_get_EffectiveKeySize;
+  il2cpp.h:1425398:};
+  il2cpp.h:1425441:	VirtualInvokeData _22_CreateEncryptor;
+  il2cpp.h:1425442:	VirtualInvokeData _23_CreateEncryptor;
+> il2cpp.h:1425443:	VirtualInvokeData _24_CreateDecryptor;
+> il2cpp.h:1425444:	VirtualInvokeData _25_CreateDecryptor;
+  il2cpp.h:1425445:	VirtualInvokeData _26_GenerateKey;
+  il2cpp.h:1425446:	VirtualInvokeData _27_GenerateIV;
+  il2cpp.h:1425447:	VirtualInvokeData _28_get_EffectiveKeySize;
+  il2cpp.h:1425448:};
+  il2cpp.h:1425449:struct System_Security_Cryptography_RC2CryptoServiceProvider_c {
+  il2cpp.h:1425489:	VirtualInvokeData _22_CreateEncryptor;
+  il2cpp.h:1425490:	VirtualInvokeData _23_unknown;
+> il2cpp.h:1425491:	VirtualInvokeData _24_CreateDecryptor;
+  il2cpp.h:1425492:};
+  il2cpp.h:1425493:struct System_Security_Cryptography_Rijndael_c {
+  il2cpp.h:1425494:	Il2CppClass_1 _1;
+  il2cpp.h:1425495:	struct System_Security_Cryptography_Rijndael_StaticFields* static_fields;
+  il2cpp.h:1425496:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1425534:	VirtualInvokeData _22_CreateEncryptor;
+  il2cpp.h:1425535:	VirtualInvokeData _23_CreateEncryptor;
+> il2cpp.h:1425536:	VirtualInvokeData _24_CreateDecryptor;
+> il2cpp.h:1425537:	VirtualInvokeData _25_CreateDecryptor;
+  il2cpp.h:1425538:	VirtualInvokeData _26_GenerateKey;
+  il2cpp.h:1425539:	VirtualInvokeData _27_GenerateIV;
+  il2cpp.h:1425540:};
+  il2cpp.h:1425541:struct System_Security_Cryptography_RijndaelManaged_c {
+  il2cpp.h:1425542:	Il2CppClass_1 _1;
+  il2cpp.h:1425598:	int32_t m_outputBlockSize;
+  il2cpp.h:1425599:	struct System_Int32_array* m_encryptKeyExpansion;
+> il2cpp.h:1425600:	struct System_Int32_array* m_decryptKeyExpansion;
+  il2cpp.h:1425601:	int32_t m_Nr;
+  il2cpp.h:1425602:	int32_t m_Nb;
+  il2cpp.h:1425603:	int32_t m_Nk;
+  il2cpp.h:1425604:	struct System_Int32_array* m_encryptindex;
+> il2cpp.h:1425605:	struct System_Int32_array* m_decryptindex;
+  il2cpp.h:1425606:	struct System_Int32_array* m_IV;
+  il2cpp.h:1425607:	struct System_Int32_array* m_lastBlockBuffer;
+  il2cpp.h:1425608:	struct System_Byte_array* m_depadBuffer;
+  il2cpp.h:1425609:	struct System_Byte_array* m_shiftRegister;
+  il2cpp.h:1425610:};
+  il2cpp.h:1426297:	VirtualInvokeData _22_CreateEncryptor;
+  il2cpp.h:1426298:	VirtualInvokeData _23_unknown;
+> il2cpp.h:1426299:	VirtualInvokeData _24_CreateDecryptor;
+  il2cpp.h:1426300:};
+  il2cpp.h:1426301:struct System_Security_Cryptography_TripleDES_c {
+  il2cpp.h:1426302:	Il2CppClass_1 _1;
+  il2cpp.h:1426303:	struct System_Security_Cryptography_TripleDES_StaticFields* static_fields;
+  il2cpp.h:1426304:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1426342:	VirtualInvokeData _22_CreateEncryptor;
+  il2cpp.h:1426343:	VirtualInvokeData _23_CreateEncryptor;
+> il2cpp.h:1426344:	VirtualInvokeData _24_CreateDecryptor;
+> il2cpp.h:1426345:	VirtualInvokeData _25_CreateDecryptor;
+  il2cpp.h:1426346:	VirtualInvokeData _26_GenerateKey;
+  il2cpp.h:1426347:	VirtualInvokeData _27_GenerateIV;
+  il2cpp.h:1426348:};
+  il2cpp.h:1426349:struct System_Security_Cryptography_TripleDESCryptoServiceProvider_c {
+  il2cpp.h:1426350:	Il2CppClass_1 _1;
+  il2cpp.h:1426436:	VirtualInvokeData _22_TransformBlock;
+  il2cpp.h:1426437:	VirtualInvokeData _23_FinalEncrypt;
+> il2cpp.h:1426438:	VirtualInvokeData _24_FinalDecrypt;
+  il2cpp.h:1426439:	VirtualInvokeData _25_TransformFinalBlock;
+  il2cpp.h:1426440:};
+  il2cpp.h:1426441:struct System_Security_Cryptography_DESTransform_c {
+  il2cpp.h:1426442:	Il2CppClass_1 _1;
+  il2cpp.h:1426443:	struct System_Security_Cryptography_DESTransform_StaticFields* static_fields;
+  il2cpp.h:1426581:	VirtualInvokeData _22_TransformBlock;
+  il2cpp.h:1426582:	VirtualInvokeData _23_FinalEncrypt;
+> il2cpp.h:1426583:	VirtualInvokeData _24_FinalDecrypt;
+  il2cpp.h:1426584:	VirtualInvokeData _25_TransformFinalBlock;
+  il2cpp.h:1426585:};
+  il2cpp.h:1426586:struct System_Security_Cryptography_RC2Transform_c {
+  il2cpp.h:1426587:	Il2CppClass_1 _1;
+  il2cpp.h:1426588:	struct System_Security_Cryptography_RC2Transform_StaticFields* static_fields;
+  il2cpp.h:1426769:	VirtualInvokeData _22_TransformBlock;
+  il2cpp.h:1426770:	VirtualInvokeData _23_FinalEncrypt;
+> il2cpp.h:1426771:	VirtualInvokeData _24_FinalDecrypt;
+  il2cpp.h:1426772:	VirtualInvokeData _25_TransformFinalBlock;
+  il2cpp.h:1426773:};
+  il2cpp.h:1426774:struct System_Security_Cryptography_TripleDESTransform_c {
+  il2cpp.h:1426775:	Il2CppClass_1 _1;
+  il2cpp.h:1426776:	void* static_fields;
+  il2cpp.h:1635638:	VirtualInvokeData _22_CreateEncryptor;
+  il2cpp.h:1635639:	VirtualInvokeData _23_CreateEncryptor;
+> il2cpp.h:1635640:	VirtualInvokeData _24_CreateDecryptor;
+> il2cpp.h:1635641:	VirtualInvokeData _25_CreateDecryptor;
+  il2cpp.h:1635642:	VirtualInvokeData _26_GenerateKey;
+  il2cpp.h:1635643:	VirtualInvokeData _27_GenerateIV;
+  il2cpp.h:1635644:};
+  il2cpp.h:1635645:struct System_Security_Cryptography_AesManaged_c {
+  il2cpp.h:1635646:	Il2CppClass_1 _1;
+  il2cpp.h:1635682:	VirtualInvokeData _22_CreateEncryptor;
+  il2cpp.h:1635683:	VirtualInvokeData _23_CreateEncryptor;
+> il2cpp.h:1635684:	VirtualInvokeData _24_CreateDecryptor;
+> il2cpp.h:1635685:	VirtualInvokeData _25_CreateDecryptor;
+  il2cpp.h:1635686:	VirtualInvokeData _26_GenerateKey;
+  il2cpp.h:1635687:	VirtualInvokeData _27_GenerateIV;
+  il2cpp.h:1635688:};
+  il2cpp.h:1635689:struct System_Security_Cryptography_AesCryptoServiceProvider_c {
+  il2cpp.h:1635690:	Il2CppClass_1 _1;
+  il2cpp.h:1635729:	VirtualInvokeData _22_TransformBlock;
+  il2cpp.h:1635730:	VirtualInvokeData _23_FinalEncrypt;
+> il2cpp.h:1635731:	VirtualInvokeData _24_FinalDecrypt;
+  il2cpp.h:1635732:	VirtualInvokeData _25_TransformFinalBlock;
+  il2cpp.h:1635733:};
+  il2cpp.h:1635734:struct System_Security_Cryptography_AesTransform_c {
+  il2cpp.h:1635735:	Il2CppClass_1 _1;
+  il2cpp.h:1635736:	struct System_Security_Cryptography_AesTransform_StaticFields* static_fields;
+
+

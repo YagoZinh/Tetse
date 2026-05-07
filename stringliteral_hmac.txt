@@ -1,0 +1,41 @@
+﻿
+> stringliteral.json:181031:    "value": "hmacmd5",
+  stringliteral.json:181032:    "address": "0xB1FCDD0"
+> stringliteral.json:181035:    "value": "hmacripemd160",
+  stringliteral.json:181036:    "address": "0xB1FCDD4"
+> stringliteral.json:181039:    "value": "hmacsha1",
+  stringliteral.json:181040:    "address": "0xB1FCDD8"
+> stringliteral.json:181043:    "value": "hmacsha256",
+  stringliteral.json:181044:    "address": "0xB1FCDDC"
+> stringliteral.json:181047:    "value": "hmacsha384",
+  stringliteral.json:181048:    "address": "0xB1FCDE0"
+> stringliteral.json:181051:    "value": "hmacsha512",
+  stringliteral.json:181052:    "address": "0xB1FCDE4"
+> stringliteral.json:181279:    "value": "http://www.w3.org/2000/09/xmldsig#hmac-sha1",
+  stringliteral.json:181280:    "address": "0xB1FCEC8"
+> stringliteral.json:181299:    "value": "http://www.w3.org/2001/04/xmldsig-more#hmac-ripemd160",
+  stringliteral.json:181300:    "address": "0xB1FCEDC"
+> stringliteral.json:181303:    "value": "http://www.w3.org/2001/04/xmldsig-more#hmac-sha256",
+  stringliteral.json:181304:    "address": "0xB1FCEE0"
+> stringliteral.json:181307:    "value": "http://www.w3.org/2001/04/xmldsig-more#hmac-sha384",
+  stringliteral.json:181308:    "address": "0xB1FCEE4"
+> stringliteral.json:181311:    "value": "http://www.w3.org/2001/04/xmldsig-more#hmac-sha512",
+  stringliteral.json:181312:    "address": "0xB1FCEE8"
+> stringliteral.json:195495:    "value": "system.security.cryptography.hmac",
+  stringliteral.json:195496:    "address": "0xB200650"
+> stringliteral.json:195499:    "value": "system.security.cryptography.hmacmd5",
+  stringliteral.json:195500:    "address": "0xB200654"
+> stringliteral.json:195503:    "value": "system.security.cryptography.hmacripemd160",
+  stringliteral.json:195504:    "address": "0xB200658"
+> stringliteral.json:195507:    "value": "system.security.cryptography.hmacsha1",
+  stringliteral.json:195508:    "address": "0xB20065C"
+> stringliteral.json:195511:    "value": "system.security.cryptography.hmacsha256",
+  stringliteral.json:195512:    "address": "0xB200660"
+> stringliteral.json:195515:    "value": "system.security.cryptography.hmacsha384",
+  stringliteral.json:195516:    "address": "0xB200664"
+> stringliteral.json:195519:    "value": "system.security.cryptography.hmacsha512",
+  stringliteral.json:195520:    "address": "0xB200668"
+> stringliteral.json:197763:    "value": "unsupported HMAC",
+  stringliteral.json:197764:    "address": "0xB200F2C"
+
+

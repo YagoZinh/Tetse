@@ -1,0 +1,35 @@
+﻿
+> stringliteral.json:43091:    "value": "ECDH_STD_SHA256_KDF",
+  stringliteral.json:43092:    "address": "0xB1DB2FC"
+> stringliteral.json:88519:    "value": "SHA256",
+  stringliteral.json:88520:    "address": "0xB1E6470"
+> stringliteral.json:95995:    "value": "System.Security.Cryptography.SHA256Cng",
+  stringliteral.json:95996:    "address": "0xB1E81A4"
+> stringliteral.json:181043:    "value": "hmacsha256",
+  stringliteral.json:181044:    "address": "0xB1FCDDC"
+> stringliteral.json:181303:    "value": "http://www.w3.org/2001/04/xmldsig-more#hmac-sha256",
+  stringliteral.json:181304:    "address": "0xB1FCEE0"
+> stringliteral.json:181315:    "value": "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256",
+  stringliteral.json:181316:    "address": "0xB1FCEEC"
+> stringliteral.json:181331:    "value": "http://www.w3.org/2001/04/xmlenc#sha256",
+  stringliteral.json:181332:    "address": "0xB1FCEFC"
+> stringliteral.json:193087:    "value": "sha256",
+  stringliteral.json:193088:    "address": "0xB1FFCE8"
+> stringliteral.json:193091:    "value": "sha256ECDSA",
+  stringliteral.json:193092:    "address": "0xB1FFCEC"
+> stringliteral.json:193095:    "value": "sha256RSA",
+  stringliteral.json:193096:    "address": "0xB1FFCF0"
+> stringliteral.json:195511:    "value": "system.security.cryptography.hmacsha256",
+  stringliteral.json:195512:    "address": "0xB200660"
+> stringliteral.json:195579:    "value": "system.security.cryptography.rsapkcs1sha256signaturedescription",
+  stringliteral.json:195580:    "address": "0xB2006A4"
+> stringliteral.json:195615:    "value": "system.security.cryptography.sha256",
+  stringliteral.json:195616:    "address": "0xB2006C8"
+> stringliteral.json:195619:    "value": "system.security.cryptography.sha256cng",
+  stringliteral.json:195620:    "address": "0xB2006CC"
+> stringliteral.json:195623:    "value": "system.security.cryptography.sha256cryptoserviceprovider",
+  stringliteral.json:195624:    "address": "0xB2006D0"
+> stringliteral.json:195627:    "value": "system.security.cryptography.sha256managed",
+  stringliteral.json:195628:    "address": "0xB2006D4"
+
+

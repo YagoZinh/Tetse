@@ -1,0 +1,396 @@
+﻿
+  il2cpp.h:47599:	int32_t _encrPos;
+  il2cpp.h:47600:	struct System_Byte_array* _pwdVerifier;
+> il2cpp.h:47601:	struct System_Security_Cryptography_HMACSHA1_o* _hmacsha1;
+  il2cpp.h:47602:	bool _finalised;
+  il2cpp.h:47603:	bool _writeMode;
+  il2cpp.h:47604:};
+  il2cpp.h:47605:struct ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_VTable {
+  il2cpp.h:47606:	VirtualInvokeData _0_Equals;
+  il2cpp.h:106782:	struct GCommon_UDPMessagePool_LLPFNNKMKON__o* NGOAJPMOOLK;
+  il2cpp.h:106783:	struct GCommon_UDPMessagePool_OMOBKHHPGIH__o* CAGFIHAGMLB;
+> il2cpp.h:106784:	struct GCommon_UDPMessagePool_ELCLNJCHMAC__o* OOIGJMIMNGA;
+  il2cpp.h:106785:	struct GCommon_UDPMessagePool_MGDIEOFGIIN__o* PJHGBKLDJHA;
+  il2cpp.h:106786:	struct GCommon_UDPMessagePool_OBNKFOJALOB__o* LHDGIMPGBFE;
+  il2cpp.h:106787:	struct GCommon_UDPMessagePool_MEFKPNPOKJJ__o* GLNMOJAHGMP;
+  il2cpp.h:106788:	struct GCommon_UDPMessagePool_DBNHEEPAMAD__o* FOAINDMMNBH;
+  il2cpp.h:106789:	struct GCommon_UDPMessagePool_JNECODHFANJ__o* JFDLINPNMEB;
+  il2cpp.h:170903:	message_OMOBKHHPGIH_Fields fields;
+  il2cpp.h:170904:};
+> il2cpp.h:170905:struct message_ELCLNJCHMAC_Fields : GCommon_UDPClientMessageBase_Fields {
+  il2cpp.h:170906:	bool KCEJKMKMBCO;
+  il2cpp.h:170907:	uint32_t POBGKMDJMDC;
+  il2cpp.h:170908:	uint32_t CMEKDNHLCGK;
+  il2cpp.h:170909:	struct message_DEACEIFBHJK_o* CCIKDFGDBAM;
+  il2cpp.h:170910:	struct message_GAKIHFPIOEF_o* CCDDHEBKMGD;
+  il2cpp.h:170911:};
+> il2cpp.h:170912:struct message_ELCLNJCHMAC_VTable {
+  il2cpp.h:170913:	VirtualInvokeData _0_Equals;
+  il2cpp.h:170914:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:170915:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:170916:	VirtualInvokeData _3_ToString;
+  il2cpp.h:170917:	VirtualInvokeData _4_unknown;
+  il2cpp.h:170922:	VirtualInvokeData _9_Recycle;
+  il2cpp.h:170923:};
+> il2cpp.h:170924:struct message_ELCLNJCHMAC_c {
+  il2cpp.h:170925:	Il2CppClass_1 _1;
+  il2cpp.h:170926:	void* static_fields;
+  il2cpp.h:170927:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:170928:	Il2CppClass_2 _2;
+> il2cpp.h:170929:	message_ELCLNJCHMAC_VTable vtable;
+  il2cpp.h:170930:};
+> il2cpp.h:170931:struct message_ELCLNJCHMAC_o {
+> il2cpp.h:170932:	message_ELCLNJCHMAC_c *klass;
+  il2cpp.h:170933:	void *monitor;
+> il2cpp.h:170934:	message_ELCLNJCHMAC_Fields fields;
+  il2cpp.h:170935:};
+  il2cpp.h:170936:struct message_LFLNJGIBHPD_Fields : GCommon_UDPClientMessageBase_Fields {
+  il2cpp.h:170937:	uint32_t DGLCOGJJFMI;
+  il2cpp.h:170938:	uint32_t PJKBDOJLDNN;
+  il2cpp.h:170939:	uint64_t GMOHIILGMGM;
+  il2cpp.h:177890:};
+  il2cpp.h:177891:struct message_ELAELDDPKIN_Fields {
+> il2cpp.h:177892:	float CBKKOHMACOB;
+  il2cpp.h:177893:	float BALGCNEMJFP;
+  il2cpp.h:177894:};
+  il2cpp.h:177895:struct message_ELAELDDPKIN_VTable {
+  il2cpp.h:177896:	VirtualInvokeData _0_Equals;
+  il2cpp.h:177897:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:373292:	struct System_Collections_Generic_Dictionary_uint__string__o* NLEIIMHALBI;
+  il2cpp.h:373293:	struct System_Byte_array* _HJNDICJHCLO_k__BackingField;
+> il2cpp.h:373294:	struct System_Security_Cryptography_HMACSHA256_o* _EJFPAAOMNMA_k__BackingField;
+  il2cpp.h:373295:	struct UnityEngine_Vector3_o BNJLLPPHLNN;
+  il2cpp.h:373296:	struct UnityEngine_Vector3_o HCOCGDGJNAH;
+  il2cpp.h:373297:	struct GCommon_CSVAsyncDataMap_uint__InGameShaderWarmupConfig__o* FCEBEJFPJNC;
+  il2cpp.h:373298:	struct System_Collections_Generic_List_Enumerator_int__o MMGGCAMPLEC;
+  il2cpp.h:373299:	struct COW_GamePlay_KEPDHPAAHGP_KOAHEMOOFMD_array* NDEGNICLAEB;
+  il2cpp.h:1313220:	COW_GamePlay_PFLCPEHBBLN_Fields fields;
+  il2cpp.h:1313221:};
+> il2cpp.h:1313222:struct COW_GamePlay_DFHMACEOJNC_Fields : COW_GamePlay_PFLCPEHBBLN_Fields {
+  il2cpp.h:1313223:	float GEJLPKHNOJN;
+  il2cpp.h:1313224:	float CBNBIKDBBFL;
+  il2cpp.h:1313225:};
+> il2cpp.h:1313226:struct COW_GamePlay_DFHMACEOJNC_VTable {
+  il2cpp.h:1313227:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1313228:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1313229:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1313230:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1313231:	VirtualInvokeData _4_AKJAODNMEKN;
+  il2cpp.h:1313321:	VirtualInvokeData _94_HHPIKKIEMGM;
+  il2cpp.h:1313322:};
+> il2cpp.h:1313323:struct COW_GamePlay_DFHMACEOJNC_c {
+  il2cpp.h:1313324:	Il2CppClass_1 _1;
+  il2cpp.h:1313325:	void* static_fields;
+  il2cpp.h:1313326:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1313327:	Il2CppClass_2 _2;
+> il2cpp.h:1313328:	COW_GamePlay_DFHMACEOJNC_VTable vtable;
+  il2cpp.h:1313329:};
+> il2cpp.h:1313330:struct COW_GamePlay_DFHMACEOJNC_o {
+> il2cpp.h:1313331:	COW_GamePlay_DFHMACEOJNC_c *klass;
+  il2cpp.h:1313332:	void *monitor;
+> il2cpp.h:1313333:	COW_GamePlay_DFHMACEOJNC_Fields fields;
+  il2cpp.h:1313334:};
+> il2cpp.h:1313335:struct COW_GamePlay_AMFFNANEGKB_Fields : COW_GamePlay_DFHMACEOJNC_Fields {
+  il2cpp.h:1313336:	uint32_t EAKBIEOLPPL;
+  il2cpp.h:1313337:	uint32_t DOMJMKONHEG;
+  il2cpp.h:1313338:	struct COW_GamePlay_CPINICDIHHM_o* NEKBHCNNHLP;
+  il2cpp.h:1313339:	float IJEJHKMPOEF;
+  il2cpp.h:1313340:	float BEKOFEELLFG;
+  il2cpp.h:1313492:	COW_GamePlay_AOLGHNDEGMK_DGJJHAALEIH_Fields fields;
+  il2cpp.h:1313493:};
+> il2cpp.h:1313494:struct COW_GamePlay_AOLGHNDEGMK_Fields : COW_GamePlay_DFHMACEOJNC_Fields {
+  il2cpp.h:1313495:	int32_t _LAKPCBECJHC_k__BackingField;
+  il2cpp.h:1313496:	float JFOBNMCBJAK;
+  il2cpp.h:1313497:	float BLNJFIHLOIK;
+  il2cpp.h:1313498:	float ABLOFJNNPEG;
+  il2cpp.h:1313499:	float JMAKPJGGJOM;
+  il2cpp.h:1313616:	COW_GamePlay_AOLGHNDEGMK_Fields fields;
+  il2cpp.h:1313617:};
+> il2cpp.h:1313618:struct COW_GamePlay_OLHJBOOFEGF_Fields : COW_GamePlay_DFHMACEOJNC_Fields {
+  il2cpp.h:1313619:};
+  il2cpp.h:1313620:struct COW_GamePlay_OLHJBOOFEGF_VTable {
+  il2cpp.h:1313621:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1313622:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1313623:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1313727:	COW_GamePlay_OLHJBOOFEGF_Fields fields;
+  il2cpp.h:1313728:};
+> il2cpp.h:1313729:struct COW_GamePlay_EJCIGHHNHLJ_Fields : COW_GamePlay_DFHMACEOJNC_Fields {
+  il2cpp.h:1313730:	bool PNHICCINDIJ;
+  il2cpp.h:1313731:	uint32_t EAKBIEOLPPL;
+  il2cpp.h:1313732:	struct UnityEngine_GameObject_o* AFBCMLEMPCI;
+  il2cpp.h:1313733:};
+  il2cpp.h:1313734:struct COW_GamePlay_EJCIGHHNHLJ_VTable {
+  il2cpp.h:1314822:	COW_GamePlay_HOOJMKOMIBG_Fields fields;
+  il2cpp.h:1314823:};
+> il2cpp.h:1314824:struct COW_GamePlay_MPGKHAMOFLP_Fields : COW_GamePlay_DFHMACEOJNC_Fields {
+  il2cpp.h:1314825:	uint32_t EAKBIEOLPPL;
+  il2cpp.h:1314826:	float DFHHABCNEOG;
+  il2cpp.h:1314827:	float AOHJAMCODML;
+  il2cpp.h:1314828:	float HODPPLGEKGL;
+  il2cpp.h:1314829:};
+  il2cpp.h:1316957:	COW_GamePlay_LHPCBNJIMCH_MKAMIKLMKBH_Fields fields;
+  il2cpp.h:1316958:};
+> il2cpp.h:1316959:struct COW_GamePlay_LHPCBNJIMCH_Fields : COW_GamePlay_DFHMACEOJNC_Fields {
+  il2cpp.h:1316960:	bool EFNJBLDOIPB;
+  il2cpp.h:1316961:	int32_t CLDAJMHMLON;
+  il2cpp.h:1316962:	float NKNKLPBKPDD;
+  il2cpp.h:1316963:	float BGBGADPEPLK;
+  il2cpp.h:1316964:	float AIOGACBDHHD;
+  il2cpp.h:1317801:	COW_GamePlay_KOCDMGMNDDK_AAFEFANPICE_Fields fields;
+  il2cpp.h:1317802:};
+> il2cpp.h:1317803:struct COW_GamePlay_KOCDMGMNDDK_Fields : COW_GamePlay_DFHMACEOJNC_Fields {
+  il2cpp.h:1317804:	float ILBFAGIIJIG;
+  il2cpp.h:1317805:	float EBBFDEHLHCD;
+  il2cpp.h:1317806:	float IGJIEKKFHFM;
+  il2cpp.h:1317807:	uint32_t MJDBIIEKANM;
+  il2cpp.h:1317808:	struct COW_DelayCallSequencer_o* FOMPMPDEMIL;
+  il2cpp.h:1318557:	struct System_String_o* MCGJIKILOHF;
+  il2cpp.h:1318558:};
+> il2cpp.h:1318559:struct COW_GamePlay_DBHNLHLLBBM_Fields : COW_GamePlay_DFHMACEOJNC_Fields {
+  il2cpp.h:1318560:	struct GCommon_ResourceID_o LMONDGDJIJM;
+  il2cpp.h:1318561:	struct UnityEngine_GameObject_o* AFBCMLEMPCI;
+  il2cpp.h:1318562:};
+  il2cpp.h:1318563:struct COW_GamePlay_DBHNLHLLBBM_VTable {
+  il2cpp.h:1318564:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1354308:struct COW_GamePlay_UIHudPartyGameSoloPosMarkController_Fields : COW_UIHudNameBaseController_Fields {
+  il2cpp.h:1354309:	struct COW_UIHudItemMarkShowView_o* NOJLDPLOCIH;
+> il2cpp.h:1354310:	uint32_t FHMACPNKNLB;
+  il2cpp.h:1354311:	struct UnityEngine_Vector3_o GIJAJENGNMK;
+  il2cpp.h:1354312:};
+  il2cpp.h:1354313:struct COW_GamePlay_UIHudPartyGameSoloPosMarkController_VTable {
+  il2cpp.h:1354314:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1354315:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1423916:	struct System_Byte_array* _salt;
+  il2cpp.h:1423917:	uint32_t _iterations;
+> il2cpp.h:1423918:	struct System_Security_Cryptography_HMAC_o* _hmac;
+  il2cpp.h:1423919:	int32_t _blockSize;
+  il2cpp.h:1423920:	struct System_Byte_array* _buffer;
+  il2cpp.h:1423921:	uint32_t _block;
+  il2cpp.h:1423922:	int32_t _startIndex;
+  il2cpp.h:1423923:	int32_t _endIndex;
+  il2cpp.h:1424887:	System_Security_Cryptography_KeyedHashAlgorithm_Fields fields;
+  il2cpp.h:1424888:};
+> il2cpp.h:1424889:struct System_Security_Cryptography_HMAC_Fields : System_Security_Cryptography_KeyedHashAlgorithm_Fields {
+  il2cpp.h:1424890:	int32_t blockSizeValue;
+  il2cpp.h:1424891:	struct System_String_o* m_hashName;
+  il2cpp.h:1424892:	struct System_Security_Cryptography_HashAlgorithm_o* m_hash1;
+  il2cpp.h:1424893:	struct System_Security_Cryptography_HashAlgorithm_o* m_hash2;
+  il2cpp.h:1424894:	struct System_Byte_array* m_inner;
+  il2cpp.h:1424896:	bool m_hashing;
+  il2cpp.h:1424897:};
+> il2cpp.h:1424898:struct System_Security_Cryptography_HMAC_VTable {
+  il2cpp.h:1424899:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1424900:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1424901:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1424902:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1424903:	VirtualInvokeData _4_Dispose;
+  il2cpp.h:1424923:	VirtualInvokeData _24_set_Key;
+  il2cpp.h:1424924:};
+> il2cpp.h:1424925:struct System_Security_Cryptography_HMAC_c {
+  il2cpp.h:1424926:	Il2CppClass_1 _1;
+  il2cpp.h:1424927:	void* static_fields;
+  il2cpp.h:1424928:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1424929:	Il2CppClass_2 _2;
+> il2cpp.h:1424930:	System_Security_Cryptography_HMAC_VTable vtable;
+  il2cpp.h:1424931:};
+> il2cpp.h:1424932:struct System_Security_Cryptography_HMAC_o {
+> il2cpp.h:1424933:	System_Security_Cryptography_HMAC_c *klass;
+  il2cpp.h:1424934:	void *monitor;
+> il2cpp.h:1424935:	System_Security_Cryptography_HMAC_Fields fields;
+  il2cpp.h:1424936:};
+> il2cpp.h:1424937:struct System_Security_Cryptography_HMACMD5_Fields : System_Security_Cryptography_HMAC_Fields {
+  il2cpp.h:1424938:};
+> il2cpp.h:1424939:struct System_Security_Cryptography_HMACMD5_VTable {
+  il2cpp.h:1424940:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1424941:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1424942:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1424943:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1424944:	VirtualInvokeData _4_Dispose;
+  il2cpp.h:1424964:	VirtualInvokeData _24_set_Key;
+  il2cpp.h:1424965:};
+> il2cpp.h:1424966:struct System_Security_Cryptography_HMACMD5_c {
+  il2cpp.h:1424967:	Il2CppClass_1 _1;
+  il2cpp.h:1424968:	void* static_fields;
+  il2cpp.h:1424969:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1424970:	Il2CppClass_2 _2;
+> il2cpp.h:1424971:	System_Security_Cryptography_HMACMD5_VTable vtable;
+  il2cpp.h:1424972:};
+> il2cpp.h:1424973:struct System_Security_Cryptography_HMACMD5_o {
+> il2cpp.h:1424974:	System_Security_Cryptography_HMACMD5_c *klass;
+  il2cpp.h:1424975:	void *monitor;
+> il2cpp.h:1424976:	System_Security_Cryptography_HMACMD5_Fields fields;
+  il2cpp.h:1424977:};
+> il2cpp.h:1424978:struct System_Security_Cryptography_HMACRIPEMD160_Fields : System_Security_Cryptography_HMAC_Fields {
+  il2cpp.h:1424979:};
+> il2cpp.h:1424980:struct System_Security_Cryptography_HMACRIPEMD160_VTable {
+  il2cpp.h:1424981:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1424982:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1424983:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1424984:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1424985:	VirtualInvokeData _4_Dispose;
+  il2cpp.h:1425005:	VirtualInvokeData _24_set_Key;
+  il2cpp.h:1425006:};
+> il2cpp.h:1425007:struct System_Security_Cryptography_HMACRIPEMD160_c {
+  il2cpp.h:1425008:	Il2CppClass_1 _1;
+  il2cpp.h:1425009:	void* static_fields;
+  il2cpp.h:1425010:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1425011:	Il2CppClass_2 _2;
+> il2cpp.h:1425012:	System_Security_Cryptography_HMACRIPEMD160_VTable vtable;
+  il2cpp.h:1425013:};
+> il2cpp.h:1425014:struct System_Security_Cryptography_HMACRIPEMD160_o {
+> il2cpp.h:1425015:	System_Security_Cryptography_HMACRIPEMD160_c *klass;
+  il2cpp.h:1425016:	void *monitor;
+> il2cpp.h:1425017:	System_Security_Cryptography_HMACRIPEMD160_Fields fields;
+  il2cpp.h:1425018:};
+> il2cpp.h:1425019:struct System_Security_Cryptography_HMACSHA1_Fields : System_Security_Cryptography_HMAC_Fields {
+  il2cpp.h:1425020:};
+> il2cpp.h:1425021:struct System_Security_Cryptography_HMACSHA1_VTable {
+  il2cpp.h:1425022:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1425023:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1425024:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1425025:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1425026:	VirtualInvokeData _4_Dispose;
+  il2cpp.h:1425046:	VirtualInvokeData _24_set_Key;
+  il2cpp.h:1425047:};
+> il2cpp.h:1425048:struct System_Security_Cryptography_HMACSHA1_c {
+  il2cpp.h:1425049:	Il2CppClass_1 _1;
+  il2cpp.h:1425050:	void* static_fields;
+  il2cpp.h:1425051:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1425052:	Il2CppClass_2 _2;
+> il2cpp.h:1425053:	System_Security_Cryptography_HMACSHA1_VTable vtable;
+  il2cpp.h:1425054:};
+> il2cpp.h:1425055:struct System_Security_Cryptography_HMACSHA1_o {
+> il2cpp.h:1425056:	System_Security_Cryptography_HMACSHA1_c *klass;
+  il2cpp.h:1425057:	void *monitor;
+> il2cpp.h:1425058:	System_Security_Cryptography_HMACSHA1_Fields fields;
+  il2cpp.h:1425059:};
+> il2cpp.h:1425060:struct System_Security_Cryptography_HMACSHA256_Fields : System_Security_Cryptography_HMAC_Fields {
+  il2cpp.h:1425061:};
+> il2cpp.h:1425062:struct System_Security_Cryptography_HMACSHA256_VTable {
+  il2cpp.h:1425063:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1425064:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1425065:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1425066:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1425067:	VirtualInvokeData _4_Dispose;
+  il2cpp.h:1425087:	VirtualInvokeData _24_set_Key;
+  il2cpp.h:1425088:};
+> il2cpp.h:1425089:struct System_Security_Cryptography_HMACSHA256_c {
+  il2cpp.h:1425090:	Il2CppClass_1 _1;
+  il2cpp.h:1425091:	void* static_fields;
+  il2cpp.h:1425092:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1425093:	Il2CppClass_2 _2;
+> il2cpp.h:1425094:	System_Security_Cryptography_HMACSHA256_VTable vtable;
+  il2cpp.h:1425095:};
+> il2cpp.h:1425096:struct System_Security_Cryptography_HMACSHA256_o {
+> il2cpp.h:1425097:	System_Security_Cryptography_HMACSHA256_c *klass;
+  il2cpp.h:1425098:	void *monitor;
+> il2cpp.h:1425099:	System_Security_Cryptography_HMACSHA256_Fields fields;
+  il2cpp.h:1425100:};
+> il2cpp.h:1425101:struct System_Security_Cryptography_HMACSHA384_Fields : System_Security_Cryptography_HMAC_Fields {
+  il2cpp.h:1425102:	bool m_useLegacyBlockSize;
+  il2cpp.h:1425103:};
+> il2cpp.h:1425104:struct System_Security_Cryptography_HMACSHA384_VTable {
+  il2cpp.h:1425105:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1425106:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1425107:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1425108:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1425109:	VirtualInvokeData _4_Dispose;
+  il2cpp.h:1425129:	VirtualInvokeData _24_set_Key;
+  il2cpp.h:1425130:};
+> il2cpp.h:1425131:struct System_Security_Cryptography_HMACSHA384_c {
+  il2cpp.h:1425132:	Il2CppClass_1 _1;
+  il2cpp.h:1425133:	void* static_fields;
+  il2cpp.h:1425134:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1425135:	Il2CppClass_2 _2;
+> il2cpp.h:1425136:	System_Security_Cryptography_HMACSHA384_VTable vtable;
+  il2cpp.h:1425137:};
+> il2cpp.h:1425138:struct System_Security_Cryptography_HMACSHA384_o {
+> il2cpp.h:1425139:	System_Security_Cryptography_HMACSHA384_c *klass;
+  il2cpp.h:1425140:	void *monitor;
+> il2cpp.h:1425141:	System_Security_Cryptography_HMACSHA384_Fields fields;
+  il2cpp.h:1425142:};
+> il2cpp.h:1425143:struct System_Security_Cryptography_HMACSHA512_Fields : System_Security_Cryptography_HMAC_Fields {
+  il2cpp.h:1425144:	bool m_useLegacyBlockSize;
+  il2cpp.h:1425145:};
+> il2cpp.h:1425146:struct System_Security_Cryptography_HMACSHA512_VTable {
+  il2cpp.h:1425147:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1425148:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1425149:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1425150:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1425151:	VirtualInvokeData _4_Dispose;
+  il2cpp.h:1425171:	VirtualInvokeData _24_set_Key;
+  il2cpp.h:1425172:};
+> il2cpp.h:1425173:struct System_Security_Cryptography_HMACSHA512_c {
+  il2cpp.h:1425174:	Il2CppClass_1 _1;
+  il2cpp.h:1425175:	void* static_fields;
+  il2cpp.h:1425176:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1425177:	Il2CppClass_2 _2;
+> il2cpp.h:1425178:	System_Security_Cryptography_HMACSHA512_VTable vtable;
+  il2cpp.h:1425179:};
+> il2cpp.h:1425180:struct System_Security_Cryptography_HMACSHA512_o {
+> il2cpp.h:1425181:	System_Security_Cryptography_HMACSHA512_c *klass;
+  il2cpp.h:1425182:	void *monitor;
+> il2cpp.h:1425183:	System_Security_Cryptography_HMACSHA512_Fields fields;
+  il2cpp.h:1425184:};
+  il2cpp.h:1425185:struct System_Security_Cryptography_ICryptoTransform_Fields {
+  il2cpp.h:1425186:};
+  il2cpp.h:1425187:struct System_Security_Cryptography_ICryptoTransform_c {
+  il2cpp.h:1425188:	Il2CppClass_1 _1;
+  il2cpp.h:1751623:	GCommon_UDPMessagePool_OMOBKHHPGIH__Fields fields;
+  il2cpp.h:1751624:};
+> il2cpp.h:1751625:struct GCommon_UDPMessagePool_ELCLNJCHMAC__Fields {
+  il2cpp.h:1751626:	struct System_Collections_Generic_Queue_T__o* m_FreeList;
+  il2cpp.h:1751627:};
+> il2cpp.h:1751628:struct GCommon_UDPMessagePool_ELCLNJCHMAC__VTable {
+  il2cpp.h:1751629:	VirtualInvokeData _0_Equals;
+  il2cpp.h:1751630:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:1751631:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:1751632:	VirtualInvokeData _3_ToString;
+  il2cpp.h:1751633:	VirtualInvokeData _4_Clear;
+  il2cpp.h:1751634:};
+> il2cpp.h:1751635:struct GCommon_UDPMessagePool_ELCLNJCHMAC__c {
+  il2cpp.h:1751636:	Il2CppClass_1 _1;
+  il2cpp.h:1751637:	void* static_fields;
+  il2cpp.h:1751638:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:1751639:	Il2CppClass_2 _2;
+> il2cpp.h:1751640:	GCommon_UDPMessagePool_ELCLNJCHMAC__VTable vtable;
+  il2cpp.h:1751641:};
+> il2cpp.h:1751642:struct GCommon_UDPMessagePool_ELCLNJCHMAC__o {
+> il2cpp.h:1751643:	GCommon_UDPMessagePool_ELCLNJCHMAC__c *klass;
+  il2cpp.h:1751644:	void *monitor;
+> il2cpp.h:1751645:	GCommon_UDPMessagePool_ELCLNJCHMAC__Fields fields;
+  il2cpp.h:1751646:};
+  il2cpp.h:1751647:struct GCommon_UDPMessagePool_MGDIEOFGIIN__Fields {
+  il2cpp.h:1751648:	struct System_Collections_Generic_Queue_T__o* m_FreeList;
+  il2cpp.h:1751649:};
+  il2cpp.h:1751650:struct GCommon_UDPMessagePool_MGDIEOFGIIN__VTable {
+  il2cpp.h:2254838:	GCommon_NetworkMessageDispatcher_NetworkMessageHandler_EKKLNKLGFIM__Fields fields;
+  il2cpp.h:2254839:};
+> il2cpp.h:2254840:struct GCommon_NetworkMessageDispatcher_NetworkMessageHandler_ELCLNJCHMAC__Fields : System_MulticastDelegate_Fields {
+  il2cpp.h:2254841:};
+> il2cpp.h:2254842:struct GCommon_NetworkMessageDispatcher_NetworkMessageHandler_ELCLNJCHMAC__VTable {
+  il2cpp.h:2254843:	VirtualInvokeData _0_Equals;
+  il2cpp.h:2254844:	VirtualInvokeData _1_Finalize;
+  il2cpp.h:2254845:	VirtualInvokeData _2_GetHashCode;
+  il2cpp.h:2254846:	VirtualInvokeData _3_ToString;
+  il2cpp.h:2254847:	VirtualInvokeData _4_unknown;
+  il2cpp.h:2254858:	VirtualInvokeData _15_EndInvoke;
+  il2cpp.h:2254859:};
+> il2cpp.h:2254860:struct GCommon_NetworkMessageDispatcher_NetworkMessageHandler_ELCLNJCHMAC__c {
+  il2cpp.h:2254861:	Il2CppClass_1 _1;
+  il2cpp.h:2254862:	void* static_fields;
+  il2cpp.h:2254863:	Il2CppRGCTXData* rgctx_data;
+  il2cpp.h:2254864:	Il2CppClass_2 _2;
+> il2cpp.h:2254865:	GCommon_NetworkMessageDispatcher_NetworkMessageHandler_ELCLNJCHMAC__VTable vtable;
+  il2cpp.h:2254866:};
+> il2cpp.h:2254867:struct GCommon_NetworkMessageDispatcher_NetworkMessageHandler_ELCLNJCHMAC__o {
+> il2cpp.h:2254868:	GCommon_NetworkMessageDispatcher_NetworkMessageHandler_ELCLNJCHMAC__c *klass;
+  il2cpp.h:2254869:	void *monitor;
+> il2cpp.h:2254870:	GCommon_NetworkMessageDispatcher_NetworkMessageHandler_ELCLNJCHMAC__Fields fields;
+  il2cpp.h:2254871:};
+  il2cpp.h:2254872:struct GCommon_NetworkMessageDispatcher_NetworkMessageHandler_ELFJPMMNHAB__Fields : System_MulticastDelegate_Fields {
+  il2cpp.h:2254873:};
+  il2cpp.h:2254874:struct GCommon_NetworkMessageDispatcher_NetworkMessageHandler_ELFJPMMNHAB__VTable {
+  il2cpp.h:2254875:	VirtualInvokeData _0_Equals;
+
+

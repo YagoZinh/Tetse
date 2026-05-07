@@ -1,0 +1,152 @@
+﻿
+  script.json:60304:      "Address": 60223153,
+> script.json:60305:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$.ctor",
+> script.json:60306:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_ZipAESTransform___ctor 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, System_String_o* key, System_Byte_array* saltBytes, int32_t blockSize, bool 
+writeMode, const MethodInfo* method);",
+  script.json:60307:      "TypeSignature": "viiiiii"
+  script.json:60308:    },
+  script.json:60309:    {
+  script.json:60310:      "Address": 60241020,
+> script.json:60311:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$TransformBlock",
+> script.json:60312:      "Signature": "int32_t ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__TransformBlock 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, System_Byte_array* inputBuffer, int32_t inputOffset, int32_t inputCount, 
+System_Byte_array* outputBuffer, int32_t outputOffset, const MethodInfo* method);",
+  script.json:60313:      "TypeSignature": "iiiiiiii"
+  script.json:60314:    },
+  script.json:60315:    {
+  script.json:60316:      "Address": 60241577,
+> script.json:60317:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$get_PwdVerifier",
+> script.json:60318:      "Signature": "System_Byte_array* ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__get_PwdVerifier 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, const MethodInfo* method);",
+  script.json:60319:      "TypeSignature": "iii"
+  script.json:60320:    },
+  script.json:60321:    {
+  script.json:60322:      "Address": 60221914,
+> script.json:60323:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$GetAuthCode",
+> script.json:60324:      "Signature": "System_Byte_array* ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__GetAuthCode 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, const MethodInfo* method);",
+  script.json:60325:      "TypeSignature": "iii"
+  script.json:60326:    },
+  script.json:60327:    {
+  script.json:60328:      "Address": 60241594,
+> script.json:60329:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$TransformFinalBlock",
+> script.json:60330:      "Signature": "System_Byte_array* ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__TransformFinalBlock 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, System_Byte_array* inputBuffer, int32_t inputOffset, int32_t inputCount, 
+const MethodInfo* method);",
+  script.json:60331:      "TypeSignature": "iiiiii"
+  script.json:60332:    },
+  script.json:60333:    {
+  script.json:60334:      "Address": 60241702,
+> script.json:60335:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$get_InputBlockSize",
+> script.json:60336:      "Signature": "int32_t ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__get_InputBlockSize 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, const MethodInfo* method);",
+  script.json:60337:      "TypeSignature": "iii"
+  script.json:60338:    },
+  script.json:60339:    {
+  script.json:60340:      "Address": 60241719,
+> script.json:60341:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$get_OutputBlockSize",
+> script.json:60342:      "Signature": "int32_t ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__get_OutputBlockSize 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, const MethodInfo* method);",
+  script.json:60343:      "TypeSignature": "iii"
+  script.json:60344:    },
+  script.json:60345:    {
+  script.json:60346:      "Address": 60241736,
+> script.json:60347:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$get_CanTransformMultipleBlocks",
+> script.json:60348:      "Signature": "bool ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__get_CanTransformMultipleBlocks 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, const MethodInfo* method);",
+  script.json:60349:      "TypeSignature": "iii"
+  script.json:60350:    },
+  script.json:60351:    {
+  script.json:60352:      "Address": 60241748,
+> script.json:60353:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$get_CanReuseTransform",
+> script.json:60354:      "Signature": "bool ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__get_CanReuseTransform 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, const MethodInfo* method);",
+  script.json:60355:      "TypeSignature": "iii"
+  script.json:60356:    },
+  script.json:60357:    {
+  script.json:60358:      "Address": 60241760,
+> script.json:60359:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform$$Dispose",
+> script.json:60360:      "Signature": "void ICSharpCode_SharpZipLib_Encryption_ZipAESTransform__Dispose 
+(ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_o* __this, const MethodInfo* method);",
+  script.json:60361:      "TypeSignature": "vii"
+  script.json:60362:    },
+  script.json:60363:    {
+  script.json:2270074:      "Address": 171666979,
+> script.json:2270075:      "Name": "System.Security.Cryptography.AesTransform$$.ctor",
+> script.json:2270076:      "Signature": "void System_Security_Cryptography_AesTransform___ctor 
+(System_Security_Cryptography_AesTransform_o* __this, System_Security_Cryptography_Aes_o* algo, bool encryption, System_Byte_array* key, 
+System_Byte_array* iv, const MethodInfo* method);",
+  script.json:2270077:      "TypeSignature": "viiiiii"
+  script.json:2270078:    },
+  script.json:2270079:    {
+  script.json:2270080:      "Address": 171670498,
+> script.json:2270081:      "Name": "System.Security.Cryptography.AesTransform$$ECB",
+> script.json:2270082:      "Signature": "void System_Security_Cryptography_AesTransform__ECB 
+(System_Security_Cryptography_AesTransform_o* __this, System_Byte_array* input, System_Byte_array* output, const MethodInfo* method);",
+  script.json:2270083:      "TypeSignature": "viiii"
+  script.json:2270084:    },
+  script.json:2270085:    {
+  script.json:2270086:      "Address": 171670309,
+> script.json:2270087:      "Name": "System.Security.Cryptography.AesTransform$$SubByte",
+> script.json:2270088:      "Signature": "uint32_t System_Security_Cryptography_AesTransform__SubByte 
+(System_Security_Cryptography_AesTransform_o* __this, uint32_t a, const MethodInfo* method);",
+  script.json:2270089:      "TypeSignature": "iiii"
+  script.json:2270090:    },
+  script.json:2270091:    {
+  script.json:2270092:      "Address": 171670572,
+> script.json:2270093:      "Name": "System.Security.Cryptography.AesTransform$$Encrypt128",
+> script.json:2270094:      "Signature": "void System_Security_Cryptography_AesTransform__Encrypt128 
+(System_Security_Cryptography_AesTransform_o* __this, System_Byte_array* indata, System_Byte_array* outdata, System_UInt32_array* ekey, 
+const MethodInfo* method);",
+  script.json:2270095:      "TypeSignature": "viiiii"
+  script.json:2270096:    },
+  script.json:2270097:    {
+  script.json:2270098:      "Address": 171679960,
+> script.json:2270099:      "Name": "System.Security.Cryptography.AesTransform$$Decrypt128",
+> script.json:2270100:      "Signature": "void System_Security_Cryptography_AesTransform__Decrypt128 
+(System_Security_Cryptography_AesTransform_o* __this, System_Byte_array* indata, System_Byte_array* outdata, System_UInt32_array* ekey, 
+const MethodInfo* method);",
+  script.json:2270101:      "TypeSignature": "viiiii"
+  script.json:2270102:    },
+  script.json:2270103:    {
+  script.json:2270104:      "Address": 171689305,
+> script.json:2270105:      "Name": "System.Security.Cryptography.AesTransform$$.cctor",
+> script.json:2270106:      "Signature": "void System_Security_Cryptography_AesTransform___cctor (const MethodInfo* method);",
+  script.json:2270107:      "TypeSignature": "vi"
+  script.json:2270108:    },
+  script.json:2270109:    {
+  script.json:2551176:      "Address": 186605832,
+> script.json:2551177:      "Value": "ZipAESTransform.TransformFinalBlock"
+  script.json:2551178:    },
+  script.json:2551179:    {
+  script.json:2551180:      "Address": 186605836,
+  script.json:2704851:      "Address": 185935068,
+> script.json:2704852:      "Name": "System.Security.Cryptography.AesTransform_TypeInfo",
+> script.json:2704853:      "Signature": "System_Security_Cryptography_AesTransform_c*"
+  script.json:2704854:    },
+  script.json:2704855:    {
+  script.json:2704856:      "Address": 185935072,
+  script.json:2789986:      "Address": 186003176,
+> script.json:2789987:      "Name": "ICSharpCode.SharpZipLib.Encryption.ZipAESTransform_TypeInfo",
+> script.json:2789988:      "Signature": "ICSharpCode_SharpZipLib_Encryption_ZipAESTransform_c*"
+  script.json:2789989:    },
+  script.json:2789990:    {
+  script.json:2789991:      "Address": 186003180,
+  script.json:3110493:      "Address": 186244312,
+> script.json:3110494:      "Name": "Method$System.Security.Cryptography.AesTransform..ctor()",
+  script.json:3110495:      "MethodAddress": 171666979
+  script.json:3110496:    },
+  script.json:3110497:    {
+  script.json:3325413:      "Address": 186416248,
+> script.json:3325414:      "Name": "Method$ICSharpCode.SharpZipLib.Encryption.ZipAESTransform..ctor()",
+  script.json:3325415:      "MethodAddress": 60223153
+  script.json:3325416:    },
+  script.json:3325417:    {
+  script.json:3325418:      "Address": 186416252,
+> script.json:3325419:      "Name": "Method$ICSharpCode.SharpZipLib.Encryption.ZipAESTransform.TransformFinalBlock()",
+  script.json:3325420:      "MethodAddress": 60241594
+  script.json:3325421:    },
+  script.json:3325422:    {
+
+

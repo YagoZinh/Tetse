@@ -1,0 +1,23 @@
+﻿
+> stringliteral.json:48371:    "value": "FF_FileInfo_Salt",
+  stringliteral.json:48372:    "address": "0xB1DC79C"
+> stringliteral.json:48379:    "value": "FF_HudHeatmap_Salt_2026",
+  stringliteral.json:48380:    "address": "0xB1DC7A4"
+> stringliteral.json:63215:    "value": "Invalid salt len. Must be ",
+  stringliteral.json:63216:    "address": "0xB1E0198"
+> stringliteral.json:88099:    "value": "SALT",
+  stringliteral.json:88100:    "address": "0xB1E62CC"
+> stringliteral.json:89271:    "value": "Salt",
+  stringliteral.json:89272:    "address": "0xB1E6760"
+> stringliteral.json:89275:    "value": "Salt is not at least eight bytes.",
+  stringliteral.json:89276:    "address": "0xB1E6764"
+> stringliteral.json:148315:    "value": "UseSalt=true is not implemented on Mono yet",
+  stringliteral.json:148316:    "address": "0xB1F4E04"
+> stringliteral.json:182819:    "value": "invalid salt",
+  stringliteral.json:182820:    "address": "0xB1FD4CC"
+> stringliteral.json:186799:    "value": "missing MAC salt",
+  stringliteral.json:186800:    "address": "0xB1FE458"
+> stringliteral.json:192095:    "value": "salt",
+  stringliteral.json:192096:    "address": "0xB1FF908"
+
+
